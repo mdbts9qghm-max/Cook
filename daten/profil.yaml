@@ -1,0 +1,79 @@
+# Persönliches Profil – Quelle für Tagesziele, Vorlieben und Planer-Hinweise.
+# Änderungen hier → tools/generieren.py neu laufen lassen (App übernimmt die Werte).
+
+person:
+  ziel: Body Recomposition (Muskelaufbau bei Fettabbau)
+  gewicht_kg: 82
+  tracking: MacroFactor (iPhone)
+  haushalt_personen: 2          # jedes Rezept = 2 gleich große Portionen, Nährwerte pro Portion
+
+tagesziele:                     # aus MacroFactor, Stand 20.10.2026
+  stand: 2026-10-20
+  kcal: 2275
+  protein: 149
+  fett: 101
+  kh: 191
+
+mahlzeiten:
+  - {slot: fruehstueck, name: Frühstück, uhrzeit: "08:00"}
+  - {slot: mittag,      name: Mittag,    uhrzeit: "13:00"}
+  - {slot: abend,       name: Abend,     uhrzeit: "19:00"}
+  - {slot: snack,       name: Snack,     uhrzeit: null}   # nur zum Auffüllen
+
+# Korridore pro Portion (SPEC Abschnitt 3)
+zielwerte_mahlzeit:
+  fruehstueck:   {kcal_min: 500, kcal_max: 650, protein_min: 35}
+  hauptgericht:  {kcal_min: 600, kcal_max: 850, protein_min: 45}
+  kalorienarm:   {kcal_min: null, kcal_max: 550, protein_min: 35}
+  snack:         {kcal_min: 200, kcal_max: 350, protein_min: 20}
+
+vorlieben:
+  fruehstueck_suess: true       # alle Frühstücke süß, herzhaft nur auf ausdrücklichen Wunsch
+  zucker_max_fruehstueck_g: 20
+  wenig_gemuese: true
+  alltagstauglich: true
+  geschmack_zaehlt: true
+
+ausstattung:
+  - Herd (Ceran/Induktion, Stufen 1–9)
+  - Backofen (Ober-/Unterhitze, Umluft)
+  - Airfryer
+  - Mixer / Pürierstab
+  - Waffeleisen
+  # kein Reiskocher → Reis im Topf
+
+einkauf:
+  supermarkt: Rewe / Edeka      # Packungsgrößen und Preise orientieren sich daran
+  wochenbudget_eur: 100         # für 2 Personen; Hinweis bei Überschreitung
+  einkaufstage:                 # Standard für neue Wochen im Planer (in der App änderbar)
+    - {wochentag: Samstag, art: gross}
+  abteilungen:                  # Reihenfolge der Einkaufsliste (in der App änderbar)
+    - Obst & Gemüse
+    - Fleisch & Fisch
+    - Kühlregal & Milchprodukte
+    - Brot & Backwaren
+    - Trockenwaren
+    - Konserven & Saucen
+    - Gewürze & Öle
+    - Tiefkühl
+    - Sonstiges
+
+# Planer-Hinweise (SPEC 8.3) – nicht blockierend, alle Schwellen änderbar
+hinweise:
+  protein:  {gelb_unter: 145, rot_unter: 130}
+  kcal:     {ziel: 2275, toleranz: 100}
+  fett:     {ziel: 101, toleranz: 15, rot_unter: 70}
+  kh:       {ziel: 191, toleranz: 20}
+  fruehstueck_herzhaft: info
+  abend_gleiche_kueche_wie_vortag: hinweis
+  abend_gleiches_hauptprotein_wie_vortag: hinweis
+  sterne_ausblenden_bis: 2              # 1–2 Sterne in der Auswahl ausgeblendet
+  drei_sterne_max_pro_woche: 1
+  frische_max_tage_nach_einkauf: 2      # Fisch, Garnelen, Hackfleisch
+  wenig_zeit_max_minuten: 25
+  auswaerts_platzhalter: {kcal: 950, protein: 40, fett: 45, kh: 90}
+  sicherung_erinnern_nach_tagen: 14
+
+veroeffentlichung:
+  oeffentlich: true             # GitHub Pages, nur Rezepte + leere App; Pläne bleiben im Browser
+  ziel: GitHub Pages (Ordner web/)
