@@ -1,0 +1,57 @@
+id: frozen-joghurt-bark
+name: Frozen-Joghurt-Bark mit Beeren
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Snack
+geschmack: süß
+kueche: Amerikanisch
+hauptprotein: Joghurt & Whey
+ohne_kochen: true
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Frozen Yogurt Bark“"
+  link: null
+  aenderungen: "Griechischer Joghurt 0 % mit Vanille-Whey statt Vollfettjoghurt mit Honig – knapp 12 g Protein pro 100 kcal."
+schwierigkeit: leicht
+zeit: {vorbereitung: 8, kochen: 0, wartezeit: 180}
+ausstattung: ["Kleines Backblech oder flache Form (ca. 20 × 25 cm), die ins Gefrierfach passt", Backpapier, Schüssel]
+restetauglich: true
+vortag: ["Frozen-Joghurt-Bark zubereiten – braucht 3 Stunden im Gefrierfach"]
+zutaten:
+  - {id: joghurt, zutat: Griechischer Joghurt 0 % Fett, g: 300, name: "griechischer Joghurt", hinweis: "0 % Fett"}
+  - {id: whey, zutat: Whey Protein Vanille, g: 20, name: "Vanille-Whey", hinweis: "⅔ Messlöffel"}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 1, anzeige: "10 Tropfen flüssiger Süßstoff", hinweis: ""}
+  - {id: beeren, zutat: Beerenmischung TK, g: 100, name: Beeren, hinweis: "gefroren, große Beeren halbiert"}
+  - {id: schoko, zutat: "Zartbitterschokolade 70 %", g: 15, anzeige: "3 Stückchen Zartbitterschokolade 70 %", name: Zartbitterschokolade, hinweis: "gehackt"}
+  - {id: mandeln, zutat: Mandeln, g: 10, name: Mandeln, hinweis: "gehackt"}
+mise_en_place:
+  - "Form mit Backpapier auslegen, so dass sie ins Gefrierfach passt."
+  - "{schoko} und {mandeln} grob hacken."
+schritte:
+  - titel: Joghurt anrühren
+    text: "{joghurt}, {whey} und {suessstoff} glatt rühren."
+    timer_min: null
+  - titel: Ausstreichen und belegen
+    text: "Die Masse ca. 1 cm dick auf dem Backpapier verstreichen. Die gefrorenen {beeren:n}, die {schoko:n} und die {mandeln:n} darüberstreuen und leicht andrücken."
+    timer_min: null
+  - titel: Einfrieren
+    text: "Mindestens 3 Stunden im Gefrierfach fest werden lassen, dann mit den Händen oder einem großen Messer in 12 unregelmäßige Stücke brechen."
+    timer_min: 180
+zeitablauf: []
+fehler:
+  - "**Bark zu hart zum Beißen:** zu dick ausgestrichen. Maximal 1 cm, vor dem Essen 3 Minuten antauen lassen."
+  - "**Stücke kleben zusammen:** ohne Papier gelagert. Zwischen Lagen Backpapier im Gefrierbeutel aufbewahren."
+anrichten: "6 Stücke (ca. {portion_g} g) sind deine Portion – direkt aus dem Gefrierfach, wie Eis am Stiel ohne Stiel."
+aufbewahrung:
+  kuehlschrank_tage: 0
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "Nicht aufwärmen – 3 Minuten antauen lassen."
+  separat: "Im Gefrierbeutel zwischen Backpapier lagern."
+varianten:
+  - "**Mango-Bark:** 100 g TK-Mango statt Beeren (+9 kcal, +3,5 g Zucker pro Portion)."
+  - "**Mit Erdnuss-Swirl:** Mandeln durch 15 g Erdnussmus ersetzen, in Klecksen einziehen (+16 kcal pro Portion)."
+  - "**Leichter:** ohne Schokolade (−43 kcal, −3,1 g Fett pro Portion)."
+tipps:
+  - "Ein paar Flocken Meersalz auf der Schokolade – schmeckt wie aus der Eisdiele."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

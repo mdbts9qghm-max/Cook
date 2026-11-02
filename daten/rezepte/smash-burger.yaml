@@ -1,0 +1,70 @@
+id: smash-burger
+name: Smash Burger mit Burgersauce
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Amerikanisch
+hauptprotein: Rind
+inspiration:
+  quelle: "TikTok-Trend „Smash Burger“"
+  link: null
+  aenderungen: "Mageres Rinderhack (5 %) statt 20 %, Burgersauce aus Skyr, Senf, wenig Ketchup und Gurke statt Mayonnaise, Reibekäse light statt Cheddar-Scheiben."
+schwierigkeit: mittel
+zeit: {vorbereitung: 8, kochen: 12, wartezeit: 0}
+ausstattung: ["Große Gusseisen- oder Edelstahlpfanne (28 cm)", "Stabiler Pfannenwender oder Topfboden zum Plattdrücken", Backpapier]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Patties
+  - {id: hack, zutat: Rinderhackfleisch 5 % Fett roh, g: 400, name: Rinderhack, hinweis: "4 Kugeln à 100 g, gut gekühlt"}
+  - {id: oel, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 1.5, anzeige: "¼ TL Salz", hinweis: ""}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: ""}
+  - {id: kaese, zutat: Reibekäse light (Gouda 30 % F. i. Tr.), g: 40, name: "Reibekäse light", hinweis: ""}
+  - gruppe: Burgersauce
+  - {id: skyr, zutat: Skyr natur, g: 80, name: Skyr, hinweis: ""}
+  - {id: senf, zutat: Senf mittelscharf, g: 10, anzeige: "2 TL Senf", hinweis: ""}
+  - {id: ketchup, zutat: Tomatenketchup, g: 15, anzeige: "1 EL Ketchup", hinweis: ""}
+  - {id: gurke_sauce, zutat: Gewürzgurken, g: 20, anzeige: "1 Gewürzgurke", name: Gewürzgurke, hinweis: "fein gehackt"}
+  - {id: paprikapulver, zutat: Paprikapulver edelsüß, g: 1, anzeige: "½ TL Paprikapulver edelsüß", hinweis: ""}
+  - gruppe: Burger
+  - {id: broetchen, zutat: Burgerbrötchen, g: 150, anzeige: "2 Burgerbrötchen", hinweis: "à 75 g"}
+  - {id: zwiebel, zutat: Zwiebel, g: 50, anzeige: "½ Zwiebel", name: Zwiebel, hinweis: "in hauchdünnen Ringen"}
+  - {id: gurken, zutat: Gewürzgurken, g: 60, name: Gewürzgurken, hinweis: "in Scheiben"}
+  - {id: salat, zutat: Römersalat, g: 40, anzeige: "2 Blätter Römersalat", hinweis: ""}
+  - {id: tomaten, zutat: Cherrytomaten, g: 60, name: Cherrytomaten, hinweis: "in Scheiben"}
+mise_en_place:
+  - "{hack} in 4 gleich große Kugeln teilen und bis zum Braten kalt stellen."
+  - "Burgersauce: {skyr}, {senf}, {ketchup}, {gurke_sauce} und {paprikapulver} verrühren."
+  - "{zwiebel} in hauchdünne Ringe hobeln, {gurken} und {tomaten} in Scheiben schneiden, {salat} waschen."
+  - "{broetchen} aufschneiden."
+schritte:
+  - titel: Brötchen rösten
+    text: "Die Pfanne auf Stufe 6 von 9 erhitzen und die {broetchen:n}hälften mit der Schnittfläche nach unten 1 Minute rösten, bis sie goldbraun sind. Herausnehmen."
+    timer_min: 1
+  - titel: Smashen
+    text: "Pfanne auf Stufe 9 von 9 sehr heiß werden lassen (ca. 3 Minuten), {oel} dünn verstreichen. 2 Hackkugeln hineinlegen, ein Stück Backpapier darauflegen und sofort mit dem Pfannenwender kräftig zu ca. 5 mm dünnen Patties plattdrücken. Mit der Hälfte von {salz} und {pfeffer} würzen und 2 Minuten nicht bewegen, bis sich am Rand eine dunkelbraune, knusprige Kruste bildet."
+    timer_min: 2
+  - titel: Wenden und Käse
+    text: "Die Patties mit dem Pfannenwender von der Pfanne „abkratzen“ (die Kruste muss mit), wenden, die Hälfte vom {kaese:n} darauf verteilen und auf Stufe 9 von 9 1 Minute weiterbraten, bis der Käse schmilzt. Garprobe: Die dünnen {hack:n}-Patties sind dann durchgegart, Kerntemperatur über 72 °C. Mit den anderen 2 Kugeln wiederholen."
+    timer_min: 1
+zeitablauf:
+  - "Erst Sauce und Toppings fertig machen – das Smashen geht in 6 Minuten, danach muss sofort gegessen werden."
+fehler:
+  - "**Keine Kruste:** Pfanne nicht heiß genug oder zu früh bewegt. Höchste Stufe, 2 Minuten liegen lassen."
+  - "**Patty klebt am Wender:** ohne Backpapier gedrückt. Immer ein Stück Backpapier zwischenlegen."
+  - "**Beschichtete Pfanne verwendet:** Smashen auf höchster Stufe schadet der Beschichtung – Gusseisen oder Edelstahl nehmen."
+anrichten: "Unterseite mit Burgersauce bestreichen, Salat, Tomate, 2 Patties mit Käse übereinander, Zwiebelringe, {gurken:n}, noch einmal Sauce und Deckel – pro Burger ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 1
+  einfrierbar: false
+  aufwaermen: "Frisch essen. Rohes Hack höchstens 1 Tag im Kühlschrank."
+varianten:
+  - "**Mit Putenhack:** 400 g Putenhack (+18 kcal, −3 g Protein pro Portion); Kerntemperatur 74 °C."
+  - "**Low Carb im Salat:** Brötchen durch 100 g Römersalat ersetzen (−196 kcal, −35,4 g KH pro Portion)."
+  - "**Mit Airfryer-Pommes:** 300 g Kartoffeln in Stiften mit 5 g Öl, 18 Minuten bei 200 °C (+130 kcal pro Portion)."
+tipps:
+  - "Die Hackkugeln eiskalt in die heiße Pfanne – der Temperaturunterschied macht die Kruste."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

@@ -1,0 +1,63 @@
+id: shakshuka-feta
+name: Shakshuka mit Feta und Knoblauch-Skyr
+hauptkategorie: kalorienarm
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Türkisch & Orientalisch
+hauptprotein: Eier
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 7, kochen: 18, wartezeit: 0}
+ausstattung: ["Große Pfanne mit Deckel (28 cm)", Schüssel]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Sauce
+  - {id: oel, zutat: Olivenöl, g: 5, anzeige: "1 TL Olivenöl", hinweis: ""}
+  - {id: zwiebel, zutat: Zwiebel, g: 80, anzeige: "1 kleine Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: paprika, zutat: Paprika rot, g: 150, anzeige: "1 kleine rote Paprika", name: Paprika, hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 6, anzeige: "2 Knoblauchzehen", hinweis: ""}
+  - {id: kuemmel, zutat: Kreuzkümmel gemahlen, g: 2, anzeige: "1 TL Kreuzkümmel", hinweis: ""}
+  - {id: paprikapulver, zutat: Paprikapulver edelsüß, g: 3, anzeige: "1 TL Paprikapulver edelsüß", hinweis: ""}
+  - {id: rauchpaprika, zutat: Paprikapulver geräuchert, g: 1, anzeige: "½ TL Rauchpaprika", hinweis: ""}
+  - {id: chili, zutat: Chiliflocken, g: 0.5, anzeige: "1 Prise Chiliflocken", hinweis: ""}
+  - {id: tomatenmark, zutat: Tomatenmark 2-fach konzentriert, g: 15, anzeige: "1 EL Tomatenmark", hinweis: ""}
+  - {id: tomaten, zutat: Tomaten gehackt (Dose), g: 400, name: "gehackte Tomaten", hinweis: "1 Dose"}
+  - {id: salz, zutat: Salz, g: 1, anzeige: "2 Prisen Salz", hinweis: ""}
+  - gruppe: Eier und Topping
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 360, anzeige: "6 Eier Gr. M", hinweis: ""}
+  - {id: feta, zutat: Feta, g: 80, name: Feta, hinweis: "zerbröselt"}
+  - {id: petersilie, zutat: Petersilie glatt, g: 5, anzeige: "2 EL gehackte Petersilie", hinweis: ""}
+  - gruppe: Knoblauch-Skyr
+  - {id: skyr, zutat: Skyr natur, g: 150, name: Skyr, hinweis: ""}
+  - {id: knoblauch_skyr, zutat: Knoblauch, g: 3, anzeige: "1 Knoblauchzehe", hinweis: ""}
+mise_en_place:
+  - "{zwiebel} würfeln, {paprika} in 1 cm Würfel schneiden, {knoblauch} hacken, {petersilie} hacken."
+  - "{knoblauch_skyr} fein reiben und mit {skyr} verrühren."
+schritte:
+  - titel: Sauce kochen
+    text: "{oel} in der Pfanne auf Stufe 6 von 9 erhitzen. Zwiebel und Paprika 5 Minuten weich braten, Knoblauch 1 Minute mitbraten. {kuemmel}, {paprikapulver}, {rauchpaprika}, {chili} und {tomatenmark} 1 Minute anrösten. {tomaten} und {salz} einrühren und auf Stufe 4 von 9 6 Minuten einköcheln lassen, bis die Sauce dicklich ist."
+    timer_min: 12
+  - titel: Eier stocken
+    text: "Mit einem Löffel 6 Mulden in die Sauce drücken und in jede vorsichtig ein Ei aus den {eier:n} schlagen. Auf Stufe 3 von 9 zurückschalten, Deckel auflegen und 5–7 Minuten garen, bis das Eiweiß vollständig weiß und fest ist und das Eigelb noch weich glänzt (für festes Eigelb 2 Minuten länger)."
+    timer_min: 6
+zeitablauf:
+  - "Während die Sauce einkocht: Knoblauch-Skyr rühren und Feta zerbröseln."
+fehler:
+  - "**Eiweiß bleibt glibbrig, Eigelb hart:** ohne Deckel gegart. Deckel drauf – die Hitze stockt das Eiweiß von oben."
+  - "**Sauce zu flüssig:** zu kurz eingekocht. Die Eier brauchen eine dicke Sauce, sonst laufen sie aus."
+anrichten: "Den {feta:n} und die {petersilie:n} darüberstreuen und die Pfanne direkt auf den Tisch stellen. Pro Person 3 Eier mit Sauce und die Hälfte des Knoblauch-Skyrs – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 1
+  einfrierbar: false
+  aufwaermen: "Frisch am besten. Die Sauce allein lässt sich 3 Tage aufbewahren und mit frischen Eiern neu stocken."
+  separat: "Sauce ohne Eier aufbewahren, wenn du vorkochen willst."
+varianten:
+  - "**Mit Pita:** 1 Pitabrot (100 g) zum Tunken (+132 kcal pro Portion; dann knapp über 650 kcal und ein normales Hauptgericht)."
+  - "**Mit Spinat:** 125 g Babyspinat in der Sauce zusammenfallen lassen, bevor die Eier hineinkommen (+14 kcal, +1,8 g Protein pro Portion)."
+  - "**Mehr Protein:** 200 g Hähnchenbrust in Würfeln mit der Zwiebel anbraten bis 74 °C (+102 kcal, +23,5 g Protein pro Portion)."
+tipps:
+  - "Ein paar Tropfen Zitronensaft über die fertige Shakshuka – das bringt die Tomate zum Leuchten."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

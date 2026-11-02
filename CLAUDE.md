@@ -27,6 +27,7 @@ Vollständige Vorgabe: **`SPEC.md`** (bei Unklarheit dort nachlesen, bei Widersp
 - Reservierte Platzhalter: `{portion_g}` / `{gesamt_g}` = Fertiggewicht pro Portion / gesamt (für „Anrichten“).
 - `aufbewahrung.separat` (optional): was getrennt gelagert wird. Snacks: `ohne_kochen: true`, wenn weder gekocht noch gebacken wird (SPEC 5.1).
 - `packungen.csv`: zusätzliche optionale Spalte `tk_alternative` (Planer-Vorschlag „TK kaufen“); `packung_g = 0` → wird nicht eingekauft (Wasser).
+- Meal Prep = mind. 3 Tage Kühlschrank **oder** gefroren gelagert (`kuehlschrank_tage: 0`, `einfrierbar: true`, z. B. Frozen-Joghurt-Bark).
 - Hauptgerichte zwischen 551 und 599 kcal erfüllen keinen Korridor → Mengen anpassen.
 - Plausibilität: ±5 % oder max. 3 kcal/100 g absolut (für energiearme Zutaten), siehe `tools/config.py`.
 
@@ -50,7 +51,7 @@ Im Chat (SPEC 14): **Import** · **Import: [Link/Text]** · **Kühlschrank: [Zut
 - [x] **Phase 1 – Planung & Onboarding:** Onboarding-Fragen beantwortet, `SPEC.md`, `CLAUDE.md`, `daten/profil.yaml`, Ordnerstruktur angelegt (01.11.2026)
 - [x] **Phase 2 – Grundlagen:** zutaten.csv (123 Zutaten), packungen.csv, extras.yaml (12), config.py, naehrwerte.py, texte.py, pruefen.py, generieren.py (Markdown), Tests, 2 Beispielrezepte – vom Nutzer abgenommen (02.11.2026)
 - [x] **Phase 3 – Rezeptliste:** `daten/rezeptplan.yaml` → `rezeptplan.md` (100 Gerichte, `python3 tools/rezeptplan.py`), vom Nutzer freigegeben (02.11.2026)
-- [ ] **Phase 4 – Rezepte schreiben:** 10 Runden à 10 – Runde 8 ✅ (80/100; Runde = 3 Frühstücke, 1 Snack, 6 Hauptgerichte laut Spalte „Rd.“ in rezeptplan.md). Varianten-Makros mit `python3 tools/variante.py "Zutat:+g"` rechnen.
+- [ ] **Phase 4 – Rezepte schreiben:** 10 Runden à 10 – Runde 9 ✅ (90/100; Runde = 3 Frühstücke, 1 Snack, 6 Hauptgerichte laut Spalte „Rd.“ in rezeptplan.md). Varianten-Makros mit `python3 tools/variante.py "Zutat:+g"` rechnen.
 - [ ] **Phase 5 – Web-App Teil 1:** Heute, Rezeptbuch, Rezeptseite, Kochmodus, JSON-LD, MacroFactor-Button, PWA
 - [ ] **Phase 6 – Web-App Teil 2:** Planer, Einkaufsliste, Vorrat, Speicherung, planer.js-Tests, Testwoche
 - [ ] **Phase 7 – Import & Komfort:** Import, Kühlschrank-Modus, Bewertungen, plan_pruefen.py

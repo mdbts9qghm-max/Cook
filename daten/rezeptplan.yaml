@@ -110,10 +110,10 @@ hauptgericht:
   # Türkisch & Orientalisch (6)
   - {id: doener-bowl, name: Döner-Bowl mit Pute und Knoblauchsauce, kueche: Türkisch & Orientalisch, protein: Pute, kcal: 720, schnell: true, rest: true, insp: true, idee: "Gewürzte Putenstreifen, Bulgur, Gurke, Tomate, Zwiebel, Skyr-Knoblauch-Sauce"}
   - {id: koefte-bulgur, name: Köfte mit Bulgur-Pilav und Joghurt-Dip, kueche: Türkisch & Orientalisch, protein: Rind, kcal: 750, mp: true, rest: true, idee: "Kreuzkümmel-Köfte aus dem Ofen, Tomaten-Bulgur"}
-  - {id: shakshuka-feta, name: Shakshuka mit Feta und Pita, kueche: Türkisch & Orientalisch, protein: Eier, kcal: 530, schnell: true, ka: true, idee: "Eier in würziger Paprika-Tomatensauce, Feta, Pita zum Tunken"}
+  - {id: shakshuka-feta, name: Shakshuka mit Feta und Knoblauch-Skyr, kueche: Türkisch & Orientalisch, protein: Eier, kcal: 530, schnell: true, ka: true, idee: "Eier in würziger Paprika-Tomatensauce, Feta, kühler Knoblauch-Skyr (Pita als Variante)"}
   - {id: kichererbsen-haehnchen-eintopf, name: Orientalischer Hähnchen-Kichererbsen-Eintopf, kueche: Türkisch & Orientalisch, protein: Hähnchen, kcal: 680, rest: true, idee: "Kreuzkümmel, Paprika, Tomate, Zitrone – mit Bulgur"}
   - {id: pide-putenhack, name: Pide mit Putenhack, kueche: Türkisch & Orientalisch, protein: Pute, kcal: 740, rest: true, idee: "Schiffchen aus Quark-Öl-Teig, würziges Hack, Feta"}
-  - {id: haehnchen-tajine, name: Hähnchen-Tajine mit Bulgur, kueche: Türkisch & Orientalisch, protein: Hähnchen, kcal: 700, mp: true, rest: true, idee: "Geschmorte Oberschenkel mit Möhre, Zimt, Kreuzkümmel und Honig"}
+  - {id: haehnchen-tajine, name: Hähnchen-Tajine mit Möhren und Kartoffeln, kueche: Türkisch & Orientalisch, protein: Hähnchen, kcal: 700, mp: true, rest: true, idee: "Geschmorte Oberschenkel mit Möhren, Kartoffeln, Zimt, Kreuzkümmel und Honig – ein Topf, keine Beilage nötig"}
   # Amerikanisch (6)
   - {id: smash-burger, name: Smash Burger mit Burgersauce, kueche: Amerikanisch, protein: Rind, kcal: 780, schnell: true, insp: true, idee: "Dünn gepresste Patties mit Kruste, Skyr-Burgersauce, Gurken"}
   - {id: bbq-pulled-chicken-burger, name: BBQ-Pulled-Chicken-Burger, kueche: Amerikanisch, protein: Hähnchen, kcal: 720, mp: true, rest: true, insp: true, idee: "Geschmorte Hähnchenoberschenkel, gezupft, BBQ-Sauce, Gewürzgurken, Joghurt-Coleslaw-Dip"}

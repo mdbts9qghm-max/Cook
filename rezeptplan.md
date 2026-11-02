@@ -2,7 +2,7 @@
 
 # Rezeptplan – Startbestand mit 100 Rezepten
 
-Stand: 80 von 100 Rezepten geschrieben. Ziel-kcal sind Planwerte pro Portion; die echten Werte rechnet `tools/naehrwerte.py`.
+Stand: 90 von 100 Rezepten geschrieben. Ziel-kcal sind Planwerte pro Portion; die echten Werte rechnet `tools/naehrwerte.py`.
 
 Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = restetauglich · **KA** = kalorienarm · **OK** = ohne Kochen/Backen · **I** = TikTok/Instagram-Inspiration · **Rd.** = Schreib-Runde in Phase 4 · ✅ = schon geschrieben
 
@@ -34,9 +34,9 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 22 | Schoko-Protein-Porridge ✅ | International / Fusion | Milch & Whey | 580 | ✓ |  |  | 8 | Cremiges Kakao-Porridge mit Banane und Schokostückchen |
 | 23 | Chia-Joghurt-Pudding mit Mango ✅ | International / Fusion | Joghurt & Whey | 540 | ✓ | ✓ | ✓ | 8 | Vanille-Chia-Pudding geschichtet mit griechischem Joghurt und Mangopüree |
 | 24 | Protein-Scones mit Beeren ✅ | International / Fusion | Quark & Whey | 590 |  | ✓ |  | 8 | Quark-Scones, warm mit Skyr und Beeren |
-| 25 | Schoko-Erdnuss-Pudding-Bowl | Amerikanisch | Proteinpudding & Skyr | 600 | ✓ |  | ✓ | 9 | Proteinpudding, Skyr, Banane, Erdnussmus-Drizzle, Granola |
-| 26 | Zimtschnecken-Oats | Amerikanisch | Milch & Whey | 590 | ✓ |  | ✓ | 9 | Cinnamon-Roll-Porridge mit Frischkäse-Icing |
-| 27 | Frühstücks-Cheesecake aus dem Ofen | Amerikanisch | Quark & Skyr | 560 |  | ✓ | ✓ | 9 | Cremiger Quark-Skyr-Cheesecake mit Haferboden, 2 Stücke pro Portion |
+| 25 | Schoko-Erdnuss-Pudding-Bowl ✅ | Amerikanisch | Proteinpudding & Skyr | 600 | ✓ |  | ✓ | 9 | Proteinpudding, Skyr, Banane, Erdnussmus-Drizzle, Granola |
+| 26 | Zimtschnecken-Oats ✅ | Amerikanisch | Milch & Whey | 590 | ✓ |  | ✓ | 9 | Cinnamon-Roll-Porridge mit Frischkäse-Icing |
+| 27 | Frühstücks-Cheesecake aus dem Ofen ✅ | Amerikanisch | Quark & Skyr | 560 |  | ✓ | ✓ | 9 | Cremiger Quark-Skyr-Cheesecake mit Haferboden, 2 Stücke pro Portion |
 | 28 | Protein-Bircher-Müsli | International / Fusion | Skyr | 570 | ✓ | ✓ |  | 10 | Über Nacht eingeweicht, geriebener Apfel, Zitrone, Honig, Mandeln |
 | 29 | Mango-Lassi-Smoothie-Bowl | Indisch | Skyr & Whey | 540 | ✓ |  |  | 10 | Dicke Mango-Skyr-Bowl mit Honig und einer Prise Zimt, Granola-Topping |
 | 30 | Quarkbällchen aus dem Airfryer | Deutsch | Quark & Whey | 580 |  | ✓ | ✓ | 10 | Wie vom Bäcker, aber aus Quark-Whey-Teig, in Zimt gewälzt |
@@ -53,7 +53,7 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 36 | Proteinpudding mit Knusper-Topping ✅ | International / Fusion | Proteinpudding | 260 | ✓ |  | ✓ |  | 6 | Schoko-Proteinpudding, Granola, Himbeeren |
 | 37 | Cookie-Dough aus Quark ✅ | Amerikanisch | Quark & Whey | 300 | ✓ |  | ✓ | ✓ | 7 | Löffelbarer Keksteig aus Quark, Whey, Hafer und Schokostückchen |
 | 38 | Schoko-Hafer-Protein-Riegel ✅ | International / Fusion | Whey | 320 |  | ✓ | ✓ |  | 8 | No-Bake-Riegel mit Schokoüberzug, 2 Riegel pro Portion |
-| 39 | Frozen-Joghurt-Bark mit Beeren | Amerikanisch | Skyr | 220 |  | ✓ | ✓ | ✓ | 9 | Gefrorene Skyr-Platte mit Beeren und Schoko, in Stücke gebrochen |
+| 39 | Frozen-Joghurt-Bark mit Beeren ✅ | Amerikanisch | Skyr | 220 |  | ✓ | ✓ | ✓ | 9 | Gefrorene Skyr-Platte mit Beeren und Schoko, in Stücke gebrochen |
 | 40 | Protein-Brownie-Bites | Amerikanisch | Quark & Whey | 300 |  | ✓ |  | ✓ | 10 | Kleine Brownie-Würfel aus dem Airfryer, 4 Stück pro Portion |
 
 ## Hauptgerichte (60)
@@ -108,12 +108,12 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 86 | Mediterraner Thunfisch-Bulgur-Salat ✅ | Griechisch & Mediterran | Fisch & Garnelen | 540 | ✓ |  | ✓ | ✓ |  | 8 | Kalter Salat mit Kichererbsen, Feta, Gurke, Zitronen-Dressing |
 | 87 | Döner-Bowl mit Pute und Knoblauchsauce ✅ | Türkisch & Orientalisch | Pute | 720 | ✓ |  | ✓ |  | ✓ | 8 | Gewürzte Putenstreifen, Bulgur, Gurke, Tomate, Zwiebel, Skyr-Knoblauch-Sauce |
 | 88 | Köfte mit Bulgur-Pilav und Joghurt-Dip ✅ | Türkisch & Orientalisch | Rind | 750 |  | ✓ | ✓ |  |  | 8 | Kreuzkümmel-Köfte aus dem Ofen, Tomaten-Bulgur |
-| 89 | Shakshuka mit Feta und Pita | Türkisch & Orientalisch | Eier | 530 | ✓ |  |  | ✓ |  | 9 | Eier in würziger Paprika-Tomatensauce, Feta, Pita zum Tunken |
-| 90 | Orientalischer Hähnchen-Kichererbsen-Eintopf | Türkisch & Orientalisch | Hähnchen | 680 |  |  | ✓ |  |  | 9 | Kreuzkümmel, Paprika, Tomate, Zitrone – mit Bulgur |
-| 91 | Pide mit Putenhack | Türkisch & Orientalisch | Pute | 740 |  |  | ✓ |  |  | 9 | Schiffchen aus Quark-Öl-Teig, würziges Hack, Feta |
-| 92 | Hähnchen-Tajine mit Bulgur | Türkisch & Orientalisch | Hähnchen | 700 |  | ✓ | ✓ |  |  | 9 | Geschmorte Oberschenkel mit Möhre, Zimt, Kreuzkümmel und Honig |
-| 93 | Smash Burger mit Burgersauce | Amerikanisch | Rind | 780 | ✓ |  |  |  | ✓ | 9 | Dünn gepresste Patties mit Kruste, Skyr-Burgersauce, Gurken |
-| 94 | BBQ-Pulled-Chicken-Burger | Amerikanisch | Hähnchen | 720 |  | ✓ | ✓ |  | ✓ | 9 | Geschmorte Hähnchenoberschenkel, gezupft, BBQ-Sauce, Gewürzgurken, Joghurt-Coleslaw-Dip |
+| 89 | Shakshuka mit Feta und Knoblauch-Skyr ✅ | Türkisch & Orientalisch | Eier | 530 | ✓ |  |  | ✓ |  | 9 | Eier in würziger Paprika-Tomatensauce, Feta, kühler Knoblauch-Skyr (Pita als Variante) |
+| 90 | Orientalischer Hähnchen-Kichererbsen-Eintopf ✅ | Türkisch & Orientalisch | Hähnchen | 680 |  |  | ✓ |  |  | 9 | Kreuzkümmel, Paprika, Tomate, Zitrone – mit Bulgur |
+| 91 | Pide mit Putenhack ✅ | Türkisch & Orientalisch | Pute | 740 |  |  | ✓ |  |  | 9 | Schiffchen aus Quark-Öl-Teig, würziges Hack, Feta |
+| 92 | Hähnchen-Tajine mit Möhren und Kartoffeln ✅ | Türkisch & Orientalisch | Hähnchen | 700 |  | ✓ | ✓ |  |  | 9 | Geschmorte Oberschenkel mit Möhren, Kartoffeln, Zimt, Kreuzkümmel und Honig – ein Topf, keine Beilage nötig |
+| 93 | Smash Burger mit Burgersauce ✅ | Amerikanisch | Rind | 780 | ✓ |  |  |  | ✓ | 9 | Dünn gepresste Patties mit Kruste, Skyr-Burgersauce, Gurken |
+| 94 | BBQ-Pulled-Chicken-Burger ✅ | Amerikanisch | Hähnchen | 720 |  | ✓ | ✓ |  | ✓ | 9 | Geschmorte Hähnchenoberschenkel, gezupft, BBQ-Sauce, Gewürzgurken, Joghurt-Coleslaw-Dip |
 | 95 | High-Protein-Mac-and-Cheese | Amerikanisch | Milchprodukte | 760 | ✓ |  | ✓ |  | ✓ | 10 | Käsesauce aus gemixtem Hüttenkäse, Milch und Reibekäse light, mit Kochschinken |
 | 96 | Buffalo-Chicken-Wrap | Amerikanisch | Hähnchen | 540 | ✓ |  |  | ✓ |  | 10 | Scharfes Sriracha-Butter-Hähnchen, Römersalat, Skyr-Dip |
 | 97 | Cajun-Lachs mit Airfryer-Wedges | Amerikanisch | Fisch & Garnelen | 720 |  |  |  |  |  | 10 | Rauchpaprika-Gewürzkruste, knusprige Kartoffelspalten, Senf-Skyr |

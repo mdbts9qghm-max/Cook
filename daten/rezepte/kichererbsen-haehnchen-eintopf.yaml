@@ -1,0 +1,68 @@
+id: kichererbsen-haehnchen-eintopf
+name: Orientalischer Hähnchen-Kichererbsen-Eintopf
+hauptkategorie: high-protein
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Türkisch & Orientalisch
+hauptprotein: Hähnchen
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 10, kochen: 25, wartezeit: 0}
+ausstattung: ["Großer Topf mit Deckel (24 cm)", Schüssel, Wasserkocher, Teller zum Abdecken]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Eintopf
+  - {id: oel, zutat: Olivenöl, g: 10, anzeige: "1 EL Olivenöl", hinweis: ""}
+  - {id: haehnchen, zutat: Hähnchenbrustfilet roh, g: 400, name: Hähnchenbrust, hinweis: ""}
+  - {id: zwiebel, zutat: Zwiebel, g: 100, anzeige: "1 Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 6, anzeige: "2 Knoblauchzehen", hinweis: ""}
+  - {id: kuemmel, zutat: Kreuzkümmel gemahlen, g: 3, anzeige: "1½ TL Kreuzkümmel", hinweis: ""}
+  - {id: paprikapulver, zutat: Paprikapulver edelsüß, g: 3, anzeige: "1 TL Paprikapulver edelsüß", hinweis: ""}
+  - {id: zimt, zutat: Zimt gemahlen, g: 0.5, anzeige: "1 Prise Zimt", hinweis: "gibt die orientalische Wärme"}
+  - {id: chili, zutat: Chiliflocken, g: 0.5, anzeige: "1 Prise Chiliflocken", hinweis: ""}
+  - {id: tomatenmark, zutat: Tomatenmark 2-fach konzentriert, g: 15, anzeige: "1 EL Tomatenmark", hinweis: ""}
+  - {id: tomaten, zutat: Tomaten gehackt (Dose), g: 400, name: "gehackte Tomaten", hinweis: "1 Dose"}
+  - {id: kichererbsen, zutat: Kichererbsen abgetropft, g: 240, name: Kichererbsen, hinweis: "1 Dose, abgespült"}
+  - {id: bruehe, zutat: Gemüsebrühe Pulver, g: 4, anzeige: "1 TL Gemüsebrühe-Pulver", hinweis: ""}
+  - {id: wasser, zutat: Wasser, g: 300, name: Wasser, hinweis: "300 ml"}
+  - {id: salz, zutat: Salz, g: 1, anzeige: "2 Prisen Salz", hinweis: ""}
+  - {id: zitrone, zutat: Zitronensaft, g: 15, anzeige: "1 EL Zitronensaft", hinweis: ""}
+  - {id: petersilie, zutat: Petersilie glatt, g: 10, anzeige: "4 EL gehackte Petersilie", hinweis: ""}
+  - gruppe: Bulgur
+  - {id: bulgur, zutat: Bulgur ungekocht, g: 80, name: Bulgur, hinweis: ""}
+  - {id: wasser_bulgur, zutat: Wasser, g: 160, name: "kochendes Wasser", hinweis: "160 ml"}
+mise_en_place:
+  - "{haehnchen} in 2 cm Würfel schneiden. {zwiebel} würfeln, {knoblauch} hacken, {petersilie} hacken."
+  - "{kichererbsen} abspülen, {bruehe} in {wasser} auflösen."
+schritte:
+  - titel: Anbraten
+    text: "{oel} im Topf auf Stufe 8 von 9 erhitzen. Die {haehnchen:n}würfel 4 Minuten rundum anbraten, bis sie hellbraun sind, herausnehmen. Auf Stufe 6 von 9 die Zwiebel 4 Minuten braten, Knoblauch 1 Minute mitbraten. {kuemmel}, {paprikapulver}, {zimt}, {chili} und {tomatenmark} 1 Minute anrösten."
+    timer_min: 10
+  - titel: Köcheln
+    text: "{tomaten}, die {kichererbsen:n} und die Brühe einrühren, aufkochen und auf Stufe 3 von 9 halb zugedeckt 10 Minuten köcheln lassen. Die {haehnchen:n} zurückgeben und weitere 5 Minuten leise köcheln lassen. Garprobe: Kerntemperatur 74 °C im größten Würfel. Mit {salz}, {zitrone} und der Hälfte der Petersilie abschmecken."
+    timer_min: 15
+  - titel: Bulgur quellen
+    text: "Inzwischen {bulgur} in einer Schüssel mit {wasser_bulgur} übergießen, abdecken und 10 Minuten quellen lassen, dann auflockern."
+    timer_min: 10
+zeitablauf:
+  - "Während der Eintopf köchelt: Bulgur quellen lassen."
+fehler:
+  - "**Hähnchen trocken:** zu lange gekocht. Erst in den letzten 5 Minuten zurück in den Topf."
+  - "**Fad:** Säure fehlt. Zitronensaft und Petersilie zum Schluss nicht weglassen."
+anrichten: "Bulgur in 2 tiefe Teller geben, den Eintopf darüber schöpfen und mit der restlichen Petersilie bestreuen – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "Im Topf auf Stufe 4 von 9 5 Minuten oder Mikrowelle 600 W 3 Minuten abgedeckt."
+  separat: "Bulgur getrennt lagern, sonst saugt er die Flüssigkeit auf."
+varianten:
+  - "**Mit Rindergulasch:** 400 g Rindergulasch, 60 Minuten mit der Brühe schmoren, bevor die Kichererbsen dazukommen (Gabelprobe) (+68 kcal, −6 g Protein pro Portion)."
+  - "**Ohne Bulgur:** (−140 kcal, −27,2 g KH pro Portion) – dann kalorienarm."
+  - "**Mit Feta:** 50 g Feta darüberbröseln (+64 kcal, +4,2 g Protein pro Portion)."
+tipps:
+  - "Ein Klecks Skyr oder Joghurt obenauf mildert die Schärfe und macht den Eintopf cremig."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

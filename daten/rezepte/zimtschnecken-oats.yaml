@@ -1,0 +1,61 @@
+id: zimtschnecken-oats
+name: Zimtschnecken-Oats mit Frischkäse-Icing
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Amerikanisch
+hauptprotein: Milch, Eiklar & Whey
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Cinnamon Roll Oats“"
+  link: null
+  aenderungen: "Statt Butter-Zucker-Füllung und Puderzucker-Glasur: Zimt-Porridge mit Eiklar und Vanille-Whey, Icing aus Frischkäse light und Skyr."
+schwierigkeit: leicht
+zeit: {vorbereitung: 3, kochen: 10, wartezeit: 0}
+ausstattung: ["Mittlerer Topf (20 cm)", Schneebesen, "Kleine Schüssel"]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Zimt-Porridge
+  - {id: hafer, zutat: Haferflocken zart, g: 130, name: "zarte Haferflocken", hinweis: ""}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 300, name: "Milch (1,5 %)", hinweis: "300 ml"}
+  - {id: wasser, zutat: Wasser, g: 50, name: Wasser, hinweis: "50 ml"}
+  - {id: zimt, zutat: Zimt gemahlen, g: 4, anzeige: "2 TL Zimt", hinweis: "großzügig"}
+  - {id: salz, zutat: Salz, g: 0.3, anzeige: "1 kleine Prise Salz", hinweis: ""}
+  - {id: eiklar, zutat: Eiklar, g: 100, name: Eiklar, hinweis: "100 ml"}
+  - {id: whey, zutat: Whey Protein Vanille, g: 40, name: "Vanille-Whey", hinweis: "ca. 1⅓ Messlöffel"}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 1, anzeige: "10 Tropfen flüssiger Süßstoff", hinweis: ""}
+  - gruppe: Icing und Crunch
+  - {id: frischkaese, zutat: Frischkäse light, g: 50, name: "Frischkäse light", hinweis: ""}
+  - {id: skyr, zutat: Skyr natur, g: 50, name: Skyr, hinweis: ""}
+  - {id: suessstoff_icing, zutat: Süßstoff flüssig, g: 0.5, anzeige: "5 Tropfen flüssiger Süßstoff", hinweis: ""}
+  - {id: mandeln, zutat: Mandeln, g: 15, name: Mandeln, hinweis: "gehackt, geröstet"}
+mise_en_place:
+  - "Icing: {frischkaese}, {skyr} und {suessstoff_icing} glatt rühren."
+  - "{mandeln} grob hacken und in einer trockenen Pfanne auf Stufe 5 von 9 2 Minuten rösten."
+schritte:
+  - titel: Zimt-Porridge kochen
+    text: "{hafer}, {milch}, {wasser}, {zimt} und {salz} im Topf auf Stufe 7 von 9 unter Rühren aufkochen, dann auf Stufe 3 von 9 4 Minuten köcheln lassen, bis der Hafer cremig ist."
+    timer_min: 4
+  - titel: Eiklar und Whey
+    text: "Auf Stufe 2 von 9 zurückschalten und das {eiklar} in dünnem Strahl unter ständigem Rühren einrühren, 2 Minuten weiterrühren, bis es vollständig gestockt ist und der Porridge fluffig wird. Vom Herd ziehen (Herd aus), 1 Minute abkühlen lassen, {whey} und {suessstoff} einrühren."
+    timer_min: 3
+zeitablauf:
+  - "Während der Porridge köchelt: Icing rühren und Mandeln rösten."
+fehler:
+  - "**Eiklar flockt:** zu heiß. Auf niedriger Stufe und unter ständigem Rühren einrühren."
+  - "**Icing läuft weg:** zu viel Skyr. Frischkäse gibt die Stabilität – nicht reduzieren."
+anrichten: "Porridge auf 2 Schalen verteilen, das Icing in einer Spirale wie bei einer Zimtschnecke daraufziehen, mit einer Prise Zimt und den {mandeln:n} bestreuen – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 1
+  einfrierbar: false
+  aufwaermen: "Mit 3 EL Milch 1½ Minuten bei 600 W; Icing kalt daraufgeben."
+  separat: "Icing getrennt lagern."
+varianten:
+  - "**Apfel-Zimtschnecke:** 1 gewürfelter Apfel (150 g) mitkochen (+41 kcal, +7,7 g Zucker pro Portion)."
+  - "**Mit Erdnuss-Crunch:** 15 g Erdnussmus statt Mandeln (+1 kcal pro Portion)."
+  - "**Ohne Icing:** (−44 kcal, −4,8 g Protein pro Portion)."
+tipps:
+  - "Ein paar Tropfen Vanillearoma im Icing – genau so schmeckt die Glasur der Bäckerei-Zimtschnecke."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

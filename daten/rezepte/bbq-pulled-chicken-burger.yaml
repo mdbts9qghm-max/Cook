@@ -1,0 +1,71 @@
+id: bbq-pulled-chicken-burger
+name: BBQ-Pulled-Chicken-Burger
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Amerikanisch
+hauptprotein: Hähnchen
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „BBQ Pulled Chicken“ für Meal Prep"
+  link: null
+  aenderungen: "Hähnchenoberschenkel statt Schweinenacken, BBQ-Sauce abgewogen und mit Tomatenmark gestreckt, Coleslaw-Dip aus Joghurt statt Mayonnaise."
+schwierigkeit: leicht
+zeit: {vorbereitung: 10, kochen: 40, wartezeit: 0}
+ausstattung: ["Topf mit Deckel (20 cm)", "2 Gabeln", Reibe]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Pulled Chicken
+  - {id: haehnchen, zutat: Hähnchenoberschenkel ohne Haut roh, g: 500, name: Hähnchenoberschenkel, hinweis: "entbeint, ohne Haut"}
+  - {id: rauchpaprika, zutat: Paprikapulver geräuchert, g: 3, anzeige: "1 TL Rauchpaprika", hinweis: ""}
+  - {id: knoblauchpulver, zutat: Knoblauchpulver, g: 2, anzeige: "½ TL Knoblauchpulver", hinweis: ""}
+  - {id: kuemmel, zutat: Kreuzkümmel gemahlen, g: 1, anzeige: "½ TL Kreuzkümmel", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 1, anzeige: "2 Prisen Salz", hinweis: ""}
+  - {id: oel, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: ""}
+  - {id: zwiebel, zutat: Zwiebel, g: 80, anzeige: "1 kleine Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: bbq, zutat: BBQ-Sauce, g: 60, anzeige: "4 EL BBQ-Sauce", hinweis: ""}
+  - {id: tomatenmark, zutat: Tomatenmark 2-fach konzentriert, g: 15, anzeige: "1 EL Tomatenmark", hinweis: ""}
+  - {id: wasser, zutat: Wasser, g: 150, name: Wasser, hinweis: "150 ml"}
+  - gruppe: Coleslaw-Dip
+  - {id: joghurt, zutat: "Joghurt 1,5 % Fett", g: 100, name: Joghurt, hinweis: ""}
+  - {id: senf, zutat: Senf mittelscharf, g: 5, anzeige: "1 TL Senf", hinweis: ""}
+  - {id: moehre, zutat: Möhre, g: 80, anzeige: "1 Möhre", name: Möhre, hinweis: "fein geraspelt"}
+  - {id: salz_dip, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: ""}
+  - gruppe: Burger
+  - {id: broetchen, zutat: Burgerbrötchen, g: 150, anzeige: "2 Burgerbrötchen", hinweis: "à 75 g"}
+  - {id: gurken, zutat: Gewürzgurken, g: 60, name: Gewürzgurken, hinweis: "in Scheiben"}
+mise_en_place:
+  - "{haehnchen} mit {rauchpaprika}, {knoblauchpulver}, {kuemmel} und {salz} einreiben."
+  - "{zwiebel} fein würfeln."
+  - "Dip: {moehre} fein raspeln und mit {joghurt}, {senf} und {salz_dip} verrühren."
+schritte:
+  - titel: Anbraten
+    text: "{oel} im Topf auf Stufe 8 von 9 erhitzen und das {haehnchen:n} 2 Minuten je Seite anbraten, bis es Farbe hat. Zwiebel 2 Minuten mitbraten."
+    timer_min: 6
+  - titel: Schmoren
+    text: "{bbq}, {tomatenmark} und {wasser} einrühren, aufkochen und auf Stufe 2 von 9 mit Deckel 30 Minuten schmoren, bis das {haehnchen:n} so zart ist, dass es mit der Gabel zerfällt (Gabelprobe; Kerntemperatur dann weit über 74 °C)."
+    timer_min: 30
+  - titel: Zupfen
+    text: "Das Fleisch im Topf mit 2 Gabeln in feine Fasern zerzupfen. Offen auf Stufe 5 von 9 3–4 Minuten einkochen lassen, bis die Sauce dick am Fleisch haftet."
+    timer_min: 4
+zeitablauf:
+  - "Während das Hähnchen schmort: Coleslaw-Dip rühren, Brötchen bereitlegen."
+fehler:
+  - "**Fleisch lässt sich nicht zupfen:** zu kurz geschmort. 10 Minuten länger – Oberschenkel werden immer zart."
+  - "**Zu flüssig:** zum Schluss offen einkochen lassen."
+anrichten: "Die {broetchen:n} kurz in der Pfanne oder im Toaster rösten. Unterseite mit etwas Coleslaw-Dip, die Hälfte des Pulled Chicken, {gurken:n} und den restlichen Dip darauf – pro Burger ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 4
+  einfrierbar: true
+  einfrieren_monate: 3
+  aufwaermen: "Pulled Chicken im Topf auf Stufe 4 von 9 mit 2 EL Wasser 3 Minuten oder Mikrowelle 600 W 2 Minuten; Brötchen frisch rösten."
+  separat: "Fleisch, Dip und Brötchen getrennt lagern."
+varianten:
+  - "**Mit Hähnchenbrust:** 500 g Brust, nur 20 Minuten schmoren (−70 kcal, +11,2 g Protein, −12,8 g Fett pro Portion)."
+  - "**Im Wrap:** 2 Tortilla-Wraps statt Brötchen (−17 kcal pro Portion)."
+  - "**Als Bowl:** 100 g Basmatireis statt Brötchen (−29 kcal pro Portion)."
+tipps:
+  - "Das Pulled Chicken lohnt sich doppelt: im Planer „doppelt kochen“ – es hält 4 Tage und schmeckt auch in Wraps oder auf Reis."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

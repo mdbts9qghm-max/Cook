@@ -1,0 +1,55 @@
+id: schoko-erdnuss-bowl
+name: Schoko-Erdnuss-Pudding-Bowl
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Amerikanisch
+hauptprotein: Proteinpudding & Skyr
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Snickers Protein Bowl“"
+  link: null
+  aenderungen: "Statt Schokoriegel und Karamell: Schoko-Proteinpudding, Skyr mit Schoko-Whey, Erdnussmus und Mandeln – schmeckt nach Erdnuss-Schokoriegel mit über 40 g Protein."
+schwierigkeit: leicht
+zeit: {vorbereitung: 5, kochen: 0, wartezeit: 0}
+ausstattung: ["2 Schüsseln", Schneebesen]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Schoko-Creme
+  - {id: skyr, zutat: Skyr natur, g: 300, name: Skyr, hinweis: ""}
+  - {id: whey, zutat: Whey Protein Schoko, g: 20, name: "Schoko-Whey", hinweis: "⅔ Messlöffel"}
+  - {id: kakao, zutat: Backkakao stark entölt, g: 5, anzeige: "1 TL Backkakao", hinweis: ""}
+  - {id: pudding, zutat: Proteinpudding Schoko, g: 200, anzeige: "1 Becher Schoko-Proteinpudding", hinweis: "200 g"}
+  - gruppe: Toppings
+  - {id: banane, zutat: Banane, g: 40, anzeige: "⅓ Banane", name: Banane, hinweis: "in Scheiben"}
+  - {id: erdnussmus, zutat: Erdnussmus, g: 40, anzeige: "2½ EL Erdnussmus", hinweis: "cremig"}
+  - {id: granola, zutat: Granola zuckerreduziert, g: 50, name: Granola, hinweis: ""}
+  - {id: mandeln, zutat: Mandeln, g: 20, name: Mandeln, hinweis: "grob gehackt"}
+mise_en_place:
+  - "{banane} in Scheiben schneiden, {mandeln} grob hacken."
+schritte:
+  - titel: Schoko-Skyr rühren
+    text: "{skyr}, {whey} und {kakao} mit dem Schneebesen 30 Sekunden glatt rühren."
+    timer_min: null
+  - titel: Bowl bauen
+    text: "Den Schoko-Skyr auf 2 Schüsseln verteilen, je die Hälfte vom {pudding:n} als Streifen daneben geben. {banane:n}, {granola:n} und {mandeln:n} darauf verteilen und das {erdnussmus:n} (vorher kurz umrühren) in Fäden darüberziehen."
+    timer_min: null
+zeitablauf: []
+fehler:
+  - "**Erdnussmus zu fest zum Drizzeln:** 10 Sekunden in der Mikrowelle bei 600 W erwärmen."
+  - "**Granola weich:** zu früh daraufgegeben. Erst kurz vor dem Essen."
+anrichten: "Pro Schüssel ca. {portion_g} g – schmeckt wie ein Erdnuss-Schokoriegel zum Löffeln."
+aufbewahrung:
+  kuehlschrank_tage: 1
+  einfrierbar: false
+  aufwaermen: "Nicht aufwärmen – kalt essen."
+  separat: "Toppings erst frisch dazugeben."
+varianten:
+  - "**Mit Himbeeren:** 100 g TK-Himbeeren statt Banane (+4 kcal, −1,2 g Zucker pro Portion)."
+  - "**Mehr Protein:** Pudding durch 200 g Skyr und 10 g Schoko-Whey ersetzen (+8 kcal, +4,6 g Protein pro Portion)."
+  - "**Leichter:** ohne Mandeln (−60 kcal, −5 g Fett pro Portion)."
+tipps:
+  - "Eine Prise grobes Salz auf das Erdnussmus – salziges Karamell-Gefühl ohne Karamell."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

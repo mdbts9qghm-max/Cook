@@ -1,0 +1,64 @@
+id: pide-putenhack
+name: Pide mit Putenhack
+hauptkategorie: high-protein
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Türkisch & Orientalisch
+hauptprotein: Pute
+inspiration: null
+schwierigkeit: mittel
+zeit: {vorbereitung: 20, kochen: 18, wartezeit: 0}
+ausstattung: [Backofen, Backblech, Backpapier, Nudelholz, "Pfanne (28 cm)", Schüssel]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Quark-Öl-Teig
+  - {id: quark, zutat: Magerquark, g: 150, name: Magerquark, hinweis: ""}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 30, name: "Milch (1,5 %)", hinweis: "2 EL"}
+  - {id: oel, zutat: Rapsöl, g: 15, anzeige: "1½ EL Rapsöl", hinweis: ""}
+  - {id: salz_teig, zutat: Salz, g: 1, anzeige: "2 Prisen Salz", hinweis: ""}
+  - {id: mehl, zutat: Weizenmehl Type 405, g: 160, name: Mehl, hinweis: "plus 1 EL zum Ausrollen (nicht mitgerechnet)"}
+  - {id: backpulver, zutat: Backpulver, g: 8, anzeige: "½ Päckchen Backpulver", hinweis: ""}
+  - gruppe: Hackfüllung
+  - {id: hack, zutat: Putenhackfleisch roh, g: 400, name: Putenhack, hinweis: ""}
+  - {id: zwiebel, zutat: Zwiebel, g: 60, anzeige: "½ Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: paprika, zutat: Paprika rot, g: 100, anzeige: "½ rote Paprika", name: Paprika, hinweis: ""}
+  - {id: tomatenmark, zutat: Tomatenmark 2-fach konzentriert, g: 20, anzeige: "1 gehäufter EL Tomatenmark", hinweis: ""}
+  - {id: kuemmel, zutat: Kreuzkümmel gemahlen, g: 2, anzeige: "1 TL Kreuzkümmel", hinweis: ""}
+  - {id: paprikapulver, zutat: Paprikapulver edelsüß, g: 2, anzeige: "1 TL Paprikapulver edelsüß", hinweis: ""}
+  - {id: chili, zutat: Chiliflocken, g: 0.5, anzeige: "1 Prise Chiliflocken", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 1, anzeige: "2 Prisen Salz", hinweis: ""}
+  - {id: feta, zutat: Feta, g: 50, name: Feta, hinweis: "zerbröselt"}
+mise_en_place:
+  - "Backofen auf 220 °C Ober-/Unterhitze (200 °C Umluft) vorheizen, Blech mit Backpapier auslegen."
+  - "{zwiebel} und {paprika} sehr fein würfeln (3 mm)."
+schritte:
+  - titel: Füllung braten
+    text: "Die Pfanne ohne Fett auf Stufe 8 von 9 erhitzen. {hack} 2 Minuten anbraten lassen, dann krümelig zerteilen und mit Zwiebel und Paprika 5 Minuten braten. {tomatenmark}, {kuemmel}, {paprikapulver}, {chili} und {salz} 1 Minute mitrösten. Garprobe: Das {hack:n} ist durchgehend gebräunt, Kerntemperatur 74 °C. Etwas abkühlen lassen."
+    timer_min: 8
+  - titel: Teig kneten
+    text: "{quark}, {milch}, {oel} und {salz_teig} glatt rühren, {mehl} mit {backpulver} dazugeben und 1–2 Minuten zu einem glatten Teig kneten. Halbieren und jede Hälfte zu einem Oval von ca. 30 × 12 cm ausrollen."
+    timer_min: null
+  - titel: Formen und backen
+    text: "Die Teigovale aufs Blech legen, die Füllung in der Mitte verteilen (2 cm Rand frei lassen) und den {feta:n} darüberstreuen. Die langen Ränder nach innen über die Füllung klappen und die Enden zu Spitzen zusammendrücken – so entsteht die typische Schiffchenform. Im vorgeheizten Backofen bei 220 °C Ober-/Unterhitze (200 °C Umluft) auf der mittleren Schiene 15–18 Minuten backen, bis der Teig goldbraun ist."
+    timer_min: 17
+zeitablauf:
+  - "Während die Füllung abkühlt: Teig kneten und ausrollen."
+fehler:
+  - "**Boden weich:** Füllung zu feucht. Hack trocken braten und vor dem Füllen etwas abkühlen lassen."
+  - "**Ränder öffnen sich:** nicht fest angedrückt. Enden gut zusammenkneifen."
+anrichten: "Pro Person 1 Pide (ca. {portion_g} g) in Streifen schneiden – mit einem Spritzer Zitrone und Chiliflocken wie beim Türken um die Ecke."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: true
+  einfrieren_monate: 1
+  aufwaermen: "Im Ofen oder Airfryer bei 180 °C 5 Minuten – Teig wird wieder knusprig. Kalt auch gut als Lunch."
+varianten:
+  - "**Mit Rinderhack:** 400 g Rinderhack (5 %) (−18 kcal, +3 g Protein pro Portion); Kerntemperatur 72 °C."
+  - "**Mit Ei:** in den letzten 5 Minuten je 1 Ei auf die Füllung schlagen und stocken lassen (+84 kcal, +7,6 g Protein pro Portion)."
+  - "**Ohne Feta:** (−64 kcal, −5,2 g Fett pro Portion)."
+tipps:
+  - "Ein bisschen Petersilie und rote Zwiebel als Salat dazu – klassische Pide-Begleitung."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

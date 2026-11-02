@@ -153,7 +153,8 @@ def pruefe_rezept(r: dict, zutaten: dict, packungen: dict, erg: Ergebnis) -> dic
     aufb = r.get("aufbewahrung") or {}
     tage = aufb.get("kuehlschrank_tage") or 0
     fisch = any(_ist_fisch(e["zutat"]) for e in eintraege)
-    if "Meal Prep" in manuell and tage < C.MEAL_PREP_MIN_TAGE:
+    tiefkuehl_snack = tage == 0 and aufb.get("einfrierbar")   # wird gefroren gelagert (z. B. Frozen-Joghurt-Bark)
+    if "Meal Prep" in manuell and tage < C.MEAL_PREP_MIN_TAGE and not tiefkuehl_snack:
         erg.f(wo, f"Meal Prep braucht mind. {C.MEAL_PREP_MIN_TAGE} Tage Kühlschrank (hat {tage})")
     if fisch and tage > C.FISCH_MAX_KUEHLSCHRANK_TAGE:
         erg.f(wo, f"Fisch/Garnelen: max. {C.FISCH_MAX_KUEHLSCHRANK_TAGE} Tage Kühlschrank (hat {tage})")

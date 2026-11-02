@@ -1,0 +1,66 @@
+id: haehnchen-tajine
+name: Hähnchen-Tajine mit Möhren und Kartoffeln
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Türkisch & Orientalisch
+hauptprotein: Hähnchen
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 15, kochen: 40, wartezeit: 0}
+ausstattung: ["Bräter oder schwerer Topf mit Deckel (24 cm)"]
+restetauglich: true
+vortag: []
+zutaten:
+  - {id: haehnchen, zutat: Hähnchenoberschenkel ohne Haut roh, g: 500, name: Hähnchenoberschenkel, hinweis: "entbeint, ohne Haut"}
+  - {id: salz, zutat: Salz, g: 1, anzeige: "2 Prisen Salz", hinweis: ""}
+  - {id: oel, zutat: Olivenöl, g: 5, anzeige: "1 TL Olivenöl", hinweis: ""}
+  - {id: zwiebel, zutat: Zwiebel, g: 150, anzeige: "1½ Zwiebeln", name: Zwiebeln, hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 9, anzeige: "3 Knoblauchzehen", hinweis: ""}
+  - {id: ingwer, zutat: Ingwer, g: 8, anzeige: "1 Stück Ingwer (2 cm)", hinweis: ""}
+  - {id: kuemmel, zutat: Kreuzkümmel gemahlen, g: 3, anzeige: "1½ TL Kreuzkümmel", hinweis: ""}
+  - {id: zimt, zutat: Zimt gemahlen, g: 2, anzeige: "1 TL Zimt", hinweis: ""}
+  - {id: kurkuma, zutat: Kurkuma gemahlen, g: 1, anzeige: "½ TL Kurkuma", hinweis: ""}
+  - {id: paprikapulver, zutat: Paprikapulver edelsüß, g: 3, anzeige: "1 TL Paprikapulver edelsüß", hinweis: ""}
+  - {id: moehren, zutat: Möhre, g: 200, anzeige: "2 Möhren", name: Möhren, hinweis: ""}
+  - {id: kartoffeln, zutat: Kartoffeln festkochend roh, g: 400, name: Kartoffeln, hinweis: "festkochend"}
+  - {id: tomaten, zutat: Tomaten gehackt (Dose), g: 200, name: "gehackte Tomaten", hinweis: "½ Dose"}
+  - {id: honig, zutat: Honig, g: 10, anzeige: "2 TL Honig", hinweis: ""}
+  - {id: bruehe, zutat: Gemüsebrühe Pulver, g: 4, anzeige: "1 TL Gemüsebrühe-Pulver", hinweis: ""}
+  - {id: wasser, zutat: Wasser, g: 250, name: Wasser, hinweis: "250 ml"}
+  - {id: zitrone, zutat: Zitronensaft, g: 15, anzeige: "1 EL Zitronensaft", hinweis: ""}
+  - {id: petersilie, zutat: Petersilie glatt, g: 5, anzeige: "2 EL gehackte Petersilie", hinweis: ""}
+mise_en_place:
+  - "{haehnchen} in große Stücke (ca. 5 cm) schneiden und mit {salz} würzen."
+  - "{zwiebel} in Spalten, {moehren} in 1 cm dicke Scheiben, {kartoffeln} geschält in 3 cm Stücke schneiden. {knoblauch} und {ingwer} fein reiben."
+  - "{bruehe} in {wasser} auflösen. {petersilie} hacken."
+schritte:
+  - titel: Anbraten
+    text: "{oel} im Bräter auf Stufe 8 von 9 erhitzen. Die {haehnchen:n}stücke 5 Minuten rundum goldbraun anbraten und herausnehmen. Auf Stufe 6 von 9 die Zwiebelspalten 4 Minuten braten, Knoblauch und Ingwer 1 Minute mitbraten. {kuemmel}, {zimt}, {kurkuma} und {paprikapulver} 30 Sekunden anrösten."
+    timer_min: 10
+  - titel: Schmoren
+    text: "{moehren:n}, {kartoffeln:n}, {tomaten}, {honig} und die Brühe dazugeben, das Hähnchen obenauf legen. Aufkochen und auf Stufe 2 von 9 mit geschlossenem Deckel 30 Minuten schmoren, nach 15 Minuten einmal vorsichtig umrühren. Garprobe: Kartoffeln und Möhren lassen sich mit der Gabel leicht zerdrücken, das {haehnchen:n} ist zart und hat mindestens 74 °C Kerntemperatur (Oberschenkel gern 80 °C)."
+    timer_min: 30
+  - titel: Abschmecken
+    text: "Deckel abnehmen und die Sauce auf Stufe 5 von 9 3 Minuten etwas einkochen lassen, bis sie sämig ist. Mit {zitrone} abschmecken."
+    timer_min: 3
+zeitablauf:
+  - "Während die Tajine schmort: aufräumen – sie braucht keine Aufmerksamkeit."
+fehler:
+  - "**Kartoffeln zerfallen:** zu klein geschnitten oder mehligkochend. 3 cm Stücke, festkochend."
+  - "**Sauce zu dünn:** zum Schluss offen einkochen lassen."
+anrichten: "Auf 2 tiefe Teller verteilen (je ca. {portion_g} g) und mit der {petersilie:n} bestreuen. Keine Beilage nötig – die Kartoffeln sind schon drin."
+aufbewahrung:
+  kuehlschrank_tage: 4
+  einfrierbar: true
+  einfrieren_monate: 3
+  aufwaermen: "Im Topf auf Stufe 4 von 9 5 Minuten oder Mikrowelle 600 W 3 Minuten abgedeckt."
+varianten:
+  - "**Mit Hähnchenbrust:** 500 g Brustfilet, erst die letzten 12 Minuten mitschmoren (−70 kcal, +11,2 g Protein, −12,8 g Fett pro Portion)."
+  - "**Mit Kichererbsen statt Kartoffeln:** 1 Dose (240 g) erst die letzten 10 Minuten dazu (±0 kcal, +4,4 g Protein pro Portion)."
+  - "**Mit Bulgur:** zusätzlich 80 g Bulgur als Beilage (+140 kcal pro Portion)."
+tipps:
+  - "Ein paar Rosinen oder getrocknete Aprikosen mitschmoren ist marokkanisch-klassisch (10 g Rosinen ≈ +15 kcal pro Portion)."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}
