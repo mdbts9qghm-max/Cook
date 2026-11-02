@@ -1,0 +1,54 @@
+id: protein-brownie-bites
+name: Protein-Brownie-Bites
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Snack
+geschmack: süß
+kueche: Amerikanisch
+hauptprotein: Quark & Whey
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Airfryer Protein Brownie Bites“"
+  link: null
+  aenderungen: "Ohne Butter und Zucker: Magerquark, Ei, Schoko-Whey und Kakao, nur 15 g Zartbitterschokolade – über 30 g Protein pro Portion."
+schwierigkeit: leicht
+zeit: {vorbereitung: 8, kochen: 12, wartezeit: 10}
+ausstattung: [Airfryer, "Silikon-Muffin- oder Pralinenförmchen (8 Stück)", Schüssel, Schneebesen]
+restetauglich: true
+vortag: []
+zutaten:
+  - {id: quark, zutat: Magerquark, g: 150, name: Magerquark, hinweis: ""}
+  - {id: ei, zutat: "Ei Gr. M ohne Schale", g: 60, anzeige: "1 Ei Gr. M", hinweis: ""}
+  - {id: whey, zutat: Whey Protein Schoko, g: 40, name: "Schoko-Whey", hinweis: "ca. 1⅓ Messlöffel"}
+  - {id: kakao, zutat: Backkakao stark entölt, g: 15, anzeige: "2 gehäufte EL Backkakao", hinweis: ""}
+  - {id: hafer, zutat: Haferflocken zart, g: 30, name: "zarte Haferflocken", hinweis: "fein gemahlen"}
+  - {id: backpulver, zutat: Backpulver, g: 3, anzeige: "½ TL Backpulver", hinweis: ""}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 1, anzeige: "10 Tropfen flüssiger Süßstoff", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 0.2, anzeige: "1 Mini-Prise Salz", hinweis: ""}
+  - {id: schoko, zutat: "Zartbitterschokolade 70 %", g: 15, anzeige: "3 Stückchen Zartbitterschokolade 70 %", name: Zartbitterschokolade, hinweis: "gehackt"}
+mise_en_place:
+  - "{hafer} fein mahlen, {schoko} hacken."
+schritte:
+  - titel: Teig rühren
+    text: "{quark}, {ei}, {whey}, {kakao}, den gemahlenen {hafer:n}, {backpulver}, {suessstoff} und {salz} mit dem Schneebesen glatt rühren. Die Hälfte der gehackten {schoko:n} unterheben."
+    timer_min: null
+  - titel: Im Airfryer garen
+    text: "Den Teig auf 8 Silikonförmchen verteilen und die restliche Schokolade obenauf streuen. Im auf 160 °C vorgeheizten Airfryer 10–12 Minuten garen. Fertig, wenn die Oberfläche fest ist, die Mitte aber beim Antippen noch leicht nachgibt – dann werden sie fudgy. 10 Minuten in den Förmchen abkühlen lassen."
+    timer_min: 12
+zeitablauf: []
+fehler:
+  - "**Trocken:** zu lange gegart. Lieber nach 10 Minuten prüfen."
+  - "**Bitter:** zu wenig Süße. 5 Tropfen Süßstoff mehr und die Prise Salz nicht weglassen."
+anrichten: "4 Bites (ca. {portion_g} g) sind deine Portion – lauwarm oder kalt aus dem Kühlschrank."
+aufbewahrung:
+  kuehlschrank_tage: 4
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "10 Sekunden bei 600 W in der Mikrowelle, dann schmilzt die Schokolade wieder."
+varianten:
+  - "**Mit Himbeeren:** 60 g TK-Himbeeren in den Teig (+14 kcal pro Portion)."
+  - "**Peanut-Butter-Bites:** 15 g Erdnussmus als Klecks auf jedes Förmchen (+46 kcal, +1,9 g Protein pro Portion)."
+  - "**Leichter:** ohne Schokostückchen (−43 kcal, −3,1 g Fett pro Portion)."
+tipps:
+  - "Eine Prise Instant-Espressopulver im Teig verstärkt den Schokogeschmack."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

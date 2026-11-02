@@ -2,15 +2,17 @@
 
 # Rezeptbuch
 
-90 Rezepte · je 2 Portionen · Nährwerte pro Portion · Stand 02.11.2026
+100 Rezepte · je 2 Portionen · Nährwerte pro Portion · Stand 02.11.2026
 
-## High Protein (12)
+## High Protein (14)
 
 | Rezept | Mahlzeit | Küche | kcal | Protein | Zeit | Bewertung |
 |---|---|---|---:|---:|---:|---|
 | [Airfryer-Schnitzel mit Joghurt-Kartoffelsalat](rezepte/high-protein/airfryer-schnitzel-kartoffelsalat.md) | Mittag/Abend | Deutsch | 741 | 65,3 g | 45 min | – |
 | [Beef & Broccoli mit Reis](rezepte/high-protein/beef-brokkoli.md) | Mittag/Abend | Asiatisch | 699 | 58,0 g | 27 min | – |
+| [Cajun-Lachs mit Airfryer-Wedges](rezepte/high-protein/cajun-lachs-wedges.md) | Mittag/Abend | Amerikanisch | 637 | 48,6 g | 40 min | – |
 | [Chicken Katsu Curry](rezepte/high-protein/chicken-katsu-curry.md) | Mittag/Abend | Asiatisch | 776 | 63,6 g | 35 min | – |
+| [Gochujang-Schweinefilet-Tacos](rezepte/high-protein/gochujang-schwein-tacos.md) | Mittag/Abend | International / Fusion | 670 | 62,2 g | 37 min | – |
 | [Marry Me Chicken mit Basmatireis](rezepte/high-protein/marry-me-chicken.md) | Mittag/Abend | Italienisch | 700 | 65,3 g | 30 min | – |
 | [Ofen-Feta-Pasta mit Hähnchen](rezepte/high-protein/feta-pasta-haehnchen.md) | Mittag/Abend | Griechisch & Mediterran | 793 | 73,6 g | 33 min | – |
 | [Orientalischer Hähnchen-Kichererbsen-Eintopf](rezepte/high-protein/kichererbsen-haehnchen-eintopf.md) | Mittag/Abend | Türkisch & Orientalisch | 627 | 64,6 g | 35 min | – |
@@ -21,7 +23,7 @@
 | [Tandoori-Hähnchen aus dem Airfryer](rezepte/high-protein/tandoori-haehnchen.md) | Mittag/Abend | Indisch | 684 | 61,1 g | 515 min | – |
 | [Zitronen-Lachs mit Ofenkartoffeln und Tzatziki](rezepte/high-protein/zitronen-lachs-ofenkartoffeln.md) | Mittag/Abend | Griechisch & Mediterran | 635 | 47,2 g | 47 min | – |
 
-## Schnelle Rezepte (31)
+## Schnelle Rezepte (33)
 
 | Rezept | Mahlzeit | Küche | kcal | Protein | Zeit | Bewertung |
 |---|---|---|---:|---:|---:|---|
@@ -34,11 +36,13 @@
 | [Egg Fried Rice mit Pute](rezepte/schnell/egg-fried-rice-pute.md) | Mittag/Abend | Asiatisch | 718 | 59,4 g | 20 min | – |
 | [Fluffige Protein-Pancakes mit Beeren-Skyr](rezepte/schnell/protein-pancakes.md) | Frühstück | Amerikanisch | 571 | 52,0 g | 20 min | – |
 | [Gyros-Pfanne mit Tzatziki und Reis](rezepte/schnell/gyros-pfanne-tzatziki.md) | Mittag/Abend | Griechisch & Mediterran | 653 | 66,0 g | 25 min | – |
+| [High-Protein-Mac-and-Cheese](rezepte/schnell/high-protein-mac-cheese.md) | Mittag/Abend | Amerikanisch | 685 | 52,2 g | 20 min | – |
 | [Hähnchen-Piccata mit Zitronensauce und Penne](rezepte/schnell/haehnchen-piccata.md) | Mittag/Abend | Italienisch | 680 | 65,3 g | 23 min | – |
 | [Hähnchen-Rahmgeschnetzeltes mit Champignons und Reis](rezepte/schnell/haehnchen-geschnetzeltes.md) | Mittag/Abend | Deutsch | 663 | 65,2 g | 25 min | – |
 | [Korean Beef Bowl mit Gochujang](rezepte/schnell/korean-beef-bowl.md) | Mittag/Abend | Asiatisch | 670 | 52,0 g | 22 min | – |
 | [Kung-Pao-Hähnchen](rezepte/schnell/kung-pao-haehnchen.md) | Mittag/Abend | Asiatisch | 657 | 57,6 g | 25 min | – |
 | [Lachs-Penne mit Tomate und Frischkäse](rezepte/schnell/lachs-penne.md) | Mittag/Abend | Italienisch | 730 | 46,3 g | 20 min | – |
+| [Mango-Lassi-Smoothie-Bowl](rezepte/schnell/mango-lassi-bowl.md) | Frühstück | Indisch | 539 | 42,8 g | 6 min | – |
 | [One-Pan-Gnocchi mit Pute, Tomate und Spinat](rezepte/schnell/gnocchi-pfanne-pute.md) | Mittag/Abend | Italienisch | 679 | 58,7 g | 25 min | – |
 | [Protein-Carbonara mit Linsennudeln](rezepte/schnell/protein-carbonara.md) | Mittag/Abend | Italienisch | 611 | 54,7 g | 17 min | – |
 | [Protein-Crêpes mit Schoko-Quark](rezepte/schnell/protein-crepes.md) | Frühstück | International / Fusion | 575 | 49,3 g | 23 min | – |
@@ -57,7 +61,7 @@
 | [Vanille-Quarkcreme mit Erdbeeren](rezepte/schnell/quarkcreme-erdbeeren.md) | Snack | Deutsch | 220 | 28,3 g | 7 min | – |
 | [Zimtschnecken-Oats mit Frischkäse-Icing](rezepte/schnell/zimtschnecken-oats.md) | Frühstück | Amerikanisch | 505 | 40,7 g | 13 min | – |
 
-## Meal Prep (30)
+## Meal Prep (33)
 
 | Rezept | Mahlzeit | Küche | kcal | Protein | Zeit | Bewertung |
 |---|---|---|---:|---:|---:|---|
@@ -82,8 +86,11 @@
 | [Overnight Oats Erdbeer-Cheesecake](rezepte/meal-prep/overnight-oats-cheesecake.md) | Frühstück | Amerikanisch | 545 | 41,7 g | 488 min | – |
 | [Overnight Oats Erdnuss-Banane](rezepte/meal-prep/overnight-oats-erdnuss-banane.md) | Frühstück | Amerikanisch | 593 | 42,8 g | 487 min | – |
 | [Protein-Bananenbrot](rezepte/meal-prep/protein-bananenbrot.md) | Frühstück | Amerikanisch | 585 | 45,6 g | 70 min | – |
+| [Protein-Bircher-Müsli mit Beeren](rezepte/meal-prep/protein-bircher-muesli.md) | Frühstück | International / Fusion | 560 | 40,6 g | 488 min | – |
+| [Protein-Brownie-Bites](rezepte/meal-prep/protein-brownie-bites.md) | Snack | Amerikanisch | 291 | 31,5 g | 30 min | – |
 | [Protein-Milchreis mit Zimt und Kirschen](rezepte/meal-prep/protein-milchreis.md) | Frühstück | Deutsch | 539 | 40,3 g | 43 min | – |
 | [Protein-Scones mit Beeren](rezepte/meal-prep/protein-scones.md) | Frühstück | International / Fusion | 616 | 43,2 g | 35 min | – |
+| [Quarkbällchen aus dem Airfryer](rezepte/meal-prep/airfryer-quarkbaellchen.md) | Frühstück | Deutsch | 565 | 41,4 g | 32 min | – |
 | [Rindergulasch mit Salzkartoffeln](rezepte/meal-prep/rindergulasch-kartoffeln.md) | Mittag/Abend | Deutsch | 734 | 61,0 g | 130 min | – |
 | [Rote-Linsen-Dal mit Ei](rezepte/meal-prep/linsen-dal-ei.md) | Mittag/Abend | Indisch | 693 | 52,7 g | 40 min | – |
 | [Schoko-Erdnuss-Protein-Balls](rezepte/meal-prep/protein-balls.md) | Snack | Amerikanisch | 338 | 26,6 g | 45 min | – |
@@ -92,17 +99,20 @@
 | [Teriyaki-Hähnchen-Bowl](rezepte/meal-prep/teriyaki-haehnchen-bowl.md) | Mittag/Abend | Asiatisch | 664 | 59,4 g | 25 min | – |
 | [Tiramisu-Overnight-Oats](rezepte/meal-prep/tiramisu-overnight-oats.md) | Frühstück | Italienisch | 551 | 47,2 g | 488 min | – |
 
-## Kalorienarm (10)
+## Kalorienarm (13)
 
 | Rezept | Mahlzeit | Küche | kcal | Protein | Zeit | Bewertung |
 |---|---|---|---:|---:|---:|---|
 | [Asia-Lettuce-Wraps mit Putenhack](rezepte/kalorienarm/asia-lettuce-wraps.md) | Mittag/Abend | Asiatisch | 439 | 46,1 g | 22 min | – |
+| [Big-Mac-Bowl](rezepte/kalorienarm/big-mac-bowl.md) | Mittag/Abend | International / Fusion | 467 | 57,8 g | 20 min | – |
+| [Buffalo-Chicken-Wrap](rezepte/kalorienarm/buffalo-chicken-wrap.md) | Mittag/Abend | Amerikanisch | 516 | 59,2 g | 18 min | – |
 | [Caprese-Chicken aus dem Ofen](rezepte/kalorienarm/caprese-chicken.md) | Mittag/Abend | Italienisch | 522 | 64,1 g | 32 min | – |
 | [Fisch-Curry mit Seelachs](rezepte/kalorienarm/seelachs-curry.md) | Mittag/Abend | Indisch | 523 | 46,8 g | 24 min | – |
 | [Garnelen-Fajitas](rezepte/kalorienarm/garnelen-fajitas.md) | Mittag/Abend | Mexikanisch | 526 | 52,2 g | 20 min | – |
 | [Ingwer-Soja-Schweinefilet mit Brokkoli](rezepte/kalorienarm/ingwer-schweinefilet.md) | Mittag/Abend | Asiatisch | 531 | 55,5 g | 25 min | – |
 | [Mediterraner Thunfisch-Bulgur-Salat](rezepte/kalorienarm/thunfisch-bulgur-salat.md) | Mittag/Abend | Griechisch & Mediterran | 534 | 48,5 g | 22 min | – |
 | [Penne all'Arrabbiata mit Garnelen](rezepte/kalorienarm/garnelen-arrabbiata.md) | Mittag/Abend | Italienisch | 484 | 47,0 g | 20 min | – |
+| [Philly-Cheesesteak-Pfanne](rezepte/kalorienarm/philly-cheesesteak-pfanne.md) | Mittag/Abend | Amerikanisch | 531 | 61,3 g | 22 min | – |
 | [Schweinefilet in Senf-Sauce mit Kartoffeln](rezepte/kalorienarm/schweinefilet-senfsauce.md) | Mittag/Abend | Deutsch | 521 | 59,7 g | 25 min | – |
 | [Seelachs mit Senfsauce und Salzkartoffeln](rezepte/kalorienarm/seelachs-senfsauce.md) | Mittag/Abend | Deutsch | 496 | 46,7 g | 25 min | – |
 | [Shakshuka mit Feta und Knoblauch-Skyr](rezepte/kalorienarm/shakshuka-feta.md) | Mittag/Abend | Türkisch & Orientalisch | 535 | 42,4 g | 25 min | – |

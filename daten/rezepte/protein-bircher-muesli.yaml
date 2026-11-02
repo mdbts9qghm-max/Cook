@@ -1,0 +1,54 @@
+id: protein-bircher-muesli
+name: Protein-Bircher-Müsli mit Beeren
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Frühstück
+geschmack: süß
+kueche: International / Fusion
+hauptprotein: Skyr & Whey
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 8, kochen: 0, wartezeit: 480}
+ausstattung: ["2 Schraubgläser oder Dosen (ca. 500 ml)", Schüssel, Reibe]
+restetauglich: true
+vortag: ["Bircher-Müsli am Abend einweichen (8 Minuten)"]
+zutaten:
+  - gruppe: Einweichen
+  - {id: hafer, zutat: Haferflocken zart, g: 130, name: "zarte Haferflocken", hinweis: "oder kernige für mehr Biss"}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 150, name: "Milch (1,5 %)", hinweis: "150 ml"}
+  - {id: skyr, zutat: Skyr natur, g: 250, name: Skyr, hinweis: ""}
+  - {id: whey, zutat: Whey Protein Vanille, g: 30, name: "Vanille-Whey", hinweis: "1 Messlöffel"}
+  - {id: chia, zutat: Chiasamen, g: 10, anzeige: "1 EL Chiasamen", hinweis: ""}
+  - {id: apfel, zutat: Apfel, g: 100, anzeige: "⅔ Apfel", name: Apfel, hinweis: "säuerlich, mit Schale gerieben"}
+  - {id: zitrone, zutat: Zitronensaft, g: 10, anzeige: "2 TL Zitronensaft", hinweis: "verhindert braune Äpfel"}
+  - gruppe: Topping
+  - {id: beeren, zutat: Beerenmischung TK, g: 100, name: Beeren, hinweis: "aufgetaut"}
+  - {id: mandeln, zutat: Mandeln, g: 25, name: Mandeln, hinweis: "grob gehackt"}
+mise_en_place:
+  - "{apfel} mit Schale grob raspeln und sofort mit {zitrone} mischen."
+  - "{mandeln} grob hacken."
+schritte:
+  - titel: Einweichen
+    text: "{hafer}, {milch}, {skyr}, {whey} und {chia} gründlich verrühren, den geriebenen {apfel:n} unterheben. Auf 2 Gläser verteilen, verschließen und über Nacht (mindestens 8 Stunden) in den Kühlschrank stellen – der Hafer wird weich und cremig."
+    timer_min: null
+  - titel: Toppen
+    text: "Morgens kurz durchrühren (bei Bedarf 2 EL Milch dazu), die aufgetauten {beeren:n} samt Saft und die {mandeln:n} obenauf geben."
+    timer_min: null
+zeitablauf: []
+fehler:
+  - "**Apfel braun:** ohne Zitrone gerieben. Sofort nach dem Reiben mit Zitronensaft mischen."
+  - "**Zu fest:** Chia und Hafer quellen stark. Morgens etwas Milch unterrühren."
+anrichten: "Ein Glas (ca. {portion_g} g) ist deine Portion – frisch-fruchtig, ganz ohne Zuckerzusatz."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: false
+  aufwaermen: "Nicht aufwärmen – kalt essen."
+  separat: "Beeren und Mandeln getrennt lagern."
+varianten:
+  - "**Mit Banane:** 80 g Banane statt Beeren (+15 kcal, +3,8 g Zucker pro Portion)."
+  - "**Mehr Protein:** 100 g Skyr mehr (+32 kcal, +5,5 g Protein pro Portion)."
+  - "**Leichter:** ohne Mandeln (−74 kcal, −6,2 g Fett pro Portion)."
+tipps:
+  - "Den Apfel mit Schale reiben – mehr Aroma, mehr Ballaststoffe, und es geht schneller."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

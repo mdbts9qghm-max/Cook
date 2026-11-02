@@ -1,0 +1,64 @@
+id: cajun-lachs-wedges
+name: Cajun-Lachs mit Airfryer-Wedges
+hauptkategorie: high-protein
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Amerikanisch
+hauptprotein: Fisch & Garnelen
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 10, kochen: 30, wartezeit: 0}
+ausstattung: [Airfryer, Backofen, Backblech, Backpapier, Schüssel]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Wedges
+  - {id: kartoffeln, zutat: Kartoffeln festkochend roh, g: 600, name: Kartoffeln, hinweis: "mit Schale"}
+  - {id: oel, zutat: Rapsöl, g: 10, anzeige: "1 EL Rapsöl", hinweis: ""}
+  - {id: paprika_wedges, zutat: Paprikapulver edelsüß, g: 1, anzeige: "½ TL Paprikapulver edelsüß", hinweis: ""}
+  - {id: salz_wedges, zutat: Salz, g: 1, anzeige: "2 Prisen Salz", hinweis: ""}
+  - gruppe: Cajun-Lachs
+  - {id: lachs, zutat: Lachsfilet ohne Haut roh, g: 250, anzeige: "2 Lachsfilets", name: Lachs, hinweis: "à 125 g"}
+  - {id: rauchpaprika, zutat: Paprikapulver geräuchert, g: 3, anzeige: "1 TL Rauchpaprika", hinweis: ""}
+  - {id: paprikapulver, zutat: Paprikapulver edelsüß, g: 2, anzeige: "1 TL Paprikapulver edelsüß", hinweis: ""}
+  - {id: knoblauchpulver, zutat: Knoblauchpulver, g: 2, anzeige: "½ TL Knoblauchpulver", hinweis: ""}
+  - {id: oregano, zutat: Oregano getrocknet, g: 1, anzeige: "½ TL Oregano", hinweis: ""}
+  - {id: chili, zutat: Chiliflocken, g: 0.5, anzeige: "1 Prise Chiliflocken", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 1.5, anzeige: "¼ TL Salz", hinweis: ""}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: ""}
+  - gruppe: Honig-Senf-Skyr
+  - {id: skyr, zutat: Skyr natur, g: 300, name: Skyr, hinweis: ""}
+  - {id: senf, zutat: Senf mittelscharf, g: 15, anzeige: "1 EL Senf", hinweis: ""}
+  - {id: honig, zutat: Honig, g: 5, anzeige: "1 TL Honig", hinweis: ""}
+mise_en_place:
+  - "{kartoffeln} waschen, längs in 8 Spalten schneiden, trocken tupfen und mit {oel}, {paprika_wedges} und {salz_wedges} mischen."
+  - "Cajun-Mischung: {rauchpaprika}, {paprikapulver}, {knoblauchpulver}, {oregano}, {chili}, {salz} und {pfeffer} vermengen."
+  - "{skyr}, {senf} und {honig} glatt rühren."
+  - "Backofen auf 200 °C Ober-/Unterhitze (180 °C Umluft) vorheizen, Blech mit Backpapier auslegen."
+schritte:
+  - titel: Wedges im Airfryer
+    text: "Die {kartoffeln:n}spalten in den Airfryer geben und bei 200 °C 22–25 Minuten garen, alle 8 Minuten schütteln, bis sie außen goldbraun und knusprig sind und innen weich (Messerprobe)."
+    timer_min: 25
+  - titel: Cajun-Lachs im Ofen
+    text: "Den {lachs:n} trocken tupfen, rundum dick mit der Cajun-Mischung einreiben und aufs Blech legen. Im vorgeheizten Backofen bei 200 °C Ober-/Unterhitze (180 °C Umluft) auf der mittleren Schiene 10–12 Minuten backen. Garprobe: Kerntemperatur 50–55 °C für saftig-glasig, 60 °C für ganz durch – er blättert dann mit der Gabel auf."
+    timer_min: 12
+zeitablauf:
+  - "Wedges zuerst in den Airfryer. Nach 13 Minuten Wedges-Zeit kommt der Lachs in den Ofen – beides ist gleichzeitig fertig."
+fehler:
+  - "**Wedges weich:** nicht trocken getupft oder Korb zu voll. Trocken tupfen, ggf. in 2 Durchgängen garen."
+  - "**Gewürzkruste bitter:** Rauchpaprika verbrannt. Nicht höher als 200 °C und nicht über 12 Minuten."
+anrichten: "Pro Teller 1 Lachsfilet, die Hälfte der Wedges und der Honig-Senf-Skyr zum Dippen – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 2
+  einfrierbar: false
+  aufwaermen: "Wedges im Airfryer bei 200 °C 4 Minuten; Lachs kalt oder kurz 1 Minute bei 600 W."
+  separat: "Dip getrennt lagern."
+varianten:
+  - "**Cajun-Garnelen:** 450 g Garnelen, gewürzt 3 Minuten in der Pfanne (−90 kcal, +11 g Protein pro Portion)."
+  - "**Cajun-Hähnchen:** 400 g Hähnchenbrust, 18–20 Minuten im Ofen bis 74 °C (−48 kcal, +22 g Protein pro Portion)."
+  - "**Weniger Kartoffeln:** 400 g statt 600 g (−72 kcal, −15 g KH pro Portion)."
+tipps:
+  - "Wer keinen Airfryer frei hat: Wedges auf einem zweiten Blech 30 Minuten bei 220 °C Ober-/Unterhitze mitbacken."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

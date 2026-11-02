@@ -1,0 +1,66 @@
+id: big-mac-bowl
+name: Big-Mac-Bowl
+hauptkategorie: kalorienarm
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: International / Fusion
+hauptprotein: Pute
+inspiration:
+  quelle: "TikTok-Trend „Big Mac Salad“ / „Burger Bowl“"
+  link: null
+  aenderungen: "Putenhack statt Rinderhack 20 %, ohne Brötchen, „Spezialsauce“ aus Skyr, Senf, wenig Ketchup und Gewürzgurke statt Mayonnaise."
+schwierigkeit: leicht
+zeit: {vorbereitung: 10, kochen: 10, wartezeit: 0}
+ausstattung: ["Große beschichtete Pfanne (28 cm)", "2 große Schüsseln"]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Hack
+  - {id: hack, zutat: Putenhackfleisch roh, g: 400, name: Putenhack, hinweis: ""}
+  - {id: zwiebel, zutat: Zwiebel, g: 50, anzeige: "½ Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: salz, zutat: Salz, g: 1.5, anzeige: "¼ TL Salz", hinweis: ""}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: ""}
+  - gruppe: Bowl
+  - {id: salat, zutat: Römersalat, g: 200, anzeige: "1 kleiner Kopf Römersalat", hinweis: ""}
+  - {id: gurken, zutat: Gewürzgurken, g: 80, name: Gewürzgurken, hinweis: "in Scheiben"}
+  - {id: tomaten, zutat: Cherrytomaten, g: 150, name: Cherrytomaten, hinweis: ""}
+  - {id: kaese, zutat: Reibekäse light (Gouda 30 % F. i. Tr.), g: 40, name: "Reibekäse light", hinweis: ""}
+  - {id: sesam, zutat: Sesam, g: 5, anzeige: "2 TL Sesam", hinweis: "wie auf dem Brötchen"}
+  - gruppe: Spezialsauce
+  - {id: skyr, zutat: Skyr natur, g: 150, name: Skyr, hinweis: ""}
+  - {id: senf, zutat: Senf mittelscharf, g: 10, anzeige: "2 TL Senf", hinweis: ""}
+  - {id: ketchup, zutat: Tomatenketchup, g: 15, anzeige: "1 EL Ketchup", hinweis: ""}
+  - {id: gurke_sauce, zutat: Gewürzgurken, g: 20, anzeige: "1 Gewürzgurke", name: Gewürzgurke, hinweis: "fein gehackt"}
+  - {id: zwiebel_sauce, zutat: Zwiebel, g: 10, anzeige: "1 EL fein gehackte Zwiebel", hinweis: ""}
+  - {id: paprikapulver, zutat: Paprikapulver edelsüß, g: 1, anzeige: "½ TL Paprikapulver edelsüß", hinweis: ""}
+  - {id: knoblauchpulver, zutat: Knoblauchpulver, g: 1, anzeige: "¼ TL Knoblauchpulver", hinweis: ""}
+mise_en_place:
+  - "Spezialsauce: {skyr}, {senf}, {ketchup}, {gurke_sauce}, {zwiebel_sauce}, {paprikapulver} und {knoblauchpulver} verrühren und kalt stellen."
+  - "{salat} in mundgerechte Streifen schneiden, {tomaten} halbieren, {gurken} in Scheiben, {zwiebel} fein würfeln."
+schritte:
+  - titel: Hack braten
+    text: "Die beschichtete Pfanne ohne Fett auf Stufe 8 von 9 erhitzen. {hack} hineingeben, 2 Minuten anbraten lassen, dann krümelig zerteilen und mit den Zwiebelwürfeln 5 Minuten braten, bis es gebräunt ist. Mit {salz} und {pfeffer} würzen. Garprobe: Das {hack:n} ist durchgehend gebräunt, Kerntemperatur 74 °C."
+    timer_min: 7
+  - titel: Sesam rösten
+    text: "Pfanne kurz auswischen und den {sesam:n} auf Stufe 5 von 9 1–2 Minuten goldgelb rösten."
+    timer_min: 2
+zeitablauf:
+  - "Während das Hack brät: Salat schneiden und Sauce rühren."
+fehler:
+  - "**Salat welk:** heißes Hack direkt auf den Salat. 2 Minuten abkühlen lassen oder Hack daneben anrichten."
+  - "**Sauce zu flüssig:** zu viel Gurkenwasser. Gurke gut abtropfen lassen."
+anrichten: "Salat in 2 große Schüsseln, Hack, Gewürzgurken, Tomaten und {kaese:n} darauf, großzügig Spezialsauce darüber und mit Sesam bestreuen – pro Portion ca. {portion_g} g. Schmeckt tatsächlich wie der Burger-Klassiker."
+aufbewahrung:
+  kuehlschrank_tage: 2
+  einfrierbar: false
+  aufwaermen: "Hack in der Pfanne auf Stufe 6 von 9 2 Minuten erwärmen; Salat und Sauce kalt."
+  separat: "Hack, Salat und Sauce getrennt lagern."
+varianten:
+  - "**Mit Rinderhack:** 400 g Rinderhack (5 %) (−18 kcal, +3 g Protein pro Portion); Kerntemperatur 72 °C."
+  - "**Mit Brötchen-Croutons:** 1 Burgerbrötchen (75 g) gewürfelt in der Pfanne geröstet (+102 kcal pro Portion)."
+  - "**Mit Airfryer-Pommes:** 300 g Kartoffeln in Stiften, 18 Minuten bei 200 °C (+108 kcal pro Portion; dann über 550 kcal)."
+tipps:
+  - "Ein Spritzer Gurkenwasser in der Sauce – das ist die typische Säure der Burgersauce."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

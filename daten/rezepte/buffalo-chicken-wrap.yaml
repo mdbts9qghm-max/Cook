@@ -1,0 +1,62 @@
+id: buffalo-chicken-wrap
+name: Buffalo-Chicken-Wrap
+hauptkategorie: kalorienarm
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Amerikanisch
+hauptprotein: Hähnchen
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 8, kochen: 10, wartezeit: 0}
+ausstattung: ["Große Pfanne (28 cm)", Schüssel]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Buffalo-Hähnchen
+  - {id: haehnchen, zutat: Hähnchenbrustfilet roh, g: 400, name: Hähnchenbrust, hinweis: ""}
+  - {id: oel, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: ""}
+  - {id: paprikapulver, zutat: Paprikapulver edelsüß, g: 2, anzeige: "1 TL Paprikapulver edelsüß", hinweis: ""}
+  - {id: knoblauchpulver, zutat: Knoblauchpulver, g: 1, anzeige: "¼ TL Knoblauchpulver", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: "Sriracha ist schon salzig"}
+  - {id: sriracha, zutat: Sriracha, g: 30, anzeige: "2 EL Sriracha", hinweis: "statt Frank's Hot Sauce"}
+  - {id: butter, zutat: Butter, g: 10, anzeige: "2 TL Butter", hinweis: "gehört zur Buffalo-Sauce"}
+  - gruppe: Wrap
+  - {id: wraps, zutat: Weizen-Tortilla-Wraps, g: 124, anzeige: "2 Weizen-Tortilla-Wraps", hinweis: "à ca. 62 g"}
+  - {id: salat, zutat: Römersalat, g: 80, anzeige: "3 Blätter Römersalat", hinweis: "in Streifen"}
+  - {id: tomaten, zutat: Cherrytomaten, g: 80, name: Cherrytomaten, hinweis: "geviertelt"}
+  - gruppe: Kühler Dip
+  - {id: skyr, zutat: Skyr natur, g: 100, name: Skyr, hinweis: "statt Blue-Cheese-Dressing"}
+  - {id: salz_dip, zutat: Salz, g: 0.3, anzeige: "1 kleine Prise Salz", hinweis: ""}
+mise_en_place:
+  - "{haehnchen} in 1 cm dicke Streifen schneiden und mit {paprikapulver}, {knoblauchpulver} und {salz} würzen."
+  - "{salat} in Streifen schneiden, {tomaten} vierteln. {skyr} mit {salz_dip} verrühren."
+schritte:
+  - titel: Hähnchen braten
+    text: "{oel} in der Pfanne auf Stufe 8 von 9 erhitzen und die {haehnchen:n}streifen 5–6 Minuten rundum goldbraun braten. Garprobe: Kerntemperatur 74 °C im dicksten Streifen, innen weiß."
+    timer_min: 6
+  - titel: Buffalo-Sauce
+    text: "Auf Stufe 3 von 9 zurückschalten, {butter} und {sriracha} in die Pfanne geben und schwenken, bis die Butter geschmolzen ist und die Hähnchenstreifen glänzend orange überzogen sind (30 Sekunden)."
+    timer_min: 1
+  - titel: Wraps füllen
+    text: "Die {wraps:n} in einer zweiten trockenen Pfanne oder direkt nach dem Hähnchen auf Stufe 6 von 9 je Seite 15 Sekunden erwärmen. Mit Salat, Tomaten und dem Buffalo-Hähnchen belegen, einen Klecks Skyr-Dip daraufgeben und fest einrollen."
+    timer_min: null
+zeitablauf:
+  - "Während das Hähnchen brät: Salat schneiden und Dip anrühren."
+fehler:
+  - "**Sauce wird ölig:** zu heiß. Butter und Sriracha nur bei niedriger Stufe einschwenken."
+  - "**Wrap reißt:** kalt gerollt. Kurz erwärmen, dann ist er biegsam."
+anrichten: "Jeden Wrap diagonal halbieren, restlichen Dip zum Dippen dazu – pro Portion 1 Wrap (ca. {portion_g} g)."
+aufbewahrung:
+  kuehlschrank_tage: 2
+  einfrierbar: false
+  aufwaermen: "Hähnchen separat in der Pfanne auf Stufe 6 von 9 2 Minuten; Wrap frisch füllen."
+  separat: "Hähnchen, Salat und Dip getrennt lagern."
+varianten:
+  - "**Mit Pute:** 400 g Putenbrust (+6 kcal, +1 g Protein pro Portion)."
+  - "**Als Bowl:** 100 g Basmatireis statt Wraps (−12 kcal pro Portion)."
+  - "**Mit Käse:** 40 g Reibekäse light in den Wrap (+54 kcal, +6 g Protein pro Portion; dann knapp über 550 kcal)."
+tipps:
+  - "Ein paar Gurkenstreifen im Wrap kühlen die Schärfe – klassisch zu Buffalo Wings gibt es Sellerie."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

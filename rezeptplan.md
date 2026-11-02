@@ -2,7 +2,7 @@
 
 # Rezeptplan – Startbestand mit 100 Rezepten
 
-Stand: 90 von 100 Rezepten geschrieben. Ziel-kcal sind Planwerte pro Portion; die echten Werte rechnet `tools/naehrwerte.py`.
+Stand: 100 von 100 Rezepten geschrieben. Ziel-kcal sind Planwerte pro Portion; die echten Werte rechnet `tools/naehrwerte.py`.
 
 Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = restetauglich · **KA** = kalorienarm · **OK** = ohne Kochen/Backen · **I** = TikTok/Instagram-Inspiration · **Rd.** = Schreib-Runde in Phase 4 · ✅ = schon geschrieben
 
@@ -37,9 +37,9 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 25 | Schoko-Erdnuss-Pudding-Bowl ✅ | Amerikanisch | Proteinpudding & Skyr | 600 | ✓ |  | ✓ | 9 | Proteinpudding, Skyr, Banane, Erdnussmus-Drizzle, Granola |
 | 26 | Zimtschnecken-Oats ✅ | Amerikanisch | Milch & Whey | 590 | ✓ |  | ✓ | 9 | Cinnamon-Roll-Porridge mit Frischkäse-Icing |
 | 27 | Frühstücks-Cheesecake aus dem Ofen ✅ | Amerikanisch | Quark & Skyr | 560 |  | ✓ | ✓ | 9 | Cremiger Quark-Skyr-Cheesecake mit Haferboden, 2 Stücke pro Portion |
-| 28 | Protein-Bircher-Müsli | International / Fusion | Skyr | 570 | ✓ | ✓ |  | 10 | Über Nacht eingeweicht, geriebener Apfel, Zitrone, Honig, Mandeln |
-| 29 | Mango-Lassi-Smoothie-Bowl | Indisch | Skyr & Whey | 540 | ✓ |  |  | 10 | Dicke Mango-Skyr-Bowl mit Honig und einer Prise Zimt, Granola-Topping |
-| 30 | Quarkbällchen aus dem Airfryer | Deutsch | Quark & Whey | 580 |  | ✓ | ✓ | 10 | Wie vom Bäcker, aber aus Quark-Whey-Teig, in Zimt gewälzt |
+| 28 | Protein-Bircher-Müsli mit Beeren ✅ | International / Fusion | Skyr | 570 | ✓ | ✓ |  | 10 | Schweizer Art über Nacht eingeweicht: geriebener Apfel, Beeren, Zitrone, Mandeln, Chia |
+| 29 | Mango-Lassi-Smoothie-Bowl ✅ | Indisch | Skyr & Whey | 540 | ✓ |  |  | 10 | Dicke Mango-Skyr-Bowl mit Honig und einer Prise Zimt, Granola-Topping |
+| 30 | Quarkbällchen aus dem Airfryer ✅ | Deutsch | Quark & Whey | 580 |  | ✓ | ✓ | 10 | Wie vom Bäcker, aber aus Quark-Whey-Teig, in Zimt gewälzt |
 
 ## Snacks & Desserts (süß) (10)
 
@@ -54,7 +54,7 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 37 | Cookie-Dough aus Quark ✅ | Amerikanisch | Quark & Whey | 300 | ✓ |  | ✓ | ✓ | 7 | Löffelbarer Keksteig aus Quark, Whey, Hafer und Schokostückchen |
 | 38 | Schoko-Hafer-Protein-Riegel ✅ | International / Fusion | Whey | 320 |  | ✓ | ✓ |  | 8 | No-Bake-Riegel mit Schokoüberzug, 2 Riegel pro Portion |
 | 39 | Frozen-Joghurt-Bark mit Beeren ✅ | Amerikanisch | Skyr | 220 |  | ✓ | ✓ | ✓ | 9 | Gefrorene Skyr-Platte mit Beeren und Schoko, in Stücke gebrochen |
-| 40 | Protein-Brownie-Bites | Amerikanisch | Quark & Whey | 300 |  | ✓ |  | ✓ | 10 | Kleine Brownie-Würfel aus dem Airfryer, 4 Stück pro Portion |
+| 40 | Protein-Brownie-Bites ✅ | Amerikanisch | Quark & Whey | 300 |  | ✓ |  | ✓ | 10 | Kleine Brownie-Würfel aus dem Airfryer, 4 Stück pro Portion |
 
 ## Hauptgerichte (60)
 
@@ -114,12 +114,12 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 92 | Hähnchen-Tajine mit Möhren und Kartoffeln ✅ | Türkisch & Orientalisch | Hähnchen | 700 |  | ✓ | ✓ |  |  | 9 | Geschmorte Oberschenkel mit Möhren, Kartoffeln, Zimt, Kreuzkümmel und Honig – ein Topf, keine Beilage nötig |
 | 93 | Smash Burger mit Burgersauce ✅ | Amerikanisch | Rind | 780 | ✓ |  |  |  | ✓ | 9 | Dünn gepresste Patties mit Kruste, Skyr-Burgersauce, Gurken |
 | 94 | BBQ-Pulled-Chicken-Burger ✅ | Amerikanisch | Hähnchen | 720 |  | ✓ | ✓ |  | ✓ | 9 | Geschmorte Hähnchenoberschenkel, gezupft, BBQ-Sauce, Gewürzgurken, Joghurt-Coleslaw-Dip |
-| 95 | High-Protein-Mac-and-Cheese | Amerikanisch | Milchprodukte | 760 | ✓ |  | ✓ |  | ✓ | 10 | Käsesauce aus gemixtem Hüttenkäse, Milch und Reibekäse light, mit Kochschinken |
-| 96 | Buffalo-Chicken-Wrap | Amerikanisch | Hähnchen | 540 | ✓ |  |  | ✓ |  | 10 | Scharfes Sriracha-Butter-Hähnchen, Römersalat, Skyr-Dip |
-| 97 | Cajun-Lachs mit Airfryer-Wedges | Amerikanisch | Fisch & Garnelen | 720 |  |  |  |  |  | 10 | Rauchpaprika-Gewürzkruste, knusprige Kartoffelspalten, Senf-Skyr |
-| 98 | Philly-Cheesesteak-Pfanne | Amerikanisch | Rind | 520 | ✓ |  |  | ✓ |  | 10 | Rinderhüfte in Streifen, Paprika, Zwiebel, Champignons, Käse geschmolzen |
-| 99 | Big-Mac-Bowl | International / Fusion | Pute | 520 | ✓ |  |  | ✓ | ✓ | 10 | Burger-Geschmack ohne Brötchen: Putenhack, Römersalat, Gurke, Burgersauce |
-| 100 | Gochujang-Schweinefilet-Tacos | International / Fusion | Schwein | 680 |  |  | ✓ |  | ✓ | 10 | Korean-Mexican: Gochujang-glasiertes Schweinefilet in Wraps, Gurke, Sriracha-Skyr |
+| 95 | High-Protein-Mac-and-Cheese ✅ | Amerikanisch | Milchprodukte | 760 | ✓ |  | ✓ |  | ✓ | 10 | Käsesauce aus gemixtem Hüttenkäse, Milch und Reibekäse light, mit Kochschinken |
+| 96 | Buffalo-Chicken-Wrap ✅ | Amerikanisch | Hähnchen | 540 | ✓ |  |  | ✓ |  | 10 | Scharfes Sriracha-Butter-Hähnchen, Römersalat, Skyr-Dip |
+| 97 | Cajun-Lachs mit Airfryer-Wedges ✅ | Amerikanisch | Fisch & Garnelen | 720 |  |  |  |  |  | 10 | Rauchpaprika-Gewürzkruste, knusprige Kartoffelspalten, Senf-Skyr |
+| 98 | Philly-Cheesesteak-Pfanne ✅ | Amerikanisch | Rind | 520 | ✓ |  |  | ✓ |  | 10 | Rinderhüfte in Streifen, Paprika, Zwiebel, Champignons, Käse geschmolzen |
+| 99 | Big-Mac-Bowl ✅ | International / Fusion | Pute | 520 | ✓ |  |  | ✓ | ✓ | 10 | Burger-Geschmack ohne Brötchen: Putenhack, Römersalat, Gurke, Burgersauce |
+| 100 | Gochujang-Schweinefilet-Tacos ✅ | International / Fusion | Schwein | 680 |  |  | ✓ |  | ✓ | 10 | Korean-Mexican: Gochujang-glasiertes Schweinefilet in Wraps, Gurke, Sriracha-Skyr |
 
 ## Hauptproteine der Hauptgerichte
 

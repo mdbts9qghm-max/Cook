@@ -1,0 +1,63 @@
+id: airfryer-quarkbaellchen
+name: Quarkbällchen aus dem Airfryer
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Deutsch
+hauptprotein: Quark & Whey
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Airfryer Quarkbällchen“"
+  link: null
+  aenderungen: "Nicht frittiert, sondern im Airfryer mit 1 TL Öl; Teig mit Vanille-Whey, Zuckerkruste nur aus 1 Päckchen Vanillezucker mit Zimt."
+schwierigkeit: mittel
+zeit: {vorbereitung: 12, kochen: 20, wartezeit: 0}
+ausstattung: [Airfryer, Schüssel, Backpapier, "2 Teelöffel"]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Teig
+  - {id: quark, zutat: Magerquark, g: 250, name: Magerquark, hinweis: "½ Becher à 500 g"}
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 120, anzeige: "2 Eier Gr. M", hinweis: ""}
+  - {id: whey, zutat: Whey Protein Vanille, g: 30, name: "Vanille-Whey", hinweis: "1 Messlöffel"}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 1, anzeige: "10 Tropfen flüssiger Süßstoff", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 0.3, anzeige: "1 kleine Prise Salz", hinweis: ""}
+  - {id: mehl, zutat: Weizenmehl Type 405, g: 150, name: Mehl, hinweis: ""}
+  - {id: backpulver, zutat: Backpulver, g: 8, anzeige: "½ Päckchen Backpulver", hinweis: ""}
+  - {id: oel, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: "zum Einpinseln"}
+  - gruppe: Zimtkruste
+  - {id: butter, zutat: Butter, g: 10, anzeige: "2 TL Butter, geschmolzen", hinweis: ""}
+  - {id: vanillezucker, zutat: Bourbon-Vanillezucker, g: 8, anzeige: "1 Päckchen Bourbon-Vanillezucker", hinweis: ""}
+  - {id: zimt, zutat: Zimt gemahlen, g: 3, anzeige: "1 gehäufter TL Zimt", hinweis: ""}
+mise_en_place:
+  - "Airfryer-Korb mit passend zugeschnittenem Backpapier auslegen (mit Löchern) und dünn mit {oel} einpinseln."
+  - "{vanillezucker} und {zimt} in einem tiefen Teller mischen, {butter} schmelzen."
+schritte:
+  - titel: Teig rühren
+    text: "{quark}, {eier}, {whey}, {suessstoff} und {salz} glatt rühren. {mehl} und {backpulver} mischen, unterrühren und nur so lange rühren, bis ein weicher, klebriger Teig entsteht."
+    timer_min: null
+  - titel: Formen und garen
+    text: "Mit 2 Teelöffeln walnussgroße Teigkugeln abstechen (ca. 16 Stück) und mit Abstand in den Korb setzen (2 Durchgänge). Im auf 180 °C vorgeheizten Airfryer 9–10 Minuten garen, nach 5 Minuten wenden, bis sie rundum goldbraun und aufgegangen sind. Holzstäbchen-Probe: Es kommt trocken heraus."
+    timer_min: 10
+  - titel: Wälzen
+    text: "Die noch warmen Bällchen kurz in die geschmolzene {butter:n} tunken und im Zimt-Vanillezucker wälzen."
+    timer_min: null
+zeitablauf:
+  - "Während der erste Durchgang gart: die zweite Hälfte formen und die ersten Bällchen wälzen."
+fehler:
+  - "**Innen roh:** Kugeln zu groß. Walnussgroß formen und Stäbchenprobe machen."
+  - "**Kleben am Korb:** ohne Backpapier gegart. Papier einlegen und leicht einölen."
+anrichten: "8 Quarkbällchen (ca. {portion_g} g) sind deine Portion – lauwarm schmecken sie wie vom Bäcker."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "Im Airfryer bei 160 °C 2–3 Minuten – werden wieder fluffig."
+varianten:
+  - "**Ohne Butter-Tunke:** nur im Zimt wälzen, solange sie warm sind (−37 kcal, −4,1 g Fett pro Portion)."
+  - "**Schoko-Kruste:** Vanillezucker durch 5 g Backkakao mit Süßstoff ersetzen (−8 kcal, −3,9 g Zucker pro Portion)."
+  - "**Mit Skyr-Dip:** 150 g Skyr zum Dippen (+47 kcal, +8,2 g Protein pro Portion)."
+tipps:
+  - "Etwas abgeriebene Zitronenschale im Teig – der Geschmack vom Jahrmarkt."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

@@ -1,0 +1,52 @@
+id: mango-lassi-bowl
+name: Mango-Lassi-Smoothie-Bowl
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Indisch
+hauptprotein: Skyr & Whey
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 6, kochen: 0, wartezeit: 0}
+ausstattung: ["Leistungsstarker Mixer oder Pürierstab mit hohem Rührbecher", "2 Schüsseln"]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Lassi-Bowl
+  - {id: mango, zutat: Mango TK, g: 130, name: Mango, hinweis: "gefroren"}
+  - {id: skyr, zutat: Skyr natur, g: 300, name: Skyr, hinweis: "gut gekühlt"}
+  - {id: whey, zutat: Whey Protein Vanille, g: 40, name: "Vanille-Whey", hinweis: "ca. 1⅓ Messlöffel"}
+  - {id: hafer, zutat: Haferflocken zart, g: 50, name: "zarte Haferflocken", hinweis: "machen die Bowl dick und sättigend"}
+  - {id: zimt, zutat: Zimt gemahlen, g: 1, anzeige: "½ TL Zimt", hinweis: "statt Kardamom"}
+  - {id: zitrone, zutat: Zitronensaft, g: 5, anzeige: "1 TL Zitronensaft", hinweis: ""}
+  - gruppe: Topping
+  - {id: granola, zutat: Granola zuckerreduziert, g: 50, name: Granola, hinweis: ""}
+  - {id: chia, zutat: Chiasamen, g: 10, anzeige: "1 EL Chiasamen", hinweis: ""}
+  - {id: mandeln, zutat: Mandeln, g: 35, name: Mandeln, hinweis: "grob gehackt"}
+mise_en_place:
+  - "{mango} 5 Minuten antauen lassen, {mandeln} grob hacken."
+schritte:
+  - titel: Mixen
+    text: "{hafer} im Mixer 10 Sekunden fein mahlen. Die angetaute {mango:n}, {skyr}, {whey}, {zimt} und {zitrone} dazugeben und in 10-Sekunden-Intervallen ca. 40 Sekunden zu einer sehr dicken, cremigen Masse mixen (sie soll vom Löffel kaum fließen)."
+    timer_min: null
+  - titel: Toppen
+    text: "Auf 2 Schüsseln verteilen und mit {granola:n}, {chia:n} und {mandeln:n} in Streifen belegen."
+    timer_min: null
+zeitablauf: []
+fehler:
+  - "**Bowl zu flüssig:** Mango zu stark angetaut. Gefroren und nur kurz angetaut mixen."
+  - "**Mixer blockiert:** 1–2 EL Milch zugeben und mit dem Teigschaber nachschieben."
+anrichten: "Pro Schüssel ca. {portion_g} g – sofort essen, solange sie eiskalt und dick ist."
+aufbewahrung:
+  kuehlschrank_tage: 1
+  einfrierbar: false
+  aufwaermen: "Nicht aufwärmen – sofort essen."
+varianten:
+  - "**Beeren-Lassi:** 130 g TK-Beeren statt Mango (−12 kcal, −4,5 g Zucker pro Portion)."
+  - "**Mehr Protein:** 100 g Skyr mehr (+32 kcal, +5,5 g Protein pro Portion)."
+  - "**Leichter:** ohne Mandeln (−104 kcal, −8,8 g Fett pro Portion)."
+tipps:
+  - "Wer Kardamom im Vorrat hat: eine Prise davon ist der echte Lassi-Geschmack."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

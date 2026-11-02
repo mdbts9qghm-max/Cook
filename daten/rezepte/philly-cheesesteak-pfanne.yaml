@@ -1,0 +1,59 @@
+id: philly-cheesesteak-pfanne
+name: Philly-Cheesesteak-Pfanne
+hauptkategorie: kalorienarm
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Amerikanisch
+hauptprotein: Rind
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 10, kochen: 12, wartezeit: 0}
+ausstattung: ["Große Pfanne mit Deckel (28 cm)"]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Pfanne
+  - {id: rind, zutat: Rinderhüftsteak roh, g: 400, anzeige: "2 Rinderhüftsteaks", name: Rinderhüfte, hinweis: "à ca. 200 g, kurz angefroren"}
+  - {id: oel, zutat: Rapsöl, g: 10, anzeige: "1 EL Rapsöl", hinweis: ""}
+  - {id: zwiebel, zutat: Zwiebel, g: 100, anzeige: "1 Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: paprika, zutat: Paprika rot, g: 150, anzeige: "1 kleine rote Paprika", name: Paprika, hinweis: ""}
+  - {id: champignons, zutat: Champignons braun, g: 200, name: Champignons, hinweis: ""}
+  - {id: knoblauchpulver, zutat: Knoblauchpulver, g: 1, anzeige: "¼ TL Knoblauchpulver", hinweis: ""}
+  - {id: soja, zutat: Sojasauce, g: 10, anzeige: "2 TL Sojasauce", hinweis: "statt Worcestersauce"}
+  - {id: salz, zutat: Salz, g: 1, anzeige: "2 Prisen Salz", hinweis: ""}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: "großzügig"}
+  - {id: kaese, zutat: Reibekäse light (Gouda 30 % F. i. Tr.), g: 60, name: "Reibekäse light", hinweis: ""}
+  - gruppe: Dazu
+  - {id: broetchen, zutat: Burgerbrötchen, g: 75, anzeige: "1 Burgerbrötchen", hinweis: "halbiert, eine Hälfte pro Person"}
+mise_en_place:
+  - "{rind} 15 Minuten anfrieren lassen und quer zur Faser in hauchdünne Streifen (2–3 mm) schneiden."
+  - "{zwiebel} in Streifen, {paprika} in dünne Streifen, {champignons} in Scheiben schneiden."
+schritte:
+  - titel: Gemüse braten
+    text: "Die Hälfte vom {oel} in der Pfanne auf Stufe 8 von 9 erhitzen. Zwiebel, Paprika und Champignons 6 Minuten braten, bis sie weich und gebräunt sind. Mit {knoblauchpulver} würzen und an den Rand schieben."
+    timer_min: 6
+  - titel: Steak braten
+    text: "Restliches Öl in die Mitte geben, Stufe 9 von 9. Die {rind:n}streifen in einer Lage 1 Minute scharf anbraten, wenden, {soja}, {salz} und {pfeffer} dazugeben und 1 Minute weiterbraten. Garprobe: Die hauchdünnen Streifen sind dann medium bis durch (Kerntemperatur ca. 60 °C) und bleiben zart. Mit dem Gemüse mischen."
+    timer_min: 2
+  - titel: Käse schmelzen
+    text: "Auf Stufe 2 von 9 zurückschalten, den {kaese:n} gleichmäßig darüberstreuen, Deckel auflegen und 1 Minute schmelzen lassen."
+    timer_min: 1
+zeitablauf:
+  - "Während das Fleisch anfriert: Gemüse schneiden und braten."
+fehler:
+  - "**Fleisch zäh:** zu dick geschnitten oder zu lange gebraten. Hauchdünn schneiden und nur 2 Minuten braten."
+  - "**Pilze wässrig:** Pfanne zu voll. Erst Gemüse braten, bis die Flüssigkeit verdampft ist."
+anrichten: "Die Pfanne halbieren und pro Teller mit je einer gerösteten {broetchen:n}hälfte zum Belegen oder Tunken servieren – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 2
+  einfrierbar: false
+  aufwaermen: "In der Pfanne auf Stufe 6 von 9 2 Minuten; Brötchen frisch rösten."
+varianten:
+  - "**Mit Hähnchen:** 400 g Hähnchenbrust in dünnen Streifen, 4 Minuten braten bis 74 °C (−28 kcal, +3 g Protein pro Portion)."
+  - "**Ganz ohne Brot:** (−102 kcal, −18 g KH pro Portion)."
+  - "**Mit Mozzarella:** 125 g Mozzarella light statt Reibekäse (+21 kcal, +3,2 g Protein pro Portion) – zieht lange Fäden."
+tipps:
+  - "Viel schwarzer Pfeffer ist das Geheimnis des Philly-Geschmacks."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

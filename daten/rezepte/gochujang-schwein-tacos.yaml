@@ -1,0 +1,63 @@
+id: gochujang-schwein-tacos
+name: Gochujang-Schweinefilet-Tacos
+hauptkategorie: high-protein
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: International / Fusion
+hauptprotein: Schwein
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Korean BBQ Tacos“ (Korean-Mexican Fusion)"
+  link: null
+  aenderungen: "Mageres Schweinefilet statt Schweinebauch, Sriracha-Skyr statt Sriracha-Mayo, Gurke statt Kimchi."
+schwierigkeit: leicht
+zeit: {vorbereitung: 12, kochen: 10, wartezeit: 15}
+ausstattung: ["Große Pfanne (28 cm)", "Zweite Pfanne (24 cm)", "Glas oder Schale (ca. 12 cm) zum Ausstechen"]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Gochujang-Filet
+  - {id: filet, zutat: Schweinefilet roh, g: 400, name: Schweinefilet, hinweis: ""}
+  - {id: gochujang, zutat: Gochujang, g: 30, anzeige: "2 EL Gochujang", hinweis: ""}
+  - {id: honig, zutat: Honig, g: 10, anzeige: "2 TL Honig", hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 6, anzeige: "2 Knoblauchzehen", hinweis: ""}
+  - {id: sesamoel, zutat: Sesamöl geröstet, g: 5, anzeige: "1 TL geröstetes Sesamöl", hinweis: ""}
+  - {id: oel, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: ""}
+  - gruppe: Tacos
+  - {id: wraps, zutat: Weizen-Tortilla-Wraps, g: 186, anzeige: "3 Weizen-Tortilla-Wraps", hinweis: "à ca. 62 g"}
+  - {id: gurke, zutat: Salatgurke, g: 150, anzeige: "⅓ Salatgurke", name: Gurke, hinweis: ""}
+  - {id: fruehlingszwiebel, zutat: Frühlingszwiebel, g: 30, anzeige: "3 Frühlingszwiebeln", hinweis: ""}
+  - {id: sesam, zutat: Sesam, g: 5, anzeige: "2 TL Sesam", hinweis: ""}
+  - gruppe: Sriracha-Skyr
+  - {id: skyr, zutat: Skyr natur, g: 150, name: Skyr, hinweis: ""}
+  - {id: sriracha, zutat: Sriracha, g: 10, anzeige: "2 TL Sriracha", hinweis: ""}
+mise_en_place:
+  - "{filet} quer in 5 mm dünne Scheiben, dann in Streifen schneiden. {knoblauch} fein reiben und mit {gochujang}, {honig} und {sesamoel} verrühren (keine Sojasauce nötig – Gochujang ist salzig genug), das Fleisch darin 15 Minuten marinieren."
+  - "Aus den {wraps:n} mit einem Glas je 4 Mini-Tortillas (12 Stück) ausstechen."
+  - "{gurke} in feine Stifte, {fruehlingszwiebel} in Ringe schneiden. {skyr} mit {sriracha} verrühren."
+schritte:
+  - titel: Filet braten
+    text: "{oel} in der Pfanne auf Stufe 8 von 9 erhitzen. Die marinierten {filet:n}streifen in einer Lage 2 Minuten braten, wenden und 1–2 Minuten weiterbraten, bis die Marinade karamellisiert und das Fleisch glänzt. Garprobe: Die dünnen Streifen sind durch (Kerntemperatur über 63 °C), innen zartrosa bis hell."
+    timer_min: 4
+  - titel: Tortillas erwärmen
+    text: "Die Mini-Tortillas in der zweiten, trockenen Pfanne auf Stufe 6 von 9 je Seite 20 Sekunden erwärmen, bis sie biegsam sind."
+    timer_min: 2
+zeitablauf:
+  - "Während das Fleisch mariniert: Tortillas ausstechen, Gurke schneiden, Sriracha-Skyr rühren."
+fehler:
+  - "**Marinade verbrennt:** Honig und Gochujang karamellisieren schnell. Nicht über Stufe 8 von 9 und nach 4 Minuten vom Herd."
+  - "**Fleisch zäh:** zu dick geschnitten. 5 mm dünn und quer zur Faser."
+anrichten: "Pro Person 6 Mini-Tacos: Sriracha-Skyr, Gochujang-Filet, Gurkenstifte, Frühlingszwiebeln und {sesam:n} – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: false
+  aufwaermen: "Fleisch in der Pfanne auf Stufe 6 von 9 1–2 Minuten oder kalt – schmeckt auch als Lunch-Bowl mit Reis."
+  separat: "Fleisch, Gurke, Sauce und Tortillas getrennt lagern."
+varianten:
+  - "**Mit Hähnchen:** 400 g Hähnchenbrust in Streifen, 5 Minuten braten bis 74 °C (−8 kcal, +3 g Protein pro Portion)."
+  - "**Als Bowl:** 140 g Basmatireis statt Tortillas (−36 kcal pro Portion)."
+  - "**Mit Garnelen:** 450 g Garnelen, nur 2–3 Minuten braten (−50 kcal, −8 g Protein pro Portion; nur 1 Tag haltbar)."
+tipps:
+  - "Ein paar Tropfen Zitronensaft auf die Gurke – schnelles Pickle, das gegen die Schärfe hilft."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

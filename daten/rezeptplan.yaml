@@ -38,7 +38,7 @@ fruehstueck:
   - {id: schoko-erdnuss-bowl, name: Schoko-Erdnuss-Pudding-Bowl, kueche: Amerikanisch, protein: Proteinpudding & Skyr, kcal: 600, schnell: true, insp: true, idee: "Proteinpudding, Skyr, Banane, Erdnussmus-Drizzle, Granola"}
   - {id: zimtschnecken-oats, name: Zimtschnecken-Oats, kueche: Amerikanisch, protein: Milch & Whey, kcal: 590, schnell: true, insp: true, idee: "Cinnamon-Roll-Porridge mit Frischkäse-Icing"}
   - {id: fruehstuecks-cheesecake, name: Frühstücks-Cheesecake aus dem Ofen, kueche: Amerikanisch, protein: Quark & Skyr, kcal: 560, mp: true, insp: true, idee: "Cremiger Quark-Skyr-Cheesecake mit Haferboden, 2 Stücke pro Portion"}
-  - {id: protein-bircher-muesli, name: Protein-Bircher-Müsli, kueche: International / Fusion, protein: Skyr, kcal: 570, schnell: true, mp: true, idee: "Über Nacht eingeweicht, geriebener Apfel, Zitrone, Honig, Mandeln"}
+  - {id: protein-bircher-muesli, name: Protein-Bircher-Müsli mit Beeren, kueche: International / Fusion, protein: Skyr, kcal: 570, schnell: true, mp: true, idee: "Schweizer Art über Nacht eingeweicht: geriebener Apfel, Beeren, Zitrone, Mandeln, Chia"}
   - {id: mango-lassi-bowl, name: Mango-Lassi-Smoothie-Bowl, kueche: Indisch, protein: Skyr & Whey, kcal: 540, schnell: true, idee: "Dicke Mango-Skyr-Bowl mit Honig und einer Prise Zimt, Granola-Topping"}
   - {id: airfryer-quarkbaellchen, name: Quarkbällchen aus dem Airfryer, kueche: Deutsch, protein: Quark & Whey, kcal: 580, mp: true, insp: true, idee: "Wie vom Bäcker, aber aus Quark-Whey-Teig, in Zimt gewälzt"}
 
