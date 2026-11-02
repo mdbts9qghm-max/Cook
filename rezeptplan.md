@@ -82,7 +82,7 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 60 | Korean Beef Bowl mit Gochujang ✅ | Asiatisch | Rind | 740 | ✓ | ✓ | ✓ |  | ✓ | 4 | Süß-scharfes Rinderhack, Reis, Gurke, Frühlingszwiebel |
 | 61 | Rotes Thai-Curry mit Garnelen ✅ | Asiatisch | Fisch & Garnelen | 680 | ✓ |  |  |  |  | 4 | Kokosmilch light, rote Currypaste, Paprika, Basmatireis |
 | 62 | Egg Fried Rice mit Pute ✅ | Asiatisch | Pute | 700 | ✓ |  | ✓ |  |  | 4 | Gebratener Reis vom Vortag mit Ei, Putenstreifen, Erbsen |
-| 63 | Erdnuss-Tofu mit Brokkoli und Reis ✅ | Asiatisch | Tofu & Hülsenfrüchte | 680 |  |  | ✓ |  | ✓ | 4 | Knuspriger Tofu aus dem Airfryer, Erdnuss-Soja-Sauce |
+| 63 | Beef & Broccoli mit Reis ✅ | Asiatisch | Rind | 700 |  |  | ✓ |  | ✓ | 4 | Takeaway-Klassiker: zarte Rinderhüft-Streifen und Brokkoli in Ingwer-Soja-Glanz |
 | 64 | Sesam-Lachs-Bowl ✅ | Asiatisch | Fisch & Garnelen | 780 |  |  |  |  | ✓ | 4 | Salmon-Rice-Bowl-Trend: Lachs aus dem Ofen, Reis, Sriracha-Skyr, Gurke, Avocado |
 | 65 | Kung-Pao-Hähnchen ✅ | Asiatisch | Hähnchen | 690 | ✓ |  | ✓ |  |  | 5 | Würzig-scharf mit Paprika, Frühlingszwiebel und Erdnuss-Note |
 | 66 | Ingwer-Soja-Schweinefilet mit Brokkoli ✅ | Asiatisch | Schwein | 520 | ✓ |  | ✓ | ✓ |  | 5 | Hauchdünne Filetstreifen aus dem Wok, kleine Reisportion |
@@ -96,10 +96,10 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 74 | Garnelen-Fajitas | Mexikanisch | Fisch & Garnelen | 530 | ✓ |  |  | ✓ |  | 6 | Garnelen mit Paprika und Zwiebel, ein Wrap pro Portion, Skyr-Dip |
 | 75 | Butter Chicken mit Basmatireis | Indisch | Hähnchen | 720 |  | ✓ | ✓ |  | ✓ | 6 | Skyr statt Sahne, nur 10 g Butter, Garam Masala |
 | 76 | Tandoori-Hähnchen aus dem Airfryer | Indisch | Hähnchen | 650 |  |  | ✓ |  |  | 6 | Über Nacht in Joghurt-Gewürz mariniert, Gurken-Raita, Reis |
-| 77 | Rote-Linsen-Dal mit Ei | Indisch | Tofu & Hülsenfrüchte | 700 |  | ✓ | ✓ |  |  | 7 | Cremiges Dal mit Tomate und Kurkuma, hartgekochte Eier, Skyr-Klecks |
+| 77 | Rote-Linsen-Dal mit Ei | Indisch | Hülsenfrüchte | 700 |  | ✓ | ✓ |  |  | 7 | Cremiges Dal mit Tomate und Kurkuma, hartgekochte Eier, Skyr-Klecks |
 | 78 | Fisch-Curry mit Seelachs | Indisch | Fisch & Garnelen | 520 | ✓ |  |  | ✓ |  | 7 | Tomaten-Kokos-Curry, Fisch gart in der Sauce |
 | 79 | Keema-Curry mit Kartoffeln | Indisch | Rind | 700 |  | ✓ | ✓ |  |  | 7 | Hackfleisch-Curry mit Erbsen und Kartoffelwürfeln |
-| 80 | Tofu-Tikka-Masala | Indisch | Tofu & Hülsenfrüchte | 680 |  |  | ✓ |  |  | 7 | Gerösteter Tofu in Tomaten-Skyr-Masala, Reis |
+| 80 | Puten-Tikka-Masala | Indisch | Pute | 700 |  |  | ✓ |  |  | 7 | Gewürzmarinierte Putenstücke in Tomaten-Skyr-Masala, Reis |
 | 81 | Gyros-Pfanne mit Tzatziki und Reis | Griechisch & Mediterran | Schwein | 730 | ✓ |  | ✓ |  | ✓ | 7 | Gyros-Bowl: Schweineschnitzel-Streifen, Skyr-Tzatziki, Tomate, rote Zwiebel |
 | 82 | Hähnchen-Souvlaki mit Pita und Tzatziki | Griechisch & Mediterran | Hähnchen | 700 |  | ✓ | ✓ |  |  | 7 | Zitronen-Oregano-Spieße aus dem Airfryer |
 | 83 | Ofen-Feta-Pasta mit Hähnchen | Griechisch & Mediterran | Hähnchen | 780 |  |  | ✓ |  | ✓ | 8 | Baked-Feta-Trend: Feta und Cherrytomaten im Ofen, mit Hähnchen und Penne |
@@ -119,19 +119,19 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 97 | Cajun-Lachs mit Airfryer-Wedges | Amerikanisch | Fisch & Garnelen | 720 |  |  |  |  |  | 10 | Rauchpaprika-Gewürzkruste, knusprige Kartoffelspalten, Senf-Skyr |
 | 98 | Philly-Cheesesteak-Pfanne | Amerikanisch | Rind | 520 | ✓ |  |  | ✓ |  | 10 | Rinderhüfte in Streifen, Paprika, Zwiebel, Champignons, Käse geschmolzen |
 | 99 | Big-Mac-Bowl | International / Fusion | Pute | 520 | ✓ |  |  | ✓ | ✓ | 10 | Burger-Geschmack ohne Brötchen: Putenhack, Römersalat, Gurke, Burgersauce |
-| 100 | Gochujang-Tofu-Tacos | International / Fusion | Tofu & Hülsenfrüchte | 650 |  |  | ✓ |  | ✓ | 10 | Korean-Mexican: knuspriger Gochujang-Tofu in Wraps, Gurke, Sriracha-Skyr |
+| 100 | Gochujang-Schweinefilet-Tacos | International / Fusion | Schwein | 680 |  |  | ✓ |  | ✓ | 10 | Korean-Mexican: Gochujang-glasiertes Schweinefilet in Wraps, Gurke, Sriracha-Skyr |
 
 ## Hauptproteine der Hauptgerichte
 
 | Hauptprotein | Anzahl |
 |---|---:|
 | Hähnchen | 17 |
-| Rind | 11 |
+| Rind | 12 |
+| Pute | 10 |
 | Fisch & Garnelen | 10 |
-| Pute | 9 |
-| Schwein | 5 |
-| Tofu & Hülsenfrüchte | 4 |
+| Schwein | 6 |
 | Eier | 3 |
+| Hülsenfrüchte | 1 |
 | Milchprodukte | 1 |
 
 ## Abgleich mit SPEC 5.1–5.3
@@ -167,6 +167,6 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 ## Hinweise
 
 - Neue Zutaten, die voraussichtlich dazukommen: Kartoffeln festkochend (viele deutsche Gerichte, Wedges), Erbsen TK (Egg Fried Rice, Keema). Damit ca. 125 Zutaten – unter der Grenze von ca. 130.
-- Tofu-Gerichte (Erdnuss-Tofu, Tofu-Tikka, Gochujang-Tacos) brauchen für ≥ 45 g Protein pro Portion ca. 500–600 g Tofu oder Skyr/Eiklar in der Sauce. Alternative: Sojaschnetzel als neue Zutat (≈ 50 g Protein/100 g).
+- Keine Tofu- oder Soja-Gerichte (Wunsch vom 02.11.2026): Tofu-Gerichte durch Beef & Broccoli, Puten-Tikka-Masala und Gochujang-Schweinefilet-Tacos ersetzt.
 - Alle Frühstücke werden mit ≥ 40 g Protein geplant, damit sie auch „High Protein“ sind.
 - Hauptgerichte mit Fisch/Garnelen sind nie Meal Prep (max. 2 Tage Kühlschrank).

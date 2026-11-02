@@ -106,7 +106,7 @@ Reis auf 2 Bowls verteilen (je ca. 180 g gekocht). Lachs mit der Gabel in grobe 
 
 ## Varianten & Austausch
 
-- **Mit Tofu:** 400 g Tofu-Würfel statt Lachs, mit der Marinade im Airfryer bei 200 °C 15 Minuten (+2 kcal, +1 g Protein pro Portion).
+- **Mit Garnelen:** 450 g aufgetaute TK-Garnelen statt Lachs, in der Marinade 3 Minuten in der Pfanne auf Stufe 7 von 9 braten, bis sie rosa sind (−90 kcal, +11 g Protein, −15,5 g Fett pro Portion).
 - **Mit Thunfisch:** 2 Dosen Thunfisch (260 g) statt Lachs, mit Sojasauce und Sesam vermischt (−110 kcal, +7,5 g Protein pro Portion).
 - **Ohne Avocado:** (−60 kcal, −5,6 g Fett pro Portion).
 

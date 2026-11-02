@@ -9,7 +9,7 @@ Vollständige Vorgabe: **`SPEC.md`** (bei Unklarheit dort nachlesen, bei Widersp
 **Profil:** `daten/profil.yaml` (Ziele 2.275 kcal · 149 g P · 101 g F · 191 g KH; 2 Portionen pro Rezept, Nährwerte pro Portion). Ausstattung: Herd, Ofen, Airfryer, Mixer/Pürierstab, Waffeleisen (kein Reiskocher). Rewe/Edeka, Budget 100 €/Woche, Einkauf Sa (1×), Essenszeiten 8:00/13:00/19:00. App darf öffentlich (GitHub Pages).
 
 **Rezept-Regeln (hart):**
-- Frühstück immer **süß**, proteinreich, max. 20 g Zucker/Portion. Wenig Gemüse. Supermarkt-Zutaten. Geschmack zählt.
+- Frühstück immer **süß**, proteinreich, max. 20 g Zucker/Portion. Wenig Gemüse. **Kein Tofu / Fleischersatz** (auch nicht als Variante). Supermarkt-Zutaten. Geschmack zählt.
 - Korridore pro Portion: Frühstück 500–650 kcal/≥35 g P · Hauptgericht 600–850/≥45 g · Kalorienarm ≤550/≥35 g · Snack 200–350/≥20 g.
 - Verfehlt ein Rezept die Zielwerte: **Mengen anpassen, nicht die Zielwerte.**
 - Rezepte sind **YAML** (`daten/rezepte/<id>.yaml`, Schema SPEC 6.4) = Single Source of Truth. Markdown und App werden generiert, **nie von Hand bearbeiten**.

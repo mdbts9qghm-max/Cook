@@ -33,6 +33,7 @@ vorlieben:
   wenig_gemuese: true
   alltagstauglich: true
   geschmack_zaehlt: true
+  kein_tofu_soja: true          # keine Gerichte mit Tofu oder ähnlichen Fleischersatz-Produkten (Wunsch 02.11.2026)
 
 ausstattung:
   - Herd (Ceran/Induktion, Stufen 1–9)

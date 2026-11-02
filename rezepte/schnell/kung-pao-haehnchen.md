@@ -121,7 +121,7 @@ Reis auf 2 Teller verteilen (je ca. 210 g gekocht), Kung Pao daneben – pro Por
 ## Varianten & Austausch
 
 - **Mit Pute:** 400 g Putenbrust (+6 kcal, +1 g Protein pro Portion).
-- **Mit Tofu:** 400 g Tofu-Würfel (+50 kcal, −21 g Protein pro Portion – dann unter 45 g Protein).
+- **Mit Garnelen:** 450 g aufgetaute TK-Garnelen statt Hähnchen, nur 2–3 Minuten braten, bis sie rosa sind (−42 kcal, −11 g Protein pro Portion; nur 1 Tag haltbar).
 - **Mehr Gemüse:** eine zweite Paprika (+26 kcal pro Portion).
 
 ## Tipps

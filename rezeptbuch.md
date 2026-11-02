@@ -9,8 +9,8 @@
 | Rezept | Mahlzeit | Küche | kcal | Protein | Zeit | Bewertung |
 |---|---|---|---:|---:|---:|---|
 | [Airfryer-Schnitzel mit Joghurt-Kartoffelsalat](rezepte/high-protein/airfryer-schnitzel-kartoffelsalat.md) | Mittag/Abend | Deutsch | 741 | 65,3 g | 45 min | – |
+| [Beef & Broccoli mit Reis](rezepte/high-protein/beef-brokkoli.md) | Mittag/Abend | Asiatisch | 699 | 58,0 g | 27 min | – |
 | [Chicken Katsu Curry](rezepte/high-protein/chicken-katsu-curry.md) | Mittag/Abend | Asiatisch | 776 | 63,6 g | 35 min | – |
-| [Erdnuss-Tofu mit Brokkoli und Reis](rezepte/high-protein/erdnuss-tofu-brokkoli.md) | Mittag/Abend | Asiatisch | 802 | 53,4 g | 28 min | – |
 | [Marry Me Chicken mit Basmatireis](rezepte/high-protein/marry-me-chicken.md) | Mittag/Abend | Italienisch | 700 | 65,3 g | 30 min | – |
 | [Protein-Pizza mit Quark-Öl-Teig](rezepte/high-protein/protein-pizza-quarkteig.md) | Mittag/Abend | Italienisch | 709 | 51,7 g | 33 min | – |
 | [Sesam-Lachs-Bowl](rezepte/high-protein/sesam-lachs-bowl.md) | Mittag/Abend | Asiatisch | 690 | 47,2 g | 27 min | – |

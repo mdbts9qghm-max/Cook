@@ -106,3 +106,8 @@ def test_manipulierte_zutat_in_datenbank(zutaten, packungen):
 
 def test_jede_zutat_hat_packung(zutaten, packungen):
     assert set(zutaten) == set(packungen)
+
+
+def test_verbotene_begriffe(basis_rezept, zutaten, packungen):
+    basis_rezept["varianten"] = ["**Vegetarisch:** mit Tofu statt Hähnchen", "b"]
+    assert any("Tofu" in f for f in _pruefe(basis_rezept, zutaten, packungen).fehler)

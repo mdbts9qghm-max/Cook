@@ -116,7 +116,7 @@ Reis auf 2 Bowls verteilen (je ca. 240 g gekocht), Hähnchen mit Sauce und Brokk
 
 - **Mit Pute:** 400 g Putenbrust statt Hähnchen (+6 kcal, +1 g Protein pro Portion).
 - **Mit Lachs:** 250 g Lachs in Würfeln, nur 3 Minuten braten bis 55 °C Kerntemperatur (+48 kcal, −22 g Protein, +15 g Fett pro Portion – dann unter 45 g Protein; nur 2 Tage haltbar).
-- **Vegetarisch mit Tofu:** 400 g Tofu in Würfeln, vorher mit 1 EL Stärke knusprig braten (+50 kcal, −21 g Protein pro Portion – dann unter 45 g Protein).
+- **Mehr Brokkoli:** 200 g Brokkoli mehr mitdämpfen (+33 kcal, +3 g Protein pro Portion).
 
 ## Tipps
 

@@ -195,6 +195,13 @@ def pruefe_rezept(r: dict, zutaten: dict, packungen: dict, erg: Ergebnis) -> dic
         if not any(re.search(C.MUSTER_TEMPERATUR, t) and re.search(C.MUSTER_OFEN_MODUS, t) for t in alle):
             erg.f(wo, "Ofen in der Ausstattung, aber keine Temperatur mit Modus")
 
+    # Ausschlüsse (z. B. kein Tofu)
+    import yaml as _yaml
+    volltext = _yaml.safe_dump({k: v for k, v in r.items() if k != "_datei"}, allow_unicode=True).lower()
+    for begriff in C.VERBOTENE_BEGRIFFE:
+        if begriff.lower() in volltext:
+            erg.f(wo, f"enthält ausgeschlossenen Begriff „{begriff}“ (Vorlieben)")
+
     # Umfang der Abschnitte (SPEC 7)
     if not 2 <= len(r["fehler"]) <= 4:
         erg.f(wo, f"Häufige Fehler: 2–4 erwartet ({len(r['fehler'])})")

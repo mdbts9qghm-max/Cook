@@ -115,7 +115,7 @@ Reis auf 2 tiefe Teller verteilen (je ca. 240 g gekocht), Curry daneben schöpfe
 ## Varianten & Austausch
 
 - **Mit Hähnchen:** 400 g Hähnchenbrust in Streifen, 5 Minuten im Curry garen bis 74 °C Kerntemperatur (+42 kcal, +11 g Protein pro Portion; dann 3 Tage haltbar).
-- **Mit Tofu:** 400 g Tofu-Würfel (−10 g Protein, +92 kcal pro Portion – dann unter 45 g Protein).
+- **Mit Pute:** 400 g Putenbrust in Streifen, 5 Minuten im Curry garen bis 74 °C Kerntemperatur (+48 kcal, +12 g Protein pro Portion; dann 3 Tage haltbar).
 - **Cremiger:** 100 ml Kokosmilch light mehr (+48 kcal, +4,5 g Fett pro Portion).
 
 ## Tipps

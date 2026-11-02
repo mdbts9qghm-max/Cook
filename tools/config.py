@@ -71,6 +71,10 @@ BESTAND = {
     "zutaten_max": 130,
 }
 
+# --- Ausschlüsse (Vorlieben aus profil.yaml) ------------------------------------------
+# Begriffe, die in keinem Rezept vorkommen dürfen – auch nicht in Varianten oder Tipps.
+VERBOTENE_BEGRIFFE = ["Tofu", "Sojaschnetzel", "Seitan", "Tempeh", "Fleischersatz"]
+
 # --- Lebensmittelsicherheit (SPEC 7.1) ------------------------------------------------
 # Zutaten, die eine Kerntemperatur oder Garprobe im Schritt brauchen (Präfix-Vergleich).
 GARPROBE_PFLICHT = ["Hähnchen", "Puten", "Rinder", "Schweine", "Lachs", "Seelachs", "Garnelen"]

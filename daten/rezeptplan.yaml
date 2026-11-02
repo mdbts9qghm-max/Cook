@@ -2,11 +2,11 @@
 # Felder: id · name · kueche · protein (Hauptprotein) · kcal (Ziel pro Portion) · idee (Kurzbeschreibung)
 #         schnell / mp (Meal Prep) / rest (restetauglich) / ka (kalorienarm) / ohne_kochen (Snacks) / insp (Inspiration TikTok/Instagram)
 # Hauptproteine der Hauptgerichte (für max. 20 je Quelle): Hähnchen · Pute · Rind · Schwein · Fisch & Garnelen · Eier ·
-#   Milchprodukte · Tofu & Hülsenfrüchte
+#   Milchprodukte · Hülsenfrüchte (kein Tofu/Soja)
 
 hinweise:
   - "Neue Zutaten, die voraussichtlich dazukommen: Kartoffeln festkochend (viele deutsche Gerichte, Wedges), Erbsen TK (Egg Fried Rice, Keema). Damit ca. 125 Zutaten – unter der Grenze von ca. 130."
-  - "Tofu-Gerichte (Erdnuss-Tofu, Tofu-Tikka, Gochujang-Tacos) brauchen für ≥ 45 g Protein pro Portion ca. 500–600 g Tofu oder Skyr/Eiklar in der Sauce. Alternative: Sojaschnetzel als neue Zutat (≈ 50 g Protein/100 g)."
+  - "Keine Tofu- oder Soja-Gerichte (Wunsch vom 02.11.2026): Tofu-Gerichte durch Beef & Broccoli, Puten-Tikka-Masala und Gochujang-Schweinefilet-Tacos ersetzt."
   - "Alle Frühstücke werden mit ≥ 40 g Protein geplant, damit sie auch „High Protein“ sind."
   - "Hauptgerichte mit Fisch/Garnelen sind nie Meal Prep (max. 2 Tage Kühlschrank)."
 
@@ -80,7 +80,7 @@ hauptgericht:
   - {id: korean-beef-bowl, name: Korean Beef Bowl mit Gochujang, kueche: Asiatisch, protein: Rind, kcal: 740, schnell: true, mp: true, rest: true, insp: true, idee: "Süß-scharfes Rinderhack, Reis, Gurke, Frühlingszwiebel"}
   - {id: thai-curry-garnelen, name: Rotes Thai-Curry mit Garnelen, kueche: Asiatisch, protein: Fisch & Garnelen, kcal: 680, schnell: true, idee: "Kokosmilch light, rote Currypaste, Paprika, Basmatireis"}
   - {id: egg-fried-rice-pute, name: Egg Fried Rice mit Pute, kueche: Asiatisch, protein: Pute, kcal: 700, schnell: true, rest: true, idee: "Gebratener Reis vom Vortag mit Ei, Putenstreifen, Erbsen"}
-  - {id: erdnuss-tofu-brokkoli, name: Erdnuss-Tofu mit Brokkoli und Reis, kueche: Asiatisch, protein: Tofu & Hülsenfrüchte, kcal: 680, rest: true, insp: true, idee: "Knuspriger Tofu aus dem Airfryer, Erdnuss-Soja-Sauce"}
+  - {id: beef-brokkoli, name: Beef & Broccoli mit Reis, kueche: Asiatisch, protein: Rind, kcal: 700, rest: true, insp: true, idee: "Takeaway-Klassiker: zarte Rinderhüft-Streifen und Brokkoli in Ingwer-Soja-Glanz"}
   - {id: sesam-lachs-bowl, name: Sesam-Lachs-Bowl, kueche: Asiatisch, protein: Fisch & Garnelen, kcal: 780, insp: true, idee: "Salmon-Rice-Bowl-Trend: Lachs aus dem Ofen, Reis, Sriracha-Skyr, Gurke, Avocado"}
   - {id: kung-pao-haehnchen, name: Kung-Pao-Hähnchen, kueche: Asiatisch, protein: Hähnchen, kcal: 690, schnell: true, rest: true, idee: "Würzig-scharf mit Paprika, Frühlingszwiebel und Erdnuss-Note"}
   - {id: ingwer-schweinefilet, name: Ingwer-Soja-Schweinefilet mit Brokkoli, kueche: Asiatisch, protein: Schwein, kcal: 520, schnell: true, ka: true, rest: true, idee: "Hauchdünne Filetstreifen aus dem Wok, kleine Reisportion"}
@@ -96,10 +96,10 @@ hauptgericht:
   # Indisch (6)
   - {id: butter-chicken, name: Butter Chicken mit Basmatireis, kueche: Indisch, protein: Hähnchen, kcal: 720, mp: true, rest: true, insp: true, idee: "Skyr statt Sahne, nur 10 g Butter, Garam Masala"}
   - {id: tandoori-haehnchen, name: Tandoori-Hähnchen aus dem Airfryer, kueche: Indisch, protein: Hähnchen, kcal: 650, rest: true, idee: "Über Nacht in Joghurt-Gewürz mariniert, Gurken-Raita, Reis"}
-  - {id: linsen-dal-ei, name: Rote-Linsen-Dal mit Ei, kueche: Indisch, protein: Tofu & Hülsenfrüchte, kcal: 700, mp: true, rest: true, idee: "Cremiges Dal mit Tomate und Kurkuma, hartgekochte Eier, Skyr-Klecks"}
+  - {id: linsen-dal-ei, name: Rote-Linsen-Dal mit Ei, kueche: Indisch, protein: Hülsenfrüchte, kcal: 700, mp: true, rest: true, idee: "Cremiges Dal mit Tomate und Kurkuma, hartgekochte Eier, Skyr-Klecks"}
   - {id: seelachs-curry, name: Fisch-Curry mit Seelachs, kueche: Indisch, protein: Fisch & Garnelen, kcal: 520, schnell: true, ka: true, idee: "Tomaten-Kokos-Curry, Fisch gart in der Sauce"}
   - {id: keema-curry, name: Keema-Curry mit Kartoffeln, kueche: Indisch, protein: Rind, kcal: 700, mp: true, rest: true, idee: "Hackfleisch-Curry mit Erbsen und Kartoffelwürfeln"}
-  - {id: tofu-tikka-masala, name: Tofu-Tikka-Masala, kueche: Indisch, protein: Tofu & Hülsenfrüchte, kcal: 680, rest: true, idee: "Gerösteter Tofu in Tomaten-Skyr-Masala, Reis"}
+  - {id: puten-tikka-masala, name: Puten-Tikka-Masala, kueche: Indisch, protein: Pute, kcal: 700, rest: true, idee: "Gewürzmarinierte Putenstücke in Tomaten-Skyr-Masala, Reis"}
   # Griechisch & Mediterran (6)
   - {id: gyros-pfanne-tzatziki, name: Gyros-Pfanne mit Tzatziki und Reis, kueche: Griechisch & Mediterran, protein: Schwein, kcal: 730, schnell: true, rest: true, insp: true, idee: "Gyros-Bowl: Schweineschnitzel-Streifen, Skyr-Tzatziki, Tomate, rote Zwiebel"}
   - {id: souvlaki-airfryer, name: Hähnchen-Souvlaki mit Pita und Tzatziki, kueche: Griechisch & Mediterran, protein: Hähnchen, kcal: 700, mp: true, rest: true, idee: "Zitronen-Oregano-Spieße aus dem Airfryer"}
@@ -123,4 +123,4 @@ hauptgericht:
   - {id: philly-cheesesteak-pfanne, name: Philly-Cheesesteak-Pfanne, kueche: Amerikanisch, protein: Rind, kcal: 520, schnell: true, ka: true, idee: "Rinderhüfte in Streifen, Paprika, Zwiebel, Champignons, Käse geschmolzen"}
   # International / Fusion (2)
   - {id: big-mac-bowl, name: Big-Mac-Bowl, kueche: International / Fusion, protein: Pute, kcal: 520, schnell: true, ka: true, insp: true, idee: "Burger-Geschmack ohne Brötchen: Putenhack, Römersalat, Gurke, Burgersauce"}
-  - {id: gochujang-tofu-tacos, name: Gochujang-Tofu-Tacos, kueche: International / Fusion, protein: Tofu & Hülsenfrüchte, kcal: 650, rest: true, insp: true, idee: "Korean-Mexican: knuspriger Gochujang-Tofu in Wraps, Gurke, Sriracha-Skyr"}
+  - {id: gochujang-schwein-tacos, name: Gochujang-Schweinefilet-Tacos, kueche: International / Fusion, protein: Schwein, kcal: 680, rest: true, insp: true, idee: "Korean-Mexican: Gochujang-glasiertes Schweinefilet in Wraps, Gurke, Sriracha-Skyr"}
