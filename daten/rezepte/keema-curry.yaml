@@ -1,0 +1,64 @@
+id: keema-curry
+name: Keema-Curry mit Kartoffeln
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Indisch
+hauptprotein: Rind
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 10, kochen: 30, wartezeit: 0}
+ausstattung: ["Großer Topf oder tiefe Pfanne mit Deckel (28 cm)"]
+restetauglich: true
+vortag: []
+zutaten:
+  - {id: oel, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: ""}
+  - {id: hack, zutat: Rinderhackfleisch 5 % Fett roh, g: 400, name: Rinderhack, hinweis: "mager (5 % Fett)"}
+  - {id: zwiebel, zutat: Zwiebel, g: 100, anzeige: "1 Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 9, anzeige: "3 Knoblauchzehen", hinweis: ""}
+  - {id: ingwer, zutat: Ingwer, g: 10, anzeige: "1 Stück Ingwer (2–3 cm)", hinweis: ""}
+  - {id: garam, zutat: Garam Masala, g: 6, anzeige: "2 TL Garam Masala", hinweis: ""}
+  - {id: kuemmel, zutat: Kreuzkümmel gemahlen, g: 3, anzeige: "1½ TL Kreuzkümmel", hinweis: ""}
+  - {id: kurkuma, zutat: Kurkuma gemahlen, g: 1, anzeige: "½ TL Kurkuma", hinweis: ""}
+  - {id: chili, zutat: Chiliflocken, g: 1, anzeige: "¼ TL Chiliflocken", hinweis: ""}
+  - {id: tomatenmark, zutat: Tomatenmark 2-fach konzentriert, g: 15, anzeige: "1 EL Tomatenmark", hinweis: ""}
+  - {id: tomaten, zutat: Tomaten gehackt (Dose), g: 400, name: "gehackte Tomaten", hinweis: "1 Dose"}
+  - {id: kartoffeln, zutat: Kartoffeln festkochend roh, g: 500, name: Kartoffeln, hinweis: "in 1,5 cm Würfeln"}
+  - {id: wasser, zutat: Wasser, g: 200, name: Wasser, hinweis: "200 ml"}
+  - {id: salz, zutat: Salz, g: 2, anzeige: "⅓ TL Salz", hinweis: ""}
+  - {id: erbsen, zutat: Erbsen TK, g: 150, name: Erbsen, hinweis: "gefroren"}
+  - {id: skyr, zutat: Skyr natur, g: 100, name: Skyr, hinweis: "als Topping"}
+mise_en_place:
+  - "{kartoffeln} schälen und in 1,5 cm Würfel schneiden."
+  - "{zwiebel} fein würfeln, {knoblauch} und {ingwer} fein reiben."
+schritte:
+  - titel: Hack anbraten
+    text: "{oel} im Topf auf Stufe 8 von 9 erhitzen. {hack} 2 Minuten anbraten lassen, dann krümelig zerteilen und 4 Minuten braun braten. Zwiebel, Knoblauch und Ingwer 3 Minuten mitbraten. {garam}, {kuemmel}, {kurkuma}, {chili} und {tomatenmark} 1 Minute anrösten."
+    timer_min: 10
+  - titel: Mit Kartoffeln schmoren
+    text: "{tomaten}, die Kartoffelwürfel, {wasser} und {salz} einrühren, aufkochen und auf Stufe 3 von 9 mit Deckel 15 Minuten köcheln lassen, gelegentlich umrühren. Fertig, wenn die Kartoffeln mit der Gabel leicht zerdrückt werden können (Garprobe)."
+    timer_min: 15
+  - titel: Erbsen
+    text: "Die gefrorenen {erbsen:n} unterrühren und offen auf Stufe 4 von 9 3 Minuten weiterköcheln, bis sie heiß sind und das Curry sämig eingekocht ist. Das {hack:n} ist nach dieser Zeit sicher durchgegart (Kerntemperatur deutlich über 72 °C)."
+    timer_min: 3
+zeitablauf:
+  - "Während das Hack brät: Kartoffeln würfeln."
+fehler:
+  - "**Kartoffeln noch hart:** zu große Würfel. 1,5 cm schneiden und mit Deckel garen."
+  - "**Curry zu trocken:** Kartoffeln saugen Flüssigkeit. Einen Schuss Wasser nachgießen."
+anrichten: "Auf 2 tiefe Teller verteilen (je ca. {portion_g} g) und je einen Klecks {skyr:n} daraufsetzen."
+aufbewahrung:
+  kuehlschrank_tage: 4
+  einfrierbar: true
+  einfrieren_monate: 3
+  aufwaermen: "Im Topf auf Stufe 4 von 9 mit 2 EL Wasser 5 Minuten oder Mikrowelle 600 W 3 Minuten abgedeckt."
+  separat: "Skyr getrennt lagern."
+varianten:
+  - "**Mit Putenhack:** 400 g Putenhack (+18 kcal, −3 g Protein pro Portion); Kerntemperatur 74 °C."
+  - "**Mit Reis:** 100 g Basmatireis dazu (+175 kcal pro Portion)."
+  - "**Reis statt Kartoffeln:** Kartoffeln weglassen, 120 g Reis separat kochen (+30 kcal pro Portion)."
+tipps:
+  - "Ein Spritzer Zitronensaft und gehackte Petersilie zum Schluss machen das Curry frischer."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

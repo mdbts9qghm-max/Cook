@@ -1,0 +1,64 @@
+id: gyros-pfanne-tzatziki
+name: Gyros-Pfanne mit Tzatziki und Reis
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Griechisch & Mediterran
+hauptprotein: Schwein
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Gyros Bowl“ für Meal Prep"
+  link: null
+  aenderungen: "Mageres Schweineschnitzel statt Nacken, Tzatziki aus griechischem Joghurt 0 % statt 10 %, Reis statt Pommes."
+schwierigkeit: leicht
+zeit: {vorbereitung: 8, kochen: 17, wartezeit: 0}
+ausstattung: ["Große Pfanne (28 cm)", "Kleiner Topf mit Deckel (16 cm)", Reibe, Sieb]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Gyros
+  - {id: schwein, zutat: Schweineschnitzel roh, g: 400, name: Schweineschnitzel, hinweis: ""}
+  - {id: gyros, zutat: Gyros-Gewürzmischung, g: 10, anzeige: "1 EL Gyros-Gewürz", hinweis: "enthält Salz"}
+  - {id: oel, zutat: Rapsöl, g: 10, anzeige: "1 EL Rapsöl", hinweis: ""}
+  - {id: zwiebel, zutat: Zwiebel, g: 100, anzeige: "1 Zwiebel", name: Zwiebel, hinweis: "gern rot"}
+  - gruppe: Tzatziki
+  - {id: joghurt, zutat: Griechischer Joghurt 0 % Fett, g: 250, name: "griechischer Joghurt", hinweis: "0 % Fett"}
+  - {id: gurke, zutat: Salatgurke, g: 150, anzeige: "⅓ Salatgurke", name: Gurke, hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 6, anzeige: "2 Knoblauchzehen", hinweis: ""}
+  - {id: olivenoel, zutat: Olivenöl, g: 5, anzeige: "1 TL Olivenöl", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: ""}
+  - gruppe: Beilage
+  - {id: reis, zutat: Basmatireis ungekocht, g: 140, name: Basmatireis, hinweis: ""}
+  - {id: wasser_reis, zutat: Wasser, g: 280, name: Wasser, hinweis: "280 ml"}
+  - {id: tomaten, zutat: Cherrytomaten, g: 150, name: Cherrytomaten, hinweis: ""}
+mise_en_place:
+  - "{reis} kalt abspülen."
+  - "{schwein} in 5 mm dünne Streifen schneiden und mit {gyros} und der Hälfte vom {oel} vermischen."
+  - "{zwiebel} in feine Ringe schneiden, {tomaten} halbieren."
+  - "Tzatziki: {gurke} grob raspeln und kräftig ausdrücken, {knoblauch} fein reiben, mit {joghurt}, {olivenoel} und {salz} verrühren."
+schritte:
+  - titel: Reis aufsetzen
+    text: "{reis:n} mit {wasser_reis} im Topf mit Deckel auf Stufe 9 von 9 aufkochen, auf Stufe 2 von 9 12 Minuten quellen und 5 Minuten nachziehen lassen."
+    timer_min: 12
+  - titel: Gyros braten
+    text: "Restliches Öl in der Pfanne auf Stufe 9 von 9 sehr heiß werden lassen. Die {schwein:n}streifen in einer Lage hineingeben und 3 Minuten braten, ohne zu rühren, dann wenden und 2 Minuten weiterbraten, bis sie dunkel gebräunt und an den Rändern knusprig sind. Garprobe: Die dünnen Streifen sind durchgegart, innen hell ohne Rosa, Kerntemperatur über 63 °C. Die Hälfte der Zwiebelringe 1 Minute mitbraten."
+    timer_min: 6
+zeitablauf:
+  - "Reis aufsetzen, Tzatziki rühren, dann das Gyros braten – nach ca. 17 Minuten ist alles fertig."
+fehler:
+  - "**Gyros kocht statt brät:** Pfanne zu voll. In 2 Portionen braten, damit es knusprig wird."
+  - "**Tzatziki wässrig:** Gurke nicht ausgedrückt. Raspel kräftig in den Händen auspressen."
+anrichten: "Reis auf 2 Teller (je ca. 195 g gekocht), Gyros daneben, Tomaten und die restlichen rohen Zwiebelringe darauf, großzügig Tzatziki dazu – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: false
+  aufwaermen: "Gyros und Reis in der Mikrowelle 600 W 2 Minuten abgedeckt; Tzatziki und Tomaten kalt dazu."
+  separat: "Tzatziki getrennt lagern; Reis innerhalb von 1 Stunde kalt stellen."
+varianten:
+  - "**Mit Hähnchen:** 400 g Hähnchenbrust in Streifen, 6–7 Minuten braten bis 74 °C (−8 kcal, +2 g Protein pro Portion)."
+  - "**Mit Pita statt Reis:** 2 Pitabrote (200 g) (+19 kcal, +3,4 g Protein pro Portion) – wie im Imbiss."
+  - "**Mit Feta:** 50 g zerbröselter Feta obenauf (+64 kcal, +4,2 g Protein pro Portion)."
+tipps:
+  - "Das Tzatziki 30 Minuten vorher anrühren – der Knoblauch zieht dann richtig durch."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

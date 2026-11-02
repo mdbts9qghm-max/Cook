@@ -1,0 +1,67 @@
+id: souvlaki-airfryer
+name: Hähnchen-Souvlaki mit Pita und Tzatziki
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Griechisch & Mediterran
+hauptprotein: Hähnchen
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 15, kochen: 14, wartezeit: 30}
+ausstattung: [Airfryer, "4 Holz- oder Metallspieße (passend für den Airfryer)", Reibe, Toaster]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Souvlaki
+  - {id: haehnchen, zutat: Hähnchenbrustfilet roh, g: 400, name: Hähnchenbrust, hinweis: ""}
+  - {id: olivenoel, zutat: Olivenöl, g: 10, anzeige: "1 EL Olivenöl", hinweis: ""}
+  - {id: zitrone, zutat: Zitronensaft, g: 20, anzeige: "4 TL Zitronensaft", hinweis: ""}
+  - {id: oregano, zutat: Oregano getrocknet, g: 3, anzeige: "1½ TL Oregano", hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 6, anzeige: "2 Knoblauchzehen", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 1.5, anzeige: "¼ TL Salz", hinweis: ""}
+  - gruppe: Tzatziki
+  - {id: joghurt, zutat: Griechischer Joghurt 0 % Fett, g: 200, name: "griechischer Joghurt", hinweis: ""}
+  - {id: gurke, zutat: Salatgurke, g: 120, anzeige: "¼ Salatgurke", name: Gurke, hinweis: ""}
+  - {id: knoblauch_tz, zutat: Knoblauch, g: 3, anzeige: "1 Knoblauchzehe", hinweis: ""}
+  - {id: salz_tz, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: ""}
+  - gruppe: Dazu
+  - {id: pita, zutat: Pitabrot, g: 200, anzeige: "2 Pitabrote", hinweis: "à ca. 100 g"}
+  - {id: tomaten, zutat: Cherrytomaten, g: 150, name: Cherrytomaten, hinweis: ""}
+  - {id: zwiebel, zutat: Zwiebel, g: 50, anzeige: "½ Zwiebel", name: Zwiebel, hinweis: "gern rot"}
+  - {id: feta, zutat: Feta, g: 40, name: Feta, hinweis: "zerbröselt"}
+mise_en_place:
+  - "Holzspieße 20 Minuten in Wasser einweichen (verbrennen sonst)."
+  - "{haehnchen} in 3 cm Würfel schneiden. {knoblauch} fein reiben und mit {olivenoel}, {zitrone}, {oregano} und {salz} verrühren, das Hähnchen darin wenden und 30 Minuten marinieren."
+  - "Tzatziki: {gurke} raspeln und ausdrücken, {knoblauch_tz} reiben, mit {joghurt} und {salz_tz} verrühren."
+  - "{tomaten} halbieren, {zwiebel} in feine Ringe schneiden."
+schritte:
+  - titel: Spieße stecken
+    text: "Die marinierten {haehnchen:n}würfel auf 4 Spieße stecken, mit kleinem Abstand, damit sie rundum Farbe bekommen."
+    timer_min: null
+  - titel: Im Airfryer garen
+    text: "Airfryer 3 Minuten auf 200 °C vorheizen. Die Spieße nebeneinander in den Korb legen und bei 200 °C 12–14 Minuten garen, nach 6 Minuten wenden, bis die Kanten goldbraun mit dunklen Röststellen sind. Garprobe: Die {haehnchen:n} hat im größten Würfel 74 °C Kerntemperatur."
+    timer_min: 14
+  - titel: Pita aufbacken
+    text: "Die {pita:n} im Toaster 1–2 Minuten aufbacken, bis sie warm und weich sind, und halbieren."
+    timer_min: 2
+zeitablauf:
+  - "Während das Hähnchen mariniert: Tzatziki rühren und Gemüse schneiden. Pita in den letzten 2 Minuten aufbacken."
+fehler:
+  - "**Spieße trocken:** zu lange gegart. Ab 12 Minuten messen."
+  - "**Marinade verbrennt:** zu viel Marinade am Fleisch. Abtropfen lassen, bevor die Spieße in den Airfryer kommen."
+anrichten: "Pro Teller 2 Spieße, 1 Pita, Tomaten, Zwiebelringe, {feta:n} und die Hälfte des Tzatzikis – pro Portion ca. {portion_g} g. Fleisch vom Spieß direkt in die Pita schieben."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "Spieße im Airfryer bei 180 °C 4 Minuten oder kalt; Pita im Toaster."
+  separat: "Tzatziki, Gemüse und Feta getrennt lagern."
+varianten:
+  - "**Mit Pute:** 400 g Putenbrust (+6 kcal, +1 g Protein pro Portion)."
+  - "**Mit Reis statt Pita:** 140 g Basmatireis (−19 kcal, −3,4 g Protein pro Portion)."
+  - "**Ohne Feta:** (−52 kcal, −4,2 g Fett pro Portion)."
+tipps:
+  - "Ein paar Zitronenschnitze mit auf die Spieße stecken – sie karamellisieren und duften nach griechischem Grill."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

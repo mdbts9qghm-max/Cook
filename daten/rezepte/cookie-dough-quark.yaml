@@ -1,0 +1,51 @@
+id: cookie-dough-quark
+name: Cookie-Dough aus Quark
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Snack
+geschmack: süß
+kueche: Amerikanisch
+hauptprotein: Quark & Whey
+ohne_kochen: true
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Protein Cookie Dough“"
+  link: null
+  aenderungen: "Butter, Zucker und Mehl durch Magerquark, Vanille-Whey und Haferflocken ersetzt – löffelbarer Keksteig mit über 30 g Protein pro Portion."
+schwierigkeit: leicht
+zeit: {vorbereitung: 5, kochen: 0, wartezeit: 0}
+ausstattung: [Schüssel, Löffel, "Mixer zum Mahlen (optional)"]
+restetauglich: false
+vortag: []
+zutaten:
+  - {id: hafer, zutat: Haferflocken zart, g: 30, name: "zarte Haferflocken", hinweis: "fein gemahlen"}
+  - {id: quark, zutat: Magerquark, g: 250, name: Magerquark, hinweis: "½ Becher à 500 g"}
+  - {id: whey, zutat: Whey Protein Vanille, g: 30, name: "Vanille-Whey", hinweis: "1 Messlöffel"}
+  - {id: erdnussmus, zutat: Erdnussmus, g: 15, anzeige: "1 EL Erdnussmus", hinweis: "gibt den Butter-Keks-Geschmack"}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 1, anzeige: "10 Tropfen flüssiger Süßstoff", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 0.3, anzeige: "1 kleine Prise Salz", hinweis: "wichtig für den Keksgeschmack"}
+  - {id: schoko, zutat: "Zartbitterschokolade 70 %", g: 15, anzeige: "3 Stückchen Zartbitterschokolade 70 %", name: Zartbitterschokolade, hinweis: "gehackt"}
+mise_en_place:
+  - "{hafer} im Mixer 10 Sekunden fein mahlen (oder ganze zarte Flocken verwenden – dann etwas rustikaler)."
+  - "{schoko} in kleine Stückchen hacken („Chocolate Chips“)."
+schritte:
+  - titel: Teig rühren
+    text: "{quark}, {whey}, den gemahlenen {hafer:n}, {erdnussmus}, {suessstoff} und {salz} mit einem Löffel 1 Minute kräftig verrühren, bis eine dicke, teigartige Masse entsteht. Ist sie zu weich, 1 EL Haferflocken mehr; zu fest, 1 EL Milch. Zum Schluss die gehackte {schoko:n} unterheben."
+    timer_min: null
+zeitablauf: []
+fehler:
+  - "**Zu flüssig:** sehr feuchter Quark. Quark vorher kurz abtropfen lassen oder etwas mehr Hafer."
+  - "**Schmeckt nach Quark:** zu wenig Süße und Salz. Süßstoff und die Prise Salz nicht vergessen."
+anrichten: "Auf 2 Schälchen verteilen (je ca. {portion_g} g) und direkt löffeln – oder 15 Minuten ins Gefrierfach, dann wird er fester wie Cookie-Dough-Eis."
+aufbewahrung:
+  kuehlschrank_tage: 2
+  einfrierbar: true
+  einfrieren_monate: 1
+  aufwaermen: "Nicht aufwärmen. Eingefroren 10 Minuten antauen lassen."
+varianten:
+  - "**Brownie-Dough:** Schoko- statt Vanille-Whey und 5 g Backkakao (+8 kcal pro Portion)."
+  - "**Mehr Protein:** 100 g Magerquark mehr (+34 kcal, +6 g Protein pro Portion)."
+  - "**Ohne Erdnussmus:** (−46 kcal, −3,8 g Fett pro Portion)."
+tipps:
+  - "Die Hafer-Flocken kurz in einer trockenen Pfanne rösten (Stufe 5 von 9, 2 Minuten) – dann schmeckt der Teig noch mehr nach Keks."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

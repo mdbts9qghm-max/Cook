@@ -2,7 +2,7 @@
 
 # Rezeptplan – Startbestand mit 100 Rezepten
 
-Stand: 60 von 100 Rezepten geschrieben. Ziel-kcal sind Planwerte pro Portion; die echten Werte rechnet `tools/naehrwerte.py`.
+Stand: 70 von 100 Rezepten geschrieben. Ziel-kcal sind Planwerte pro Portion; die echten Werte rechnet `tools/naehrwerte.py`.
 
 Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = restetauglich · **KA** = kalorienarm · **OK** = ohne Kochen/Backen · **I** = TikTok/Instagram-Inspiration · **Rd.** = Schreib-Runde in Phase 4 · ✅ = schon geschrieben
 
@@ -28,9 +28,9 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 16 | Protein-Grießbrei mit Himbeeren ✅ | Deutsch | Milch & Whey | 560 | ✓ |  |  | 6 | Vanille-Grießbrei in 10 Minuten, heiße Himbeeren |
 | 17 | Protein-Bananenbrot ✅ | Amerikanisch | Quark & Whey | 580 |  | ✓ | ✓ | 6 | Saftiges Bananenbrot aus Hafermehl und Quark, 2 dicke Scheiben pro Portion |
 | 18 | Blaubeer-Protein-Muffins ✅ | Amerikanisch | Quark & Whey | 570 |  | ✓ | ✓ | 6 | 6 Muffins, 3 pro Portion, mit Streusel-Topping |
-| 19 | Protein-Crêpes mit Schoko-Quark | International / Fusion | Eier & Quark | 600 | ✓ |  |  | 7 | Dünne Crêpes mit Eiklar, Füllung Schoko-Whey-Quark und Banane |
-| 20 | Skyr-Tiramisu-Bowl | Italienisch | Skyr & Whey | 550 | ✓ |  | ✓ | 7 | Espresso-getränkte Haferschicht, Vanille-Skyr, Kakao – ohne Kochen |
-| 21 | Cottage-Cheese-Pancakes | Amerikanisch | Hüttenkäse & Eier | 560 | ✓ |  | ✓ | 7 | Gemixter Hüttenkäse-Hafer-Teig, Ahorn-Ersatz aus Honig und Zimt |
+| 19 | Protein-Crêpes mit Schoko-Quark ✅ | International / Fusion | Eier & Quark | 600 | ✓ |  |  | 7 | Dünne Crêpes mit Eiklar, Füllung Schoko-Whey-Quark und Banane |
+| 20 | Skyr-Tiramisu-Bowl ✅ | Italienisch | Skyr & Whey | 550 | ✓ |  | ✓ | 7 | Sofort-Tiramisu: espressogetränkte Reiswaffeln statt Löffelbiskuits, Vanille-Skyr-Creme, Kakao – ohne Kochen, ohne Warten |
+| 21 | Cottage-Cheese-Pancakes ✅ | Amerikanisch | Hüttenkäse & Eier | 560 | ✓ |  | ✓ | 7 | Gemixter Hüttenkäse-Hafer-Teig, Ahorn-Ersatz aus Honig und Zimt |
 | 22 | Schoko-Protein-Porridge | International / Fusion | Milch & Whey | 580 | ✓ |  |  | 8 | Cremiges Kakao-Porridge mit Banane und Schokostückchen |
 | 23 | Chia-Skyr-Pudding mit Mango | International / Fusion | Skyr | 540 | ✓ | ✓ | ✓ | 8 | Vanille-Chia-Pudding geschichtet mit Skyr und Mangopüree |
 | 24 | Protein-Scones mit Beeren | International / Fusion | Quark & Whey | 590 |  | ✓ |  | 8 | Quark-Scones, warm mit Skyr und Beeren |
@@ -51,7 +51,7 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 34 | Schoko-Erdnuss-Protein-Balls ✅ | Amerikanisch | Whey | 320 |  | ✓ | ✓ | ✓ | 4 | Hafer, Whey, Erdnussmus, Datteln – 4 Kugeln pro Portion |
 | 35 | Vanille-Quarkcreme mit Erdbeeren ✅ | Deutsch | Quark | 230 | ✓ |  | ✓ |  | 5 | Cremig gerührter Quark mit Vanille und marinierten Erdbeeren |
 | 36 | Proteinpudding mit Knusper-Topping ✅ | International / Fusion | Proteinpudding | 260 | ✓ |  | ✓ |  | 6 | Schoko-Proteinpudding, Granola, Himbeeren |
-| 37 | Cookie-Dough aus Quark | Amerikanisch | Quark & Whey | 300 | ✓ |  | ✓ | ✓ | 7 | Löffelbarer Keksteig aus Quark, Whey, Hafer und Schokostückchen |
+| 37 | Cookie-Dough aus Quark ✅ | Amerikanisch | Quark & Whey | 300 | ✓ |  | ✓ | ✓ | 7 | Löffelbarer Keksteig aus Quark, Whey, Hafer und Schokostückchen |
 | 38 | Schoko-Hafer-Protein-Riegel | International / Fusion | Whey | 320 |  | ✓ | ✓ |  | 8 | No-Bake-Riegel mit Schokoüberzug, 2 Riegel pro Portion |
 | 39 | Frozen-Joghurt-Bark mit Beeren | Amerikanisch | Skyr | 220 |  | ✓ | ✓ | ✓ | 9 | Gefrorene Skyr-Platte mit Beeren und Schoko, in Stücke gebrochen |
 | 40 | Protein-Brownie-Bites | Amerikanisch | Quark & Whey | 300 |  | ✓ |  | ✓ | 10 | Kleine Brownie-Würfel aus dem Airfryer, 4 Stück pro Portion |
@@ -96,12 +96,12 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 74 | Garnelen-Fajitas ✅ | Mexikanisch | Fisch & Garnelen | 530 | ✓ |  |  | ✓ |  | 6 | Garnelen mit Paprika und Zwiebel, ein Wrap pro Portion, Skyr-Dip |
 | 75 | Butter Chicken mit Basmatireis ✅ | Indisch | Hähnchen | 720 |  | ✓ | ✓ |  | ✓ | 6 | Skyr statt Sahne, nur 10 g Butter, Garam Masala |
 | 76 | Tandoori-Hähnchen aus dem Airfryer ✅ | Indisch | Hähnchen | 650 |  |  | ✓ |  |  | 6 | Über Nacht in Joghurt-Gewürz mariniert, Gurken-Raita, Reis |
-| 77 | Rote-Linsen-Dal mit Ei | Indisch | Hülsenfrüchte | 700 |  | ✓ | ✓ |  |  | 7 | Cremiges Dal mit Tomate und Kurkuma, hartgekochte Eier, Skyr-Klecks |
-| 78 | Fisch-Curry mit Seelachs | Indisch | Fisch & Garnelen | 520 | ✓ |  |  | ✓ |  | 7 | Tomaten-Kokos-Curry, Fisch gart in der Sauce |
-| 79 | Keema-Curry mit Kartoffeln | Indisch | Rind | 700 |  | ✓ | ✓ |  |  | 7 | Hackfleisch-Curry mit Erbsen und Kartoffelwürfeln |
-| 80 | Puten-Tikka-Masala | Indisch | Pute | 700 |  |  | ✓ |  |  | 7 | Gewürzmarinierte Putenstücke in Tomaten-Skyr-Masala, Reis |
-| 81 | Gyros-Pfanne mit Tzatziki und Reis | Griechisch & Mediterran | Schwein | 730 | ✓ |  | ✓ |  | ✓ | 7 | Gyros-Bowl: Schweineschnitzel-Streifen, Skyr-Tzatziki, Tomate, rote Zwiebel |
-| 82 | Hähnchen-Souvlaki mit Pita und Tzatziki | Griechisch & Mediterran | Hähnchen | 700 |  | ✓ | ✓ |  |  | 7 | Zitronen-Oregano-Spieße aus dem Airfryer |
+| 77 | Rote-Linsen-Dal mit Ei ✅ | Indisch | Hülsenfrüchte | 700 |  | ✓ | ✓ |  |  | 7 | Cremiges Dal mit Tomate und Kurkuma, hartgekochte Eier, Skyr-Klecks |
+| 78 | Fisch-Curry mit Seelachs ✅ | Indisch | Fisch & Garnelen | 520 | ✓ |  |  | ✓ |  | 7 | Tomaten-Kokos-Curry, Fisch gart in der Sauce |
+| 79 | Keema-Curry mit Kartoffeln ✅ | Indisch | Rind | 700 |  | ✓ | ✓ |  |  | 7 | Hackfleisch-Curry mit Erbsen und Kartoffelwürfeln |
+| 80 | Puten-Tikka-Masala ✅ | Indisch | Pute | 700 |  |  | ✓ |  |  | 7 | Gewürzmarinierte Putenstücke in Tomaten-Skyr-Masala, Reis |
+| 81 | Gyros-Pfanne mit Tzatziki und Reis ✅ | Griechisch & Mediterran | Schwein | 730 | ✓ |  | ✓ |  | ✓ | 7 | Gyros-Bowl: Schweineschnitzel-Streifen, Skyr-Tzatziki, Tomate, rote Zwiebel |
+| 82 | Hähnchen-Souvlaki mit Pita und Tzatziki ✅ | Griechisch & Mediterran | Hähnchen | 700 |  | ✓ | ✓ |  |  | 7 | Zitronen-Oregano-Spieße aus dem Airfryer |
 | 83 | Ofen-Feta-Pasta mit Hähnchen | Griechisch & Mediterran | Hähnchen | 780 |  |  | ✓ |  | ✓ | 8 | Baked-Feta-Trend: Feta und Cherrytomaten im Ofen, mit Hähnchen und Penne |
 | 84 | Zitronen-Lachs mit Ofenkartoffeln und Tzatziki | Griechisch & Mediterran | Fisch & Garnelen | 720 |  |  |  |  |  | 8 | Lachs auf dem Blech, Kartoffelspalten mit Oregano |
 | 85 | Biftekia mit Feta-Füllung und Bulgur | Griechisch & Mediterran | Rind | 720 |  | ✓ | ✓ |  |  | 8 | Griechische Frikadellen, Tomaten-Bulgur, Joghurt |

@@ -1,0 +1,62 @@
+id: skyr-tiramisu-bowl
+name: Skyr-Tiramisu-Bowl
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Italienisch
+hauptprotein: Skyr & Whey
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Tiramisu Protein Bowl“"
+  link: null
+  aenderungen: "Löffelbiskuits durch espressogetränkte Reiswaffeln ersetzt, Mascarpone durch Skyr mit wenig Frischkäse light und Vanille-Whey – in 8 Minuten fertig, ohne Warten."
+schwierigkeit: leicht
+zeit: {vorbereitung: 8, kochen: 0, wartezeit: 0}
+ausstattung: ["2 tiefe Schüsseln", Schneebesen, "Feines Sieb zum Bestäuben"]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Espresso-Schicht
+  - {id: espresso, zutat: Instant-Espressopulver, g: 3, anzeige: "1 TL Instant-Espressopulver", hinweis: ""}
+  - {id: wasser, zutat: Wasser, g: 80, name: "heißes Wasser", hinweis: "80 ml"}
+  - {id: reiswaffeln, zutat: Reiswaffeln natur, g: 80, anzeige: "8 Reiswaffeln", hinweis: "à ca. 10 g"}
+  - gruppe: Creme
+  - {id: skyr, zutat: Skyr natur, g: 450, name: Skyr, hinweis: "1 Becher"}
+  - {id: frischkaese, zutat: Frischkäse light, g: 50, name: "Frischkäse light", hinweis: ""}
+  - {id: whey, zutat: Whey Protein Vanille, g: 40, name: "Vanille-Whey", hinweis: "ca. 1⅓ Messlöffel"}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 1, anzeige: "10 Tropfen flüssiger Süßstoff", hinweis: ""}
+  - gruppe: Topping
+  - {id: kakao, zutat: Backkakao stark entölt, g: 5, anzeige: "1 TL Backkakao", hinweis: ""}
+  - {id: mandeln, zutat: Mandeln, g: 20, name: Mandeln, hinweis: "gehackt, geröstet – wie Amaretti-Crunch"}
+  - {id: schoko, zutat: "Zartbitterschokolade 70 %", g: 25, anzeige: "5 Stückchen Zartbitterschokolade 70 %", name: Zartbitterschokolade, hinweis: "fein gehackt"}
+mise_en_place:
+  - "{espresso} in {wasser} auflösen und 2 Minuten abkühlen lassen."
+  - "{schoko} fein hacken. {mandeln} grob hacken und in einer trockenen Pfanne auf Stufe 5 von 9 2 Minuten rösten."
+schritte:
+  - titel: Creme rühren
+    text: "{skyr}, {frischkaese}, {whey} und {suessstoff} mit dem Schneebesen 1 Minute glatt und cremig rühren."
+    timer_min: null
+  - titel: Schichten
+    text: "Die {reiswaffeln:n} grob in Stücke brechen und auf 2 Schüsseln verteilen. Mit dem Espresso beträufeln – sie saugen sich in 1 Minute voll und werden weich wie Löffelbiskuits. Die Hälfte der Creme darauf, dann die restlichen Reiswaffelstücke und die restliche Creme."
+    timer_min: null
+  - titel: Bestäuben
+    text: "{kakao} durch ein feines Sieb darüberstäuben und die gehackte {schoko:n} und die gerösteten {mandeln:n} darüberstreuen. Sofort essen oder 10 Minuten kalt stellen, wenn es noch mehr wie Tiramisu durchziehen soll."
+    timer_min: null
+zeitablauf: []
+fehler:
+  - "**Reiswaffeln matschig:** zu viel Espresso. Nur beträufeln, nicht übergießen."
+  - "**Creme zu fest:** Skyr sehr dick. 1–2 EL Milch einrühren."
+anrichten: "Pro Schüssel ca. {portion_g} g – mit dem Löffel bis zum Boden stechen, damit jeder Bissen Espresso und Creme hat."
+aufbewahrung:
+  kuehlschrank_tage: 1
+  einfrierbar: false
+  aufwaermen: "Nicht aufwärmen – kalt essen."
+  separat: "Für den nächsten Tag Creme und Reiswaffeln getrennt aufbewahren und frisch schichten."
+varianten:
+  - "**Kirsch-Tiramisu:** 100 g abgetropfte Sauerkirschen zwischen die Schichten (+34 kcal, +7,5 g Zucker pro Portion)."
+  - "**Mit Haferflocken:** 80 g zarte Haferflocken statt Reiswaffeln, im Espresso 5 Minuten quellen lassen (−6 kcal, +2,2 g Protein pro Portion)."
+  - "**Leichter:** ohne Schokolade (−71 kcal, −5,2 g Fett pro Portion)."
+tipps:
+  - "Ein paar Tropfen Rum- oder Bittermandelaroma in der Creme machen den Tiramisu-Geschmack perfekt."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

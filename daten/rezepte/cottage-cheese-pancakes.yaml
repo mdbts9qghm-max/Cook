@@ -1,0 +1,61 @@
+id: cottage-cheese-pancakes
+name: Cottage-Cheese-Pancakes mit Zimt-Äpfeln
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Amerikanisch
+hauptprotein: Hüttenkäse & Eier
+inspiration:
+  quelle: "TikTok-Trend „Cottage Cheese Pancakes“"
+  link: null
+  aenderungen: "Hüttenkäse mit Hafer und Eiern gemixt statt Mehl-Butter-Teig; Topping aus in Zimt geschwenkten Apfelscheiben und Honig statt Ahornsirup."
+schwierigkeit: leicht
+zeit: {vorbereitung: 5, kochen: 17, wartezeit: 0}
+ausstattung: ["Mixer oder Pürierstab mit hohem Rührbecher", "Große beschichtete Pfanne (28 cm)", Pfannenwender]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Teig
+  - {id: huettenkaese, zutat: Körniger Frischkäse (Hüttenkäse), g: 300, name: Hüttenkäse, hinweis: "1½ Becher"}
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 120, anzeige: "2 Eier Gr. M", hinweis: ""}
+  - {id: hafer, zutat: Haferflocken zart, g: 100, name: "zarte Haferflocken", hinweis: ""}
+  - {id: whey, zutat: Whey Protein Vanille, g: 20, name: "Vanille-Whey", hinweis: "⅔ Messlöffel"}
+  - {id: backpulver, zutat: Backpulver, g: 4, anzeige: "1 knapper TL Backpulver", hinweis: ""}
+  - {id: oel, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: "für die Pfanne"}
+  - gruppe: Zimt-Äpfel
+  - {id: apfel, zutat: Apfel, g: 150, anzeige: "1 Apfel", name: Apfel, hinweis: "ohne Kerngehäuse"}
+  - {id: zimt, zutat: Zimt gemahlen, g: 1, anzeige: "½ TL Zimt", hinweis: ""}
+  - {id: honig, zutat: Honig, g: 10, anzeige: "2 TL Honig", hinweis: ""}
+  - {id: erdnussmus, zutat: Erdnussmus, g: 15, anzeige: "1 EL Erdnussmus", hinweis: ""}
+mise_en_place:
+  - "{apfel} in 3 mm dünne Spalten schneiden."
+schritte:
+  - titel: Teig mixen
+    text: "{huettenkaese}, {eier}, {hafer}, {whey} und {backpulver} im Mixer 30 Sekunden zu einem glatten Teig mixen. 3 Minuten quellen lassen."
+    timer_min: 3
+  - titel: Zimt-Äpfel
+    text: "Die Pfanne auf Stufe 5 von 9 erhitzen und die {apfel:n}spalten ohne Fett 3 Minuten braten, bis sie weich und am Rand leicht goldbraun sind. Mit {zimt} bestäuben, mit {honig} beträufeln, kurz schwenken und herausnehmen."
+    timer_min: 3
+  - titel: Pancakes backen
+    text: "Pfanne mit Küchenpapier dünn mit {oel} auswischen, Stufe 5 von 9. Pro Pancake 2 EL Teig (ca. 8 cm) hineingeben, 4 auf einmal. 2–3 Minuten backen, bis die Unterseite goldbraun ist und Bläschen erscheinen, wenden und 1–2 Minuten weiterbacken, bis sie fest und fluffig sind. Ergibt ca. 12 kleine Pancakes."
+    timer_min: 5
+zeitablauf:
+  - "Während der Teig quillt: Zimt-Äpfel braten – danach in derselben Pfanne die Pancakes backen."
+fehler:
+  - "**Pancakes zerfallen beim Wenden:** zu früh gewendet. Warten, bis die Unterseite fest und goldbraun ist."
+  - "**Schmecken salzig:** manche Hüttenkäse sind salziger. Kein zusätzliches Salz verwenden."
+anrichten: "Pro Teller 6 Pancakes stapeln, Zimt-Äpfel darauf und {erdnussmus:n} darüberziehen – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 2
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "Toaster auf mittlerer Stufe oder Pfanne auf Stufe 4 von 9, je Seite 1 Minute."
+varianten:
+  - "**Mit Beeren:** 150 g TK-Beeren statt Apfel, kurz erwärmt (−8 kcal, −3,2 g Zucker pro Portion)."
+  - "**Mit Skyr-Topping:** 200 g Skyr auf beide Teller (+63 kcal, +11 g Protein pro Portion)."
+  - "**Ohne Erdnussmus:** (−46 kcal, −3,8 g Fett pro Portion)."
+tipps:
+  - "Man schmeckt den Hüttenkäse nicht – er macht die Pancakes nur saftig und eiweißreich."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

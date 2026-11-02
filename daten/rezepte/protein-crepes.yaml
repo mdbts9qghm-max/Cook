@@ -1,0 +1,63 @@
+id: protein-crepes
+name: Protein-Crêpes mit Schoko-Quark
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Frühstück
+geschmack: süß
+kueche: International / Fusion
+hauptprotein: Eier & Quark
+inspiration: null
+schwierigkeit: mittel
+zeit: {vorbereitung: 7, kochen: 16, wartezeit: 0}
+ausstattung: ["Große beschichtete Pfanne (26–28 cm)", Schüssel, Schneebesen, Schöpfkelle]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Crêpe-Teig
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 120, anzeige: "2 Eier Gr. M", hinweis: ""}
+  - {id: eiklar, zutat: Eiklar, g: 100, name: Eiklar, hinweis: "100 ml"}
+  - {id: mehl, zutat: Weizenmehl Type 405, g: 80, name: Mehl, hinweis: ""}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 150, name: "Milch (1,5 %)", hinweis: "150 ml"}
+  - {id: salz, zutat: Salz, g: 0.3, anzeige: "1 kleine Prise Salz", hinweis: ""}
+  - {id: oel, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: "für die Pfanne"}
+  - gruppe: Schoko-Quark-Füllung
+  - {id: quark, zutat: Magerquark, g: 250, name: Magerquark, hinweis: "½ Becher à 500 g"}
+  - {id: whey, zutat: Whey Protein Schoko, g: 30, name: "Schoko-Whey", hinweis: "1 Messlöffel"}
+  - {id: kakao, zutat: Backkakao stark entölt, g: 5, anzeige: "1 TL Backkakao", hinweis: ""}
+  - {id: milch_fuellung, zutat: "Milch 1,5 % Fett", g: 30, name: "Milch (1,5 %)", hinweis: "2 EL"}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 1, anzeige: "10 Tropfen flüssiger Süßstoff", hinweis: ""}
+  - gruppe: Topping
+  - {id: banane, zutat: Banane, g: 60, anzeige: "½ Banane", name: Banane, hinweis: "in Scheiben"}
+  - {id: erdnussmus, zutat: Erdnussmus, g: 15, anzeige: "1 EL Erdnussmus", hinweis: ""}
+  - {id: schoko, zutat: "Zartbitterschokolade 70 %", g: 15, anzeige: "3 Stückchen Zartbitterschokolade 70 %", name: Zartbitterschokolade, hinweis: "gehackt"}
+mise_en_place:
+  - "{eier}, {eiklar}, {mehl}, {milch} und {salz} mit dem Schneebesen zu einem glatten, dünnflüssigen Teig verquirlen (oder 15 Sekunden mixen). 5 Minuten ruhen lassen."
+  - "{quark}, {whey}, {kakao}, {milch_fuellung} und {suessstoff} glatt rühren."
+  - "{banane} in Scheiben schneiden, {schoko} hacken."
+schritte:
+  - titel: Crêpes backen
+    text: "Pfanne auf Stufe 6 von 9 erhitzen und mit Küchenpapier hauchdünn mit etwas vom {oel} auswischen. 1 kleine Kelle Teig (ca. 70 ml) hineingeben und die Pfanne sofort schwenken, bis der Boden dünn bedeckt ist. 1 Minute backen, bis der Rand sich löst und goldbraun wird, wenden und 30 Sekunden weiterbacken. Ergibt 6–7 Crêpes; vor jedem Crêpe die Pfanne kurz neu auswischen."
+    timer_min: 2
+  - titel: Füllen
+    text: "Jede Crêpe mit 2 EL Schoko-Quark bestreichen, ein paar {banane:n}scheiben auf eine Hälfte legen und zu Dreiecken falten."
+    timer_min: null
+zeitablauf:
+  - "Während der Teig ruht: Füllung rühren und Topping schneiden. Fertige Crêpes auf einem Teller mit einem zweiten Teller abdecken – so bleiben sie warm und weich."
+fehler:
+  - "**Crêpes reißen:** Teig nicht geruht oder Pfanne zu kalt. 5 Minuten ruhen lassen und auf Stufe 6 von 9 backen."
+  - "**Zu dick:** zu viel Teig pro Crêpe. Kleine Kelle und schnell schwenken."
+anrichten: "Pro Teller 3–4 gefüllte Crêpes, {erdnussmus:n} in Fäden darüber und mit der gehackten {schoko:n} bestreuen – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 2
+  einfrierbar: true
+  einfrieren_monate: 1
+  aufwaermen: "Ungefüllte Crêpes in der Pfanne auf Stufe 4 von 9 je Seite 20 Sekunden; Füllung kalt."
+  separat: "Crêpes und Füllung getrennt lagern."
+varianten:
+  - "**Mit Beeren:** 150 g TK-Himbeeren statt Banane (+6 kcal, −1,8 g Zucker pro Portion)."
+  - "**Vanille-Quark:** Vanille- statt Schoko-Whey, Kakao weglassen (−8 kcal pro Portion)."
+  - "**Leichter:** ohne Schokostückchen (−43 kcal, −3,1 g Fett pro Portion)."
+tipps:
+  - "Ein paar Tropfen Vanillearoma und eine Prise Zimt im Teig – schmeckt wie vom Crêpes-Stand."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}
