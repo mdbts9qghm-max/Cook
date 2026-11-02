@@ -1,0 +1,68 @@
+id: lachs-penne
+name: Lachs-Penne mit Tomate und Frischkäse
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Italienisch
+hauptprotein: Fisch & Garnelen
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 5, kochen: 15, wartezeit: 0}
+ausstattung: ["Großer Topf (24 cm)", "Große Pfanne (28 cm)", Sieb]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Pasta
+  - {id: penne, zutat: Penne ungekocht, g: 160, name: Penne, hinweis: ""}
+  - {id: kochwasser, zutat: Wasser, g: 2000, name: Wasser, hinweis: "2 l zum Kochen", mitrechnen: false}
+  - {id: kochsalz, zutat: Salz, g: 15, anzeige: "1 knapper EL Salz fürs Nudelwasser", hinweis: "", mitrechnen: false}
+  - gruppe: Sauce
+  - {id: oel, zutat: Olivenöl, g: 5, anzeige: "1 TL Olivenöl", hinweis: ""}
+  - {id: zwiebel, zutat: Zwiebel, g: 50, anzeige: "½ Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 6, anzeige: "2 Knoblauchzehen", hinweis: ""}
+  - {id: tomaten, zutat: Tomaten passiert, g: 300, name: "passierte Tomaten", hinweis: ""}
+  - {id: frischkaese, zutat: Frischkäse light, g: 100, name: "Frischkäse light", hinweis: "½ Packung"}
+  - {id: kraeuter, zutat: Italienische Kräuter getrocknet, g: 2, anzeige: "1 TL italienische Kräuter", hinweis: ""}
+  - {id: chili, zutat: Chiliflocken, g: 0.5, anzeige: "1 Prise Chiliflocken", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 1.5, anzeige: "¼ TL Salz", hinweis: ""}
+  - {id: lachs, zutat: Lachsfilet ohne Haut roh, g: 250, anzeige: "2 Lachsfilets", name: Lachs, hinweis: "à 125 g, ohne Haut"}
+  - {id: spinat, zutat: Babyspinat, g: 50, anzeige: "2 Handvoll Babyspinat", hinweis: ""}
+  - {id: zitrone, zutat: Zitronensaft, g: 10, anzeige: "2 TL Zitronensaft", hinweis: ""}
+  - {id: parmesan, zutat: Parmesan gerieben, g: 20, name: "geriebener Parmesan", hinweis: ""}
+mise_en_place:
+  - "{kochwasser} mit {kochsalz} aufsetzen."
+  - "{lachs} trocken tupfen und in 3 cm Würfel schneiden."
+  - "{zwiebel} fein würfeln, {knoblauch} hacken."
+schritte:
+  - titel: Penne kochen
+    text: "{penne} ins sprudelnde Wasser geben (Stufe 9 von 9) und auf Stufe 7 von 9 nach Packungsangabe bissfest kochen (meist 10–11 Minuten). ½ Tasse Nudelwasser abnehmen, dann abgießen."
+    timer_min: 11
+  - titel: Tomatensauce
+    text: "{oel} in der Pfanne auf Stufe 5 von 9 erhitzen, Zwiebel und Knoblauch 2 Minuten glasig dünsten. {tomaten}, {frischkaese}, {kraeuter}, {chili} und {salz} einrühren, bis die Sauce glatt und rosa ist, und auf Stufe 4 von 9 3 Minuten köcheln lassen."
+    timer_min: 3
+  - titel: Lachs in der Sauce garen
+    text: "Die {lachs:n}würfel in die leise köchelnde Sauce legen, Stufe 3 von 9, und 4 Minuten ziehen lassen, dabei einmal vorsichtig wenden. Garprobe: Der Lachs ist außen hellrosa und in der Mitte noch leicht glasig (Kerntemperatur 50–55 °C); für ganz durchgegarten Lachs 1–2 Minuten länger bis 60 °C. Den {spinat:n} unterheben und zusammenfallen lassen, mit {zitrone} abschmecken."
+    timer_min: 4
+  - titel: Mischen
+    text: "Die Penne mit 3–4 EL Nudelwasser vorsichtig unterheben (nicht kräftig rühren, damit der Lachs in Stücken bleibt) und kurz auf Stufe 3 von 9 durchziehen lassen."
+    timer_min: null
+zeitablauf:
+  - "Während die Penne kochen (11 Minuten): Sauce kochen und Lachs darin garen – beides ist gleichzeitig fertig."
+fehler:
+  - "**Lachs trocken und faserig:** in sprudelnder Sauce gekocht. Nur bei Stufe 3 von 9 sanft ziehen lassen."
+  - "**Lachs zerfällt:** zu kleine Würfel oder zu viel gerührt. 3 cm Würfel und Nudeln nur unterheben."
+  - "**Sauce zu dick:** Frischkäse bindet stark. Mit Nudelwasser verlängern."
+anrichten: "Auf 2 tiefe Teller verteilen (je ca. {portion_g} g) und mit dem {parmesan:n} bestreuen."
+aufbewahrung:
+  kuehlschrank_tage: 1
+  einfrierbar: false
+  aufwaermen: "Am besten frisch. Reste am nächsten Tag vorsichtig in der Pfanne mit 2 EL Wasser auf Stufe 3 von 9 erwärmen (max. 1 Tag, Fisch)."
+varianten:
+  - "**Mit Rote-Linsen-Nudeln:** 160 g Linsennudeln statt Penne (−19 kcal, +9,6 g Protein pro Portion)."
+  - "**Mit Thunfisch:** 2 Dosen Thunfisch (260 g abgetropft) statt Lachs, erst zum Schluss unterheben (−110 kcal, +7,5 g Protein, −15,6 g Fett pro Portion)."
+  - "**Mehr Grün:** 75 g Babyspinat zusätzlich (+9 kcal, +1,1 g Protein pro Portion)."
+tipps:
+  - "Etwas abgeriebene Zitronenschale ganz zum Schluss hebt den Lachsgeschmack."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

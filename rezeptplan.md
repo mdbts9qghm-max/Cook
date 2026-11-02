@@ -2,7 +2,7 @@
 
 # Rezeptplan – Startbestand mit 100 Rezepten
 
-Stand: 20 von 100 Rezepten geschrieben. Ziel-kcal sind Planwerte pro Portion; die echten Werte rechnet `tools/naehrwerte.py`.
+Stand: 30 von 100 Rezepten geschrieben. Ziel-kcal sind Planwerte pro Portion; die echten Werte rechnet `tools/naehrwerte.py`.
 
 Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = restetauglich · **KA** = kalorienarm · **OK** = ohne Kochen/Backen · **I** = TikTok/Instagram-Inspiration · **Rd.** = Schreib-Runde in Phase 4 · ✅ = schon geschrieben
 
@@ -16,9 +16,9 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 4 | Karottenkuchen-Baked-Oats mit Frischkäse-Frosting ✅ | Amerikanisch | Quark & Whey | 590 |  | ✓ | ✓ | 2 | Carrot-Cake-Oats mit Zimt und Frischkäse-light-Frosting |
 | 5 | Protein-Joghurt-Bowl mit Granola und Beeren ✅ | International / Fusion | Skyr & Whey | 540 | ✓ |  | ✓ | 2 | Vanille-Whey-Skyr, Granola, TK-Beeren, Honig |
 | 6 | Fluffige Protein-Pancakes mit Beeren-Skyr ✅ | Amerikanisch | Eier & Whey | 600 | ✓ |  | ✓ | 2 | Dicke Pancakes aus Hafer, Eiern und Whey, Topping Beeren-Skyr |
-| 7 | Protein-Waffeln mit warmen Kirschen | Deutsch | Quark & Eier | 610 | ✓ |  |  | 3 | Knusprige Quark-Waffeln aus dem Waffeleisen, Sauerkirschkompott |
-| 8 | Overnight Oats Erdbeer-Cheesecake | Amerikanisch | Skyr & Whey | 560 | ✓ | ✓ | ✓ | 3 | Cheesecake-Schicht aus Frischkäse light, Erdbeeren, Granola-Crunch |
-| 9 | Overnight Oats Apfelstrudel | Deutsch | Skyr & Whey | 570 | ✓ | ✓ |  | 3 | Apfelmus, Zimt, Vanille, Mandeln – schmeckt wie Strudel |
+| 7 | Protein-Waffeln mit warmen Kirschen ✅ | Deutsch | Quark & Eier | 610 | ✓ |  |  | 3 | Knusprige Quark-Waffeln aus dem Waffeleisen, Sauerkirschkompott |
+| 8 | Overnight Oats Erdbeer-Cheesecake ✅ | Amerikanisch | Skyr & Whey | 560 | ✓ | ✓ | ✓ | 3 | Cheesecake-Schicht aus Frischkäse light, Erdbeeren, Granola-Crunch |
+| 9 | Overnight Oats Apfelstrudel ✅ | Deutsch | Skyr & Whey | 570 | ✓ | ✓ |  | 3 | Apfelmus, Zimt, Vanille, Mandeln – schmeckt wie Strudel |
 | 10 | Overnight Oats Erdnuss-Banane | Amerikanisch | Skyr & Whey | 620 | ✓ | ✓ | ✓ | 4 | PB-&-Banana-Oats mit Schoko-Whey |
 | 11 | Tiramisu-Overnight-Oats | Italienisch | Skyr & Whey | 580 | ✓ | ✓ | ✓ | 4 | Espresso-Oats, Vanille-Skyr-Schicht, Kakao obenauf |
 | 12 | Quarkauflauf mit Kirschen | Deutsch | Quark & Eier | 590 |  | ✓ |  | 4 | Grieß-Quark-Auflauf mit Sauerkirschen, warm oder kalt |
@@ -47,7 +47,7 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 |---:|---|---|---|---:|---|---|---|---|---:|---|
 | 31 | Protein-Mousse au Chocolat ✅ | International / Fusion | Quark & Whey | 280 | ✓ |  | ✓ | ✓ | 1 | Luftig aufgeschlagen mit Kakao und Zartbitter-Raspeln |
 | 32 | Skyr-Cheesecake im Glas ✅ | Amerikanisch | Skyr | 300 | ✓ | ✓ | ✓ | ✓ | 2 | Granola-Boden, Vanille-Skyr-Frischkäse-Creme, Beeren |
-| 33 | Beeren-Nice-Cream mit Whey | International / Fusion | Whey & Skyr | 250 | ✓ |  | ✓ | ✓ | 3 | TK-Beeren, Banane, Skyr und Whey cremig gemixt |
+| 33 | Beeren-Nice-Cream mit Whey ✅ | International / Fusion | Whey & Skyr | 250 | ✓ |  | ✓ | ✓ | 3 | TK-Beeren, Banane, Skyr und Whey cremig gemixt |
 | 34 | Schoko-Erdnuss-Protein-Balls | Amerikanisch | Whey | 320 |  | ✓ | ✓ | ✓ | 4 | Hafer, Whey, Erdnussmus, Datteln – 4 Kugeln pro Portion |
 | 35 | Vanille-Quarkcreme mit Erdbeeren | Deutsch | Quark | 230 | ✓ |  | ✓ |  | 5 | Cremig gerührter Quark mit Vanille und marinierten Erdbeeren |
 | 36 | Proteinpudding mit Knusper-Topping | International / Fusion | Proteinpudding | 260 | ✓ |  | ✓ |  | 6 | Schoko-Proteinpudding, Granola, Himbeeren |
@@ -72,12 +72,12 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 50 | High-Protein-Lasagne ✅ | Italienisch | Rind | 780 |  | ✓ | ✓ |  | ✓ | 2 | Bolognese aus magerem Rinderhack, Magerquark-Parmesan-Schicht statt Béchamel |
 | 51 | Spaghetti Bolognese ✅ | Italienisch | Rind | 750 |  | ✓ | ✓ |  |  | 2 | Lang geköchelte Sauce mit Tomatenmark-Röstung und Möhre |
 | 52 | Protein-Carbonara mit Linsennudeln ✅ | Italienisch | Eier | 720 | ✓ |  |  |  | ✓ | 2 | Rote-Linsen-Nudeln, Ei-Parmesan-Creme, Kochschinkenwürfel statt Guanciale |
-| 53 | Hähnchen-Piccata mit Zitronensauce und Penne | Italienisch | Hähnchen | 690 | ✓ |  |  |  |  | 3 | Dünne Schnitzel in Mehl gebraten, Zitronen-Butter-Sauce |
-| 54 | One-Pan-Gnocchi mit Pute | Italienisch | Pute | 680 | ✓ |  | ✓ |  | ✓ | 3 | Alles in einer Pfanne, Gnocchi werden knusprig |
-| 55 | Lachs-Penne mit Tomate und Frischkäse | Italienisch | Fisch & Garnelen | 780 | ✓ |  |  |  |  | 3 | Lachswürfel in cremiger Tomatensauce |
-| 56 | Penne all'Arrabbiata mit Garnelen | Italienisch | Fisch & Garnelen | 540 | ✓ |  |  | ✓ |  | 3 | Scharfe Tomatensauce, viele Garnelen, wenig Pasta |
-| 57 | Caprese-Chicken aus dem Ofen | Italienisch | Hähnchen | 520 |  |  | ✓ | ✓ | ✓ | 3 | Hähnchen mit Tomaten und Mozzarella light überbacken, Gnocchi-Beilage klein |
-| 58 | Protein-Pizza mit Quark-Öl-Teig | Italienisch | Schwein | 750 |  |  | ✓ |  | ✓ | 3 | Schneller Quarkteig, Kochschinken, Mozzarella light, Champignons |
+| 53 | Hähnchen-Piccata mit Zitronensauce und Penne ✅ | Italienisch | Hähnchen | 690 | ✓ |  |  |  |  | 3 | Dünne Schnitzel in Mehl gebraten, Zitronen-Butter-Sauce |
+| 54 | One-Pan-Gnocchi mit Pute ✅ | Italienisch | Pute | 680 | ✓ |  | ✓ |  | ✓ | 3 | Alles in einer Pfanne, Gnocchi werden knusprig |
+| 55 | Lachs-Penne mit Tomate und Frischkäse ✅ | Italienisch | Fisch & Garnelen | 780 | ✓ |  |  |  |  | 3 | Lachswürfel in cremiger Tomatensauce |
+| 56 | Penne all'Arrabbiata mit Garnelen ✅ | Italienisch | Fisch & Garnelen | 540 | ✓ |  |  | ✓ |  | 3 | Scharfe Tomatensauce, viele Garnelen, wenig Pasta |
+| 57 | Caprese-Chicken aus dem Ofen ✅ | Italienisch | Hähnchen | 520 |  |  | ✓ | ✓ | ✓ | 3 | Hähnchen mit Tomaten und Mozzarella light überbacken, Gnocchi-Beilage klein |
+| 58 | Protein-Pizza mit Quark-Öl-Teig ✅ | Italienisch | Schwein | 750 |  |  | ✓ |  | ✓ | 3 | Schneller Quarkteig, Kochschinken, Mozzarella light, Champignons |
 | 59 | Teriyaki-Hähnchen-Bowl | Asiatisch | Hähnchen | 720 | ✓ | ✓ | ✓ |  |  | 4 | Glasiertes Hähnchen mit Soja-Honig-Ingwer, Reis, Sesam |
 | 60 | Korean Beef Bowl mit Gochujang | Asiatisch | Rind | 740 | ✓ | ✓ | ✓ |  | ✓ | 4 | Süß-scharfes Rinderhack, Reis, Gurke, Frühlingszwiebel |
 | 61 | Rotes Thai-Curry mit Garnelen | Asiatisch | Fisch & Garnelen | 680 | ✓ |  |  |  |  | 4 | Kokosmilch light, rote Currypaste, Paprika, Basmatireis |

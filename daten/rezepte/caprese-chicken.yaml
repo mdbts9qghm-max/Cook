@@ -1,0 +1,63 @@
+id: caprese-chicken
+name: Caprese-Chicken aus dem Ofen
+hauptkategorie: kalorienarm
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Italienisch
+hauptprotein: Hähnchen
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Caprese Chicken“"
+  link: null
+  aenderungen: "Mozzarella light statt Büffelmozzarella, nur 1 EL Öl und eine kleine Gnocchi-Beilage – bleibt unter 550 kcal."
+schwierigkeit: leicht
+zeit: {vorbereitung: 10, kochen: 22, wartezeit: 0}
+ausstattung: [Backofen, "Auflaufform ca. 20 × 30 cm", "Beschichtete Pfanne (24 cm)", "Fleischthermometer (empfohlen)"]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Hähnchen
+  - {id: haehnchen, zutat: Hähnchenbrustfilet roh, g: 400, anzeige: "2 Hähnchenbrustfilets", name: Hähnchenbrust, hinweis: "à ca. 200 g"}
+  - {id: oel, zutat: Olivenöl, g: 8, anzeige: "2 TL Olivenöl", hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 3, anzeige: "1 Knoblauchzehe", hinweis: ""}
+  - {id: kraeuter, zutat: Italienische Kräuter getrocknet, g: 2, anzeige: "1 TL italienische Kräuter", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 1.5, anzeige: "¼ TL Salz", hinweis: ""}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: ""}
+  - {id: tomaten, zutat: Cherrytomaten, g: 250, name: Cherrytomaten, hinweis: "1 Schale"}
+  - {id: mozzarella, zutat: Mozzarella light, g: 125, anzeige: "1 Kugel Mozzarella light", hinweis: "abgetropft"}
+  - gruppe: Gnocchi
+  - {id: gnocchi, zutat: Gnocchi (Kühlregal), g: 200, name: Gnocchi, hinweis: "aus dem Kühlregal"}
+mise_en_place:
+  - "Backofen auf 200 °C Ober-/Unterhitze (180 °C Umluft) vorheizen."
+  - "{haehnchen} trocken tupfen und waagerecht halbieren (4 Stücke à ca. 2 cm)."
+  - "{knoblauch} fein reiben und mit {oel}, {kraeuter}, {salz} und {pfeffer} verrühren; die Hälfte davon auf dem Hähnchen verreiben."
+  - "{tomaten} halbieren, {mozzarella} in 8 Scheiben schneiden."
+schritte:
+  - titel: Belegen
+    text: "Die {haehnchen:n}stücke in die Auflaufform legen, die halbierten {tomaten:n} rundherum verteilen und mit dem restlichen Kräuteröl beträufeln. Je 2 Mozzarellascheiben auf jedes Hähnchenstück legen."
+    timer_min: null
+  - titel: Backen
+    text: "Im vorgeheizten Backofen bei 200 °C Ober-/Unterhitze (180 °C Umluft) auf der mittleren Schiene 20–22 Minuten backen, bis der Mozzarella geschmolzen und leicht gebräunt ist und die Tomaten aufplatzen. Garprobe: Die {haehnchen:n} hat an der dicksten Stelle 74 °C Kerntemperatur – ohne Thermometer anschneiden, innen weiß und der Saft klar."
+    timer_min: 22
+  - titel: Gnocchi braten
+    text: "In den letzten 8 Minuten die {gnocchi:n} ohne Fett in der beschichteten Pfanne auf Stufe 7 von 9 6–7 Minuten rundum goldbraun braten, gelegentlich schwenken."
+    timer_min: 7
+zeitablauf:
+  - "Während das Hähnchen im Ofen ist: Gnocchi braten und den Tisch decken."
+fehler:
+  - "**Hähnchen trocken:** zu dick gelassen oder zu lange gebacken. Waagerecht halbieren und ab 18 Minuten messen."
+  - "**Wässriger Boden:** Mozzarella nicht abgetropft. Kugel gut abtropfen und die Scheiben kurz trocken tupfen."
+anrichten: "Pro Teller 2 Hähnchenstücke mit den Ofentomaten und dem Bratensaft, daneben die Hälfte der Gnocchi – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: false
+  aufwaermen: "Mikrowelle 600 W, 2 Minuten abgedeckt, oder im Ofen bei 180 °C Ober-/Unterhitze 10 Minuten."
+  separat: "Gnocchi getrennt lagern und in der Pfanne kurz aufknuspern."
+varianten:
+  - "**Mit Pute:** 400 g Putenbrustfilet statt Hähnchen (+6 kcal, +1 g Protein pro Portion)."
+  - "**Mit Reis statt Gnocchi:** 80 g Basmatireis (−11 kcal pro Portion)."
+  - "**Low Carb:** Gnocchi weglassen, dafür einen großen Salat (−151 kcal, −33 g KH pro Portion)."
+tipps:
+  - "Ein paar Tropfen Balsamico-Creme über die fertigen Tomaten sind der klassische Caprese-Kick (ca. +10 kcal pro TL)."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

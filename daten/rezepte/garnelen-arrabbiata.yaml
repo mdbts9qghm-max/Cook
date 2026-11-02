@@ -1,0 +1,65 @@
+id: garnelen-arrabbiata
+name: Penne all'Arrabbiata mit Garnelen
+hauptkategorie: kalorienarm
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Italienisch
+hauptprotein: Fisch & Garnelen
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 5, kochen: 15, wartezeit: 0}
+ausstattung: ["Großer Topf (24 cm)", "Große Pfanne (28 cm)", Sieb]
+restetauglich: false
+vortag: ["TK-Garnelen über Nacht im Kühlschrank auftauen (oder 15 Minuten in kaltem Wasser im Beutel)"]
+zutaten:
+  - gruppe: Pasta
+  - {id: penne, zutat: Penne ungekocht, g: 120, name: Penne, hinweis: ""}
+  - {id: kochwasser, zutat: Wasser, g: 2000, name: Wasser, hinweis: "2 l zum Kochen", mitrechnen: false}
+  - {id: kochsalz, zutat: Salz, g: 15, anzeige: "1 knapper EL Salz fürs Nudelwasser", hinweis: "", mitrechnen: false}
+  - gruppe: Arrabbiata
+  - {id: oel, zutat: Olivenöl, g: 10, anzeige: "1 EL Olivenöl", hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 9, anzeige: "3 Knoblauchzehen", hinweis: ""}
+  - {id: chili, zutat: Chiliflocken, g: 1.5, anzeige: "½ TL Chiliflocken", hinweis: "arrabbiata = „wütend“, also ruhig scharf"}
+  - {id: tomatenmark, zutat: Tomatenmark 2-fach konzentriert, g: 15, anzeige: "1 EL Tomatenmark", hinweis: ""}
+  - {id: tomaten, zutat: Tomaten gehackt (Dose), g: 400, name: "gehackte Tomaten", hinweis: "1 Dose"}
+  - {id: kraeuter, zutat: Italienische Kräuter getrocknet, g: 1, anzeige: "½ TL italienische Kräuter", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 1.5, anzeige: "¼ TL Salz", hinweis: ""}
+  - {id: garnelen, zutat: Garnelen TK roh geschält, g: 450, name: Garnelen, hinweis: "2 Beutel à 225 g, aufgetaut"}
+  - {id: petersilie, zutat: Petersilie glatt, g: 5, anzeige: "2 EL gehackte Petersilie", hinweis: ""}
+mise_en_place:
+  - "{kochwasser} mit {kochsalz} aufsetzen."
+  - "{garnelen} in einem Sieb abtropfen lassen und mit Küchenpapier gründlich trocken tupfen."
+  - "{knoblauch} in feine Scheiben schneiden, {petersilie} hacken."
+schritte:
+  - titel: Penne kochen
+    text: "{penne} ins sprudelnde Wasser geben (Stufe 9 von 9) und auf Stufe 7 von 9 nach Packungsangabe bissfest kochen (meist 10–11 Minuten). ½ Tasse Nudelwasser abnehmen, dann abgießen."
+    timer_min: 11
+  - titel: Arrabbiata-Sauce
+    text: "{oel} in der Pfanne auf Stufe 5 von 9 erhitzen. Knoblauch und {chili} 1 Minute darin anschwitzen, bis der Knoblauch hellgolden ist (nicht braun). {tomatenmark} 1 Minute mitrösten, dann {tomaten}, {kraeuter} und {salz} einrühren und auf Stufe 4 von 9 6 Minuten einköcheln lassen, bis die Sauce dicklich ist."
+    timer_min: 7
+  - titel: Garnelen garen
+    text: "Die trockenen {garnelen:n} in die Sauce geben und auf Stufe 4 von 9 3 Minuten garen, einmal umrühren. Garprobe: Die Garnelen sind durchgehend rosa-orange, nicht mehr glasig und haben sich zu einem lockeren „C“ gebogen (ein enges „O“ heißt übergart)."
+    timer_min: 3
+  - titel: Mischen
+    text: "Die Penne mit 3 EL Nudelwasser in die Pfanne geben, auf Stufe 4 von 9 1 Minute durchschwenken und die {petersilie:n} unterheben."
+    timer_min: null
+zeitablauf:
+  - "Während die Penne kochen: Sauce ansetzen; Garnelen in den letzten 3 Minuten der Kochzeit dazugeben."
+fehler:
+  - "**Garnelen gummiartig:** zu lange gegart. Nach 3 Minuten prüfen – sie garen in der heißen Sauce nach."
+  - "**Sauce wässrig:** Garnelen nicht trocken getupft. Gründlich abtupfen und die Sauce vorher gut einköcheln lassen."
+  - "**Bitter:** Knoblauch verbrannt. Nur bis hellgolden anschwitzen."
+anrichten: "Auf 2 tiefe Teller verteilen (je ca. {portion_g} g), mit etwas Pfeffer servieren – die große Garnelen-Menge macht satt, obwohl es wenig Pasta ist."
+aufbewahrung:
+  kuehlschrank_tage: 1
+  einfrierbar: false
+  aufwaermen: "Am besten frisch. Reste (max. 1 Tag) in der Pfanne mit 2 EL Wasser auf Stufe 4 von 9 kurz erwärmen."
+varianten:
+  - "**Mehr Pasta:** 40 g Penne mehr (+72 kcal, +14,2 g KH pro Portion; dann kein Kalorienarm mehr)."
+  - "**Mit Hähnchen:** 400 g Hähnchenbrust in 2 cm Würfeln vorher anbraten, bis 74 °C Kerntemperatur (+42 kcal, +11 g Protein pro Portion)."
+  - "**Mit Feta:** 50 g zerbröselter Feta obenauf (+64 kcal, +4,2 g Protein pro Portion)."
+tipps:
+  - "Ein Spritzer Zitronensaft und etwas Zitronenschale zum Schluss passen hervorragend zu Garnelen."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

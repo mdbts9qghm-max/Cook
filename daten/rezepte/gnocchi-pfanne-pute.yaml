@@ -1,0 +1,64 @@
+id: gnocchi-pfanne-pute
+name: One-Pan-Gnocchi mit Pute, Tomate und Spinat
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Italienisch
+hauptprotein: Pute
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „One Pan Crispy Gnocchi“"
+  link: null
+  aenderungen: "Knusprige Gnocchi mit nur 1 EL Öl statt viel Butter, mageres Putenfleisch und eine leichte Sauce aus Tomate und Frischkäse light statt Sahne."
+schwierigkeit: leicht
+zeit: {vorbereitung: 7, kochen: 18, wartezeit: 0}
+ausstattung: ["Große beschichtete Pfanne (28 cm) mit Deckel"]
+restetauglich: true
+vortag: []
+zutaten:
+  - {id: oel, zutat: Olivenöl, g: 10, anzeige: "1 EL Olivenöl", hinweis: ""}
+  - {id: gnocchi, zutat: Gnocchi (Kühlregal), g: 400, name: Gnocchi, hinweis: "direkt aus der Packung, nicht vorkochen"}
+  - {id: pute, zutat: Putenbrustfilet roh, g: 350, name: Putenbrust, hinweis: ""}
+  - {id: salz, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: ""}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: ""}
+  - {id: zwiebel, zutat: Zwiebel, g: 50, anzeige: "½ Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 6, anzeige: "2 Knoblauchzehen", hinweis: ""}
+  - {id: kirschtomaten, zutat: Cherrytomaten, g: 250, name: Cherrytomaten, hinweis: "1 Schale"}
+  - {id: tomaten, zutat: Tomaten passiert, g: 200, name: "passierte Tomaten", hinweis: ""}
+  - {id: wasser, zutat: Wasser, g: 50, name: Wasser, hinweis: "50 ml"}
+  - {id: kraeuter, zutat: Italienische Kräuter getrocknet, g: 2, anzeige: "1 TL italienische Kräuter", hinweis: ""}
+  - {id: frischkaese, zutat: Frischkäse light, g: 50, name: "Frischkäse light", hinweis: ""}
+  - {id: spinat, zutat: Babyspinat, g: 75, anzeige: "3 Handvoll Babyspinat", hinweis: ""}
+  - {id: parmesan, zutat: Parmesan gerieben, g: 20, name: "geriebener Parmesan", hinweis: ""}
+mise_en_place:
+  - "{pute} in 2 cm Würfel schneiden, mit {salz} und {pfeffer} würzen."
+  - "{zwiebel} fein würfeln, {knoblauch} hacken, {kirschtomaten} halbieren."
+schritte:
+  - titel: Gnocchi knusprig braten
+    text: "Die Hälfte vom {oel} in der Pfanne auf Stufe 7 von 9 erhitzen. Die {gnocchi:n} in einer Lage hineingeben und 3 Minuten ohne Rühren braten, dann schwenken und weitere 3–4 Minuten braten, bis sie rundum goldbraun und knusprig sind. Herausnehmen."
+    timer_min: 7
+  - titel: Pute anbraten
+    text: "Restliches Öl in die Pfanne, Stufe 8 von 9. Die {pute:n}würfel 4 Minuten rundum anbraten, bis sie hellbraun sind. Zwiebel und Knoblauch dazugeben und 1 Minute mitbraten."
+    timer_min: 5
+  - titel: Sauce und fertig garen
+    text: "Die {kirschtomaten:n}, {tomaten}, {wasser}, {kraeuter} und {frischkaese} einrühren, auf Stufe 5 von 9 aufkochen und mit Deckel 3 Minuten köcheln lassen, bis die Tomaten weich werden. {spinat} unterheben und zusammenfallen lassen. Die Gnocchi zurück in die Pfanne geben und 1 Minute durchschwenken. Garprobe: Die größten {pute:n}würfel haben 74 °C Kerntemperatur und sind innen weiß."
+    timer_min: 5
+zeitablauf:
+  - "Während die Gnocchi braten: Pute würfeln, Tomaten halbieren."
+fehler:
+  - "**Gnocchi zerkochen:** vorgekocht oder zu früh in die Sauce gegeben. Roh in der Pfanne braten und erst zum Schluss kurz in die Sauce."
+  - "**Gnocchi kleben an:** Pfanne nicht heiß genug oder zu früh bewegt. Stufe 7 von 9 und 3 Minuten liegen lassen."
+anrichten: "Auf 2 tiefe Teller verteilen (je ca. {portion_g} g) und mit dem {parmesan:n} bestreuen."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: false
+  aufwaermen: "In der Pfanne auf Stufe 5 von 9 mit 2 EL Wasser 4 Minuten erwärmen (Gnocchi werden weicher, aber lecker) oder Mikrowelle 600 W 2½ Minuten."
+varianten:
+  - "**Mit Hähnchen:** 350 g Hähnchenbrust statt Pute (−5 kcal, −0,9 g Protein pro Portion)."
+  - "**Mit Garnelen:** 450 g aufgetaute TK-Garnelen statt Pute, nur 2–3 Minuten in der Sauce garen, bis sie rosa sind (−22 kcal, −6 g Protein pro Portion)."
+  - "**Mit Mozzarella:** Parmesan durch 125 g Mozzarella light ersetzen und kurz mit Deckel schmelzen lassen (+63 kcal, +8,9 g Protein pro Portion)."
+tipps:
+  - "Gnocchi trocken in die heiße Pfanne – je weniger Feuchtigkeit, desto knuspriger."
+  - "Ein paar Chiliflocken in der Sauce passen hervorragend."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

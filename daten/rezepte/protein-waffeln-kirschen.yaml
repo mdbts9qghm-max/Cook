@@ -1,0 +1,67 @@
+id: protein-waffeln-kirschen
+name: Protein-Waffeln mit warmen Kirschen
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Deutsch
+hauptprotein: Quark & Eier
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 5, kochen: 18, wartezeit: 0}
+ausstattung: [Waffeleisen, "Mixer oder Pürierstab mit hohem Rührbecher", "Kleiner Topf (16 cm)"]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Waffelteig
+  - {id: hafer, zutat: Haferflocken zart, g: 100, name: "zarte Haferflocken", hinweis: ""}
+  - {id: quark, zutat: Magerquark, g: 250, name: Magerquark, hinweis: "½ Becher à 500 g"}
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 120, anzeige: "2 Eier Gr. M", hinweis: ""}
+  - {id: whey, zutat: Whey Protein Vanille, g: 30, name: "Vanille-Whey", hinweis: "1 Messlöffel"}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 50, name: "Milch (1,5 %)", hinweis: "50 ml"}
+  - {id: butter, zutat: Butter, g: 10, anzeige: "1 TL Butter, geschmolzen", hinweis: "macht die Waffeln knusprig"}
+  - {id: backpulver, zutat: Backpulver, g: 4, anzeige: "1 knapper TL Backpulver", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: ""}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 1, anzeige: "10 Tropfen flüssiger Süßstoff", hinweis: "ca. 1 g"}
+  - {id: oel, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: "zum Einpinseln des Waffeleisens"}
+  - gruppe: Warme Kirschen
+  - {id: kirschen, zutat: Sauerkirschen (Glas) abgetropft, g: 150, name: Sauerkirschen, hinweis: "abgetropft, Saft auffangen"}
+  - {id: wasser, zutat: Wasser, g: 50, name: Wasser, hinweis: "oder 50 ml Kirschsaft aus dem Glas (dann +15 kcal)"}
+  - {id: staerke, zutat: Speisestärke, g: 8, anzeige: "1 EL Speisestärke", hinweis: ""}
+  - {id: zimt, zutat: Zimt gemahlen, g: 1, anzeige: "1 Prise Zimt", hinweis: ""}
+  - {id: suessstoff_kirsch, zutat: Süßstoff flüssig, g: 0.5, anzeige: "5 Tropfen flüssiger Süßstoff", hinweis: ""}
+mise_en_place:
+  - "Waffeleisen auf mittlere Stufe vorheizen (ca. 5 Minuten)."
+  - "{butter} in der Mikrowelle 20 Sekunden bei 600 W schmelzen."
+  - "{kirschen} in einem Sieb abtropfen lassen. {staerke} mit 2 EL vom {wasser:n} glatt rühren."
+schritte:
+  - titel: Teig mixen
+    text: "{hafer} im Mixer 15 Sekunden fein mahlen. {quark}, {eier}, {whey}, {milch}, die geschmolzene Butter, {backpulver}, {salz} und {suessstoff} dazu und 20 Sekunden zu einem dicken, glatten Teig mixen."
+    timer_min: null
+  - titel: Waffeln backen
+    text: "Das heiße Waffeleisen dünn mit {oel} einpinseln. 2 gehäufte EL Teig (ca. 1 Viertel) in die Mitte geben, schließen und 4–5 Minuten backen, bis kein Dampf mehr austritt und die Waffel goldbraun ist. Nicht zu früh öffnen, sonst reißt sie. Ergibt 4 Waffeln; fertige Waffeln auf einem Gitter ablegen, damit sie knusprig bleiben."
+    timer_min: 5
+  - titel: Kirschen erwärmen
+    text: "Während die Waffeln backen: Kirschen mit dem restlichen Wasser, {zimt} und {suessstoff_kirsch} im kleinen Topf auf Stufe 6 von 9 aufkochen. Die angerührte Stärke einrühren und 1 Minute auf Stufe 4 von 9 köcheln lassen, bis das Kompott glänzt und andickt."
+    timer_min: 2
+zeitablauf:
+  - "Während das Waffeleisen vorheizt: Teig mixen. Während die erste Waffel backt: Kirschkompott kochen."
+fehler:
+  - "**Waffel bleibt kleben:** Eisen nicht heiß genug oder nicht gefettet. 5 Minuten vorheizen und vor jeder Waffel dünn einpinseln."
+  - "**Waffeln weich statt knusprig:** aufeinandergestapelt. Auf ein Gitter legen, dann entweicht der Dampf."
+  - "**Kompott flüssig:** Stärke nicht aufgekocht. Nach dem Einrühren 1 Minute köcheln lassen."
+anrichten: "Pro Teller 2 Waffeln mit der Hälfte der warmen Kirschen (zusammen ca. {portion_g} g). Mit einer Prise Zimt bestäuben – erinnert an Waffeln mit heißen Kirschen vom Weihnachtsmarkt."
+aufbewahrung:
+  kuehlschrank_tage: 2
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "Waffeln im Toaster auf mittlerer Stufe 2 Minuten aufknuspern; Kirschen 1 Minute bei 600 W in der Mikrowelle."
+  separat: "Kirschen getrennt lagern, sonst weichen die Waffeln durch."
+varianten:
+  - "**Mit Skyr-Klecks:** 150 g Skyr natur auf die Waffeln verteilt (+47 kcal, +8,2 g Protein pro Portion) – wie Waffeln mit Sahne."
+  - "**Mit Himbeeren:** 150 g TK-Himbeeren statt Kirschen genauso einkochen (−17 kcal, −8 g Zucker pro Portion)."
+  - "**Ohne Butter:** Butter im Teig weglassen (−37 kcal, −4,1 g Fett pro Portion; Waffeln werden etwas weicher)."
+tipps:
+  - "Ein Hauch abgeriebene Zitronenschale im Teig und Zimt im Kompott – schmeckt nach Omas Sonntagswaffeln."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

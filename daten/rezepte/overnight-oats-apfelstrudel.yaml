@@ -1,0 +1,59 @@
+id: overnight-oats-apfelstrudel
+name: Overnight Oats Apfelstrudel
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Deutsch
+hauptprotein: Skyr & Whey
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 8, kochen: 0, wartezeit: 480}
+ausstattung: ["2 Schraubgläser (ca. 500 ml)", Schüssel, Schneebesen]
+restetauglich: true
+vortag: ["Overnight Oats Apfelstrudel am Abend ansetzen (8 Minuten)"]
+zutaten:
+  - gruppe: Oats
+  - {id: hafer, zutat: Haferflocken zart, g: 130, name: "zarte Haferflocken", hinweis: ""}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 200, name: "Milch (1,5 %)", hinweis: "200 ml"}
+  - {id: skyr, zutat: Skyr natur, g: 250, name: Skyr, hinweis: ""}
+  - {id: whey, zutat: Whey Protein Vanille, g: 30, name: "Vanille-Whey", hinweis: "1 Messlöffel"}
+  - {id: chia, zutat: Chiasamen, g: 10, anzeige: "1 EL Chiasamen", hinweis: ""}
+  - {id: zimt, zutat: Zimt gemahlen, g: 3, anzeige: "1 gehäufter TL Zimt", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 0.3, anzeige: "1 kleine Prise Salz", hinweis: ""}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 0.5, anzeige: "5 Tropfen flüssiger Süßstoff", hinweis: ""}
+  - gruppe: Apfelschicht
+  - {id: apfelmus, zutat: Apfelmus ungesüßt, g: 60, anzeige: "3 EL Apfelmus", hinweis: "ungesüßt"}
+  - {id: apfel, zutat: Apfel, g: 75, anzeige: "½ Apfel", name: Apfel, hinweis: "säuerlich, ohne Kerngehäuse"}
+  - {id: mandeln, zutat: Mandeln, g: 20, name: Mandeln, hinweis: "grob gehackt"}
+mise_en_place:
+  - "{apfel} in 5 mm kleine Würfel schneiden, {mandeln} grob hacken."
+schritte:
+  - titel: Oats anrühren
+    text: "{hafer}, {milch}, {skyr}, {whey}, {chia}, {zimt}, {salz} und {suessstoff} in einer Schüssel mit dem Schneebesen gründlich verrühren, bis keine Whey-Klümpchen mehr zu sehen sind."
+    timer_min: null
+  - titel: Schichten
+    text: "Die Hälfte der Oats auf 2 Gläser verteilen, darauf je die Hälfte vom {apfelmus:n} und der Apfelwürfel, dann die restlichen Oats. Gläser verschließen und mindestens 8 Stunden (über Nacht) in den Kühlschrank stellen."
+    timer_min: null
+  - titel: Morgens fertig machen
+    text: "Die gehackten {mandeln:n} kurz vor dem Essen darüberstreuen und mit einer Prise Zimt bestäuben – die Mandeln ersetzen die knusprigen Strudel-Brösel."
+    timer_min: null
+zeitablauf: []
+fehler:
+  - "**Zu dick:** Hafer quillt stark. Morgens 2–3 EL Milch unterrühren."
+  - "**Apfel braun:** an der Luft gestanden. Direkt nach dem Schneiden einschichten oder mit ein paar Tropfen Zitronensaft beträufeln."
+anrichten: "Ein Glas (ca. {portion_g} g) ist deine Portion. Kalt schmeckt es wie Apfelstrudel mit Vanillesauce, warm (1½ Minuten bei 600 W) wie Apfel-Porridge."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: false
+  aufwaermen: "Kalt essen oder ohne Mandeln 1½ Minuten bei 600 W in der Mikrowelle erwärmen."
+  separat: "Mandeln getrennt lagern, damit sie knackig bleiben."
+varianten:
+  - "**Mit Erdnussmus statt Mandeln:** 20 g Erdnussmus obenauf (+2 kcal, +0,4 g Protein pro Portion) – „Apfel-Erdnuss-Strudel“."
+  - "**Saftiger:** 60 g Apfelmus zusätzlich (+16 kcal, +3,3 g Zucker pro Portion)."
+  - "**Leichter:** Mandeln weglassen (−60 kcal, −5 g Fett pro Portion)."
+tipps:
+  - "Eine Prise Muskat oder Lebkuchengewürz zum Zimt macht den Strudel-Geschmack komplett."
+  - "Säuerliche Äpfel wie Boskoop oder Elstar geben das beste Aroma."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

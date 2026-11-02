@@ -1,0 +1,62 @@
+id: overnight-oats-cheesecake
+name: Overnight Oats Erdbeer-Cheesecake
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Amerikanisch
+hauptprotein: Skyr & Whey
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Strawberry Cheesecake Overnight Oats“"
+  link: null
+  aenderungen: "Cheesecake-Schicht aus Skyr und wenig Frischkäse light statt Frischkäse mit Zucker; Keksbrösel durch eine kleine Menge zuckerreduziertes Granola ersetzt."
+schwierigkeit: leicht
+zeit: {vorbereitung: 8, kochen: 0, wartezeit: 480}
+ausstattung: ["2 Schraubgläser (ca. 500 ml)", Schüssel, Schneebesen]
+restetauglich: true
+vortag: ["Overnight Oats Erdbeer-Cheesecake am Abend ansetzen (8 Minuten)"]
+zutaten:
+  - gruppe: Oats
+  - {id: hafer, zutat: Haferflocken zart, g: 120, name: "zarte Haferflocken", hinweis: ""}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 200, name: "Milch (1,5 %)", hinweis: "200 ml"}
+  - {id: whey, zutat: Whey Protein Vanille, g: 30, name: "Vanille-Whey", hinweis: "1 Messlöffel"}
+  - {id: chia, zutat: Chiasamen, g: 10, anzeige: "1 EL Chiasamen", hinweis: ""}
+  - gruppe: Cheesecake-Schicht
+  - {id: skyr, zutat: Skyr natur, g: 250, name: Skyr, hinweis: ""}
+  - {id: frischkaese, zutat: Frischkäse light, g: 50, name: "Frischkäse light", hinweis: "¼ Packung"}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 1, anzeige: "10 Tropfen flüssiger Süßstoff", hinweis: "ca. 1 g"}
+  - gruppe: Topping
+  - {id: erdbeeren, zutat: Erdbeeren, g: 150, name: Erdbeeren, hinweis: "frisch oder aufgetaut"}
+  - {id: granola, zutat: Granola zuckerreduziert, g: 30, name: Granola, hinweis: "als Keksbrösel-Ersatz"}
+mise_en_place:
+  - "{erdbeeren} waschen, entkelchen und in 1 cm Würfel schneiden."
+schritte:
+  - titel: Oats anrühren
+    text: "{hafer}, {milch}, {whey} und {chia} in einer Schüssel mit dem Schneebesen gründlich verrühren, bis sich das Whey vollständig aufgelöst hat. Auf 2 Gläser verteilen."
+    timer_min: null
+  - titel: Cheesecake-Schicht
+    text: "{skyr}, {frischkaese} und {suessstoff} glatt rühren und als zweite Schicht auf die Oats streichen. Die Hälfte der Erdbeeren obenauf verteilen. Gläser verschließen und mindestens 8 Stunden (über Nacht) in den Kühlschrank stellen – der Hafer quillt und wird cremig."
+    timer_min: null
+  - titel: Morgens fertig machen
+    text: "Die restlichen {erdbeeren:n} und das {granola:n} erst direkt vor dem Essen darüberstreuen, damit es knusprig bleibt wie ein Keksboden."
+    timer_min: null
+zeitablauf: []
+fehler:
+  - "**Zu fest und klebrig:** zu wenig Flüssigkeit für die Haferflocken. Morgens 2–3 EL Milch unterrühren."
+  - "**Whey-Klümpchen:** Pulver nicht gründlich verrührt. Erst mit der Hälfte der Milch glatt rühren, dann den Rest dazugeben."
+  - "**Granola weich:** am Vorabend mit eingeschichtet. Immer erst morgens darüberstreuen."
+anrichten: "Ein Glas (ca. {portion_g} g) ist deine Portion – direkt aus dem Glas löffeln oder für den Weg verschlossen mitnehmen."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: false
+  aufwaermen: "Kalt essen. Wer es warm mag: ohne Topping 1½ Minuten bei 600 W."
+  separat: "Granola und die Hälfte der Erdbeeren getrennt lagern und erst vor dem Essen dazugeben."
+varianten:
+  - "**Himbeer-Cheesecake:** 150 g TK-Himbeeren statt Erdbeeren (+10 kcal pro Portion)."
+  - "**Mehr Protein:** 100 g Skyr zusätzlich in die Cheesecake-Schicht (+32 kcal, +5,5 g Protein pro Portion)."
+  - "**Leichter:** Granola weglassen (−65 kcal, −8,8 g KH pro Portion)."
+tipps:
+  - "Ein paar Tropfen Vanillearoma und ½ TL Zitronensaft in der Cheesecake-Schicht – dann schmeckt sie wirklich nach Käsekuchen."
+  - "Gleich 4 Gläser ansetzen (im Planer Faktor 2 bzw. „doppelt kochen“) – sie halten 3 Tage."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

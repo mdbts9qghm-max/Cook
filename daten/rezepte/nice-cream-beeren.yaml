@@ -1,0 +1,49 @@
+id: nice-cream-beeren
+name: Beeren-Nice-Cream mit Whey
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Snack
+geschmack: süß
+kueche: International / Fusion
+hauptprotein: Whey & Skyr
+ohne_kochen: true
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Protein Nice Cream“ aus gefrorenem Obst"
+  link: null
+  aenderungen: "Statt nur Banane und Pflanzendrink: TK-Beeren, wenig Banane, Skyr und Vanille-Whey – cremig wie Softeis, mit über 20 g Protein pro Portion."
+schwierigkeit: leicht
+zeit: {vorbereitung: 5, kochen: 0, wartezeit: 0}
+ausstattung: ["Leistungsstarker Mixer oder Pürierstab mit hohem Rührbecher", "Teigschaber"]
+restetauglich: false
+vortag: ["Banane geschält in Scheiben einfrieren (falls keine gefrorene im Vorrat ist)"]
+zutaten:
+  - {id: beeren, zutat: Beerenmischung TK, g: 250, name: Beeren, hinweis: "direkt aus dem Gefrierfach"}
+  - {id: banane, zutat: Banane, g: 100, anzeige: "1 kleine Banane", name: Banane, hinweis: "geschält, in Scheiben gefroren"}
+  - {id: skyr, zutat: Skyr natur, g: 200, name: Skyr, hinweis: "gut gekühlt"}
+  - {id: whey, zutat: Whey Protein Vanille, g: 30, name: "Vanille-Whey", hinweis: "1 Messlöffel"}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 0.5, anzeige: "5 Tropfen flüssiger Süßstoff", hinweis: "nach Geschmack"}
+mise_en_place:
+  - "{beeren} und {banane} 5 Minuten antauen lassen – dann lassen sie sich leichter mixen, bleiben aber eiskalt."
+schritte:
+  - titel: Mixen
+    text: "{beeren}, die gefrorene {banane:n}, {skyr}, {whey} und {suessstoff} in den Mixer geben. Auf mittlerer Stufe in 10-Sekunden-Intervallen mixen und zwischendurch mit dem Teigschaber nach unten schieben, bis nach ca. 1 Minute eine cremige, softeisartige Masse ohne Fruchtstücke entsteht. Nur so lange mixen wie nötig, sonst wird sie flüssig."
+    timer_min: null
+zeitablauf: []
+fehler:
+  - "**Wird zu flüssig:** zu lange gemixt oder Früchte zu stark angetaut. Kürzer mixen; flüssig geworden 15 Minuten ins Gefrierfach stellen."
+  - "**Mixer blockiert:** zu wenig Flüssigkeit. 1–2 EL Skyr oder Milch zugeben und mit dem Teigschaber nachhelfen."
+anrichten: "Sofort in 2 Schälchen verteilen (je ca. {portion_g} g) und wie Softeis löffeln."
+aufbewahrung:
+  kuehlschrank_tage: 0
+  einfrierbar: true
+  einfrieren_monate: 1
+  aufwaermen: "Nicht aufwärmen. Eingefroren wird sie steinhart – 15 Minuten antauen lassen und kurz durchrühren."
+varianten:
+  - "**Mango-Lassi-Eis:** 250 g TK-Mango statt Beeren (+22 kcal, +8,8 g Zucker pro Portion)."
+  - "**Schoko-Bananen-Eis:** Beeren weglassen, 1 Banane mehr (100 g), Schoko-Whey statt Vanille und 10 g Backkakao (+7 kcal pro Portion)."
+  - "**Mit Erdnuss-Swirl:** 15 g Erdnussmus zum Schluss einziehen (+46 kcal, +1,9 g Protein pro Portion)."
+tipps:
+  - "Überreife Bananen immer geschält in Scheiben einfrieren – dann ist Nice Cream in 5 Minuten möglich."
+  - "Eine Prise Salz und ein paar Tropfen Zitronensaft heben das Beerenaroma."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

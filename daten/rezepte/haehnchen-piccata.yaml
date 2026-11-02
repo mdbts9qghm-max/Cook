@@ -1,0 +1,70 @@
+id: haehnchen-piccata
+name: Hähnchen-Piccata mit Zitronensauce und Penne
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Italienisch
+hauptprotein: Hähnchen
+inspiration: null
+schwierigkeit: mittel
+zeit: {vorbereitung: 8, kochen: 15, wartezeit: 0}
+ausstattung: ["Große beschichtete Pfanne (28 cm)", "Großer Topf (24 cm)", "2 tiefe Teller", Sieb]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Penne
+  - {id: penne, zutat: Penne ungekocht, g: 140, name: Penne, hinweis: ""}
+  - {id: kochwasser, zutat: Wasser, g: 2000, name: Wasser, hinweis: "2 l zum Kochen", mitrechnen: false}
+  - {id: kochsalz, zutat: Salz, g: 15, anzeige: "1 knapper EL Salz fürs Nudelwasser", hinweis: "", mitrechnen: false}
+  - {id: tomaten, zutat: Cherrytomaten, g: 150, name: Cherrytomaten, hinweis: "halbiert"}
+  - gruppe: Piccata
+  - {id: haehnchen, zutat: Hähnchenbrustfilet roh, g: 400, anzeige: "2 Hähnchenbrustfilets", name: Hähnchenbrust, hinweis: "à ca. 200 g"}
+  - {id: salz, zutat: Salz, g: 1, anzeige: "2 Prisen Salz", hinweis: ""}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: ""}
+  - {id: mehl, zutat: Weizenmehl Type 405, g: 20, anzeige: "2 EL Mehl", hinweis: ""}
+  - {id: ei, zutat: "Ei Gr. M ohne Schale", g: 60, anzeige: "1 Ei Gr. M", hinweis: ""}
+  - {id: parmesan, zutat: Parmesan gerieben, g: 20, name: "geriebener Parmesan", hinweis: "2 gehäufte EL"}
+  - {id: oel, zutat: Rapsöl, g: 10, anzeige: "1 EL Rapsöl", hinweis: ""}
+  - gruppe: Zitronensauce
+  - {id: wasser, zutat: Wasser, g: 100, name: Wasser, hinweis: "100 ml"}
+  - {id: bruehe, zutat: Gemüsebrühe Pulver, g: 3, anzeige: "1 TL Gemüsebrühe-Pulver", hinweis: ""}
+  - {id: zitrone, zutat: Zitronensaft, g: 30, anzeige: "2 EL Zitronensaft", hinweis: "frisch gepresst schmeckt am besten"}
+  - {id: staerke, zutat: Speisestärke, g: 3, anzeige: "1 knapper TL Speisestärke", hinweis: ""}
+  - {id: butter, zutat: Butter, g: 10, anzeige: "1 TL Butter", hinweis: "kalt"}
+  - {id: petersilie, zutat: Petersilie glatt, g: 5, anzeige: "2 EL gehackte Petersilie", hinweis: ""}
+mise_en_place:
+  - "{kochwasser} mit {kochsalz} im großen Topf aufsetzen."
+  - "{haehnchen} waagerecht halbieren und zwischen Frischhaltefolie auf 1 cm Dicke klopfen (4 Schnitzel). Mit {salz} und {pfeffer} würzen."
+  - "Teller 1: {mehl}. Teller 2: {ei} mit {parmesan} verquirlt."
+  - "{bruehe} in {wasser} auflösen, {staerke} in den {zitrone:n} rühren. {tomaten} halbieren, {petersilie} hacken."
+schritte:
+  - titel: Penne kochen
+    text: "{penne} ins sprudelnde Wasser geben (Stufe 9 von 9), umrühren und auf Stufe 7 von 9 nach Packungsangabe bissfest kochen (meist 10–11 Minuten). Abgießen."
+    timer_min: 11
+  - titel: Piccata braten
+    text: "{oel} in der Pfanne auf Stufe 6 von 9 erhitzen. Die {haehnchen:n}schnitzel im Mehl wenden, abklopfen und durch die Ei-Parmesan-Mischung ziehen. Sofort in die Pfanne legen und 3 Minuten braten, bis die Unterseite goldgelb ist, wenden und 2–3 Minuten weiterbraten. Garprobe: Kerntemperatur 74 °C an der dicksten Stelle – ohne Thermometer anschneiden, innen weiß und saftig. Auf einen Teller legen."
+    timer_min: 6
+  - titel: Zitronensauce
+    text: "Die Brühe in die heiße Pfanne gießen (Stufe 6 von 9) und den Bratensatz lösen. Die Zitronen-Stärke-Mischung einrühren und 1 Minute köcheln lassen, bis die Sauce leicht bindet. Pfanne vom Herd ziehen, {butter} in Stückchen einrühren, bis die Sauce glänzt, und die {petersilie:n} dazugeben. Die halbierten {tomaten:n} und die Penne in die Sauce geben und kurz durchschwenken."
+    timer_min: 2
+zeitablauf:
+  - "Während das Nudelwasser aufkocht: Hähnchen klopfen und Panierstraße bauen. Die Piccata braten, sobald die Penne im Wasser sind – beides ist gleichzeitig fertig."
+fehler:
+  - "**Ei-Hülle fällt ab:** Fleisch nicht bemehlt oder zu nass. Erst trocken tupfen, dann bemehlen, dann durchs Ei."
+  - "**Hülle verbrennt:** Pfanne zu heiß. Parmesan bräunt schnell – Stufe 6 von 9 reicht."
+  - "**Sauce zu sauer:** sehr saure Zitrone. Mit 2 EL Wasser verlängern oder 3 Tropfen Süßstoff."
+anrichten: "Die Penne mit Tomaten auf 2 Teller verteilen, je 2 Piccata daraufsetzen und die restliche Sauce darüberlöffeln – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 2
+  einfrierbar: false
+  aufwaermen: "Piccata schmeckt frisch am besten. Reste in der Pfanne auf Stufe 4 von 9 mit 2 EL Wasser 3 Minuten erwärmen, bis das Hähnchen durchgehend heiß ist."
+varianten:
+  - "**Mit Pute:** 400 g Putenbrustfilet statt Hähnchen (+6 kcal, +1 g Protein pro Portion)."
+  - "**Mit Reis:** 140 g Basmatireis statt Penne (−6 kcal, −3,5 g Protein pro Portion)."
+  - "**Mit Spinat:** 100 g Babyspinat in der Sauce zusammenfallen lassen (+12 kcal, +1,4 g Protein pro Portion)."
+tipps:
+  - "Die kalte Butter erst ganz zum Schluss einrühren und nicht mehr kochen – nur so wird die Sauce glänzend und bindet."
+  - "Etwas abgeriebene Zitronenschale auf die fertige Piccata gibt das intensivste Zitronenaroma."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

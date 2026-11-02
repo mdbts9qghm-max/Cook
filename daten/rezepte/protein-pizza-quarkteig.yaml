@@ -1,0 +1,66 @@
+id: protein-pizza-quarkteig
+name: Protein-Pizza mit Quark-Öl-Teig
+hauptkategorie: high-protein
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Italienisch
+hauptprotein: Schwein
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „High Protein Pizza“ mit Quarkteig"
+  link: null
+  aenderungen: "Hefeteig durch einen schnellen Quark-Öl-Teig ersetzt (ohne Gehzeit, mehr Protein), Belag mit Kochschinken und Mozzarella light statt Salami und Gouda."
+schwierigkeit: leicht
+zeit: {vorbereitung: 15, kochen: 18, wartezeit: 0}
+ausstattung: [Backofen, Backblech, Backpapier, Nudelholz, Schüssel]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Quark-Öl-Teig
+  - {id: quark, zutat: Magerquark, g: 200, name: Magerquark, hinweis: ""}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 30, name: "Milch (1,5 %)", hinweis: "2 EL"}
+  - {id: oel, zutat: Rapsöl, g: 15, anzeige: "1½ EL Rapsöl", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 1, anzeige: "2 Prisen Salz", hinweis: ""}
+  - {id: mehl, zutat: Weizenmehl Type 405, g: 200, name: Mehl, hinweis: "plus 1 EL zum Ausrollen (nicht mitgerechnet)"}
+  - {id: backpulver, zutat: Backpulver, g: 8, anzeige: "½ Päckchen Backpulver", hinweis: ""}
+  - gruppe: Belag
+  - {id: tomaten, zutat: Tomaten passiert, g: 150, name: "passierte Tomaten", hinweis: ""}
+  - {id: kraeuter, zutat: Italienische Kräuter getrocknet, g: 2, anzeige: "1 TL italienische Kräuter", hinweis: ""}
+  - {id: schinken, zutat: Kochschinkenwürfel 3 % Fett, g: 150, name: Kochschinkenwürfel, hinweis: "2 Packungen à 75 g"}
+  - {id: champignons, zutat: Champignons braun, g: 100, name: Champignons, hinweis: "in dünnen Scheiben"}
+  - {id: mozzarella, zutat: Mozzarella light, g: 125, anzeige: "1 Kugel Mozzarella light", hinweis: "abgetropft"}
+mise_en_place:
+  - "Backofen auf 220 °C Ober-/Unterhitze (200 °C Umluft) vorheizen, Backblech mit Backpapier auslegen."
+  - "{champignons} in 3 mm Scheiben schneiden, {mozzarella} gut abtropfen lassen und in kleine Stücke zupfen."
+  - "{tomaten} mit {kraeuter} verrühren."
+schritte:
+  - titel: Teig kneten
+    text: "{quark}, {milch}, {oel} und {salz} in einer Schüssel glatt rühren. {mehl} mit {backpulver} mischen, dazugeben und erst mit dem Löffel, dann mit den Händen 1–2 Minuten zu einem glatten, nicht mehr klebenden Teig kneten. Klebt er noch, 1 EL Mehl einarbeiten."
+    timer_min: null
+  - titel: Ausrollen und belegen
+    text: "Den Teig auf dem Backpapier mit dem bemehlten Nudelholz zu einem Rechteck von ca. 30 × 35 cm (3–4 mm dünn) ausrollen und samt Papier aufs Blech ziehen. Mit der Kräuter-Tomatensauce bestreichen, dabei 1 cm Rand frei lassen. {schinken:n}, die Pilzscheiben und den Mozzarella darauf verteilen."
+    timer_min: null
+  - titel: Backen
+    text: "Im vorgeheizten Backofen bei 220 °C Ober-/Unterhitze (200 °C Umluft) auf der untersten Schiene 15–18 Minuten backen, bis der Rand goldbraun ist, der Käse Blasen wirft und der Boden beim Anheben fest und gebräunt ist."
+    timer_min: 17
+zeitablauf:
+  - "Während der Ofen vorheizt (10 Minuten): Teig kneten, ausrollen und belegen."
+fehler:
+  - "**Boden weich:** zu dick ausgerollt oder zu hoch im Ofen. 3–4 mm dünn und auf der untersten Schiene backen."
+  - "**Teig klebt:** Quark sehr feucht. Esslöffelweise Mehl einarbeiten, bis er sich vom Schüsselrand löst."
+  - "**Belag wässrig:** Mozzarella oder Pilze zu nass. Gut abtropfen bzw. Pilze nicht waschen, nur abreiben."
+anrichten: "Die Pizza in 8 Stücke schneiden – 4 Stücke (ca. {portion_g} g) sind deine Portion."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: true
+  einfrieren_monate: 1
+  aufwaermen: "In der Pfanne ohne Fett mit Deckel auf Stufe 5 von 9 4 Minuten (Boden wird wieder knusprig) oder Airfryer 180 °C 4 Minuten. Kalt auch gut als Lunch."
+varianten:
+  - "**Mit Hähnchen:** 150 g Hähnchenbrust in dünnen Streifen statt Schinken – roh auflegen, gart im Ofen bis 74 °C (−5 kcal, +3,4 g Protein pro Portion)."
+  - "**Tonno:** 1 Dose Thunfisch (130 g abgetropft) statt Schinken (−10 kcal, +2 g Protein pro Portion)."
+  - "**Mit Paprika:** 1 rote Paprika (150 g) in Streifen dazu (+26 kcal pro Portion)."
+tipps:
+  - "Für extra Knusprigkeit das Blech 10 Minuten mit vorheizen und die Pizza samt Backpapier darauf ziehen."
+  - "Nach dem Backen ein paar Chiliflocken und etwas Oregano darüber – Pizzeria-Geschmack."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

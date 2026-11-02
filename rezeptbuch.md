@@ -2,39 +2,49 @@
 
 # Rezeptbuch
 
-20 Rezepte · je 2 Portionen · Nährwerte pro Portion · Stand 02.11.2026
+30 Rezepte · je 2 Portionen · Nährwerte pro Portion · Stand 02.11.2026
 
-## High Protein (2)
+## High Protein (3)
 
 | Rezept | Mahlzeit | Küche | kcal | Protein | Zeit | Bewertung |
 |---|---|---|---:|---:|---:|---|
 | [Airfryer-Schnitzel mit Joghurt-Kartoffelsalat](rezepte/high-protein/airfryer-schnitzel-kartoffelsalat.md) | Mittag/Abend | Deutsch | 741 | 65,3 g | 45 min | – |
 | [Marry Me Chicken mit Basmatireis](rezepte/high-protein/marry-me-chicken.md) | Mittag/Abend | Italienisch | 700 | 65,3 g | 30 min | – |
+| [Protein-Pizza mit Quark-Öl-Teig](rezepte/high-protein/protein-pizza-quarkteig.md) | Mittag/Abend | Italienisch | 709 | 51,7 g | 33 min | – |
 
-## Schnelle Rezepte (5)
+## Schnelle Rezepte (10)
 
 | Rezept | Mahlzeit | Küche | kcal | Protein | Zeit | Bewertung |
 |---|---|---|---:|---:|---:|---|
+| [Beeren-Nice-Cream mit Whey](rezepte/schnell/nice-cream-beeren.md) | Snack | International / Fusion | 221 | 24,1 g | 5 min | – |
 | [Bratkartoffeln mit Spiegelei und Schinken](rezepte/schnell/bratkartoffeln-spiegelei.md) | Mittag/Abend | Deutsch | 706 | 49,6 g | 25 min | – |
 | [Fluffige Protein-Pancakes mit Beeren-Skyr](rezepte/schnell/protein-pancakes.md) | Frühstück | Amerikanisch | 571 | 52,0 g | 20 min | – |
+| [Hähnchen-Piccata mit Zitronensauce und Penne](rezepte/schnell/haehnchen-piccata.md) | Mittag/Abend | Italienisch | 680 | 65,3 g | 23 min | – |
 | [Hähnchen-Rahmgeschnetzeltes mit Champignons und Reis](rezepte/schnell/haehnchen-geschnetzeltes.md) | Mittag/Abend | Deutsch | 663 | 65,2 g | 25 min | – |
+| [Lachs-Penne mit Tomate und Frischkäse](rezepte/schnell/lachs-penne.md) | Mittag/Abend | Italienisch | 730 | 46,3 g | 20 min | – |
+| [One-Pan-Gnocchi mit Pute, Tomate und Spinat](rezepte/schnell/gnocchi-pfanne-pute.md) | Mittag/Abend | Italienisch | 679 | 58,7 g | 25 min | – |
 | [Protein-Carbonara mit Linsennudeln](rezepte/schnell/protein-carbonara.md) | Mittag/Abend | Italienisch | 611 | 54,7 g | 17 min | – |
 | [Protein-Joghurt-Bowl mit Granola und Beeren](rezepte/schnell/protein-joghurt-bowl.md) | Frühstück | International / Fusion | 531 | 49,5 g | 5 min | – |
+| [Protein-Waffeln mit warmen Kirschen](rezepte/schnell/protein-waffeln-kirschen.md) | Frühstück | Deutsch | 549 | 42,0 g | 23 min | – |
 
-## Meal Prep (5)
+## Meal Prep (7)
 
 | Rezept | Mahlzeit | Küche | kcal | Protein | Zeit | Bewertung |
 |---|---|---|---:|---:|---:|---|
 | [Frikadellen mit Kartoffelpüree](rezepte/meal-prep/frikadellen-pueree.md) | Mittag/Abend | Deutsch | 760 | 68,5 g | 40 min | – |
 | [High-Protein-Lasagne](rezepte/meal-prep/high-protein-lasagne.md) | Mittag/Abend | Italienisch | 818 | 83,2 g | 85 min | – |
 | [Kartoffel-Hack-Auflauf](rezepte/meal-prep/kartoffel-hack-auflauf.md) | Mittag/Abend | Deutsch | 746 | 68,1 g | 70 min | – |
+| [Overnight Oats Apfelstrudel](rezepte/meal-prep/overnight-oats-apfelstrudel.md) | Frühstück | Deutsch | 546 | 40,5 g | 488 min | – |
+| [Overnight Oats Erdbeer-Cheesecake](rezepte/meal-prep/overnight-oats-cheesecake.md) | Frühstück | Amerikanisch | 545 | 41,7 g | 488 min | – |
 | [Rindergulasch mit Salzkartoffeln](rezepte/meal-prep/rindergulasch-kartoffeln.md) | Mittag/Abend | Deutsch | 734 | 61,0 g | 130 min | – |
 | [Spaghetti Bolognese](rezepte/meal-prep/spaghetti-bolognese.md) | Mittag/Abend | Italienisch | 746 | 62,3 g | 50 min | – |
 
-## Kalorienarm (2)
+## Kalorienarm (4)
 
 | Rezept | Mahlzeit | Küche | kcal | Protein | Zeit | Bewertung |
 |---|---|---|---:|---:|---:|---|
+| [Caprese-Chicken aus dem Ofen](rezepte/kalorienarm/caprese-chicken.md) | Mittag/Abend | Italienisch | 522 | 64,1 g | 32 min | – |
+| [Penne all'Arrabbiata mit Garnelen](rezepte/kalorienarm/garnelen-arrabbiata.md) | Mittag/Abend | Italienisch | 484 | 47,0 g | 20 min | – |
 | [Schweinefilet in Senf-Sauce mit Kartoffeln](rezepte/kalorienarm/schweinefilet-senfsauce.md) | Mittag/Abend | Deutsch | 521 | 59,7 g | 25 min | – |
 | [Seelachs mit Senfsauce und Salzkartoffeln](rezepte/kalorienarm/seelachs-senfsauce.md) | Mittag/Abend | Deutsch | 496 | 46,7 g | 25 min | – |
 
