@@ -1,0 +1,73 @@
+id: chili-con-carne
+name: Chili con Carne mit Reis
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Mexikanisch
+hauptprotein: Rind
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 10, kochen: 40, wartezeit: 0}
+ausstattung: ["Großer Topf oder Bräter (24 cm)", "Kleiner Topf mit Deckel (16 cm)", Sieb]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Chili
+  - {id: oel, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: ""}
+  - {id: hack, zutat: Rinderhackfleisch 5 % Fett roh, g: 400, name: Rinderhack, hinweis: "mager (5 % Fett)"}
+  - {id: zwiebel, zutat: Zwiebel, g: 100, anzeige: "1 Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 6, anzeige: "2 Knoblauchzehen", hinweis: ""}
+  - {id: paprika, zutat: Paprika rot, g: 150, anzeige: "1 kleine rote Paprika", name: Paprika, hinweis: ""}
+  - {id: tomatenmark, zutat: Tomatenmark 2-fach konzentriert, g: 30, anzeige: "2 EL Tomatenmark", hinweis: ""}
+  - {id: kuemmel, zutat: Kreuzkümmel gemahlen, g: 4, anzeige: "2 TL Kreuzkümmel", hinweis: ""}
+  - {id: paprikapulver, zutat: Paprikapulver edelsüß, g: 5, anzeige: "2 TL Paprikapulver edelsüß", hinweis: ""}
+  - {id: rauchpaprika, zutat: Paprikapulver geräuchert, g: 2, anzeige: "1 TL Rauchpaprika", hinweis: ""}
+  - {id: chili, zutat: Chiliflocken, g: 1.5, anzeige: "½ TL Chiliflocken", hinweis: "nach Geschmack mehr"}
+  - {id: oregano, zutat: Oregano getrocknet, g: 1, anzeige: "½ TL Oregano", hinweis: ""}
+  - {id: tomaten, zutat: Tomaten gehackt (Dose), g: 400, name: "gehackte Tomaten", hinweis: "1 Dose"}
+  - {id: bruehe, zutat: Gemüsebrühe Pulver, g: 3, anzeige: "1 TL Gemüsebrühe-Pulver", hinweis: ""}
+  - {id: wasser, zutat: Wasser, g: 150, name: Wasser, hinweis: "150 ml"}
+  - {id: bohnen, zutat: Kidneybohnen abgetropft, g: 250, name: Kidneybohnen, hinweis: "1 Dose, abgespült"}
+  - {id: schoko, zutat: "Zartbitterschokolade 70 %", g: 10, anzeige: "2 Stückchen Zartbitterschokolade 70 %", name: Zartbitterschokolade, hinweis: "gibt Tiefe"}
+  - {id: salz, zutat: Salz, g: 1.5, anzeige: "¼ TL Salz", hinweis: ""}
+  - gruppe: Reis
+  - {id: reis, zutat: Basmatireis ungekocht, g: 120, name: Basmatireis, hinweis: ""}
+  - {id: wasser_reis, zutat: Wasser, g: 240, name: Wasser, hinweis: "240 ml"}
+mise_en_place:
+  - "{zwiebel} und {paprika} in 1 cm Würfel schneiden, {knoblauch} hacken."
+  - "{bruehe} in {wasser} auflösen. {bohnen} abspülen und abtropfen lassen. {reis} kalt abspülen."
+schritte:
+  - titel: Hack anrösten
+    text: "{oel} im Topf auf Stufe 8 von 9 erhitzen. {hack} hineingeben, 2 Minuten ohne Rühren anbraten, dann krümelig zerteilen und weitere 4 Minuten braten, bis es gut gebräunt ist. Zwiebel, Knoblauch und Paprika 3 Minuten mitbraten. {tomatenmark}, {kuemmel}, {paprikapulver}, {rauchpaprika}, {chili} und {oregano} einrühren und 1 Minute mitrösten, bis es duftet."
+    timer_min: 10
+  - titel: Köcheln
+    text: "Mit der Brühe und den {tomaten} ablöschen, den Bodensatz lösen und aufkochen. Auf Stufe 2 von 9 halb zugedeckt 20 Minuten leise köcheln lassen, gelegentlich umrühren."
+    timer_min: 20
+  - titel: Bohnen und Schokolade
+    text: "Die {bohnen:n} und die {schoko:n} unterrühren und auf Stufe 2 von 9 weitere 10 Minuten köcheln lassen, bis das Chili sämig ist und ein Löffel darin fast stehen bleibt. Mit {salz} abschmecken. Das {hack:n} ist nach dieser Zeit sicher durchgegart (Kerntemperatur deutlich über 72 °C)."
+    timer_min: 10
+  - titel: Reis kochen
+    text: "Nach 15 Minuten Kochzeit des Chilis den {reis:n} mit {wasser_reis} im kleinen Topf mit Deckel auf Stufe 9 von 9 aufkochen, auf Stufe 2 von 9 12 Minuten quellen und 5 Minuten nachziehen lassen."
+    timer_min: 12
+zeitablauf:
+  - "Während das Chili köchelt: nach 15 Minuten den Reis aufsetzen – beides ist gleichzeitig fertig."
+fehler:
+  - "**Chili wässrig:** zu kurz gekocht. Offen weiterköcheln lassen, bis es sämig ist."
+  - "**Bitter:** Gewürze zu heiß angeröstet. Nach dem Tomatenmark nur 1 Minute rösten und sofort ablöschen."
+anrichten: "Reis auf 2 tiefe Teller (je ca. 170 g gekocht), Chili daneben oder darüber – pro Portion ca. {portion_g} g. Ein Klecks Skyr passt hervorragend (siehe Varianten)."
+aufbewahrung:
+  kuehlschrank_tage: 4
+  einfrierbar: true
+  einfrieren_monate: 3
+  aufwaermen: "Im Topf auf Stufe 4 von 9 5 Minuten oder Mikrowelle 600 W 3 Minuten abgedeckt, nach der Hälfte umrühren."
+  separat: "Reis getrennt lagern und innerhalb von 1 Stunde kalt stellen. Chili schmeckt am 2. Tag noch besser."
+varianten:
+  - "**Mit Putenhack:** 400 g Putenhack (+18 kcal, −3 g Protein pro Portion); Kerntemperatur 74 °C."
+  - "**Low Carb:** ohne Reis (−210 kcal, −46 g KH pro Portion) – dann kalorienarm."
+  - "**Mit Skyr-Klecks:** 150 g Skyr natur auf beide Teller verteilt (+47 kcal, +8,2 g Protein pro Portion)."
+tipps:
+  - "Gleich doppelt kochen und einfrieren – Chili ist das perfekte Meal-Prep-Gericht."
+  - "Ein Spritzer Zitronensaft vor dem Servieren macht es frischer."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

@@ -1,0 +1,54 @@
+id: quarkcreme-erdbeeren
+name: Vanille-Quarkcreme mit Erdbeeren
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Snack
+geschmack: süß
+kueche: Deutsch
+hauptprotein: Quark
+ohne_kochen: true
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 7, kochen: 0, wartezeit: 0}
+ausstattung: [Schüssel, Schneebesen]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Erdbeeren
+  - {id: erdbeeren, zutat: Erdbeeren, g: 250, name: Erdbeeren, hinweis: "frisch oder aufgetaut"}
+  - {id: zitrone, zutat: Zitronensaft, g: 5, anzeige: "1 TL Zitronensaft", hinweis: ""}
+  - gruppe: Quarkcreme
+  - {id: quark, zutat: Magerquark, g: 300, name: Magerquark, hinweis: ""}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 50, name: "Milch (1,5 %)", hinweis: "50 ml"}
+  - {id: whey, zutat: Whey Protein Vanille, g: 20, name: "Vanille-Whey", hinweis: "⅔ Messlöffel"}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 0.5, anzeige: "5 Tropfen flüssiger Süßstoff", hinweis: ""}
+  - gruppe: Topping
+  - {id: mandeln, zutat: Mandeln, g: 10, name: Mandeln, hinweis: "gehackt"}
+mise_en_place:
+  - "{erdbeeren} waschen, entkelchen und vierteln. Mit {zitrone} mischen und 5 Minuten ziehen lassen – so bilden sie einen kleinen Saft."
+  - "{mandeln} grob hacken."
+schritte:
+  - titel: Creme aufschlagen
+    text: "{quark}, {milch}, {whey} und {suessstoff} mit dem Schneebesen 1 Minute kräftig aufschlagen, bis die Creme glatt, glänzend und etwas luftiger ist."
+    timer_min: null
+  - titel: Anrichten
+    text: "Die Creme auf 2 Schalen verteilen, die marinierten {erdbeeren:n} samt Saft darauf geben und mit den {mandeln:n} bestreuen."
+    timer_min: null
+zeitablauf: []
+fehler:
+  - "**Creme zu fest:** Quark sehr trocken. Esslöffelweise Milch einrühren."
+  - "**Erdbeeren schmecken wässrig:** unreife Früchte. Mit 5 Tropfen Süßstoff mehr marinieren."
+anrichten: "Pro Schale ca. {portion_g} g – ein klassischer Nachtisch, der satt macht."
+aufbewahrung:
+  kuehlschrank_tage: 1
+  einfrierbar: false
+  aufwaermen: "Nicht aufwärmen – kalt servieren."
+  separat: "Mandeln erst beim Servieren darübergeben."
+varianten:
+  - "**Mit Himbeeren:** 200 g TK-Himbeeren statt Erdbeeren (+5 kcal pro Portion)."
+  - "**Mit Knusper:** 30 g Granola darüber (+65 kcal, +8,8 g KH pro Portion)."
+  - "**Stracciatella:** 10 g fein geraspelte Zartbitterschokolade unterheben (+28 kcal pro Portion)."
+tipps:
+  - "Ein paar Tropfen Vanillearoma und etwas abgeriebene Zitronenschale – schmeckt wie Erdbeer-Käsekuchen ohne Boden."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

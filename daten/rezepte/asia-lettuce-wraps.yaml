@@ -1,0 +1,67 @@
+id: asia-lettuce-wraps
+name: Asia-Lettuce-Wraps mit Putenhack
+hauptkategorie: kalorienarm
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Asiatisch
+hauptprotein: Pute
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Asian Lettuce Wraps“ (PF-Chang's-Style)"
+  link: null
+  aenderungen: "Putenhack statt Schweinehack, Champignons für Volumen, Sauce mit wenig Honig statt Hoisin aus dem Glas."
+schwierigkeit: leicht
+zeit: {vorbereitung: 10, kochen: 12, wartezeit: 0}
+ausstattung: ["Wok oder große Pfanne (28 cm)", Reibe]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Füllung
+  - {id: oel, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: ""}
+  - {id: hack, zutat: Putenhackfleisch roh, g: 400, name: Putenhack, hinweis: ""}
+  - {id: champignons, zutat: Champignons braun, g: 150, name: Champignons, hinweis: "fein gehackt"}
+  - {id: knoblauch, zutat: Knoblauch, g: 6, anzeige: "2 Knoblauchzehen", hinweis: ""}
+  - {id: ingwer, zutat: Ingwer, g: 8, anzeige: "1 Stück Ingwer (2 cm)", hinweis: ""}
+  - {id: fruehlingszwiebel, zutat: Frühlingszwiebel, g: 40, anzeige: "4 Frühlingszwiebeln", hinweis: ""}
+  - gruppe: Sauce
+  - {id: soja, zutat: Sojasauce, g: 25, anzeige: "1½ EL Sojasauce", hinweis: ""}
+  - {id: honig, zutat: Honig, g: 10, anzeige: "2 TL Honig", hinweis: ""}
+  - {id: sriracha, zutat: Sriracha, g: 10, anzeige: "2 TL Sriracha", hinweis: ""}
+  - {id: staerke, zutat: Speisestärke, g: 5, anzeige: "1 TL Speisestärke", hinweis: ""}
+  - {id: wasser, zutat: Wasser, g: 40, name: Wasser, hinweis: "40 ml"}
+  - {id: sesamoel, zutat: Sesamöl geröstet, g: 5, anzeige: "1 TL geröstetes Sesamöl", hinweis: ""}
+  - gruppe: Zum Wickeln
+  - {id: salat, zutat: Römersalat, g: 200, anzeige: "1 kleiner Kopf Römersalat (ca. 12 Blätter)", hinweis: ""}
+  - {id: moehre, zutat: Möhre, g: 80, anzeige: "1 Möhre", name: Möhre, hinweis: "fein geraspelt"}
+  - {id: sesam, zutat: Sesam, g: 5, anzeige: "2 TL Sesam", hinweis: ""}
+mise_en_place:
+  - "{champignons} sehr fein hacken (wie Hack), {knoblauch} und {ingwer} fein reiben, {fruehlingszwiebel} in Ringe (Weißes und Grünes getrennt)."
+  - "{soja}, {honig}, {sriracha}, {staerke} und {wasser} glatt rühren."
+  - "{salat} in einzelne Blätter lösen, waschen und trocken schütteln. {moehre} fein raspeln."
+schritte:
+  - titel: Hack braten
+    text: "{oel} im Wok auf Stufe 8 von 9 erhitzen. {hack} hineingeben, 2 Minuten ohne Rühren anbraten, dann krümelig zerteilen und 4 Minuten braten, bis es gebräunt ist. Champignons, Knoblauch, Ingwer und das Weiße der Frühlingszwiebeln dazugeben und 3 Minuten braten, bis die Pilze ihr Wasser verloren haben."
+    timer_min: 9
+  - titel: Glasieren
+    text: "Sauce umrühren, dazugießen und auf Stufe 6 von 9 1–2 Minuten köcheln lassen, bis alles glänzend gebunden ist. Garprobe: Das {hack:n} ist durchgehend gebräunt, ohne Rosa, Kerntemperatur 74 °C. Vom Herd nehmen, {sesamoel} und das Frühlingszwiebelgrün unterrühren."
+    timer_min: 2
+zeitablauf:
+  - "Während das Hack brät: Salatblätter waschen und Möhre raspeln."
+fehler:
+  - "**Füllung wässrig:** Pilze nicht lange genug gebraten. So lange braten, bis keine Flüssigkeit mehr in der Pfanne ist."
+  - "**Salat reißt:** innere, kleinere Blätter nehmen oder 2 Blätter überlappend verwenden."
+anrichten: "Füllung in eine Schale, Salatblätter, {moehre:n} und {sesam:n} daneben. Am Tisch jedes Blatt mit 2 EL Füllung, etwas Möhre und Sesam belegen und wie einen Taco essen – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "Füllung in der Mikrowelle 600 W 1½ Minuten oder in der Pfanne auf Stufe 6 von 9 2 Minuten; Salat kalt dazu."
+  separat: "Salatblätter und Möhre getrennt von der Füllung lagern."
+varianten:
+  - "**Mit Rinderhack:** 400 g Rinderhack (5 % Fett) (−18 kcal, +3 g Protein pro Portion)."
+  - "**Mit Reis:** 60 g Basmatireis dazu (+105 kcal pro Portion; dann über 550 kcal)."
+  - "**Mit Garnelen:** 450 g gehackte Garnelen, nur 2–3 Minuten braten bis rosa (−118 kcal, −4 g Protein pro Portion; nur 1 Tag haltbar)."
+tipps:
+  - "Ein paar gehackte Erdnüsse oder Cashews obenauf geben Crunch (ca. 60 kcal pro 10 g)."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

@@ -1,0 +1,61 @@
+id: protein-kaiserschmarrn
+name: Protein-Kaiserschmarrn mit Apfelmus
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Deutsch
+hauptprotein: Eier & Quark
+inspiration: null
+schwierigkeit: mittel
+zeit: {vorbereitung: 7, kochen: 15, wartezeit: 0}
+ausstattung: ["Große beschichtete Pfanne (28 cm) mit Deckel", "2 Schüsseln", Handrührgerät oder Schneebesen, "2 Pfannenwender"]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Teig
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 240, anzeige: "4 Eier Gr. M", hinweis: "getrennt"}
+  - {id: salz, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: "für das Eiweiß"}
+  - {id: quark, zutat: Magerquark, g: 250, name: Magerquark, hinweis: "½ Becher à 500 g"}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 100, name: "Milch (1,5 %)", hinweis: "100 ml"}
+  - {id: mehl, zutat: Weizenmehl Type 405, g: 80, name: Mehl, hinweis: ""}
+  - {id: whey, zutat: Whey Protein Vanille, g: 30, name: "Vanille-Whey", hinweis: "1 Messlöffel"}
+  - {id: backpulver, zutat: Backpulver, g: 3, anzeige: "½ TL Backpulver", hinweis: ""}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 1, anzeige: "10 Tropfen flüssiger Süßstoff", hinweis: ""}
+  - {id: butter, zutat: Butter, g: 10, anzeige: "2 TL Butter", hinweis: ""}
+  - gruppe: Dazu
+  - {id: apfelmus, zutat: Apfelmus ungesüßt, g: 150, name: Apfelmus, hinweis: "ungesüßt, leicht erwärmt"}
+  - {id: zimt, zutat: Zimt gemahlen, g: 1, anzeige: "½ TL Zimt", hinweis: "zum Bestäuben"}
+mise_en_place:
+  - "{eier} trennen. Eiweiß mit {salz} in einer fettfreien Schüssel steif schlagen (ca. 2 Minuten mit dem Handrührgerät), bis es Spitzen zieht."
+  - "{apfelmus} in einem kleinen Schälchen 1 Minute bei 600 W erwärmen."
+schritte:
+  - titel: Teig rühren
+    text: "Eigelb, {quark}, {milch}, {mehl}, {whey}, {backpulver} und {suessstoff} glatt rühren. Den Eischnee in 2 Portionen vorsichtig mit dem Teigschaber unterheben – nicht rühren, sonst geht die Luft verloren."
+    timer_min: null
+  - titel: Anbacken
+    text: "Die Hälfte der {butter:n} in der Pfanne auf Stufe 4 von 9 schmelzen. Den Teig einfüllen, glatt streichen, Deckel auflegen und 6 Minuten backen, bis die Unterseite goldbraun und die Oberfläche fast gestockt ist."
+    timer_min: 6
+  - titel: Wenden und zerreißen
+    text: "Den Schmarrn mit dem Pfannenwender vierteln und die Viertel wenden. Restliche Butter am Rand dazugeben und ohne Deckel 3 Minuten weiterbacken. Dann mit 2 Pfannenwendern in mundgerechte Stücke reißen und auf Stufe 5 von 9 noch 2 Minuten rundum leicht anrösten, bis die Kanten knusprig sind und innen nichts mehr flüssig ist."
+    timer_min: 5
+zeitablauf:
+  - "Während der Schmarrn mit Deckel stockt: Apfelmus erwärmen und den Tisch decken."
+fehler:
+  - "**Schmarrn flach und zäh:** Eischnee untergerührt statt untergehoben. Vorsichtig falten."
+  - "**Unten verbrannt, oben flüssig:** zu heiß. Stufe 4 von 9 mit Deckel – er stockt von oben mit."
+  - "**Wenden misslingt:** in Vierteln wenden, nie als Ganzes – zerrissen wird er ja sowieso."
+anrichten: "Auf 2 Teller verteilen, mit {zimt} bestäuben und das warme Apfelmus dazu – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 1
+  einfrierbar: false
+  aufwaermen: "Frisch am besten; Reste in der Pfanne auf Stufe 5 von 9 2 Minuten anrösten."
+varianten:
+  - "**Mit Kirschen:** 100 g Sauerkirschen statt Apfelmus (−5 kcal pro Portion)."
+  - "**Mit Mandeln:** 15 g Mandelblättchen beim Zerreißen mitrösten (+45 kcal, +1,6 g Protein pro Portion)."
+  - "**Mehr Protein:** 100 g Magerquark mehr im Teig (+34 kcal, +6 g Protein pro Portion)."
+tipps:
+  - "Klassisch mit Rosinen: Wer mag, 15 g Rosinen in den Teig (ca. +45 kcal, +9 g Zucker pro Portion – dann über dem Zuckerrichtwert)."
+  - "Ein paar Tropfen Vanille- und Rumaroma im Teig – schmeckt wie auf der Alm."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

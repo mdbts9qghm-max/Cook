@@ -1,0 +1,58 @@
+id: protein-milchreis
+name: Protein-Milchreis mit Zimt und Kirschen
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Deutsch
+hauptprotein: Milch & Whey
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 3, kochen: 35, wartezeit: 5}
+ausstattung: ["Mittlerer Topf mit schwerem Boden (20 cm) mit Deckel", Kochlöffel, Schneebesen]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Milchreis
+  - {id: reis, zutat: Milchreis (Rundkornreis) ungekocht, g: 130, name: Milchreis, hinweis: ""}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 450, name: "Milch (1,5 %)", hinweis: "450 ml"}
+  - {id: wasser, zutat: Wasser, g: 250, name: Wasser, hinweis: "250 ml – spart Milchzucker"}
+  - {id: salz, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: ""}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 1, anzeige: "10 Tropfen flüssiger Süßstoff", hinweis: ""}
+  - {id: whey, zutat: Whey Protein Vanille, g: 70, name: "Vanille-Whey", hinweis: "gut 2 Messlöffel"}
+  - gruppe: Topping
+  - {id: kirschen, zutat: Sauerkirschen (Glas) abgetropft, g: 80, name: Sauerkirschen, hinweis: "abgetropft"}
+  - {id: zimt, zutat: Zimt gemahlen, g: 2, anzeige: "1 TL Zimt", hinweis: ""}
+  - {id: mandeln, zutat: Mandeln, g: 15, name: Mandeln, hinweis: "gehackt, geröstet"}
+mise_en_place:
+  - "{mandeln} grob hacken und in einer trockenen Pfanne auf Stufe 5 von 9 2 Minuten goldgelb rösten."
+schritte:
+  - titel: Aufkochen
+    text: "{reis}, {milch}, {wasser} und {salz} im Topf auf Stufe 7 von 9 unter Rühren aufkochen – Vorsicht, Milch kocht schnell über."
+    timer_min: null
+  - titel: Quellen lassen
+    text: "Sobald es kocht, auf Stufe 2 von 9 zurückschalten, Deckel schräg auflegen und 30 Minuten leise quellen lassen. Alle 5 Minuten umrühren und dabei über den Topfboden kratzen, damit nichts ansetzt. Fertig, wenn die Körner weich sind und der Reis cremig, aber noch löffelweich ist (er dickt beim Abkühlen nach)."
+    timer_min: 30
+  - titel: Whey einrühren
+    text: "Den Milchreis vom Herd nehmen und 5 Minuten abkühlen lassen (Whey flockt bei Kochhitze). {whey} und {suessstoff} mit dem Schneebesen zügig einrühren, bis der Milchreis glatt und cremig ist. Ist er zu dick, 2–3 EL Milch oder Wasser einrühren."
+    timer_min: 5
+zeitablauf:
+  - "Während der Reis quillt: Mandeln rösten, Kirschen abtropfen lassen, Boxen bereitstellen."
+fehler:
+  - "**Angebrannt:** zu hohe Stufe oder nicht umgerührt. Stufe 2 von 9 und regelmäßig über den Boden kratzen."
+  - "**Whey klumpt oder flockt:** in heißen Reis gerührt. 5 Minuten abkühlen lassen und mit dem Schneebesen einrühren."
+  - "**Zu fest nach dem Kühlen:** normal. Beim Aufwärmen oder Essen 2–3 EL Milch unterrühren."
+anrichten: "Auf 2 Schalen verteilen (je ca. {portion_g} g mit Topping), die {kirschen:n} darauf, mit {zimt} bestäuben und die gerösteten {mandeln:n} darüberstreuen."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: false
+  aufwaermen: "Kalt essen oder mit 2 EL Milch 1½ Minuten bei 600 W erwärmen, nach der Hälfte umrühren."
+  separat: "Kirschen, Zimt und Mandeln getrennt lagern und erst beim Essen darübergeben."
+varianten:
+  - "**Mit Himbeeren:** 120 g TK-Himbeeren statt Kirschen (±0 kcal, −3,4 g Zucker pro Portion)."
+  - "**Mit Apfelmus:** 100 g ungesüßtes Apfelmus statt Kirschen (−1 kcal pro Portion)."
+  - "**Leichter:** Mandeln weglassen (−45 kcal, −3,8 g Fett pro Portion)."
+tipps:
+  - "Eine aufgeschlitzte Vanilleschote oder etwas abgeriebene Zitronenschale mitkochen – wie Omas Milchreis."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

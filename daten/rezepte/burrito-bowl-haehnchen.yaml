@@ -1,0 +1,76 @@
+id: burrito-bowl-haehnchen
+name: Burrito Bowl mit Hähnchen
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Mexikanisch
+hauptprotein: Hähnchen
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Chipotle Burrito Bowl“ für Meal Prep"
+  link: null
+  aenderungen: "Skyr-Sour-Cream statt Sour Cream, Reibekäse light statt Cheddar, Rauchpaprika statt Chipotle-Öl-Marinade, keine Tortilla-Chips."
+schwierigkeit: leicht
+zeit: {vorbereitung: 12, kochen: 18, wartezeit: 0}
+ausstattung: ["Große Pfanne (28 cm)", "Kleiner Topf mit Deckel (16 cm)", Sieb, "2 Meal-Prep-Boxen"]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Zitronen-Reis
+  - {id: reis, zutat: Basmatireis ungekocht, g: 140, name: Basmatireis, hinweis: ""}
+  - {id: wasser_reis, zutat: Wasser, g: 280, name: Wasser, hinweis: "280 ml"}
+  - {id: zitrone_reis, zutat: Zitronensaft, g: 15, anzeige: "1 EL Zitronensaft", hinweis: "statt Limette"}
+  - {id: petersilie, zutat: Petersilie glatt, g: 5, anzeige: "2 EL gehackte Petersilie", hinweis: "statt Koriander"}
+  - gruppe: Hähnchen
+  - {id: haehnchen, zutat: Hähnchenbrustfilet roh, g: 400, name: Hähnchenbrust, hinweis: ""}
+  - {id: oel, zutat: Rapsöl, g: 10, anzeige: "1 EL Rapsöl", hinweis: ""}
+  - {id: rauchpaprika, zutat: Paprikapulver geräuchert, g: 3, anzeige: "1 TL Rauchpaprika", hinweis: ""}
+  - {id: kuemmel, zutat: Kreuzkümmel gemahlen, g: 2, anzeige: "1 TL Kreuzkümmel", hinweis: ""}
+  - {id: knoblauchpulver, zutat: Knoblauchpulver, g: 2, anzeige: "½ TL Knoblauchpulver", hinweis: ""}
+  - {id: oregano, zutat: Oregano getrocknet, g: 1, anzeige: "½ TL Oregano", hinweis: ""}
+  - {id: chili, zutat: Chiliflocken, g: 0.5, anzeige: "1 Prise Chiliflocken", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 2, anzeige: "⅓ TL Salz", hinweis: ""}
+  - gruppe: Bowl
+  - {id: bohnen, zutat: Kidneybohnen abgetropft, g: 250, name: Kidneybohnen, hinweis: "1 Dose, abgespült"}
+  - {id: mais, zutat: Mais (Dose) abgetropft, g: 140, name: Mais, hinweis: "½ Dose"}
+  - {id: tomaten, zutat: Cherrytomaten, g: 150, name: Cherrytomaten, hinweis: "geviertelt"}
+  - {id: kaese, zutat: Reibekäse light (Gouda 30 % F. i. Tr.), g: 30, name: "Reibekäse light", hinweis: ""}
+  - gruppe: Skyr-Sour-Cream
+  - {id: skyr, zutat: Skyr natur, g: 150, name: Skyr, hinweis: ""}
+  - {id: zitrone, zutat: Zitronensaft, g: 5, anzeige: "1 TL Zitronensaft", hinweis: ""}
+  - {id: salz_skyr, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: ""}
+mise_en_place:
+  - "{reis} kalt abspülen."
+  - "{haehnchen} in 2 cm Würfel schneiden, mit {oel}, {rauchpaprika}, {kuemmel}, {knoblauchpulver}, {oregano}, {chili} und {salz} vermischen."
+  - "{bohnen} und {mais} in einem Sieb abspülen und abtropfen lassen. {tomaten} vierteln, {petersilie} hacken."
+  - "{skyr}, {zitrone} und {salz_skyr} verrühren."
+schritte:
+  - titel: Reis kochen
+    text: "{reis:n} mit {wasser_reis} im Topf mit Deckel auf Stufe 9 von 9 aufkochen, auf Stufe 2 von 9 12 Minuten quellen und 5 Minuten nachziehen lassen. Mit {zitrone_reis} und der {petersilie:n} auflockern."
+    timer_min: 12
+  - titel: Hähnchen braten
+    text: "Die Pfanne auf Stufe 8 von 9 ohne weiteres Fett erhitzen (das Öl ist in der Marinade). Die gewürzte {haehnchen:n} in einer Lage 6 Minuten braten, nach 3 Minuten wenden, bis die Würfel rundum dunkel gebräunt sind. Garprobe: Kerntemperatur 74 °C im größten Würfel – innen weiß und saftig."
+    timer_min: 6
+  - titel: Bohnen und Mais erwärmen
+    text: "Hähnchen an den Rand schieben, die {bohnen:n} und den {mais:n} in die Pfanne geben und auf Stufe 6 von 9 2 Minuten im Bratensatz erwärmen, dabei die Gewürzreste aufnehmen."
+    timer_min: 2
+zeitablauf:
+  - "Reis aufsetzen; während er quillt, Hähnchen braten und Bohnen erwärmen – nach ca. 18 Minuten ist alles fertig."
+fehler:
+  - "**Hähnchen blass:** Pfanne zu voll. In einer Lage braten, notfalls in 2 Portionen."
+  - "**Reis klebrig:** nicht gewaschen. Unbedingt abspülen und nicht rühren, solange er quillt."
+anrichten: "In 2 Boxen oder Bowls: Reis (je ca. 195 g gekocht) auf eine Seite, Hähnchen, Bohnen-Mais und Tomaten in Streifen daneben, {kaese:n} darüber und einen großen Klecks Skyr-Sour-Cream – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: false
+  aufwaermen: "Mikrowelle 600 W, 2½ Minuten abgedeckt (ohne Tomaten und Skyr). Schmeckt auch kalt."
+  separat: "Tomaten und Skyr-Sour-Cream in einem kleinen Döschen getrennt; Reis innerhalb von 1 Stunde kalt stellen."
+varianten:
+  - "**Mit Rinderhack:** 400 g Rinderhack (5 %) statt Hähnchen, krümelig braten bis 72 °C (+58 kcal, −4 g Protein pro Portion)."
+  - "**Mit Avocado:** ½ Avocado (75 g) in Würfeln (+60 kcal, +5,6 g Fett pro Portion) – gut an Tagen mit Fett-Lücke."
+  - "**Ohne Käse:** (−40 kcal, −4,5 g Protein pro Portion)."
+tipps:
+  - "Rauchpaprika ist der Ersatz für Chipotle – ruhig großzügig."
+  - "Doppelt kochen lohnt: 4 Boxen halten 3 Tage."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

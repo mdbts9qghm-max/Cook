@@ -1,0 +1,63 @@
+id: protein-french-toast
+name: Protein-French-Toast mit Beeren
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Amerikanisch
+hauptprotein: Eier & Milch
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Protein French Toast“"
+  link: null
+  aenderungen: "Vollkorntoast statt Brioche, Eier-Milch-Mischung mit Eiklar und Vanille-Whey statt Sahne und Zucker, Beeren-Skyr statt Ahornsirup."
+schwierigkeit: leicht
+zeit: {vorbereitung: 5, kochen: 12, wartezeit: 0}
+ausstattung: ["Große beschichtete Pfanne (28 cm)", "Flache Form oder tiefer Teller", Schneebesen]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: French Toast
+  - {id: toast, zutat: Vollkorntoast, g: 175, anzeige: "7 Scheiben Vollkorntoast", hinweis: "à 25 g, gern vom Vortag"}
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 120, anzeige: "2 Eier Gr. M", hinweis: ""}
+  - {id: eiklar, zutat: Eiklar, g: 100, name: Eiklar, hinweis: "100 ml"}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 100, name: "Milch (1,5 %)", hinweis: "100 ml"}
+  - {id: whey, zutat: Whey Protein Vanille, g: 30, name: "Vanille-Whey", hinweis: "1 Messlöffel"}
+  - {id: zimt, zutat: Zimt gemahlen, g: 2, anzeige: "1 TL Zimt", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 0.2, anzeige: "1 Mini-Prise Salz", hinweis: ""}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 0.5, anzeige: "5 Tropfen flüssiger Süßstoff", hinweis: ""}
+  - {id: butter, zutat: Butter, g: 10, anzeige: "2 TL Butter", hinweis: "für die Pfanne"}
+  - gruppe: Topping
+  - {id: skyr, zutat: Skyr natur, g: 200, name: Skyr, hinweis: ""}
+  - {id: beeren, zutat: Beerenmischung TK, g: 150, name: Beeren, hinweis: "aufgetaut"}
+  - {id: mandeln, zutat: Mandeln, g: 10, name: Mandeln, hinweis: "gehackt"}
+mise_en_place:
+  - "{beeren} 1½ Minuten bei 600 W in der Mikrowelle antauen. Die Hälfte davon mit einer Gabel zerdrücken und mit {skyr} zu Beeren-Skyr verrühren."
+  - "{eier}, {eiklar}, {milch}, {whey}, {zimt}, {salz} und {suessstoff} in einer flachen Form mit dem Schneebesen glatt verquirlen."
+  - "{mandeln} grob hacken."
+schritte:
+  - titel: Einweichen
+    text: "Die {toast:n}scheiben nacheinander in die Eiermischung legen, je Seite 15 Sekunden einweichen lassen – sie sollen vollgesogen, aber nicht matschig sein."
+    timer_min: null
+  - titel: Braten
+    text: "Die Hälfte der {butter:n} in der Pfanne auf Stufe 5 von 9 schmelzen, bis sie schäumt. 3–4 Scheiben einlegen und je Seite 2–3 Minuten braten, bis sie goldbraun sind und sich in der Mitte fest anfühlen (das Ei ist dann durchgestockt). Mit der restlichen Butter und den übrigen Scheiben wiederholen. Restliche Eiermischung über die letzten Scheiben gießen."
+    timer_min: 6
+zeitablauf:
+  - "Während die erste Runde brät: Tisch decken und Mandeln hacken."
+fehler:
+  - "**Außen dunkel, innen flüssig:** zu heiß gebraten. Stufe 5 von 9 und Geduld – innen muss das Ei stocken."
+  - "**Toast zerfällt:** zu lange eingeweicht oder sehr frisches Brot. Toast vom Vortag und nur 15 Sekunden je Seite."
+anrichten: "Pro Teller 3–4 Scheiben aufschichten, Beeren-Skyr dazwischen und darüber, die restlichen Beeren und die {mandeln:n} obenauf – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 1
+  einfrierbar: true
+  einfrieren_monate: 1
+  aufwaermen: "Im Toaster oder in der Pfanne auf Stufe 5 von 9 1 Minute je Seite."
+  separat: "Beeren-Skyr getrennt lagern."
+varianten:
+  - "**Mit Banane:** 1 Banane (120 g) in Scheiben dazu (+56 kcal, +10,2 g Zucker pro Portion)."
+  - "**Schoko-French-Toast:** Schoko- statt Vanille-Whey und 5 g Backkakao in die Eiermischung (+8 kcal pro Portion)."
+  - "**Apfel-Zimt:** 150 g Apfelmus statt Beeren, warm (+6 kcal pro Portion)."
+tipps:
+  - "Eine Prise Salz in der Eiermischung und viel Zimt – so schmeckt French Toast wie im Diner."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

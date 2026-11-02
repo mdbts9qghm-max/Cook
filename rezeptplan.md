@@ -2,7 +2,7 @@
 
 # Rezeptplan – Startbestand mit 100 Rezepten
 
-Stand: 40 von 100 Rezepten geschrieben. Ziel-kcal sind Planwerte pro Portion; die echten Werte rechnet `tools/naehrwerte.py`.
+Stand: 50 von 100 Rezepten geschrieben. Ziel-kcal sind Planwerte pro Portion; die echten Werte rechnet `tools/naehrwerte.py`.
 
 Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = restetauglich · **KA** = kalorienarm · **OK** = ohne Kochen/Backen · **I** = TikTok/Instagram-Inspiration · **Rd.** = Schreib-Runde in Phase 4 · ✅ = schon geschrieben
 
@@ -22,9 +22,9 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 10 | Overnight Oats Erdnuss-Banane ✅ | Amerikanisch | Skyr & Whey | 620 | ✓ | ✓ | ✓ | 4 | PB-&-Banana-Oats mit Schoko-Whey |
 | 11 | Tiramisu-Overnight-Oats ✅ | Italienisch | Skyr & Whey | 580 | ✓ | ✓ | ✓ | 4 | Espresso-Oats, Vanille-Skyr-Schicht, Kakao obenauf |
 | 12 | Quarkauflauf mit Kirschen ✅ | Deutsch | Quark & Eier | 590 |  | ✓ |  | 4 | Grieß-Quark-Auflauf mit Sauerkirschen, warm oder kalt |
-| 13 | Protein-French-Toast mit Beeren | Amerikanisch | Eier & Milch | 590 | ✓ |  | ✓ | 5 | Vollkorntoast in Vanille-Eier-Whey-Milch, Zimt, Beeren-Skyr |
-| 14 | Protein-Kaiserschmarrn mit Apfelmus | Deutsch | Eier & Quark | 610 | ✓ |  |  | 5 | Fluffiger Schmarrn mit Quark im Teig, karamellisiert mit wenig Zucker |
-| 15 | Protein-Milchreis mit Zimt und Kirschen | Deutsch | Milch & Whey | 600 |  | ✓ |  | 5 | Cremiger Milchreis, Whey nach dem Kochen eingerührt |
+| 13 | Protein-French-Toast mit Beeren ✅ | Amerikanisch | Eier & Milch | 590 | ✓ |  | ✓ | 5 | Vollkorntoast in Vanille-Eier-Whey-Milch, Zimt, Beeren-Skyr |
+| 14 | Protein-Kaiserschmarrn mit Apfelmus ✅ | Deutsch | Eier & Quark | 610 | ✓ |  |  | 5 | Fluffiger Schmarrn mit Quark im Teig, karamellisiert mit wenig Zucker |
+| 15 | Protein-Milchreis mit Zimt und Kirschen ✅ | Deutsch | Milch & Whey | 600 |  | ✓ |  | 5 | Cremiger Milchreis, Whey nach dem Kochen eingerührt |
 | 16 | Protein-Grießbrei mit Himbeeren | Deutsch | Milch & Whey | 560 | ✓ |  |  | 6 | Vanille-Grießbrei in 10 Minuten, heiße Himbeeren |
 | 17 | Protein-Bananenbrot | Amerikanisch | Quark & Whey | 580 |  | ✓ | ✓ | 6 | Saftiges Bananenbrot aus Hafermehl und Quark, 2 dicke Scheiben pro Portion |
 | 18 | Blaubeer-Protein-Muffins | Amerikanisch | Quark & Whey | 570 |  | ✓ | ✓ | 6 | 6 Muffins, 3 pro Portion, mit Streusel-Topping |
@@ -49,7 +49,7 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 32 | Skyr-Cheesecake im Glas ✅ | Amerikanisch | Skyr | 300 | ✓ | ✓ | ✓ | ✓ | 2 | Granola-Boden, Vanille-Skyr-Frischkäse-Creme, Beeren |
 | 33 | Beeren-Nice-Cream mit Whey ✅ | International / Fusion | Whey & Skyr | 250 | ✓ |  | ✓ | ✓ | 3 | TK-Beeren, Banane, Skyr und Whey cremig gemixt |
 | 34 | Schoko-Erdnuss-Protein-Balls ✅ | Amerikanisch | Whey | 320 |  | ✓ | ✓ | ✓ | 4 | Hafer, Whey, Erdnussmus, Datteln – 4 Kugeln pro Portion |
-| 35 | Vanille-Quarkcreme mit Erdbeeren | Deutsch | Quark | 230 | ✓ |  | ✓ |  | 5 | Cremig gerührter Quark mit Vanille und marinierten Erdbeeren |
+| 35 | Vanille-Quarkcreme mit Erdbeeren ✅ | Deutsch | Quark | 230 | ✓ |  | ✓ |  | 5 | Cremig gerührter Quark mit Vanille und marinierten Erdbeeren |
 | 36 | Proteinpudding mit Knusper-Topping | International / Fusion | Proteinpudding | 260 | ✓ |  | ✓ |  | 6 | Schoko-Proteinpudding, Granola, Himbeeren |
 | 37 | Cookie-Dough aus Quark | Amerikanisch | Quark & Whey | 300 | ✓ |  | ✓ | ✓ | 7 | Löffelbarer Keksteig aus Quark, Whey, Hafer und Schokostückchen |
 | 38 | Schoko-Hafer-Protein-Riegel | International / Fusion | Whey | 320 |  | ✓ | ✓ |  | 8 | No-Bake-Riegel mit Schokoüberzug, 2 Riegel pro Portion |
@@ -84,12 +84,12 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 62 | Egg Fried Rice mit Pute ✅ | Asiatisch | Pute | 700 | ✓ |  | ✓ |  |  | 4 | Gebratener Reis vom Vortag mit Ei, Putenstreifen, Erbsen |
 | 63 | Erdnuss-Tofu mit Brokkoli und Reis ✅ | Asiatisch | Tofu & Hülsenfrüchte | 680 |  |  | ✓ |  | ✓ | 4 | Knuspriger Tofu aus dem Airfryer, Erdnuss-Soja-Sauce |
 | 64 | Sesam-Lachs-Bowl ✅ | Asiatisch | Fisch & Garnelen | 780 |  |  |  |  | ✓ | 4 | Salmon-Rice-Bowl-Trend: Lachs aus dem Ofen, Reis, Sriracha-Skyr, Gurke, Avocado |
-| 65 | Kung-Pao-Hähnchen | Asiatisch | Hähnchen | 690 | ✓ |  | ✓ |  |  | 5 | Würzig-scharf mit Paprika, Frühlingszwiebel und Erdnuss-Note |
-| 66 | Ingwer-Soja-Schweinefilet mit Brokkoli | Asiatisch | Schwein | 520 | ✓ |  | ✓ | ✓ |  | 5 | Hauchdünne Filetstreifen aus dem Wok, kleine Reisportion |
-| 67 | Chicken Katsu Curry | Asiatisch | Hähnchen | 760 |  |  |  |  | ✓ | 5 | Paniertes Hähnchen aus dem Airfryer, japanische Currysauce, Reis |
-| 68 | Asia-Lettuce-Wraps mit Putenhack | Asiatisch | Pute | 480 | ✓ |  |  | ✓ | ✓ | 5 | Würziges Hoisin-Art-Hack im Römersalat-Blatt |
-| 69 | Burrito Bowl mit Hähnchen | Mexikanisch | Hähnchen | 780 |  | ✓ | ✓ |  | ✓ | 5 | Zitronen-Reis, Bohnen, Mais, Paprika-Hähnchen, Skyr-Sour-Cream |
-| 70 | Chili con Carne mit Reis | Mexikanisch | Rind | 720 |  | ✓ | ✓ |  |  | 5 | Mageres Rinderhack, Kidneybohnen, Kreuzkümmel, Zartbitter-Note |
+| 65 | Kung-Pao-Hähnchen ✅ | Asiatisch | Hähnchen | 690 | ✓ |  | ✓ |  |  | 5 | Würzig-scharf mit Paprika, Frühlingszwiebel und Erdnuss-Note |
+| 66 | Ingwer-Soja-Schweinefilet mit Brokkoli ✅ | Asiatisch | Schwein | 520 | ✓ |  | ✓ | ✓ |  | 5 | Hauchdünne Filetstreifen aus dem Wok, kleine Reisportion |
+| 67 | Chicken Katsu Curry ✅ | Asiatisch | Hähnchen | 760 |  |  |  |  | ✓ | 5 | Paniertes Hähnchen aus dem Airfryer, japanische Currysauce, Reis |
+| 68 | Asia-Lettuce-Wraps mit Putenhack ✅ | Asiatisch | Pute | 480 | ✓ |  |  | ✓ | ✓ | 5 | Würziges Hoisin-Art-Hack im Römersalat-Blatt |
+| 69 | Burrito Bowl mit Hähnchen ✅ | Mexikanisch | Hähnchen | 780 |  | ✓ | ✓ |  | ✓ | 5 | Zitronen-Reis, Bohnen, Mais, Paprika-Hähnchen, Skyr-Sour-Cream |
+| 70 | Chili con Carne mit Reis ✅ | Mexikanisch | Rind | 720 |  | ✓ | ✓ |  |  | 5 | Mageres Rinderhack, Kidneybohnen, Kreuzkümmel, Zartbitter-Note |
 | 71 | Crispy Wrap-Hack-Quesadilla | Mexikanisch | Hähnchen | 700 | ✓ |  |  |  | ✓ | 6 | Gefalteter Wrap aus der Pfanne mit Hähnchen, Bohnen, Käse |
 | 72 | Puten-Tacos mit Zitronen-Skyr | Mexikanisch | Pute | 690 | ✓ |  |  |  |  | 6 | Mini-Wraps, würziges Putenhack, Mais-Salsa, Zitronen-Skyr |
 | 73 | Enchiladas mit Putenhack und Bohnen | Mexikanisch | Pute | 760 |  | ✓ | ✓ |  |  | 6 | Gefüllte Wraps in Tomatensauce, mit Käse überbacken |
