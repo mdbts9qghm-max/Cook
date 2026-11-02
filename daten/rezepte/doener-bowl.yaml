@@ -1,0 +1,70 @@
+id: doener-bowl
+name: Döner-Bowl mit Pute und Knoblauchsauce
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Türkisch & Orientalisch
+hauptprotein: Pute
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Döner Bowl“ / „Kebab Bowl“"
+  link: null
+  aenderungen: "Magere Putenbrust statt Drehspieß-Fleisch, Knoblauchsauce aus griechischem Joghurt 0 % statt Mayo-Sauce, Bulgur statt Fladenbrot."
+schwierigkeit: leicht
+zeit: {vorbereitung: 10, kochen: 15, wartezeit: 0}
+ausstattung: ["Große Pfanne (28 cm)", Schüssel, Wasserkocher, Teller zum Abdecken]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Döner-Fleisch
+  - {id: pute, zutat: Putenbrustfilet roh, g: 400, name: Putenbrust, hinweis: ""}
+  - {id: oel, zutat: Rapsöl, g: 10, anzeige: "1 EL Rapsöl", hinweis: ""}
+  - {id: kuemmel, zutat: Kreuzkümmel gemahlen, g: 2, anzeige: "1 TL Kreuzkümmel", hinweis: ""}
+  - {id: paprikapulver, zutat: Paprikapulver edelsüß, g: 3, anzeige: "1 TL Paprikapulver edelsüß", hinweis: ""}
+  - {id: rauchpaprika, zutat: Paprikapulver geräuchert, g: 1, anzeige: "½ TL Rauchpaprika", hinweis: ""}
+  - {id: knoblauchpulver, zutat: Knoblauchpulver, g: 2, anzeige: "½ TL Knoblauchpulver", hinweis: ""}
+  - {id: oregano, zutat: Oregano getrocknet, g: 1, anzeige: "½ TL Oregano", hinweis: ""}
+  - {id: chili, zutat: Chiliflocken, g: 0.5, anzeige: "1 Prise Chiliflocken", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 2, anzeige: "⅓ TL Salz", hinweis: ""}
+  - gruppe: Bulgur
+  - {id: bulgur, zutat: Bulgur ungekocht, g: 150, name: Bulgur, hinweis: ""}
+  - {id: wasser, zutat: Wasser, g: 300, name: "kochendes Wasser", hinweis: "300 ml"}
+  - {id: bruehe, zutat: Gemüsebrühe Pulver, g: 3, anzeige: "1 TL Gemüsebrühe-Pulver", hinweis: ""}
+  - gruppe: Salat und Sauce
+  - {id: salat, zutat: Römersalat, g: 100, anzeige: "⅓ Kopf Römersalat", hinweis: ""}
+  - {id: gurke, zutat: Salatgurke, g: 150, anzeige: "⅓ Salatgurke", name: Gurke, hinweis: ""}
+  - {id: tomaten, zutat: Cherrytomaten, g: 150, name: Cherrytomaten, hinweis: ""}
+  - {id: zwiebel, zutat: Zwiebel, g: 50, anzeige: "½ Zwiebel", name: Zwiebel, hinweis: "gern rot"}
+  - {id: joghurt, zutat: Griechischer Joghurt 0 % Fett, g: 200, name: "griechischer Joghurt", hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 6, anzeige: "2 Knoblauchzehen", hinweis: ""}
+  - {id: salz_sauce, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: ""}
+mise_en_place:
+  - "{pute} quer in hauchdünne Streifen (3 mm) schneiden und mit {oel}, {kuemmel}, {paprikapulver}, {rauchpaprika}, {knoblauchpulver}, {oregano}, {chili} und {salz} vermischen."
+  - "{salat} in Streifen, {gurke} und {tomaten} in Würfel, {zwiebel} in feine Ringe schneiden."
+  - "Knoblauchsauce: {knoblauch} fein reiben und mit {joghurt} und {salz_sauce} verrühren."
+schritte:
+  - titel: Bulgur quellen
+    text: "{bulgur} und {bruehe} in einer Schüssel mit {wasser} übergießen, abdecken und 12 Minuten quellen lassen, dann mit der Gabel auflockern."
+    timer_min: 12
+  - titel: Döner-Fleisch braten
+    text: "Die Pfanne ohne zusätzliches Fett auf Stufe 9 von 9 sehr heiß werden lassen. Die gewürzten {pute:n}streifen in einer Lage hineingeben und 3 Minuten braten, ohne zu rühren, dann wenden und 2–3 Minuten weiterbraten, bis sie dunkel gebräunt und an den Rändern knusprig sind. Garprobe: Die dünnen Streifen sind durchgehend weiß, Kerntemperatur 74 °C."
+    timer_min: 6
+zeitablauf:
+  - "Während der Bulgur quillt: Salat schneiden, Sauce rühren und das Fleisch braten."
+fehler:
+  - "**Fleisch zäh:** zu dick geschnitten. Hauchdünn quer zur Faser schneiden – angefroren geht es leichter."
+  - "**Fleisch blass:** Pfanne nicht heiß genug oder zu voll. Höchste Stufe, in 2 Portionen braten."
+anrichten: "Bulgur auf 2 Bowls verteilen, Salat, Gurke, Tomaten und Zwiebeln daneben, das Döner-Fleisch obenauf und großzügig Knoblauchsauce darüber – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: false
+  aufwaermen: "Fleisch und Bulgur in der Mikrowelle 600 W 2 Minuten; Salat und Sauce kalt dazu."
+  separat: "Salat, Sauce und warme Komponenten getrennt lagern."
+varianten:
+  - "**Mit Hähnchen:** 400 g Hähnchenbrust (−6 kcal, −1 g Protein pro Portion)."
+  - "**Im Fladenbrot:** 2 Pitabrote (200 g) statt Bulgur (+2 kcal pro Portion) – Döner zum Mitnehmen."
+  - "**Mit Feta:** 50 g Feta darüberbröseln (+64 kcal, +4,2 g Protein pro Portion)."
+tipps:
+  - "Ein paar Spritzer Zitrone und Chiliflocken über die fertige Bowl – wie beim Lieblingsdöner."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

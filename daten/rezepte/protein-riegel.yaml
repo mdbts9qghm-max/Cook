@@ -1,0 +1,56 @@
+id: protein-riegel
+name: Schoko-Hafer-Protein-Riegel
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Snack
+geschmack: süß
+kueche: International / Fusion
+hauptprotein: Whey
+ohne_kochen: true
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 12, kochen: 0, wartezeit: 60}
+ausstattung: ["Kleine Form oder Dose (ca. 15 × 10 cm)", Backpapier, Schüssel, "Mikrowelle zum Schmelzen der Schokolade"]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Riegelmasse
+  - {id: hafer, zutat: Haferflocken zart, g: 50, name: "zarte Haferflocken", hinweis: ""}
+  - {id: whey, zutat: Whey Protein Schoko, g: 50, name: "Schoko-Whey", hinweis: "ca. 1⅔ Messlöffel"}
+  - {id: erdnussmus, zutat: Erdnussmus, g: 25, anzeige: "1½ EL Erdnussmus", hinweis: ""}
+  - {id: honig, zutat: Honig, g: 15, anzeige: "2 TL Honig", hinweis: "gehäuft – bindet die Masse"}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 40, name: "Milch (1,5 %)", hinweis: "nach Bedarf 1 EL mehr"}
+  - {id: salz, zutat: Salz, g: 0.3, anzeige: "1 kleine Prise Salz", hinweis: ""}
+  - gruppe: Überzug
+  - {id: schoko, zutat: "Zartbitterschokolade 70 %", g: 15, anzeige: "3 Stückchen Zartbitterschokolade 70 %", name: Zartbitterschokolade, hinweis: ""}
+mise_en_place:
+  - "Form mit Backpapier auslegen."
+schritte:
+  - titel: Masse kneten
+    text: "{hafer}, {whey}, {erdnussmus}, {honig}, {milch} und {salz} in einer Schüssel mit dem Löffel und dann mit den Händen zu einer festen, formbaren Masse verkneten (wie Knete). Ist sie zu bröselig, 1 EL Milch mehr."
+    timer_min: null
+  - titel: Pressen
+    text: "Die Masse in die Form drücken und mit einem Löffelrücken glatt und fest pressen (ca. 2 cm hoch)."
+    timer_min: null
+  - titel: Schokoüberzug und kühlen
+    text: "Die {schoko:n} in einer kleinen Schale in der Mikrowelle bei 600 W in 20-Sekunden-Schritten schmelzen (ca. 40 Sekunden), umrühren und dünn über die Masse streichen. Mindestens 60 Minuten kühlen, dann in 4 Riegel schneiden."
+    timer_min: 60
+zeitablauf: []
+fehler:
+  - "**Riegel zerfallen:** Masse nicht fest genug gepresst. Kräftig andrücken und gut kühlen."
+  - "**Schokolade wird krümelig:** in der Mikrowelle überhitzt. In kurzen Intervallen schmelzen."
+anrichten: "2 Riegel (ca. {portion_g} g) sind deine Portion – perfekt für unterwegs."
+aufbewahrung:
+  kuehlschrank_tage: 4
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "Nicht aufwärmen; aus dem Gefrierfach 10 Minuten antauen lassen."
+  separat: "Einzeln in Butterbrotpapier einwickeln."
+varianten:
+  - "**Ohne Schokoüberzug:** (−43 kcal, −3,1 g Fett pro Portion)."
+  - "**Mit Mandeln:** 25 g fein gemahlene Mandeln statt Erdnussmus, dann 1 EL Milch mehr (−2 kcal pro Portion)."
+  - "**Mehr Protein:** 15 g Whey und 15 ml Milch mehr (+32 kcal, +5,7 g Protein pro Portion)."
+tipps:
+  - "Ein paar Flocken grobes Salz auf die noch weiche Schokolade – Salted-Chocolate-Riegel."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

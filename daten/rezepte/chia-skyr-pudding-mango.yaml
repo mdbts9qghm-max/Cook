@@ -1,0 +1,59 @@
+id: chia-skyr-pudding-mango
+name: Chia-Joghurt-Pudding mit Mango
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Frühstück
+geschmack: süß
+kueche: International / Fusion
+hauptprotein: Joghurt & Whey
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Mango Chia Pudding Parfait“"
+  link: null
+  aenderungen: "Statt Kokosmilch und Ahornsirup: Milch, Vanille-Whey und griechischer Joghurt 0 % – über 40 g Protein pro Glas bei unter 20 g Zucker."
+schwierigkeit: leicht
+zeit: {vorbereitung: 8, kochen: 0, wartezeit: 480}
+ausstattung: ["2 Schraubgläser (ca. 500 ml)", Schüssel, Schneebesen, Pürierstab]
+restetauglich: true
+vortag: ["Chia-Pudding am Abend ansetzen (8 Minuten) und Mango zum Auftauen in den Kühlschrank stellen"]
+zutaten:
+  - gruppe: Chia-Pudding
+  - {id: chia, zutat: Chiasamen, g: 70, name: Chiasamen, hinweis: ""}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 200, name: "Milch (1,5 %)", hinweis: "200 ml"}
+  - {id: whey, zutat: Whey Protein Vanille, g: 30, name: "Vanille-Whey", hinweis: "1 Messlöffel"}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 0.5, anzeige: "5 Tropfen flüssiger Süßstoff", hinweis: ""}
+  - gruppe: Schichten
+  - {id: joghurt, zutat: Griechischer Joghurt 0 % Fett, g: 300, name: "griechischer Joghurt", hinweis: "0 % Fett"}
+  - {id: mango, zutat: Mango TK, g: 100, name: Mango, hinweis: "aufgetaut"}
+  - {id: granola, zutat: Granola zuckerreduziert, g: 30, name: Granola, hinweis: ""}
+  - {id: mandeln, zutat: Mandeln, g: 25, name: Mandeln, hinweis: "gehackt"}
+mise_en_place:
+  - "{mango} auftauen lassen (über Nacht im Kühlschrank oder 1½ Minuten bei 600 W) und mit dem Pürierstab fein pürieren."
+  - "{mandeln} grob hacken."
+schritte:
+  - titel: Chia anrühren
+    text: "{chia}, {milch}, {whey} und {suessstoff} mit dem Schneebesen kräftig verrühren. 5 Minuten stehen lassen und noch einmal durchrühren – so bilden sich keine Chia-Klümpchen."
+    timer_min: 5
+  - titel: Schichten und quellen
+    text: "Den Chia-Pudding auf 2 Gläser verteilen, darauf je die Hälfte vom {joghurt:n} und das Mangopüree als oberste Schicht. Verschließen und mindestens 8 Stunden (über Nacht) kühlen – der Pudding wird fest und cremig."
+    timer_min: null
+  - titel: Toppen
+    text: "Morgens {granola:n} und {mandeln:n} darüberstreuen."
+    timer_min: null
+zeitablauf: []
+fehler:
+  - "**Chia-Klümpchen:** nur einmal gerührt. Nach 5 Minuten erneut kräftig durchrühren."
+  - "**Pudding zu flüssig:** zu kurz gequollen. Mindestens 8 Stunden kühlen, notfalls 1 EL Chia mehr."
+anrichten: "Ein Glas (ca. {portion_g} g) ist deine Portion – sieht aus wie aus dem Café."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: false
+  aufwaermen: "Nicht aufwärmen – kalt essen."
+  separat: "Granola und Mandeln erst morgens dazugeben."
+varianten:
+  - "**Mit Himbeeren:** 100 g TK-Himbeeren statt Mango (−8 kcal, −4,3 g Zucker pro Portion)."
+  - "**Mit Erdnussmus statt Mandeln:** 25 g Erdnussmus (+2 kcal pro Portion)."
+  - "**Leichter:** ohne Mandeln (−74 kcal, −6,2 g Fett pro Portion)."
+tipps:
+  - "Ein Spritzer Zitronensaft im Mangopüree macht es fruchtiger – wie Mango-Lassi."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

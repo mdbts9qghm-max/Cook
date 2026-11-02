@@ -1,0 +1,62 @@
+id: thunfisch-bulgur-salat
+name: Mediterraner Thunfisch-Bulgur-Salat
+hauptkategorie: kalorienarm
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Griechisch & Mediterran
+hauptprotein: Fisch & Garnelen
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 12, kochen: 10, wartezeit: 0}
+ausstattung: ["Große Schüssel", Wasserkocher, Sieb, Teller zum Abdecken]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Bulgur
+  - {id: bulgur, zutat: Bulgur ungekocht, g: 100, name: Bulgur, hinweis: "feiner oder mittlerer"}
+  - {id: wasser, zutat: Wasser, g: 200, name: "kochendes Wasser", hinweis: "200 ml"}
+  - {id: bruehe, zutat: Gemüsebrühe Pulver, g: 3, anzeige: "1 TL Gemüsebrühe-Pulver", hinweis: ""}
+  - gruppe: Salat
+  - {id: thunfisch, zutat: Thunfisch im eigenen Saft abgetropft, g: 260, anzeige: "2 Dosen Thunfisch im eigenen Saft", hinweis: "à 130 g abgetropft"}
+  - {id: kichererbsen, zutat: Kichererbsen abgetropft, g: 120, name: Kichererbsen, hinweis: "½ Dose, abgespült"}
+  - {id: gurke, zutat: Salatgurke, g: 150, anzeige: "⅓ Salatgurke", name: Gurke, hinweis: ""}
+  - {id: tomaten, zutat: Cherrytomaten, g: 150, name: Cherrytomaten, hinweis: ""}
+  - {id: feta, zutat: Feta, g: 50, name: Feta, hinweis: "zerbröselt"}
+  - {id: petersilie, zutat: Petersilie glatt, g: 10, anzeige: "4 EL gehackte Petersilie", hinweis: "½ Bund"}
+  - gruppe: Dressing
+  - {id: zitrone, zutat: Zitronensaft, g: 30, anzeige: "2 EL Zitronensaft", hinweis: ""}
+  - {id: oel, zutat: Olivenöl, g: 10, anzeige: "1 EL Olivenöl", hinweis: ""}
+  - {id: oregano, zutat: Oregano getrocknet, g: 1, anzeige: "½ TL Oregano", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: ""}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: ""}
+mise_en_place:
+  - "{gurke} und {tomaten} in 1 cm Würfel schneiden, {petersilie} hacken."
+  - "{thunfisch} abtropfen lassen und grob zerpflücken, {kichererbsen} abspülen."
+  - "Dressing: {zitrone}, {oel}, {oregano}, {salz} und {pfeffer} verrühren."
+schritte:
+  - titel: Bulgur quellen
+    text: "{bulgur} und {bruehe} in die Schüssel geben, mit {wasser} übergießen, umrühren und mit einem Teller abgedeckt 10 Minuten quellen lassen. Dann mit der Gabel auflockern und 5 Minuten offen abkühlen lassen."
+    timer_min: 10
+  - titel: Mischen
+    text: "Den lauwarmen Bulgur mit dem Dressing mischen (er nimmt es so am besten auf), dann Gurke, Tomaten, {kichererbsen:n}, {thunfisch:n} und {petersilie:n} unterheben. Den {feta:n} darüberbröseln."
+    timer_min: null
+zeitablauf:
+  - "Während der Bulgur quillt: Gemüse schneiden und Dressing rühren."
+fehler:
+  - "**Bulgur matschig:** zu viel Wasser. Genau doppelt so viel Wasser wie Bulgur."
+  - "**Salat fad:** zu wenig Säure. Mit Zitronensaft und Pfeffer kräftig abschmecken – kalte Gerichte brauchen mehr Würze."
+anrichten: "Auf 2 Teller oder in 2 Boxen verteilen (je ca. {portion_g} g)."
+aufbewahrung:
+  kuehlschrank_tage: 2
+  einfrierbar: false
+  aufwaermen: "Kalt essen – vor dem Essen 10 Minuten aus dem Kühlschrank nehmen und kurz durchmischen."
+  separat: "Feta erst beim Essen darüberbröseln, wenn du ihn knackig magst."
+varianten:
+  - "**Mit Hähnchen:** 300 g gebratene Hähnchenbrust (bis 74 °C) statt Thunfisch (+10 kcal, +2,8 g Protein pro Portion; 3 Tage haltbar)."
+  - "**Mit Ei:** 2 hartgekochte Eier zusätzlich (+84 kcal, +7,6 g Protein pro Portion)."
+  - "**Ohne Feta:** (−64 kcal, −5,2 g Fett pro Portion)."
+tipps:
+  - "Ideal für das Büro: Morgens in eine Box, mittags kalt essen – schmeckt nach Urlaub."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

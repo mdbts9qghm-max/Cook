@@ -1,0 +1,60 @@
+id: zitronen-lachs-ofenkartoffeln
+name: Zitronen-Lachs mit Ofenkartoffeln und Tzatziki
+hauptkategorie: high-protein
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Griechisch & Mediterran
+hauptprotein: Fisch & Garnelen
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 12, kochen: 35, wartezeit: 0}
+ausstattung: [Backofen, Backblech, Backpapier, Reibe]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Ofenkartoffeln
+  - {id: kartoffeln, zutat: Kartoffeln festkochend roh, g: 600, name: Kartoffeln, hinweis: "festkochend, mit Schale"}
+  - {id: oel, zutat: Olivenöl, g: 15, anzeige: "1½ EL Olivenöl", hinweis: ""}
+  - {id: oregano, zutat: Oregano getrocknet, g: 2, anzeige: "1 TL Oregano", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 2, anzeige: "⅓ TL Salz", hinweis: ""}
+  - gruppe: Lachs
+  - {id: lachs, zutat: Lachsfilet ohne Haut roh, g: 250, anzeige: "2 Lachsfilets", name: Lachs, hinweis: "à 125 g"}
+  - {id: zitrone, zutat: Zitronensaft, g: 20, anzeige: "4 TL Zitronensaft", hinweis: "plus Zitronenscheiben, wenn vorhanden"}
+  - {id: knoblauch, zutat: Knoblauch, g: 3, anzeige: "1 Knoblauchzehe", hinweis: ""}
+  - gruppe: Tzatziki
+  - {id: joghurt, zutat: Griechischer Joghurt 0 % Fett, g: 300, name: "griechischer Joghurt", hinweis: "0 % Fett"}
+  - {id: gurke, zutat: Salatgurke, g: 150, anzeige: "⅓ Salatgurke", name: Gurke, hinweis: ""}
+  - {id: knoblauch_tz, zutat: Knoblauch, g: 3, anzeige: "1 Knoblauchzehe", hinweis: ""}
+  - {id: salz_tz, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: ""}
+mise_en_place:
+  - "Backofen auf 220 °C Ober-/Unterhitze (200 °C Umluft) vorheizen, Blech mit Backpapier auslegen."
+  - "{kartoffeln} waschen und in 2 cm Spalten schneiden, mit {oel}, {oregano} und {salz} mischen."
+  - "{knoblauch} fein reiben und mit {zitrone} verrühren."
+  - "Tzatziki: {gurke} raspeln und kräftig ausdrücken, {knoblauch_tz} reiben, mit {joghurt} und {salz_tz} verrühren."
+schritte:
+  - titel: Kartoffeln backen
+    text: "Die {kartoffeln:n}spalten in einer Lage auf dem Blech verteilen und im vorgeheizten Backofen bei 220 °C Ober-/Unterhitze (200 °C Umluft) auf der mittleren Schiene 22 Minuten backen, nach 12 Minuten wenden."
+    timer_min: 22
+  - titel: Lachs dazulegen
+    text: "Die Kartoffeln zur Seite schieben, den {lachs:n} auf das Blech legen und mit der Zitronen-Knoblauch-Mischung bestreichen. Weitere 10–12 Minuten bei 220 °C Ober-/Unterhitze (200 °C Umluft) backen, bis die Kartoffeln goldbraun und knusprig sind. Garprobe Lachs: Kerntemperatur 50–55 °C für glasig-saftig, 60 °C für durch – er blättert dann mit der Gabel in Lamellen auf."
+    timer_min: 12
+zeitablauf:
+  - "Während die Kartoffeln backen: Tzatziki rühren und den Lachs vorbereiten."
+fehler:
+  - "**Kartoffeln nicht knusprig:** Blech zu voll. In einer Lage mit Abstand verteilen."
+  - "**Lachs trocken:** zu lange gebacken. Ab 10 Minuten messen."
+anrichten: "Pro Teller 1 Lachsfilet, die Hälfte der Ofenkartoffeln (ca. 285 g) und das halbe Tzatziki – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 2
+  einfrierbar: false
+  aufwaermen: "Kartoffeln im Airfryer bei 200 °C 5 Minuten aufknuspern; Lachs kalt oder kurz in der Mikrowelle 600 W 1 Minute (wird dabei durchgegart)."
+  separat: "Tzatziki getrennt lagern."
+varianten:
+  - "**Mit Seelachs:** 400 g Seelachs statt Lachs, 12–14 Minuten (−92 kcal, +11,6 g Protein, −15,3 g Fett pro Portion)."
+  - "**Mit Reis:** 120 g Basmatireis statt Kartoffeln (−6 kcal pro Portion)."
+  - "**Mehr Lachs:** 375 g statt 250 g (+126 kcal, +12,5 g Protein pro Portion) – bei Fett-Lücke ideal."
+tipps:
+  - "Zitronenscheiben unter den Lachs legen – er bleibt saftiger und nimmt das Aroma an."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

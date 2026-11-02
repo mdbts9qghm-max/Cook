@@ -1,0 +1,65 @@
+id: biftekia-bulgur
+name: Biftekia mit Feta-Füllung und Tomatenreis
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Griechisch & Mediterran
+hauptprotein: Rind
+inspiration: null
+schwierigkeit: mittel
+zeit: {vorbereitung: 15, kochen: 22, wartezeit: 0}
+ausstattung: [Backofen, Backblech, Backpapier, "Mittlerer Topf mit Deckel (20 cm)", "Fleischthermometer (empfohlen)"]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Biftekia
+  - {id: hack, zutat: Rinderhackfleisch 5 % Fett roh, g: 450, name: Rinderhack, hinweis: "mager (5 % Fett)"}
+  - {id: zwiebel, zutat: Zwiebel, g: 60, anzeige: "½ Zwiebel", name: Zwiebel, hinweis: "fein gerieben"}
+  - {id: knoblauch, zutat: Knoblauch, g: 6, anzeige: "2 Knoblauchzehen", hinweis: ""}
+  - {id: ei, zutat: "Ei Gr. M ohne Schale", g: 60, anzeige: "1 Ei Gr. M", hinweis: ""}
+  - {id: paniermehl, zutat: Paniermehl, g: 20, anzeige: "2 EL Paniermehl", hinweis: ""}
+  - {id: oregano, zutat: Oregano getrocknet, g: 2, anzeige: "1 TL Oregano", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 2, anzeige: "⅓ TL Salz", hinweis: ""}
+  - {id: feta, zutat: Feta, g: 50, name: Feta, hinweis: "in 6 Würfeln"}
+  - {id: oel, zutat: Olivenöl, g: 5, anzeige: "1 TL Olivenöl", hinweis: "zum Bestreichen"}
+  - gruppe: Tomatenreis
+  - {id: reis, zutat: Basmatireis ungekocht, g: 120, name: Basmatireis, hinweis: ""}
+  - {id: tomatenmark, zutat: Tomatenmark 2-fach konzentriert, g: 15, anzeige: "1 EL Tomatenmark", hinweis: ""}
+  - {id: tomaten, zutat: Tomaten gehackt (Dose), g: 200, name: "gehackte Tomaten", hinweis: "½ Dose"}
+  - {id: wasser, zutat: Wasser, g: 160, name: Wasser, hinweis: "160 ml"}
+  - {id: bruehe, zutat: Gemüsebrühe Pulver, g: 3, anzeige: "1 TL Gemüsebrühe-Pulver", hinweis: ""}
+  - {id: oel_reis, zutat: Olivenöl, g: 5, anzeige: "1 TL Olivenöl", hinweis: ""}
+  - gruppe: Joghurt-Dip
+  - {id: joghurt, zutat: Griechischer Joghurt 0 % Fett, g: 150, name: "griechischer Joghurt", hinweis: ""}
+mise_en_place:
+  - "Backofen auf 200 °C Ober-/Unterhitze (180 °C Umluft) vorheizen, Blech mit Backpapier auslegen."
+  - "{zwiebel} fein reiben, {knoblauch} hacken, {reis} kalt abspülen."
+  - "{hack}, Zwiebel, Knoblauch, {ei}, {paniermehl}, {oregano} und {salz} 1 Minute verkneten. In 6 Portionen teilen, je einen Würfel {feta} in die Mitte drücken und rundum mit Fleisch verschließen, zu 2 cm dicken ovalen Frikadellen formen."
+schritte:
+  - titel: Biftekia backen
+    text: "Die {hack:n}-Biftekia aufs Blech legen, mit {oel} bestreichen und im vorgeheizten Backofen bei 200 °C Ober-/Unterhitze (180 °C Umluft) auf der mittleren Schiene 18–20 Minuten backen, bis sie gebräunt sind. Garprobe: Kerntemperatur 72 °C – ohne Thermometer eine aufschneiden: kein Rosa, der Feta-Kern ist geschmolzen."
+    timer_min: 20
+  - titel: Tomatenreis
+    text: "{oel_reis} im Topf auf Stufe 6 von 9 erhitzen, den Reis und {tomatenmark} 1 Minute anrösten. {tomaten}, {wasser} und {bruehe} dazugeben, auf Stufe 9 von 9 aufkochen und mit Deckel auf Stufe 2 von 9 14 Minuten quellen lassen. Herd aus und 5 Minuten nachziehen lassen, dann mit der Gabel auflockern."
+    timer_min: 14
+zeitablauf:
+  - "Biftekia in den Ofen und sofort den Tomatenreis aufsetzen – beides ist nach ca. 20 Minuten fertig."
+fehler:
+  - "**Feta läuft aus:** nicht gut verschlossen. Den Würfel rundum mit Fleisch umhüllen und glatt streichen."
+  - "**Reis setzt an:** Tomate brennt schneller als Wasser. Auf Stufe 2 von 9 bleiben und nicht rühren."
+anrichten: "Pro Teller 3 Biftekia, die Hälfte des Tomatenreises und den halben {joghurt:n}-Dip – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: true
+  einfrieren_monate: 3
+  aufwaermen: "Mikrowelle 600 W, 2½ Minuten abgedeckt mit 1 EL Wasser über dem Reis; Biftekia auch kalt lecker."
+  separat: "Joghurt-Dip getrennt; Reis innerhalb von 1 Stunde kalt stellen."
+varianten:
+  - "**Mit Putenhack:** 450 g Putenhack (+20 kcal, −3,4 g Protein pro Portion); Kerntemperatur 74 °C."
+  - "**Mit Ofenkartoffeln:** 500 g Kartoffelspalten statt Reis mit auf dem Blech backen (−30 kcal pro Portion)."
+  - "**Ohne Feta-Kern:** (−64 kcal, −5,2 g Fett pro Portion)."
+tipps:
+  - "Frische Minze in der Hackmasse ist das griechische Original – wenn du welche bekommst."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

@@ -1,0 +1,69 @@
+id: koefte-bulgur
+name: Köfte mit Bulgur-Pilav und Joghurt-Dip
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Türkisch & Orientalisch
+hauptprotein: Rind
+inspiration: null
+schwierigkeit: mittel
+zeit: {vorbereitung: 15, kochen: 22, wartezeit: 0}
+ausstattung: [Backofen, Backblech, Backpapier, "Mittlerer Topf mit Deckel (20 cm)", Reibe, "Fleischthermometer (empfohlen)"]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Köfte
+  - {id: hack, zutat: Rinderhackfleisch 5 % Fett roh, g: 450, name: Rinderhack, hinweis: "mager (5 % Fett)"}
+  - {id: zwiebel, zutat: Zwiebel, g: 60, anzeige: "½ Zwiebel", name: Zwiebel, hinweis: "fein gerieben"}
+  - {id: knoblauch, zutat: Knoblauch, g: 6, anzeige: "2 Knoblauchzehen", hinweis: ""}
+  - {id: petersilie, zutat: Petersilie glatt, g: 10, anzeige: "4 EL gehackte Petersilie", hinweis: ""}
+  - {id: kuemmel, zutat: Kreuzkümmel gemahlen, g: 3, anzeige: "1½ TL Kreuzkümmel", hinweis: ""}
+  - {id: paprikapulver, zutat: Paprikapulver edelsüß, g: 3, anzeige: "1 TL Paprikapulver edelsüß", hinweis: ""}
+  - {id: chili, zutat: Chiliflocken, g: 1, anzeige: "¼ TL Chiliflocken", hinweis: "Pul Biber, wenn vorhanden"}
+  - {id: tomatenmark_koefte, zutat: Tomatenmark 2-fach konzentriert, g: 10, anzeige: "2 TL Tomatenmark", hinweis: ""}
+  - {id: paniermehl, zutat: Paniermehl, g: 20, anzeige: "2 EL Paniermehl", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 2, anzeige: "⅓ TL Salz", hinweis: ""}
+  - {id: paprika, zutat: Paprika rot, g: 150, anzeige: "1 kleine rote Paprika", name: Paprika, hinweis: "in breiten Streifen"}
+  - gruppe: Bulgur-Pilav
+  - {id: butter, zutat: Butter, g: 5, anzeige: "1 TL Butter", hinweis: ""}
+  - {id: bulgur, zutat: Bulgur ungekocht, g: 140, name: Bulgur, hinweis: "grober Pilavlık-Bulgur ideal"}
+  - {id: tomatenmark, zutat: Tomatenmark 2-fach konzentriert, g: 15, anzeige: "1 EL Tomatenmark", hinweis: ""}
+  - {id: wasser, zutat: Wasser, g: 280, name: Wasser, hinweis: "280 ml, heiß"}
+  - {id: bruehe, zutat: Gemüsebrühe Pulver, g: 3, anzeige: "1 TL Gemüsebrühe-Pulver", hinweis: ""}
+  - gruppe: Joghurt-Dip
+  - {id: joghurt, zutat: "Joghurt 1,5 % Fett", g: 200, name: Joghurt, hinweis: ""}
+  - {id: knoblauch_dip, zutat: Knoblauch, g: 3, anzeige: "1 Knoblauchzehe", hinweis: ""}
+  - {id: salz_dip, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: ""}
+mise_en_place:
+  - "Backofen auf 220 °C Ober-/Unterhitze (200 °C Umluft) vorheizen, Blech mit Backpapier auslegen."
+  - "{zwiebel} fein reiben und den Saft leicht ausdrücken, {knoblauch} reiben, {petersilie} hacken."
+  - "{hack}, Zwiebel, Knoblauch, Petersilie, {kuemmel}, {paprikapulver}, {chili}, {tomatenmark_koefte}, {paniermehl} und {salz} 2 Minuten kräftig verkneten. Mit nassen Händen 12 fingerlange, ovale Köfte formen."
+  - "Dip: {knoblauch_dip} reiben und mit {joghurt} und {salz_dip} verrühren."
+schritte:
+  - titel: Köfte backen
+    text: "Die {hack:n}-Köfte und die {paprika:n}streifen auf dem Blech verteilen und im vorgeheizten Backofen bei 220 °C Ober-/Unterhitze (200 °C Umluft) auf der oberen Schiene 14–16 Minuten backen, nach 8 Minuten wenden, bis sie rundum gebräunt sind. Garprobe: Kerntemperatur 72 °C, innen ohne Rosa."
+    timer_min: 16
+  - titel: Bulgur-Pilav
+    text: "{butter} im Topf auf Stufe 6 von 9 schmelzen, {bulgur} und {tomatenmark} 2 Minuten anrösten, bis der Bulgur nussig duftet. {wasser} und {bruehe} angießen, auf Stufe 9 von 9 aufkochen und mit Deckel auf Stufe 2 von 9 12 Minuten quellen lassen. Herd aus, ein Küchentuch unter den Deckel legen und 5 Minuten ziehen lassen – so wird der Pilav locker."
+    timer_min: 12
+zeitablauf:
+  - "Köfte in den Ofen, dann sofort den Pilav ansetzen – beides ist nach ca. 20 Minuten fertig."
+fehler:
+  - "**Köfte zerfallen:** zu kurz geknetet oder Zwiebel zu nass. 2 Minuten kneten und den Zwiebelsaft ausdrücken."
+  - "**Pilav matschig:** umgerührt. Nach dem Aufkochen Deckel drauf und nicht mehr rühren."
+anrichten: "Pro Teller 6 Köfte, Paprika, die Hälfte des Bulgur-Pilavs und den halben Joghurt-Dip – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: true
+  einfrieren_monate: 3
+  aufwaermen: "Mikrowelle 600 W, 2½ Minuten abgedeckt mit 1 EL Wasser über dem Pilav; Köfte auch kalt lecker."
+  separat: "Dip getrennt lagern."
+varianten:
+  - "**Mit Putenhack:** 450 g Putenhack (+20 kcal, −3,4 g Protein pro Portion); Kerntemperatur 74 °C."
+  - "**Mit Reis:** 140 g Basmatireis statt Bulgur (±0 kcal, −2,8 g Protein pro Portion)."
+  - "**Mit Pita:** zusätzlich 1 Pitabrot pro Person (100 g) (+132 kcal pro Portion)."
+tipps:
+  - "Die Köfte vor dem Backen 15 Minuten kühlen – dann behalten sie ihre Form noch besser."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

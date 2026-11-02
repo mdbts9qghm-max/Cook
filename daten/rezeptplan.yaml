@@ -33,7 +33,7 @@ fruehstueck:
   - {id: skyr-tiramisu-bowl, name: Skyr-Tiramisu-Bowl, kueche: Italienisch, protein: Skyr & Whey, kcal: 550, schnell: true, insp: true, idee: "Sofort-Tiramisu: espressogetränkte Reiswaffeln statt Löffelbiskuits, Vanille-Skyr-Creme, Kakao – ohne Kochen, ohne Warten"}
   - {id: cottage-cheese-pancakes, name: Cottage-Cheese-Pancakes, kueche: Amerikanisch, protein: Hüttenkäse & Eier, kcal: 560, schnell: true, insp: true, idee: "Gemixter Hüttenkäse-Hafer-Teig, Ahorn-Ersatz aus Honig und Zimt"}
   - {id: schoko-protein-porridge, name: Schoko-Protein-Porridge, kueche: International / Fusion, protein: Milch & Whey, kcal: 580, schnell: true, idee: "Cremiges Kakao-Porridge mit Banane und Schokostückchen"}
-  - {id: chia-skyr-pudding-mango, name: Chia-Skyr-Pudding mit Mango, kueche: International / Fusion, protein: Skyr, kcal: 540, schnell: true, mp: true, insp: true, idee: "Vanille-Chia-Pudding geschichtet mit Skyr und Mangopüree"}
+  - {id: chia-skyr-pudding-mango, name: Chia-Joghurt-Pudding mit Mango, kueche: International / Fusion, protein: Joghurt & Whey, kcal: 540, schnell: true, mp: true, insp: true, idee: "Vanille-Chia-Pudding geschichtet mit griechischem Joghurt und Mangopüree"}
   - {id: protein-scones, name: Protein-Scones mit Beeren, kueche: International / Fusion, protein: Quark & Whey, kcal: 590, mp: true, idee: "Quark-Scones, warm mit Skyr und Beeren"}
   - {id: schoko-erdnuss-bowl, name: Schoko-Erdnuss-Pudding-Bowl, kueche: Amerikanisch, protein: Proteinpudding & Skyr, kcal: 600, schnell: true, insp: true, idee: "Proteinpudding, Skyr, Banane, Erdnussmus-Drizzle, Granola"}
   - {id: zimtschnecken-oats, name: Zimtschnecken-Oats, kueche: Amerikanisch, protein: Milch & Whey, kcal: 590, schnell: true, insp: true, idee: "Cinnamon-Roll-Porridge mit Frischkäse-Icing"}
@@ -105,7 +105,7 @@ hauptgericht:
   - {id: souvlaki-airfryer, name: Hähnchen-Souvlaki mit Pita und Tzatziki, kueche: Griechisch & Mediterran, protein: Hähnchen, kcal: 700, mp: true, rest: true, idee: "Zitronen-Oregano-Spieße aus dem Airfryer"}
   - {id: feta-pasta-haehnchen, name: Ofen-Feta-Pasta mit Hähnchen, kueche: Griechisch & Mediterran, protein: Hähnchen, kcal: 780, rest: true, insp: true, idee: "Baked-Feta-Trend: Feta und Cherrytomaten im Ofen, mit Hähnchen und Penne"}
   - {id: zitronen-lachs-ofenkartoffeln, name: Zitronen-Lachs mit Ofenkartoffeln und Tzatziki, kueche: Griechisch & Mediterran, protein: Fisch & Garnelen, kcal: 720, idee: "Lachs auf dem Blech, Kartoffelspalten mit Oregano"}
-  - {id: biftekia-bulgur, name: Biftekia mit Feta-Füllung und Bulgur, kueche: Griechisch & Mediterran, protein: Rind, kcal: 720, mp: true, rest: true, idee: "Griechische Frikadellen, Tomaten-Bulgur, Joghurt"}
+  - {id: biftekia-bulgur, name: Biftekia mit Feta-Füllung und Tomatenreis, kueche: Griechisch & Mediterran, protein: Rind, kcal: 720, mp: true, rest: true, idee: "Griechische Frikadellen mit Feta-Kern, Tomatenreis (Pilafi), Joghurt-Dip"}
   - {id: thunfisch-bulgur-salat, name: Mediterraner Thunfisch-Bulgur-Salat, kueche: Griechisch & Mediterran, protein: Fisch & Garnelen, kcal: 540, schnell: true, ka: true, rest: true, idee: "Kalter Salat mit Kichererbsen, Feta, Gurke, Zitronen-Dressing"}
   # Türkisch & Orientalisch (6)
   - {id: doener-bowl, name: Döner-Bowl mit Pute und Knoblauchsauce, kueche: Türkisch & Orientalisch, protein: Pute, kcal: 720, schnell: true, rest: true, insp: true, idee: "Gewürzte Putenstreifen, Bulgur, Gurke, Tomate, Zwiebel, Skyr-Knoblauch-Sauce"}

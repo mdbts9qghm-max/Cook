@@ -1,0 +1,63 @@
+id: feta-pasta-haehnchen
+name: Ofen-Feta-Pasta mit Hähnchen
+hauptkategorie: high-protein
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Griechisch & Mediterran
+hauptprotein: Hähnchen
+inspiration:
+  quelle: "TikTok-Trend „Baked Feta Pasta“"
+  link: null
+  aenderungen: "Statt eines ganzen 200-g-Fetablocks mit reichlich Olivenöl: 150 g Feta mit 1 EL Öl, dazu 400 g Hähnchen für über 70 g Protein pro Portion."
+schwierigkeit: leicht
+zeit: {vorbereitung: 8, kochen: 25, wartezeit: 0}
+ausstattung: [Backofen, "Auflaufform ca. 20 × 30 cm", "Großer Topf (24 cm)", Sieb, "Fleischthermometer (empfohlen)"]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Ofen
+  - {id: tomaten, zutat: Cherrytomaten, g: 500, name: Cherrytomaten, hinweis: "2 Schalen"}
+  - {id: feta, zutat: Feta, g: 150, name: Feta, hinweis: "am Stück"}
+  - {id: haehnchen, zutat: Hähnchenbrustfilet roh, g: 400, name: Hähnchenbrust, hinweis: ""}
+  - {id: oel, zutat: Olivenöl, g: 10, anzeige: "1 EL Olivenöl", hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 9, anzeige: "3 Knoblauchzehen", hinweis: "geschält, ganz"}
+  - {id: kraeuter, zutat: Italienische Kräuter getrocknet, g: 2, anzeige: "1 TL italienische Kräuter", hinweis: "oder Oregano"}
+  - {id: chili, zutat: Chiliflocken, g: 0.5, anzeige: "1 Prise Chiliflocken", hinweis: ""}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: ""}
+  - gruppe: Pasta
+  - {id: penne, zutat: Penne ungekocht, g: 160, name: Penne, hinweis: ""}
+  - {id: kochwasser, zutat: Wasser, g: 2000, name: Wasser, hinweis: "2 l zum Kochen", mitrechnen: false}
+  - {id: kochsalz, zutat: Salz, g: 15, anzeige: "1 knapper EL Salz fürs Nudelwasser", hinweis: "", mitrechnen: false}
+  - {id: spinat, zutat: Babyspinat, g: 50, anzeige: "2 Handvoll Babyspinat", hinweis: ""}
+mise_en_place:
+  - "Backofen auf 200 °C Ober-/Unterhitze (180 °C Umluft) vorheizen."
+  - "{haehnchen} in 3 cm Würfel schneiden."
+schritte:
+  - titel: Ab in den Ofen
+    text: "Die {tomaten:n} und {knoblauch} in der Auflaufform verteilen, den {feta:n} als Block in die Mitte legen, die Hähnchenwürfel drumherum. Mit {oel} beträufeln und mit {kraeuter}, {chili} und {pfeffer} bestreuen (kein Salz – der Feta salzt). Im vorgeheizten Backofen bei 200 °C Ober-/Unterhitze (180 °C Umluft) auf der mittleren Schiene 25 Minuten backen, bis die Tomaten aufplatzen und der Feta weich und goldgelb ist."
+    timer_min: 25
+  - titel: Penne kochen
+    text: "Inzwischen {kochwasser} mit {kochsalz} auf Stufe 9 von 9 aufkochen und die {penne} auf Stufe 7 von 9 nach Packungsangabe bissfest kochen (meist 10–11 Minuten). ½ Tasse Nudelwasser abnehmen, abgießen."
+    timer_min: 11
+  - titel: Zerdrücken und mischen
+    text: "Garprobe: Die {haehnchen:n} hat im größten Würfel 74 °C Kerntemperatur. Feta, Knoblauch und Tomaten mit einer Gabel direkt in der Form zu einer cremigen Sauce zerdrücken. Penne, {spinat} und 3–4 EL Nudelwasser untermischen, bis der Spinat zusammenfällt und alles cremig ist."
+    timer_min: null
+zeitablauf:
+  - "Form in den Ofen, nach 12 Minuten das Nudelwasser aufsetzen – Pasta und Ofen sind gleichzeitig fertig."
+fehler:
+  - "**Sauce zu dick:** Feta bindet stark. Mehr Nudelwasser einrühren."
+  - "**Zu salzig:** zusätzlich gesalzen. Feta bringt genug Salz – nur das Nudelwasser salzen."
+anrichten: "Direkt aus der Form auf 2 tiefe Teller verteilen (je ca. {portion_g} g) und mit frischem Pfeffer bestreuen."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: false
+  aufwaermen: "Mikrowelle 600 W, 2½ Minuten mit 2 EL Wasser abgedeckt, umrühren. Schmeckt auch kalt als Pastasalat."
+varianten:
+  - "**Mit Garnelen:** 450 g Garnelen statt Hähnchen, erst die letzten 6 Minuten in die Form (−42 kcal, −11 g Protein pro Portion; nur 1 Tag haltbar)."
+  - "**Mit Linsennudeln:** 160 g Rote-Linsen-Nudeln statt Penne (−19 kcal, +9,6 g Protein pro Portion)."
+  - "**Mehr Grün:** 125 g Babyspinat zusätzlich (+14 kcal, +1,8 g Protein pro Portion)."
+tipps:
+  - "Etwas Zitronenschale und frischer Oregano zum Schluss – bringt Frische in die cremige Sauce."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}
