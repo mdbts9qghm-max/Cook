@@ -1,0 +1,58 @@
+id: overnight-oats-erdnuss-banane
+name: Overnight Oats Erdnuss-Banane
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Amerikanisch
+hauptprotein: Skyr & Whey
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Peanut Butter Banana Overnight Oats“"
+  link: null
+  aenderungen: "Schoko-Whey und Skyr statt Ahornsirup und Pflanzenjoghurt; Erdnussmus abgewogen statt „ein großer Löffel“."
+schwierigkeit: leicht
+zeit: {vorbereitung: 7, kochen: 0, wartezeit: 480}
+ausstattung: ["2 Schraubgläser (ca. 500 ml)", Schüssel, Schneebesen]
+restetauglich: true
+vortag: ["Overnight Oats Erdnuss-Banane am Abend ansetzen (7 Minuten)"]
+zutaten:
+  - gruppe: Oats
+  - {id: hafer, zutat: Haferflocken zart, g: 120, name: "zarte Haferflocken", hinweis: ""}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 220, name: "Milch (1,5 %)", hinweis: "220 ml"}
+  - {id: skyr, zutat: Skyr natur, g: 250, name: Skyr, hinweis: ""}
+  - {id: whey, zutat: Whey Protein Schoko, g: 30, name: "Schoko-Whey", hinweis: "1 Messlöffel"}
+  - {id: chia, zutat: Chiasamen, g: 10, anzeige: "1 EL Chiasamen", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 0.3, anzeige: "1 kleine Prise Salz", hinweis: "hebt den Erdnussgeschmack"}
+  - gruppe: Topping
+  - {id: erdnussmus, zutat: Erdnussmus, g: 40, anzeige: "2½ EL Erdnussmus", hinweis: "cremig"}
+  - {id: banane, zutat: Banane, g: 80, anzeige: "⅔ Banane", name: Banane, hinweis: "reif"}
+mise_en_place:
+  - "{banane} in 5 mm Scheiben schneiden."
+schritte:
+  - titel: Oats anrühren
+    text: "{hafer}, {milch}, {skyr}, {whey}, {chia} und {salz} in einer Schüssel mit dem Schneebesen gründlich verrühren, bis sich das Whey vollständig gelöst hat. Die Hälfte vom {erdnussmus:n} unterrühren – kleine Erdnussmus-Schlieren dürfen bleiben."
+    timer_min: null
+  - titel: Schichten
+    text: "Die Hälfte der Oats auf 2 Gläser verteilen, die Hälfte der Bananenscheiben daraufgeben, dann die restlichen Oats. Gläser verschließen und mindestens 8 Stunden (über Nacht) in den Kühlschrank stellen."
+    timer_min: null
+  - titel: Morgens toppen
+    text: "Die restliche {banane:n} und das restliche {erdnussmus} (verteilt auf beide Gläser) obenauf geben. Erdnussmus vorher kurz umrühren, dann lässt es sich in Fäden darüberziehen."
+    timer_min: null
+zeitablauf: []
+fehler:
+  - "**Banane braun:** am Vorabend obenauf gelegt. Unten zwischen die Oats schichten und frische Scheiben erst morgens obenauf."
+  - "**Zu fest:** Chia und Hafer quellen stark. Morgens 2–3 EL Milch unterrühren."
+anrichten: "Ein Glas (ca. {portion_g} g) ist deine Portion – schmeckt wie ein Erdnuss-Schoko-Riegel zum Löffeln."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: false
+  aufwaermen: "Kalt essen; wer es warm mag: 1½ Minuten bei 600 W (ohne Topping)."
+  separat: "Topping-Banane und die Hälfte des Erdnussmus erst morgens dazugeben."
+varianten:
+  - "**Schoko statt Erdnuss:** Erdnussmus weglassen, 10 g Backkakao in die Oats und 15 g gehackte Zartbitterschokolade obenauf (−65 kcal, −3,2 g Protein pro Portion)."
+  - "**Mit Beeren:** Banane durch 100 g TK-Himbeeren ersetzen (−15 kcal, −4,6 g Zucker pro Portion) – PB & J-Style."
+  - "**Mehr Protein:** 100 g Skyr zusätzlich (+32 kcal, +5,5 g Protein pro Portion)."
+tipps:
+  - "Eine Prise grobes Salz auf dem Erdnussmus-Topping – süß-salzig macht es zum Dessert."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

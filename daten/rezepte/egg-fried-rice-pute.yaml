@@ -1,0 +1,62 @@
+id: egg-fried-rice-pute
+name: Egg Fried Rice mit Pute
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Asiatisch
+hauptprotein: Pute
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 8, kochen: 12, wartezeit: 0}
+ausstattung: ["Wok oder große Pfanne (28 cm)", "Kleiner Topf mit Deckel (16 cm) für den Reis am Vortag"]
+restetauglich: true
+vortag: ["Reis für den Egg Fried Rice kochen (17 Minuten) und über Nacht kalt stellen"]
+zutaten:
+  - gruppe: Reis (vom Vortag)
+  - {id: reis, zutat: Basmatireis ungekocht, g: 150, name: Basmatireis, hinweis: "am Vortag gekocht, kalt"}
+  - {id: wasser_reis, zutat: Wasser, g: 300, name: Wasser, hinweis: "300 ml"}
+  - gruppe: Wok
+  - {id: oel, zutat: Rapsöl, g: 10, anzeige: "1 EL Rapsöl", hinweis: ""}
+  - {id: pute, zutat: Putenbrustfilet roh, g: 300, name: Putenbrust, hinweis: ""}
+  - {id: moehre, zutat: Möhre, g: 80, anzeige: "1 Möhre", name: Möhre, hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 6, anzeige: "2 Knoblauchzehen", hinweis: ""}
+  - {id: ingwer, zutat: Ingwer, g: 5, anzeige: "1 Stück Ingwer (1 cm)", hinweis: ""}
+  - {id: erbsen, zutat: Erbsen TK, g: 150, name: Erbsen, hinweis: "gefroren"}
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 180, anzeige: "3 Eier Gr. M", hinweis: "verquirlt"}
+  - {id: soja, zutat: Sojasauce, g: 30, anzeige: "2 EL Sojasauce", hinweis: ""}
+  - {id: sesamoel, zutat: Sesamöl geröstet, g: 8, anzeige: "2 TL geröstetes Sesamöl", hinweis: ""}
+  - {id: fruehlingszwiebel, zutat: Frühlingszwiebel, g: 40, anzeige: "4 Frühlingszwiebeln", hinweis: ""}
+mise_en_place:
+  - "Am Vortag: {reis} kalt abspülen, mit {wasser_reis} auf Stufe 9 von 9 aufkochen, auf Stufe 2 von 9 12 Minuten quellen, 5 Minuten nachziehen lassen. Auf einem Teller ausbreiten, innerhalb von 1 Stunde in den Kühlschrank stellen."
+  - "{pute} in 1 cm Würfel, {moehre} in 5 mm Würfel schneiden, {knoblauch} und {ingwer} fein hacken, {fruehlingszwiebel} in Ringe."
+  - "Den kalten Reis mit den Fingern auflockern, sodass keine Klumpen bleiben."
+schritte:
+  - titel: Pute anbraten
+    text: "Die Hälfte vom {oel} im Wok auf Stufe 9 von 9 sehr heiß werden lassen. Die {pute:n}würfel 3–4 Minuten scharf anbraten, bis sie rundum gebräunt und durchgegart sind. Garprobe: Kerntemperatur 74 °C, innen weiß. Herausnehmen."
+    timer_min: 4
+  - titel: Gemüse und Eier
+    text: "Restliches Öl in den Wok (Stufe 8 von 9), {moehre:n}, Knoblauch, Ingwer und die gefrorenen {erbsen:n} 2 Minuten pfannenrühren. Alles an den Rand schieben, die {eier:n} in die Mitte gießen und 30 Sekunden stocken lassen, dann zu groben Rührei-Stücken zerteilen."
+    timer_min: 3
+  - titel: Reis braten
+    text: "Den kalten Reis dazugeben und auf Stufe 8 von 9 3–4 Minuten unter ständigem Wenden braten, bis er heiß ist und einzelne Körner leicht knuspern. Die Pute zurückgeben, {soja} am Rand angießen (zischt und karamellisiert), alles mischen. Vom Herd nehmen, {sesamoel} und die Frühlingszwiebeln unterheben."
+    timer_min: 4
+zeitablauf:
+  - "Der Reis wird am Vortag gekocht – am Kochtag ist alles in 20 Minuten fertig."
+fehler:
+  - "**Reis klebt und matscht:** frisch gekochter Reis verwendet. Nur kalten Reis vom Vortag nehmen."
+  - "**Alles kocht statt brät:** Wok nicht heiß genug oder zu voll. Höchste Stufe und zügig arbeiten."
+  - "**Zu salzig:** Sojasauce in die Mitte gegossen. Am Wok-Rand angießen und erst probieren."
+anrichten: "Auf 2 Teller oder Bowls verteilen (je ca. {portion_g} g). Wer mag, gibt einen Klecks Sriracha dazu."
+aufbewahrung:
+  kuehlschrank_tage: 2
+  einfrierbar: false
+  aufwaermen: "In der Pfanne auf Stufe 7 von 9 3 Minuten unter Rühren braten, bis alles dampfend heiß ist (Reis nur einmal aufwärmen)."
+varianten:
+  - "**Mit Garnelen:** 300 g Garnelen statt Pute, nur 2 Minuten braten bis rosa (−50 kcal, −12 g Protein pro Portion)."
+  - "**Mit Hähnchen:** 300 g Hähnchenbrust (−4 kcal, −0,8 g Protein pro Portion)."
+  - "**Extra Ei:** 2 Eier mehr (+84 kcal, +7,6 g Protein pro Portion)."
+tipps:
+  - "Reste-Tipp: Hast du im Planer ein Reisgericht doppelt gekocht, ist der Rest-Reis die perfekte Basis."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

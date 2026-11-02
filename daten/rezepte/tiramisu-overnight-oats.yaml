@@ -1,0 +1,63 @@
+id: tiramisu-overnight-oats
+name: Tiramisu-Overnight-Oats
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Italienisch
+hauptprotein: Skyr & Whey
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Tiramisu Overnight Oats“"
+  link: null
+  aenderungen: "Mascarpone-Creme durch Skyr mit wenig Frischkäse light und Vanille-Whey ersetzt, Löffelbiskuits durch espressogetränkte Haferflocken."
+schwierigkeit: leicht
+zeit: {vorbereitung: 8, kochen: 0, wartezeit: 480}
+ausstattung: ["2 Schraubgläser (ca. 500 ml)", Schüssel, Schneebesen, "Feines Sieb zum Bestäuben"]
+restetauglich: true
+vortag: ["Tiramisu-Overnight-Oats am Abend ansetzen (8 Minuten)"]
+zutaten:
+  - gruppe: Espresso-Oats
+  - {id: espresso, zutat: Instant-Espressopulver, g: 3, anzeige: "1 TL Instant-Espressopulver", hinweis: ""}
+  - {id: wasser, zutat: Wasser, g: 50, name: "heißes Wasser", hinweis: "50 ml"}
+  - {id: hafer, zutat: Haferflocken zart, g: 130, name: "zarte Haferflocken", hinweis: ""}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 150, name: "Milch (1,5 %)", hinweis: "150 ml"}
+  - {id: chia, zutat: Chiasamen, g: 10, anzeige: "1 EL Chiasamen", hinweis: ""}
+  - gruppe: Mascarpone-Ersatz
+  - {id: skyr, zutat: Skyr natur, g: 300, name: Skyr, hinweis: ""}
+  - {id: frischkaese, zutat: Frischkäse light, g: 50, name: "Frischkäse light", hinweis: ""}
+  - {id: whey, zutat: Whey Protein Vanille, g: 40, name: "Vanille-Whey", hinweis: "ca. 1⅓ Messlöffel"}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 1, anzeige: "10 Tropfen flüssiger Süßstoff", hinweis: ""}
+  - gruppe: Topping
+  - {id: kakao, zutat: Backkakao stark entölt, g: 5, anzeige: "1 TL Backkakao", hinweis: "zum Bestäuben"}
+  - {id: schoko, zutat: "Zartbitterschokolade 70 %", g: 15, anzeige: "3 Stückchen Zartbitterschokolade 70 %", name: Zartbitterschokolade, hinweis: "fein gehackt"}
+mise_en_place:
+  - "{espresso} in {wasser} auflösen und kurz abkühlen lassen."
+  - "{schoko} fein hacken."
+schritte:
+  - titel: Espresso-Oats
+    text: "{hafer}, {milch}, {chia} und den abgekühlten Espresso verrühren und auf 2 Gläser verteilen – das ist die „Löffelbiskuit-Schicht“."
+    timer_min: null
+  - titel: Creme
+    text: "{skyr}, {frischkaese}, {whey} und {suessstoff} mit dem Schneebesen ca. 1 Minute glatt und cremig rühren. Als zweite Schicht auf die Oats streichen. Gläser verschließen und mindestens 8 Stunden kühlen."
+    timer_min: null
+  - titel: Bestäuben
+    text: "Morgens {kakao} durch ein feines Sieb über die Creme stäuben und die gehackte {schoko:n} darüberstreuen."
+    timer_min: null
+zeitablauf: []
+fehler:
+  - "**Schmeckt nach Kaffee statt Tiramisu:** zu viel Espresso. Mit 1 TL beginnen; die Süße der Creme gleicht aus."
+  - "**Kakao klumpt:** am Vorabend aufgestäubt. Erst morgens durch ein Sieb stäuben."
+anrichten: "Ein Glas (ca. {portion_g} g) ist deine Portion – mit dem Löffel bis zum Boden durchstechen, damit du beide Schichten erwischst."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: false
+  aufwaermen: "Nicht aufwärmen – kalt wie ein Dessert essen."
+  separat: "Kakao und Schokolade erst kurz vor dem Essen."
+varianten:
+  - "**Mit Mandel-Crunch:** 15 g gehackte Mandeln obenauf (+45 kcal, +1,6 g Protein pro Portion)."
+  - "**Leichter:** Schokolade weglassen (−43 kcal, −3,1 g Fett pro Portion)."
+  - "**Kirsch-Tiramisu:** 80 g abgetropfte Sauerkirschen zwischen die Schichten (+27 kcal, +6 g Zucker pro Portion)."
+tipps:
+  - "Ein paar Tropfen Bittermandel- oder Rumaroma in der Creme machen den Tiramisu-Geschmack perfekt (praktisch 0 kcal)."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

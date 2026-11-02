@@ -1,0 +1,53 @@
+id: protein-balls
+name: Schoko-Erdnuss-Protein-Balls
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Snack
+geschmack: süß
+kueche: Amerikanisch
+hauptprotein: Whey
+ohne_kochen: true
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „No-Bake Protein Balls“"
+  link: null
+  aenderungen: "Weniger Datteln und Erdnussmus, dafür mehr Schoko-Whey – ca. 26 g Protein pro Portion statt der üblichen 10 g."
+schwierigkeit: leicht
+zeit: {vorbereitung: 15, kochen: 0, wartezeit: 30}
+ausstattung: ["Mixer oder Zerkleinerer", Schüssel, "Dose mit Deckel"]
+restetauglich: true
+vortag: []
+zutaten:
+  - {id: datteln, zutat: Datteln getrocknet, g: 30, anzeige: "4 Datteln", hinweis: "entsteint"}
+  - {id: hafer, zutat: Haferflocken zart, g: 50, name: "zarte Haferflocken", hinweis: ""}
+  - {id: whey, zutat: Whey Protein Schoko, g: 50, name: "Schoko-Whey", hinweis: "ca. 1⅔ Messlöffel"}
+  - {id: kakao, zutat: Backkakao stark entölt, g: 5, anzeige: "1 TL Backkakao", hinweis: ""}
+  - {id: erdnussmus, zutat: Erdnussmus, g: 30, anzeige: "2 EL Erdnussmus", hinweis: "cremig"}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 30, name: "Milch (1,5 %)", hinweis: "2 EL, nach Bedarf 1 EL mehr"}
+  - {id: salz, zutat: Salz, g: 0.3, anzeige: "1 kleine Prise Salz", hinweis: ""}
+mise_en_place:
+  - "{datteln} 5 Minuten in warmem Wasser einweichen (Wasser danach weggießen, nicht mitgerechnet) und abtropfen lassen."
+schritte:
+  - titel: Masse mixen
+    text: "{hafer} im Mixer 10 Sekunden grob mahlen. Die eingeweichten {datteln:n}, {whey}, {kakao}, {erdnussmus}, {milch} und {salz} dazugeben und in Intervallen ca. 30 Sekunden mixen, bis eine feuchte, krümelige Masse entsteht, die beim Zusammendrücken hält. Ist sie zu trocken, 1 EL Milch mehr."
+    timer_min: null
+  - titel: Formen und kühlen
+    text: "Mit leicht angefeuchteten Händen 8 gleich große Kugeln (je ca. 24 g) rollen und in eine Dose setzen. Mindestens 30 Minuten im Kühlschrank fest werden lassen."
+    timer_min: 30
+zeitablauf: []
+fehler:
+  - "**Masse klebt an den Händen:** zu feucht. 1 EL Haferflocken untermixen; Hände anfeuchten."
+  - "**Bröselt:** zu trocken. Esslöffelweise Milch zugeben, bis sie beim Drücken zusammenhält."
+anrichten: "4 Kugeln (ca. {portion_g} g) sind deine Portion – ideal als Nachmittags-Snack oder Dessert mit einem Kaffee."
+aufbewahrung:
+  kuehlschrank_tage: 4
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "Nicht aufwärmen – direkt aus dem Kühlschrank oder 10 Minuten nach dem Gefrierfach essen."
+varianten:
+  - "**Mit Honig statt Datteln:** 20 g Honig statt Datteln (−13 kcal, −2,3 g Zucker pro Portion)."
+  - "**Mandel-Balls:** 30 g fein gemahlene Mandeln statt Erdnussmus, dann 1 EL Milch mehr (−3 kcal pro Portion)."
+  - "**Mehr Protein:** 15 g Schoko-Whey und 15 ml Milch zusätzlich (+32 kcal, +5,7 g Protein pro Portion)."
+tipps:
+  - "In Backkakao oder gehackten Mandeln wälzen – sieht aus wie Pralinen."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

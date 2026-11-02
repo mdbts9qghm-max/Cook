@@ -1,0 +1,60 @@
+id: quarkauflauf-kirschen
+name: Quarkauflauf mit Kirschen
+hauptkategorie: fruehstueck-snacks
+kategorien_manuell: [Meal Prep]
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Deutsch
+hauptprotein: Quark & Eier
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 10, kochen: 35, wartezeit: 10}
+ausstattung: [Backofen, "Auflaufform ca. 20 × 25 cm", Schüssel, Schneebesen]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Quarkmasse
+  - {id: quark, zutat: Magerquark, g: 500, name: Magerquark, hinweis: "1 Becher"}
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 120, anzeige: "2 Eier Gr. M", hinweis: ""}
+  - {id: griess, zutat: Weichweizengrieß, g: 80, name: Grieß, hinweis: ""}
+  - {id: whey, zutat: Whey Protein Vanille, g: 30, name: "Vanille-Whey", hinweis: "1 Messlöffel"}
+  - {id: backpulver, zutat: Backpulver, g: 4, anzeige: "1 knapper TL Backpulver", hinweis: ""}
+  - {id: zitrone, zutat: Zitronensaft, g: 10, anzeige: "2 TL Zitronensaft", hinweis: ""}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 1.5, anzeige: "15 Tropfen flüssiger Süßstoff", hinweis: "ca. 1,5 g"}
+  - gruppe: Obst und Kruste
+  - {id: kirschen, zutat: Sauerkirschen (Glas) abgetropft, g: 100, name: Sauerkirschen, hinweis: "gut abgetropft"}
+  - {id: mandeln, zutat: Mandeln, g: 20, name: Mandeln, hinweis: "grob gehackt"}
+mise_en_place:
+  - "Backofen auf 180 °C Ober-/Unterhitze (160 °C Umluft) vorheizen."
+  - "Auflaufform mit Backpapier auslegen (oder nur den Boden, die Ränder lösen sich mit dem Messer)."
+  - "{kirschen} in einem Sieb gut abtropfen lassen und mit Küchenpapier abtupfen. {mandeln} grob hacken."
+schritte:
+  - titel: Quarkmasse rühren
+    text: "{quark}, {eier}, {griess}, {whey}, {backpulver}, {zitrone} und {suessstoff} in einer Schüssel mit dem Schneebesen ca. 1 Minute glatt rühren. 5 Minuten quellen lassen, damit der Grieß Flüssigkeit aufnimmt – die Masse wird dann standfester."
+    timer_min: 5
+  - titel: Einfüllen
+    text: "Die Hälfte der Masse in die Form streichen, die {kirschen:n} darauf verteilen und mit der restlichen Masse bedecken. Die {mandeln:n} gleichmäßig obenauf streuen."
+    timer_min: null
+  - titel: Backen
+    text: "Im vorgeheizten Backofen bei 180 °C Ober-/Unterhitze (160 °C Umluft) auf der mittleren Schiene 35 Minuten backen, bis die Oberfläche goldgelb ist und die Mandeln leicht gebräunt sind. Die Mitte darf beim Rütteln noch minimal wackeln. 10 Minuten ruhen lassen – der Auflauf setzt sich und wird schnittfest."
+    timer_min: 35
+zeitablauf:
+  - "Während der Grieß quillt: Kirschen abtropfen, Mandeln hacken, Form vorbereiten."
+fehler:
+  - "**Auflauf fällt stark zusammen:** zu heiß gebacken. Nicht über 180 °C Ober-/Unterhitze; er sinkt beim Abkühlen immer etwas – das ist normal."
+  - "**Wässrig:** Kirschen nicht abgetropft. Gut abtropfen und abtupfen."
+  - "**Körnig:** Grieß nicht gequollen. 5 Minuten Quellzeit einhalten."
+anrichten: "In der Form halbieren – eine Hälfte (ca. {portion_g} g) ist deine Portion. Warm wie Ofenschlupfer, kalt wie Käsekuchen."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: true
+  einfrieren_monate: 1
+  aufwaermen: "Kalt essen oder Mikrowelle 600 W, 1 Minute abgedeckt."
+varianten:
+  - "**Mit Himbeeren:** 150 g TK-Himbeeren gefroren statt Kirschen (±0 kcal, −4,2 g Zucker pro Portion)."
+  - "**Apfel-Zimt:** 150 g Apfelwürfel und 1 TL Zimt statt Kirschen (+7 kcal pro Portion)."
+  - "**Ohne Mandeln:** (−60 kcal, −5 g Fett pro Portion)."
+tipps:
+  - "Etwas abgeriebene Zitronenschale und Vanillearoma in der Quarkmasse – schmeckt wie vom Bäcker."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

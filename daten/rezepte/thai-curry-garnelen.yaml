@@ -1,0 +1,66 @@
+id: thai-curry-garnelen
+name: Rotes Thai-Curry mit Garnelen
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Asiatisch
+hauptprotein: Fisch & Garnelen
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 7, kochen: 17, wartezeit: 0}
+ausstattung: ["Wok oder große Pfanne (28 cm)", "Kleiner Topf mit Deckel (16 cm)", Sieb]
+restetauglich: false
+vortag: ["TK-Garnelen über Nacht im Kühlschrank auftauen (oder 15 Minuten im Beutel in kaltem Wasser)"]
+zutaten:
+  - gruppe: Reis
+  - {id: reis, zutat: Basmatireis ungekocht, g: 170, name: Basmatireis, hinweis: "oder Jasminreis"}
+  - {id: wasser_reis, zutat: Wasser, g: 340, name: Wasser, hinweis: "340 ml"}
+  - gruppe: Curry
+  - {id: oel, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: ""}
+  - {id: currypaste, zutat: Rote Currypaste, g: 25, anzeige: "1½ EL rote Currypaste", hinweis: "Schärfe je nach Marke"}
+  - {id: kokosmilch, zutat: Kokosmilch fettreduziert, g: 200, name: "Kokosmilch light", hinweis: "½ Dose"}
+  - {id: wasser, zutat: Wasser, g: 100, name: Wasser, hinweis: "100 ml"}
+  - {id: paprika, zutat: Paprika rot, g: 150, anzeige: "1 kleine rote Paprika", name: Paprika, hinweis: ""}
+  - {id: brokkoli, zutat: Brokkoli, g: 150, name: Brokkoli, hinweis: "kleine Röschen"}
+  - {id: garnelen, zutat: Garnelen TK roh geschält, g: 450, name: Garnelen, hinweis: "2 Beutel à 225 g, aufgetaut"}
+  - {id: honig, zutat: Honig, g: 5, anzeige: "1 TL Honig", hinweis: ""}
+  - {id: zitrone, zutat: Zitronensaft, g: 15, anzeige: "1 EL Zitronensaft", hinweis: "statt Limette"}
+  - {id: fruehlingszwiebel, zutat: Frühlingszwiebel, g: 30, anzeige: "3 Frühlingszwiebeln", hinweis: ""}
+mise_en_place:
+  - "{reis} kalt abspülen."
+  - "{garnelen} abtropfen lassen und trocken tupfen."
+  - "{paprika} in 1 cm Streifen, {brokkoli} in kleine Röschen, {fruehlingszwiebel} in Ringe schneiden."
+schritte:
+  - titel: Reis aufsetzen
+    text: "{reis:n} mit {wasser_reis} im Topf mit Deckel auf Stufe 9 von 9 aufkochen, dann auf Stufe 2 von 9 12 Minuten quellen und 5 Minuten nachziehen lassen."
+    timer_min: 12
+  - titel: Currypaste rösten
+    text: "{oel} im Wok auf Stufe 6 von 9 erhitzen. {currypaste} hineingeben und unter Rühren 1 Minute rösten, bis sie duftet und das Öl sich rot färbt."
+    timer_min: 1
+  - titel: Gemüse köcheln
+    text: "{kokosmilch} und {wasser} einrühren, aufkochen (Stufe 7 von 9). {paprika:n} und {brokkoli:n} dazugeben und auf Stufe 5 von 9 4 Minuten köcheln lassen, bis das Gemüse bissfest ist."
+    timer_min: 4
+  - titel: Garnelen garen und abschmecken
+    text: "Die {garnelen:n} in das Curry geben und auf Stufe 4 von 9 3 Minuten ziehen lassen. Garprobe: Sie sind durchgehend rosa, nicht mehr glasig und zu einem lockeren „C“ gebogen. Mit {honig} und {zitrone} abschmecken – das Curry soll scharf, leicht süß und frisch-sauer schmecken; Currypaste und Garnelen bringen genug Salz mit."
+    timer_min: 3
+zeitablauf:
+  - "Reis aufsetzen, dann Gemüse schneiden und das Curry kochen – das Curry ist in ca. 10 Minuten fertig, der Reis nach 17."
+fehler:
+  - "**Curry schmeckt flach:** Paste nicht angeröstet. 1 Minute im Öl rösten – erst dann entfaltet sie ihr Aroma."
+  - "**Garnelen zäh:** zu lange gekocht. Nach 3 Minuten vom Herd."
+  - "**Zu scharf:** mehr Kokosmilch (siehe Varianten) oder einen Klecks Skyr pro Teller."
+anrichten: "Reis auf 2 tiefe Teller verteilen (je ca. 240 g gekocht), Curry daneben schöpfen und mit den {fruehlingszwiebel:n} bestreuen – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 1
+  einfrierbar: false
+  aufwaermen: "Frisch am besten. Reste (max. 1 Tag) im Topf auf Stufe 4 von 9 kurz erwärmen, bis alles dampfend heiß ist."
+  separat: "Reis innerhalb von 1 Stunde kalt stellen."
+varianten:
+  - "**Mit Hähnchen:** 400 g Hähnchenbrust in Streifen, 5 Minuten im Curry garen bis 74 °C Kerntemperatur (+42 kcal, +11 g Protein pro Portion; dann 3 Tage haltbar)."
+  - "**Mit Tofu:** 400 g Tofu-Würfel (−10 g Protein, +92 kcal pro Portion – dann unter 45 g Protein)."
+  - "**Cremiger:** 100 ml Kokosmilch light mehr (+48 kcal, +4,5 g Fett pro Portion)."
+tipps:
+  - "Thai-Basilikum oder frischer Koriander obenauf machen das Curry authentischer – wenn du welche bekommst."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

@@ -2,7 +2,7 @@
 
 # Rezeptplan – Startbestand mit 100 Rezepten
 
-Stand: 30 von 100 Rezepten geschrieben. Ziel-kcal sind Planwerte pro Portion; die echten Werte rechnet `tools/naehrwerte.py`.
+Stand: 40 von 100 Rezepten geschrieben. Ziel-kcal sind Planwerte pro Portion; die echten Werte rechnet `tools/naehrwerte.py`.
 
 Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = restetauglich · **KA** = kalorienarm · **OK** = ohne Kochen/Backen · **I** = TikTok/Instagram-Inspiration · **Rd.** = Schreib-Runde in Phase 4 · ✅ = schon geschrieben
 
@@ -19,9 +19,9 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 7 | Protein-Waffeln mit warmen Kirschen ✅ | Deutsch | Quark & Eier | 610 | ✓ |  |  | 3 | Knusprige Quark-Waffeln aus dem Waffeleisen, Sauerkirschkompott |
 | 8 | Overnight Oats Erdbeer-Cheesecake ✅ | Amerikanisch | Skyr & Whey | 560 | ✓ | ✓ | ✓ | 3 | Cheesecake-Schicht aus Frischkäse light, Erdbeeren, Granola-Crunch |
 | 9 | Overnight Oats Apfelstrudel ✅ | Deutsch | Skyr & Whey | 570 | ✓ | ✓ |  | 3 | Apfelmus, Zimt, Vanille, Mandeln – schmeckt wie Strudel |
-| 10 | Overnight Oats Erdnuss-Banane | Amerikanisch | Skyr & Whey | 620 | ✓ | ✓ | ✓ | 4 | PB-&-Banana-Oats mit Schoko-Whey |
-| 11 | Tiramisu-Overnight-Oats | Italienisch | Skyr & Whey | 580 | ✓ | ✓ | ✓ | 4 | Espresso-Oats, Vanille-Skyr-Schicht, Kakao obenauf |
-| 12 | Quarkauflauf mit Kirschen | Deutsch | Quark & Eier | 590 |  | ✓ |  | 4 | Grieß-Quark-Auflauf mit Sauerkirschen, warm oder kalt |
+| 10 | Overnight Oats Erdnuss-Banane ✅ | Amerikanisch | Skyr & Whey | 620 | ✓ | ✓ | ✓ | 4 | PB-&-Banana-Oats mit Schoko-Whey |
+| 11 | Tiramisu-Overnight-Oats ✅ | Italienisch | Skyr & Whey | 580 | ✓ | ✓ | ✓ | 4 | Espresso-Oats, Vanille-Skyr-Schicht, Kakao obenauf |
+| 12 | Quarkauflauf mit Kirschen ✅ | Deutsch | Quark & Eier | 590 |  | ✓ |  | 4 | Grieß-Quark-Auflauf mit Sauerkirschen, warm oder kalt |
 | 13 | Protein-French-Toast mit Beeren | Amerikanisch | Eier & Milch | 590 | ✓ |  | ✓ | 5 | Vollkorntoast in Vanille-Eier-Whey-Milch, Zimt, Beeren-Skyr |
 | 14 | Protein-Kaiserschmarrn mit Apfelmus | Deutsch | Eier & Quark | 610 | ✓ |  |  | 5 | Fluffiger Schmarrn mit Quark im Teig, karamellisiert mit wenig Zucker |
 | 15 | Protein-Milchreis mit Zimt und Kirschen | Deutsch | Milch & Whey | 600 |  | ✓ |  | 5 | Cremiger Milchreis, Whey nach dem Kochen eingerührt |
@@ -48,7 +48,7 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 31 | Protein-Mousse au Chocolat ✅ | International / Fusion | Quark & Whey | 280 | ✓ |  | ✓ | ✓ | 1 | Luftig aufgeschlagen mit Kakao und Zartbitter-Raspeln |
 | 32 | Skyr-Cheesecake im Glas ✅ | Amerikanisch | Skyr | 300 | ✓ | ✓ | ✓ | ✓ | 2 | Granola-Boden, Vanille-Skyr-Frischkäse-Creme, Beeren |
 | 33 | Beeren-Nice-Cream mit Whey ✅ | International / Fusion | Whey & Skyr | 250 | ✓ |  | ✓ | ✓ | 3 | TK-Beeren, Banane, Skyr und Whey cremig gemixt |
-| 34 | Schoko-Erdnuss-Protein-Balls | Amerikanisch | Whey | 320 |  | ✓ | ✓ | ✓ | 4 | Hafer, Whey, Erdnussmus, Datteln – 4 Kugeln pro Portion |
+| 34 | Schoko-Erdnuss-Protein-Balls ✅ | Amerikanisch | Whey | 320 |  | ✓ | ✓ | ✓ | 4 | Hafer, Whey, Erdnussmus, Datteln – 4 Kugeln pro Portion |
 | 35 | Vanille-Quarkcreme mit Erdbeeren | Deutsch | Quark | 230 | ✓ |  | ✓ |  | 5 | Cremig gerührter Quark mit Vanille und marinierten Erdbeeren |
 | 36 | Proteinpudding mit Knusper-Topping | International / Fusion | Proteinpudding | 260 | ✓ |  | ✓ |  | 6 | Schoko-Proteinpudding, Granola, Himbeeren |
 | 37 | Cookie-Dough aus Quark | Amerikanisch | Quark & Whey | 300 | ✓ |  | ✓ | ✓ | 7 | Löffelbarer Keksteig aus Quark, Whey, Hafer und Schokostückchen |
@@ -78,12 +78,12 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 56 | Penne all'Arrabbiata mit Garnelen ✅ | Italienisch | Fisch & Garnelen | 540 | ✓ |  |  | ✓ |  | 3 | Scharfe Tomatensauce, viele Garnelen, wenig Pasta |
 | 57 | Caprese-Chicken aus dem Ofen ✅ | Italienisch | Hähnchen | 520 |  |  | ✓ | ✓ | ✓ | 3 | Hähnchen mit Tomaten und Mozzarella light überbacken, Gnocchi-Beilage klein |
 | 58 | Protein-Pizza mit Quark-Öl-Teig ✅ | Italienisch | Schwein | 750 |  |  | ✓ |  | ✓ | 3 | Schneller Quarkteig, Kochschinken, Mozzarella light, Champignons |
-| 59 | Teriyaki-Hähnchen-Bowl | Asiatisch | Hähnchen | 720 | ✓ | ✓ | ✓ |  |  | 4 | Glasiertes Hähnchen mit Soja-Honig-Ingwer, Reis, Sesam |
-| 60 | Korean Beef Bowl mit Gochujang | Asiatisch | Rind | 740 | ✓ | ✓ | ✓ |  | ✓ | 4 | Süß-scharfes Rinderhack, Reis, Gurke, Frühlingszwiebel |
-| 61 | Rotes Thai-Curry mit Garnelen | Asiatisch | Fisch & Garnelen | 680 | ✓ |  |  |  |  | 4 | Kokosmilch light, rote Currypaste, Paprika, Basmatireis |
-| 62 | Egg Fried Rice mit Pute | Asiatisch | Pute | 700 | ✓ |  | ✓ |  |  | 4 | Gebratener Reis vom Vortag mit Ei, Putenstreifen, Erbsen |
-| 63 | Erdnuss-Tofu mit Brokkoli und Reis | Asiatisch | Tofu & Hülsenfrüchte | 680 |  |  | ✓ |  | ✓ | 4 | Knuspriger Tofu aus dem Airfryer, Erdnuss-Soja-Sauce |
-| 64 | Sesam-Lachs-Bowl | Asiatisch | Fisch & Garnelen | 780 |  |  |  |  | ✓ | 4 | Salmon-Rice-Bowl-Trend: Lachs aus dem Ofen, Reis, Sriracha-Skyr, Gurke, Avocado |
+| 59 | Teriyaki-Hähnchen-Bowl ✅ | Asiatisch | Hähnchen | 720 | ✓ | ✓ | ✓ |  |  | 4 | Glasiertes Hähnchen mit Soja-Honig-Ingwer, Reis, Sesam |
+| 60 | Korean Beef Bowl mit Gochujang ✅ | Asiatisch | Rind | 740 | ✓ | ✓ | ✓ |  | ✓ | 4 | Süß-scharfes Rinderhack, Reis, Gurke, Frühlingszwiebel |
+| 61 | Rotes Thai-Curry mit Garnelen ✅ | Asiatisch | Fisch & Garnelen | 680 | ✓ |  |  |  |  | 4 | Kokosmilch light, rote Currypaste, Paprika, Basmatireis |
+| 62 | Egg Fried Rice mit Pute ✅ | Asiatisch | Pute | 700 | ✓ |  | ✓ |  |  | 4 | Gebratener Reis vom Vortag mit Ei, Putenstreifen, Erbsen |
+| 63 | Erdnuss-Tofu mit Brokkoli und Reis ✅ | Asiatisch | Tofu & Hülsenfrüchte | 680 |  |  | ✓ |  | ✓ | 4 | Knuspriger Tofu aus dem Airfryer, Erdnuss-Soja-Sauce |
+| 64 | Sesam-Lachs-Bowl ✅ | Asiatisch | Fisch & Garnelen | 780 |  |  |  |  | ✓ | 4 | Salmon-Rice-Bowl-Trend: Lachs aus dem Ofen, Reis, Sriracha-Skyr, Gurke, Avocado |
 | 65 | Kung-Pao-Hähnchen | Asiatisch | Hähnchen | 690 | ✓ |  | ✓ |  |  | 5 | Würzig-scharf mit Paprika, Frühlingszwiebel und Erdnuss-Note |
 | 66 | Ingwer-Soja-Schweinefilet mit Brokkoli | Asiatisch | Schwein | 520 | ✓ |  | ✓ | ✓ |  | 5 | Hauchdünne Filetstreifen aus dem Wok, kleine Reisportion |
 | 67 | Chicken Katsu Curry | Asiatisch | Hähnchen | 760 |  |  |  |  | ✓ | 5 | Paniertes Hähnchen aus dem Airfryer, japanische Currysauce, Reis |

@@ -50,7 +50,7 @@ Im Chat (SPEC 14): **Import** · **Import: [Link/Text]** · **Kühlschrank: [Zut
 - [x] **Phase 1 – Planung & Onboarding:** Onboarding-Fragen beantwortet, `SPEC.md`, `CLAUDE.md`, `daten/profil.yaml`, Ordnerstruktur angelegt (01.11.2026)
 - [x] **Phase 2 – Grundlagen:** zutaten.csv (123 Zutaten), packungen.csv, extras.yaml (12), config.py, naehrwerte.py, texte.py, pruefen.py, generieren.py (Markdown), Tests, 2 Beispielrezepte – vom Nutzer abgenommen (02.11.2026)
 - [x] **Phase 3 – Rezeptliste:** `daten/rezeptplan.yaml` → `rezeptplan.md` (100 Gerichte, `python3 tools/rezeptplan.py`), vom Nutzer freigegeben (02.11.2026)
-- [ ] **Phase 4 – Rezepte schreiben:** 10 Runden à 10 – Runde 3 ✅ (30/100; Runde = 3 Frühstücke, 1 Snack, 6 Hauptgerichte laut Spalte „Rd.“ in rezeptplan.md). Varianten-Makros mit `python3 tools/variante.py "Zutat:+g"` rechnen.
+- [ ] **Phase 4 – Rezepte schreiben:** 10 Runden à 10 – Runde 4 ✅ (40/100; Runde = 3 Frühstücke, 1 Snack, 6 Hauptgerichte laut Spalte „Rd.“ in rezeptplan.md). Varianten-Makros mit `python3 tools/variante.py "Zutat:+g"` rechnen.
 - [ ] **Phase 5 – Web-App Teil 1:** Heute, Rezeptbuch, Rezeptseite, Kochmodus, JSON-LD, MacroFactor-Button, PWA
 - [ ] **Phase 6 – Web-App Teil 2:** Planer, Einkaufsliste, Vorrat, Speicherung, planer.js-Tests, Testwoche
 - [ ] **Phase 7 – Import & Komfort:** Import, Kühlschrank-Modus, Bewertungen, plan_pruefen.py

@@ -1,0 +1,63 @@
+id: sesam-lachs-bowl
+name: Sesam-Lachs-Bowl
+hauptkategorie: high-protein
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Asiatisch
+hauptprotein: Fisch & Garnelen
+inspiration:
+  quelle: "TikTok-Trend „Salmon Rice Bowl“"
+  link: null
+  aenderungen: "Sriracha-Mayo durch Sriracha-Skyr ersetzt, Lachs im Ofen ohne zusätzliches Öl, Avocado abgewogen."
+schwierigkeit: leicht
+zeit: {vorbereitung: 10, kochen: 17, wartezeit: 0}
+ausstattung: [Backofen, Backblech, Backpapier, "Kleiner Topf mit Deckel (16 cm)", Sieb]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Lachs
+  - {id: lachs, zutat: Lachsfilet ohne Haut roh, g: 250, anzeige: "2 Lachsfilets", name: Lachs, hinweis: "à 125 g"}
+  - {id: soja, zutat: Sojasauce, g: 20, anzeige: "1½ EL Sojasauce", hinweis: ""}
+  - {id: honig, zutat: Honig, g: 10, anzeige: "2 TL Honig", hinweis: ""}
+  - {id: sesam, zutat: Sesam, g: 10, anzeige: "1 EL Sesam", hinweis: ""}
+  - gruppe: Reis
+  - {id: reis, zutat: Basmatireis ungekocht, g: 130, name: Basmatireis, hinweis: "oder Sushireis"}
+  - {id: wasser_reis, zutat: Wasser, g: 260, name: Wasser, hinweis: "260 ml"}
+  - gruppe: Sriracha-Skyr und Toppings
+  - {id: skyr, zutat: Skyr natur, g: 250, name: Skyr, hinweis: ""}
+  - {id: sriracha, zutat: Sriracha, g: 15, anzeige: "1 EL Sriracha", hinweis: ""}
+  - {id: gurke, zutat: Salatgurke, g: 150, anzeige: "⅓ Salatgurke", name: Gurke, hinweis: ""}
+  - {id: avocado, zutat: Avocado, g: 75, anzeige: "½ Avocado", name: Avocado, hinweis: "reif"}
+  - {id: fruehlingszwiebel, zutat: Frühlingszwiebel, g: 20, anzeige: "2 Frühlingszwiebeln", hinweis: ""}
+mise_en_place:
+  - "Backofen auf 200 °C Ober-/Unterhitze (180 °C Umluft) vorheizen, Blech mit Backpapier auslegen."
+  - "{reis} kalt abspülen."
+  - "{soja} und {honig} verrühren. {lachs} trocken tupfen, in die Marinade legen und wenden."
+  - "{skyr} mit {sriracha} glatt rühren. {gurke} in Scheiben, {avocado} in Spalten, {fruehlingszwiebel} in Ringe schneiden."
+schritte:
+  - titel: Reis aufsetzen
+    text: "{reis:n} mit {wasser_reis} im Topf mit Deckel auf Stufe 9 von 9 aufkochen, auf Stufe 2 von 9 12 Minuten quellen und 5 Minuten nachziehen lassen."
+    timer_min: 12
+  - titel: Lachs backen
+    text: "Den {lachs:n} aufs Blech legen, mit der restlichen Marinade bestreichen und mit {sesam} bestreuen. Im vorgeheizten Backofen bei 200 °C Ober-/Unterhitze (180 °C Umluft) auf der mittleren Schiene 10–12 Minuten backen. Garprobe: Kerntemperatur 50–55 °C für saftig-glasig, 60 °C für ganz durchgegart; der Lachs lässt sich dann mit der Gabel in Lamellen teilen."
+    timer_min: 11
+zeitablauf:
+  - "Reis aufsetzen und sofort den Lachs marinieren; nach 5 Minuten Reiszeit kommt der Lachs in den Ofen – beides ist gleichzeitig fertig. Toppings schneiden, während beides gart."
+fehler:
+  - "**Lachs trocken:** zu lange gebacken. Ab 10 Minuten messen – er gart auf dem Blech nach."
+  - "**Marinade verbrennt:** Honig auf dem Blech. Lachs auf Backpapier legen und nicht zu weit oben backen."
+anrichten: "Reis auf 2 Bowls verteilen (je ca. 180 g gekocht). Lachs mit der Gabel in grobe Stücke zupfen und darauflegen, Gurke und Avocado daneben, Sriracha-Skyr großzügig darüber, mit Frühlingszwiebeln bestreuen – pro Portion ca. {portion_g} g. Alles vermischen und essen – genau so wird es im Trend gemacht."
+aufbewahrung:
+  kuehlschrank_tage: 1
+  einfrierbar: false
+  aufwaermen: "Kalt essen oder nur den Reis 1 Minute bei 600 W erwärmen; Lachs schmeckt auch kalt."
+  separat: "Avocado erst frisch aufschneiden."
+varianten:
+  - "**Mit Tofu:** 400 g Tofu-Würfel statt Lachs, mit der Marinade im Airfryer bei 200 °C 15 Minuten (+2 kcal, +1 g Protein pro Portion)."
+  - "**Mit Thunfisch:** 2 Dosen Thunfisch (260 g) statt Lachs, mit Sojasauce und Sesam vermischt (−110 kcal, +7,5 g Protein pro Portion)."
+  - "**Ohne Avocado:** (−60 kcal, −5,6 g Fett pro Portion)."
+tipps:
+  - "Ein paar Tropfen geröstetes Sesamöl und Zitronensaft über den Reis – würzt ihn wie Sushireis."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

@@ -1,0 +1,67 @@
+id: teriyaki-haehnchen-bowl
+name: Teriyaki-Hähnchen-Bowl
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Asiatisch
+hauptprotein: Hähnchen
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 8, kochen: 17, wartezeit: 0}
+ausstattung: ["Große beschichtete Pfanne (28 cm)", "Kleiner Topf mit Deckel (16 cm)", Sieb]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Reis
+  - {id: reis, zutat: Basmatireis ungekocht, g: 170, name: Basmatireis, hinweis: "oder Jasminreis"}
+  - {id: wasser_reis, zutat: Wasser, g: 340, name: Wasser, hinweis: "340 ml"}
+  - gruppe: Teriyaki-Sauce
+  - {id: soja, zutat: Sojasauce, g: 30, anzeige: "2 EL Sojasauce", hinweis: ""}
+  - {id: honig, zutat: Honig, g: 20, anzeige: "1 EL Honig", hinweis: "gehäuft"}
+  - {id: ingwer, zutat: Ingwer, g: 8, anzeige: "1 Stück Ingwer (2 cm)", hinweis: "geschält"}
+  - {id: knoblauch, zutat: Knoblauch, g: 6, anzeige: "2 Knoblauchzehen", hinweis: ""}
+  - {id: staerke, zutat: Speisestärke, g: 8, anzeige: "1 EL Speisestärke", hinweis: ""}
+  - {id: wasser_sauce, zutat: Wasser, g: 60, name: Wasser, hinweis: "60 ml"}
+  - gruppe: Bowl
+  - {id: haehnchen, zutat: Hähnchenbrustfilet roh, g: 400, name: Hähnchenbrust, hinweis: ""}
+  - {id: oel, zutat: Rapsöl, g: 8, anzeige: "2 TL Rapsöl", hinweis: ""}
+  - {id: brokkoli, zutat: Brokkoli, g: 200, name: Brokkoli, hinweis: "kleine Röschen"}
+  - {id: sesam, zutat: Sesam, g: 10, anzeige: "1 EL Sesam", hinweis: "geröstet"}
+  - {id: fruehlingszwiebel, zutat: Frühlingszwiebel, g: 20, anzeige: "2 Frühlingszwiebeln", hinweis: "in Ringen"}
+mise_en_place:
+  - "{reis} im Sieb kalt abspülen, bis das Wasser fast klar ist."
+  - "{ingwer} und {knoblauch} fein reiben. Mit {soja}, {honig}, {staerke} und {wasser_sauce} glatt verrühren – das ist die Teriyaki-Sauce."
+  - "{haehnchen} in 2 cm Würfel schneiden, {brokkoli} in kleine Röschen teilen, {fruehlingszwiebel} in Ringe schneiden."
+  - "{sesam} in der trockenen Pfanne auf Stufe 5 von 9 2 Minuten goldgelb rösten und herausnehmen."
+schritte:
+  - titel: Reis aufsetzen
+    text: "{reis:n} mit {wasser_reis} im kleinen Topf mit Deckel auf Stufe 9 von 9 aufkochen, dann auf Stufe 2 von 9 12 Minuten quellen und 5 Minuten bei ausgeschaltetem Herd nachziehen lassen."
+    timer_min: 12
+  - titel: Brokkoli dämpfen
+    text: "Den {brokkoli:n} mit 3 EL Wasser in der Pfanne mit Deckel auf Stufe 7 von 9 3 Minuten dämpfen, bis er leuchtend grün und bissfest ist. Herausnehmen, Pfanne trocken wischen."
+    timer_min: 3
+  - titel: Hähnchen braten und glasieren
+    text: "{oel} in der Pfanne auf Stufe 8 von 9 erhitzen. Die {haehnchen:n}würfel in einer Lage 5 Minuten braten, nach 2 Minuten wenden, bis sie rundum goldbraun sind. Auf Stufe 5 von 9 zurückschalten, die Teriyaki-Sauce noch einmal umrühren und dazugießen. 1–2 Minuten unter Rühren köcheln lassen, bis die Sauce dick und glänzend ist und das Fleisch überzieht. Garprobe: Kerntemperatur 74 °C im größten Würfel – innen weiß, ohne Glasigkeit."
+    timer_min: 7
+zeitablauf:
+  - "Reis zuerst aufsetzen. Während er quillt: Brokkoli dämpfen, Hähnchen braten und glasieren – alles ist nach ca. 17 Minuten fertig."
+fehler:
+  - "**Sauce verbrennt:** Honig karamellisiert schnell. Vor dem Zugießen auf Stufe 5 von 9 herunterschalten und ständig rühren."
+  - "**Sauce wird nicht dick:** Stärke abgesetzt. Direkt vor dem Zugießen umrühren und kurz aufkochen lassen."
+  - "**Hähnchen kocht statt brät:** Pfanne zu voll. In einer Lage braten, ggf. in 2 Portionen."
+anrichten: "Reis auf 2 Bowls verteilen (je ca. 240 g gekocht), Hähnchen mit Sauce und Brokkoli daneben, mit Sesam und Frühlingszwiebeln bestreuen – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "Mikrowelle 600 W, 2½ Minuten abgedeckt mit 1 EL Wasser über dem Reis, nach der Hälfte umrühren."
+  separat: "Reis innerhalb von 1 Stunde abkühlen und kalt stellen. Sesam und Frühlingszwiebel erst beim Essen."
+varianten:
+  - "**Mit Pute:** 400 g Putenbrust statt Hähnchen (+6 kcal, +1 g Protein pro Portion)."
+  - "**Mit Lachs:** 250 g Lachs in Würfeln, nur 3 Minuten braten bis 55 °C Kerntemperatur (+48 kcal, −22 g Protein, +15 g Fett pro Portion – dann unter 45 g Protein; nur 2 Tage haltbar)."
+  - "**Vegetarisch mit Tofu:** 400 g Tofu in Würfeln, vorher mit 1 EL Stärke knusprig braten (+50 kcal, −21 g Protein pro Portion – dann unter 45 g Protein)."
+tipps:
+  - "1 TL geröstetes Sesamöl zum Schluss über die Bowl – riecht wie im japanischen Imbiss (+44 kcal pro Rezept)."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}
