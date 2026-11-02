@@ -22,6 +22,14 @@ Vollständige Vorgabe: **`SPEC.md`** (bei Unklarheit dort nachlesen, bei Widersp
 - Kategorien High Protein / Schnell / Kalorienarm berechnet das Skript; nur Meal Prep manuell.
 - Zutaten möglichst wiederverwenden (Ziel ≤ ca. 130 in `zutaten.csv`).
 
+**Ergänzungen zum Schema (SPEC 6.4), in Phase 2 festgelegt:**
+- Zutat-Felder: `zutat` = exakter Name aus `zutaten.csv` (Tabelle, Einkaufsliste) · `name` = optionaler Name im Fließtext · `anzeige` = vollständige Stück-/Löffelangabe inkl. Name („2 Eier Gr. M“, „1 Prise Salz“) → im Text „2 Eier Gr. M (120 g)“ · `mitrechnen: false` = z. B. Kochwasser-Salz (angezeigt, nicht gezählt).
+- Reservierte Platzhalter: `{portion_g}` / `{gesamt_g}` = Fertiggewicht pro Portion / gesamt (für „Anrichten“).
+- `aufbewahrung.separat` (optional): was getrennt gelagert wird. Snacks: `ohne_kochen: true`, wenn weder gekocht noch gebacken wird (SPEC 5.1).
+- `packungen.csv`: zusätzliche optionale Spalte `tk_alternative` (Planer-Vorschlag „TK kaufen“); `packung_g = 0` → wird nicht eingekauft (Wasser).
+- Hauptgerichte zwischen 551 und 599 kcal erfüllen keinen Korridor → Mengen anpassen.
+- Plausibilität: ±5 % oder max. 3 kcal/100 g absolut (für energiearme Zutaten), siehe `tools/config.py`.
+
 **Web-App:** statisch, Vanilla HTML/CSS/JS, keine Frameworks/Build-Tools, PWA, mobile-first (iPhone Safari), hell/dunkel, Deutsch (TT.MM.JJJJ, Komma). Logik in reinen Funktionen (`web/js/planer.js`). Persönliche Daten nur im Browser (try/catch), Export/Import JSON, Format versioniert + migriert, unbekannte Rezept-IDs dürfen nichts crashen. JSON-LD schema.org/Recipe pro statischer Rezeptseite (MacroFactor).
 
 **Vorgehen:** Phasen aus SPEC 13. Jede Phase im Plan-Modus beginnen, auf OK warten, am Ende Prüfungen + Tests, Fortschrittsliste unten aktualisieren, Git-Commit vorschlagen.
@@ -40,7 +48,7 @@ Im Chat (SPEC 14): **Import** · **Import: [Link/Text]** · **Kühlschrank: [Zut
 ## Fortschritt
 
 - [x] **Phase 1 – Planung & Onboarding:** Onboarding-Fragen beantwortet, `SPEC.md`, `CLAUDE.md`, `daten/profil.yaml`, Ordnerstruktur angelegt (01.11.2026)
-- [ ] **Phase 2 – Grundlagen:** zutaten.csv, packungen.csv, extras.yaml, config.py, naehrwerte.py, pruefen.py, generieren.py (Markdown), Tests, 2 Beispielrezepte zur Abnahme
+- [ ] **Phase 2 – Grundlagen:** ✅ zutaten.csv (123 Zutaten), packungen.csv, extras.yaml (12), config.py, naehrwerte.py, texte.py, pruefen.py, generieren.py (Markdown), 56 Tests grün, 2 Beispielrezepte (fruehstuecks-brownie, marry-me-chicken) – ⏳ Abnahme von Stil und Ausführlichkeit durch den Nutzer offen
 - [ ] **Phase 3 – Rezeptliste:** rezeptplan.md (100 Gerichte), Abgleich 5.1–5.3, OK abwarten
 - [ ] **Phase 4 – Rezepte schreiben:** 10 Runden à 10 (0/100)
 - [ ] **Phase 5 – Web-App Teil 1:** Heute, Rezeptbuch, Rezeptseite, Kochmodus, JSON-LD, MacroFactor-Button, PWA

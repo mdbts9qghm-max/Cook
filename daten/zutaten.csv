@@ -1,0 +1,138 @@
+# Nährwert-Datenbank, Werte pro 100 g (so, wie die Zutat verwendet wird: roh, ungekocht, abgetropft …)
+# Quellen: Bundeslebensmittelschlüssel (BLS), USDA FoodData Central, typische Etiketten deutscher Supermarktprodukte (Rewe/Edeka).
+# Kohlenhydrate nach EU-Kennzeichnung (ohne Ballaststoffe). Energie: Etikettenwert, Plausibilität 4·P + 4·KH + 9·F + 2·Bst ±5 %.
+# garfaktor = Gewicht nach dem Garen / Rohgewicht (1,0 = unverändert, 0 = zählt nicht zum Fertiggewicht, z. B. vom Reis aufgenommenes Wasser).
+# Markenprodukte mit großer Streuung (typischer Wert gewählt): Whey Protein (≈ 75 % Protein), Proteinpudding (Ehrmann/Milbona-Typ), Gemüsebrühe Pulver, Granola zuckerreduziert, Gyros-Gewürzmischung, rote Currypaste.
+zutat,kcal,protein,fett,gesaettigt,kh,zucker,ballaststoffe,salz,garfaktor
+# --- Kühlregal & Milchprodukte ---
+Magerquark,67,12.0,0.3,0.2,4.0,4.0,0,0.10,1.0
+Skyr natur,63,11.0,0.2,0.1,4.0,4.0,0,0.10,1.0
+Griechischer Joghurt 0 % Fett,54,10.3,0.2,0.1,3.0,3.0,0,0.10,1.0
+"Joghurt 1,5 % Fett",47,4.0,1.5,1.0,4.5,4.5,0,0.13,1.0
+Körniger Frischkäse (Hüttenkäse),98,12.0,4.4,2.8,2.6,2.6,0,0.75,1.0
+Frischkäse light,115,8.0,7.0,4.5,4.5,4.0,0,0.80,1.0
+"Milch 1,5 % Fett",47,3.4,1.5,1.0,4.9,4.9,0,0.10,0.9
+Mozzarella light,163,19.5,9.0,6.0,1.0,1.0,0,0.50,0.9
+Parmesan gerieben,392,33.0,28.0,19.0,0,0,0,1.60,1.0
+Feta,258,16.7,21.0,14.0,0.5,0.5,0,2.60,1.0
+Reibekäse light (Gouda 30 % F. i. Tr.),270,30.0,16.5,11.0,0.1,0.1,0,1.80,0.95
+Butter,741,0.7,82.0,55.0,0.6,0.6,0,0.03,1.0
+Ei Gr. M ohne Schale,140,12.6,9.5,3.1,0.7,0.7,0,0.36,0.95
+Eiklar,48,10.9,0.2,0,0.7,0.7,0,0.40,0.95
+Proteinpudding Schoko,74,10.0,1.4,0.9,5.0,4.6,0.5,0.15,1.0
+Gnocchi (Kühlregal),151,3.5,0.3,0.1,33.0,0.5,1.5,1.20,1.05
+# --- Fleisch & Fisch (roh) ---
+Hähnchenbrustfilet roh,102,23.5,0.9,0.3,0,0,0,0.15,0.75
+Hähnchenoberschenkel ohne Haut roh,130,19.0,6.0,1.7,0,0,0,0.20,0.72
+Putenbrustfilet roh,105,24.0,1.0,0.3,0,0,0,0.15,0.75
+Putenhackfleisch roh,140,20.0,6.5,2.0,0,0,0,0.20,0.75
+Rinderhackfleisch 5 % Fett roh,131,21.5,5.0,2.2,0,0,0,0.15,0.75
+Rinderhüftsteak roh,116,22.0,3.0,1.2,0,0,0,0.15,0.72
+Rindergulasch roh,136,20.5,6.0,2.5,0,0,0,0.15,0.65
+Schweinefilet roh,106,22.0,2.0,0.7,0,0,0,0.15,0.75
+Schweineschnitzel roh,106,22.5,1.8,0.6,0,0,0,0.15,0.75
+Kochschinkenwürfel 3 % Fett,109,19.0,3.0,1.0,1.5,1.0,0,2.20,0.9
+Lachsfilet ohne Haut roh,202,20.0,13.5,2.5,0,0,0,0.10,0.8
+Seelachsfilet TK roh,80,18.3,0.8,0.2,0,0,0,0.25,0.8
+Garnelen TK roh geschält,72,16.0,0.6,0.2,0.5,0,0,0.80,0.85
+Thunfisch im eigenen Saft abgetropft,110,25.0,1.0,0.3,0,0,0,0.90,1.0
+# --- Tofu & Hülsenfrüchte ---
+Tofu natur,127,13.0,7.5,1.1,1.5,0.5,1.0,0.02,0.9
+Kidneybohnen abgetropft,98,7.0,0.5,0.1,13.0,1.5,6.5,0.50,1.0
+Kichererbsen abgetropft,120,7.0,2.5,0.3,15.0,0.5,5.0,0.40,1.0
+Rote Linsen trocken,336,25.0,1.5,0.2,50.0,2.0,11.0,0.02,2.4
+# --- Trockenwaren ---
+Basmatireis ungekocht,350,8.0,0.8,0.2,77.0,0.2,1.3,0.01,2.8
+Milchreis (Rundkornreis) ungekocht,350,7.0,0.6,0.2,78.5,0.3,1.4,0.01,3.0
+Spaghetti ungekocht,359,13.0,2.0,0.5,70.9,3.5,3.0,0.01,2.4
+Penne ungekocht,359,13.0,2.0,0.5,70.9,3.5,3.0,0.01,2.4
+Lasagneplatten ungekocht,357,12.5,1.5,0.4,72.0,2.5,3.0,0.02,2.0
+Rote-Linsen-Nudeln ungekocht,335,25.0,2.0,0.3,49.0,2.0,9.0,0.02,2.3
+Bulgur ungekocht,350,12.0,1.5,0.2,68.0,0.5,8.0,0.02,2.5
+Haferflocken zart,372,13.5,7.0,1.3,58.7,0.7,10.0,0.01,1.0
+Weizenmehl Type 405,345,10.0,1.0,0.2,72.0,0.3,4.0,0.01,1.0
+Weichweizengrieß,336,11.0,0.8,0.1,69.0,0.3,4.0,0.01,1.0
+Speisestärke,348,0.4,0.1,0,86.0,0,0,0.01,1.0
+Paniermehl,361,12.0,2.0,0.5,72.0,3.0,3.5,1.00,1.0
+Granola zuckerreduziert,431,11.0,15.0,3.0,59.0,12.0,8.0,0.10,1.0
+Reiswaffeln natur,386,8.0,2.8,0.6,81.0,0.5,2.5,0.02,1.0
+Chiasamen,447,20.0,31.0,3.3,5.0,1.0,34.0,0.02,1.0
+Backkakao stark entölt,310,22.0,11.0,6.5,13.0,1.0,33.0,0.05,1.0
+Zartbitterschokolade 70 %,570,9.0,42.0,25.0,34.0,28.0,10.0,0.02,1.0
+Whey Protein Vanille,375,75.0,5.0,3.0,7.0,5.0,0,0.50,1.0
+Whey Protein Schoko,378,72.0,6.0,3.5,8.0,4.0,2.0,0.60,1.0
+Backpulver,100,0,0,0,25.0,0,0,26.50,1.0
+Bourbon-Vanillezucker,392,0,0,0,98.0,98.0,0,0,1.0
+Honig,306,0.4,0,0,76.0,76.0,0,0.01,1.0
+Süßstoff flüssig,0,0,0,0,0,0,0,0,1.0
+Datteln getrocknet,293,2.5,0.4,0.1,66.0,66.0,8.0,0.01,1.0
+Mandeln,595,21.0,50.0,3.8,9.1,4.4,12.5,0.01,1.0
+Sesam,594,18.0,50.0,7.0,12.0,0.3,12.0,0.03,1.0
+Erdnussmus,614,25.0,50.0,8.0,12.0,5.0,8.0,0.02,1.0
+Instant-Espressopulver,217,12.2,0.5,0.2,41.0,0,0,0.10,1.0
+# --- Brot & Backwaren ---
+Weizen-Tortilla-Wraps,302,8.5,7.0,3.0,50.0,2.5,2.5,1.20,1.0
+Burgerbrötchen,272,9.0,4.5,1.0,48.0,6.0,2.5,1.10,1.0
+Pitabrot,264,9.0,1.5,0.3,52.0,2.0,2.5,1.00,1.0
+Vollkorntoast,252,9.0,4.0,0.7,42.0,4.0,6.0,1.10,1.0
+# --- Konserven & Saucen ---
+Tomaten passiert,31,1.5,0.2,0,5.0,4.5,1.2,0.05,0.9
+Tomaten gehackt (Dose),22,1.2,0.2,0,3.5,3.2,1.0,0.05,0.9
+Tomatenmark 2-fach konzentriert,85,4.5,0.4,0.1,14.0,12.0,3.5,0.10,1.0
+Getrocknete Tomaten in Öl abgetropft,218,5.0,14.0,2.0,15.0,12.0,6.0,2.00,1.0
+Mais (Dose) abgetropft,90,2.8,1.2,0.2,15.5,4.0,3.0,0.50,1.0
+Kokosmilch fettreduziert,95,0.9,9.0,8.0,2.5,2.0,0,0.05,0.9
+Sauerkirschen (Glas) abgetropft,68,0.7,0.1,0,15.5,15.0,1.0,0.01,1.0
+Apfelmus ungesüßt,52,0.2,0.1,0,12.0,11.0,1.5,0.01,1.0
+Gewürzgurken,24,0.5,0.2,0,4.5,4.0,1.0,1.50,1.0
+Sojasauce,60,8.0,0.1,0,6.5,3.0,0,16.00,1.0
+Gochujang,214,4.0,1.5,0.3,45.0,25.0,2.0,7.00,1.0
+Sriracha,98,2.0,1.0,0.1,19.0,15.0,2.0,6.00,1.0
+Rote Currypaste,135,3.0,7.0,1.5,12.0,6.0,6.0,12.00,1.0
+BBQ-Sauce,168,1.0,0.3,0.1,40.0,35.0,0.5,2.00,1.0
+Tomatenketchup,103,1.2,0.1,0,24.0,22.0,0.5,1.80,1.0
+Senf mittelscharf,85,6.0,4.5,0.3,4.0,2.5,2.0,3.00,1.0
+Zitronensaft,26,0.4,0.2,0,5.5,2.4,0.3,0,1.0
+# --- Gewürze & Öle ---
+Olivenöl,884,0,100.0,14.0,0,0,0,0,1.0
+Rapsöl,884,0,100.0,7.0,0,0,0,0,1.0
+Sesamöl geröstet,884,0,100.0,14.0,0,0,0,0,1.0
+Salz,0,0,0,0,0,0,0,100.00,1.0
+Pfeffer schwarz gemahlen,272,10.0,3.3,1.4,38.0,0.6,25.0,0.05,1.0
+Paprikapulver edelsüß,319,14.0,13.0,2.1,19.0,10.0,35.0,0.10,1.0
+Paprikapulver geräuchert,319,14.0,13.0,2.1,19.0,10.0,35.0,0.10,1.0
+Kreuzkümmel gemahlen,426,18.0,22.0,1.5,33.7,2.3,10.5,0.40,1.0
+Currypulver,300,14.0,14.0,2.2,3.0,2.8,53.0,0.13,1.0
+Garam Masala,365,15.0,15.0,2.0,30.0,3.0,25.0,0.20,1.0
+Kurkuma gemahlen,290,9.7,3.3,1.8,45.0,3.2,21.0,0.07,1.0
+Chiliflocken,371,12.0,17.0,3.0,25.0,10.0,35.0,0.10,1.0
+Zimt gemahlen,247,4.0,1.2,0.3,27.5,2.2,53.0,0.03,1.0
+Oregano getrocknet,265,9.0,4.3,1.6,27.0,4.1,42.5,0.06,1.0
+Italienische Kräuter getrocknet,265,9.0,4.3,1.6,27.0,4.1,42.5,0.06,1.0
+Knoblauchpulver,331,16.5,0.7,0.2,60.0,2.4,9.0,0.10,1.0
+Gyros-Gewürzmischung,285,10.0,6.0,1.0,40.0,8.0,15.0,20.00,1.0
+Gemüsebrühe Pulver,190,8.0,6.0,3.0,25.0,10.0,2.0,50.00,1.0
+Wasser,0,0,0,0,0,0,0,0,0
+# --- Obst & Gemüse (frisch, geputzt) ---
+Zwiebel,39,1.2,0.1,0,7.5,5.0,1.8,0.01,0.7
+Frühlingszwiebel,32,1.8,0.2,0,4.7,2.3,2.6,0.02,0.8
+Knoblauch,146,6.4,0.5,0.1,28.0,1.0,2.1,0.04,0.8
+Ingwer,80,1.8,0.8,0.2,15.8,1.7,2.0,0.03,0.9
+Paprika rot,34,1.0,0.3,0.1,6.0,4.2,2.1,0,0.8
+Cherrytomaten,19,1.0,0.2,0,2.8,2.6,1.2,0.01,0.8
+Salatgurke,13,0.6,0.2,0,2.0,1.7,0.5,0.01,1.0
+Babyspinat,23,2.9,0.4,0.1,1.0,0.4,2.2,0.20,0.3
+Brokkoli,33,3.0,0.4,0.1,2.7,1.7,3.0,0.03,0.9
+Champignons braun,21,3.1,0.3,0,0.6,0.5,2.0,0.01,0.6
+Möhre,41,0.9,0.2,0,7.5,4.7,2.8,0.10,0.9
+Römersalat,17,1.2,0.3,0,1.2,1.2,2.1,0.02,1.0
+Avocado,160,2.0,15.0,2.1,1.8,0.7,6.7,0.02,1.0
+Petersilie glatt,51,3.0,0.8,0.1,6.3,0.9,3.3,0.10,1.0
+Banane,93,1.1,0.3,0.1,20.0,17.0,2.6,0,1.0
+Apfel,55,0.3,0.2,0,12.0,10.3,2.4,0,0.9
+Erdbeeren,32,0.7,0.3,0,5.5,4.9,2.0,0,1.0
+# --- Tiefkühl ---
+Heidelbeeren TK,57,0.7,0.3,0,12.1,10.0,2.4,0,1.0
+Himbeeren TK,45,1.2,0.7,0,5.5,4.4,6.5,0,1.0
+Beerenmischung TK,44,1.0,0.4,0,7.2,6.0,4.0,0,1.0
+Mango TK,62,0.8,0.4,0.1,13.0,13.0,1.6,0,1.0

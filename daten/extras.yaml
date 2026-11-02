@@ -1,0 +1,62 @@
+# Extras für den Planer: kleine Bausteine ohne Rezept. Nährwerte werden aus zutaten.csv berechnet.
+# fuellt = wofür das Extra vor allem gedacht ist (Planer schlägt es bei passender Lücke vor)
+
+- id: skyr-honig
+  name: Skyr mit Honig
+  fuellt: [protein]
+  zutaten: [{zutat: "Skyr natur", g: 250}, {zutat: Honig, g: 15}]
+
+- id: whey-shake-milch
+  name: Proteinshake mit Milch
+  fuellt: [protein]
+  zutaten: [{zutat: "Whey Protein Vanille", g: 30}, {zutat: "Milch 1,5 % Fett", g: 300}]
+
+- id: whey-shake-wasser
+  name: Proteinshake mit Wasser
+  fuellt: [protein]
+  zutaten: [{zutat: "Whey Protein Schoko", g: 30}, {zutat: Wasser, g: 300}]
+
+- id: huettenkaese
+  name: Hüttenkäse pur
+  fuellt: [protein]
+  zutaten: [{zutat: "Körniger Frischkäse (Hüttenkäse)", g: 200}]
+
+- id: proteinpudding
+  name: Proteinpudding Schoko
+  fuellt: [protein]
+  zutaten: [{zutat: "Proteinpudding Schoko", g: 200}]
+
+- id: nuesse
+  name: Mandeln (für Fett)
+  fuellt: [fett]
+  zutaten: [{zutat: Mandeln, g: 30}]
+
+- id: erdnussmus-loeffel
+  name: Erdnussmus (1 EL)
+  fuellt: [fett]
+  zutaten: [{zutat: Erdnussmus, g: 15}]
+
+- id: zartbitter
+  name: Zartbitterschokolade 70 % (2 Stücke)
+  fuellt: [fett]
+  zutaten: [{zutat: "Zartbitterschokolade 70 %", g: 20}]
+
+- id: banane
+  name: Banane
+  fuellt: [kh]
+  zutaten: [{zutat: Banane, g: 120}]
+
+- id: reiswaffeln-honig
+  name: Reiswaffeln mit Honig
+  fuellt: [kh]
+  zutaten: [{zutat: "Reiswaffeln natur", g: 30}, {zutat: Honig, g: 10}]
+
+- id: apfel
+  name: Apfel
+  fuellt: [kh]
+  zutaten: [{zutat: Apfel, g: 150}]
+
+- id: banane-erdnussmus
+  name: Banane mit Erdnussmus
+  fuellt: [kh, fett]
+  zutaten: [{zutat: Banane, g: 120}, {zutat: Erdnussmus, g: 15}]

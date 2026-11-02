@@ -1,0 +1,76 @@
+id: fruehstuecks-brownie
+name: Frühstücks-Brownie (Schoko-Baked-Oats)
+hauptkategorie: fruehstueck-snacks
+kategorien_manuell: [Meal Prep]
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Amerikanisch
+hauptprotein: Quark & Whey
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Breakfast Brownie“ (Baked Oats mit Kakao)"
+  link: null
+  aenderungen: "Mehl, Zucker und Butter durch Haferflocken, reife Banane, Magerquark und Schoko-Whey ersetzt; Erdnussmus-Swirl statt Schokoglasur, nur wenig Zartbitterschokolade obenauf."
+schwierigkeit: leicht
+zeit: {vorbereitung: 10, kochen: 22, wartezeit: 10}
+ausstattung: [Backofen, "Mixer oder Pürierstab mit hohem Rührbecher", "Auflaufform 20 × 20 cm", Backpapier]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Teig
+  - {id: banane, zutat: Banane, g: 100, anzeige: "1 kleine reife Banane", hinweis: "geschält, mit braunen Punkten – je reifer, desto süßer"}
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 120, anzeige: "2 Eier Gr. M", hinweis: "Zimmertemperatur"}
+  - {id: quark, zutat: Magerquark, g: 250, name: Magerquark, hinweis: "½ Becher à 500 g"}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 60, name: "Milch (1,5 %)", hinweis: "60 ml"}
+  - {id: hafer, zutat: Haferflocken zart, g: 100, name: "zarte Haferflocken", hinweis: ""}
+  - {id: whey, zutat: Whey Protein Schoko, g: 40, name: "Schoko-Whey", hinweis: "ca. 1⅓ Messlöffel à 30 g"}
+  - {id: kakao, zutat: Backkakao stark entölt, g: 15, anzeige: "2 gehäufte EL Backkakao", hinweis: "ungesüßt"}
+  - {id: backpulver, zutat: Backpulver, g: 5, anzeige: "1 TL Backpulver", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: "verstärkt den Schokogeschmack"}
+  - gruppe: Topping
+  - {id: erdnussmus, zutat: Erdnussmus, g: 20, anzeige: "1 gehäufter EL Erdnussmus", hinweis: "100 % Erdnüsse, cremig"}
+  - {id: schoko, zutat: "Zartbitterschokolade 70 %", g: 15, anzeige: "3 Stückchen Zartbitterschokolade 70 %", name: Zartbitterschokolade, hinweis: "grob gehackt"}
+mise_en_place:
+  - "Backofen auf 180 °C Ober-/Unterhitze (160 °C Umluft) vorheizen, Rost in die mittlere Schiene schieben."
+  - "Auflaufform (20 × 20 cm) mit Backpapier auslegen – kein Fett nötig, der Brownie löst sich so sauber."
+  - "{schoko} grob hacken (ca. 5 mm große Stücke)."
+  - "{erdnussmus} in einem Schälchen glatt rühren. Ist es fest, 10 Sekunden bei 600 W in die Mikrowelle stellen, damit es sich später gut einswirlen lässt."
+  - "Alle Teigzutaten abwiegen; die {banane:n} in 3 Stücke brechen."
+schritte:
+  - titel: Teig mixen
+    text: "{banane}, {eier}, {quark} und {milch} in den Mixer (oder in den hohen Rührbecher für den Pürierstab) geben. Dann {hafer}, {whey}, {kakao}, {backpulver} und {salz} dazugeben. Auf höchster Stufe ca. 45 Sekunden mixen, bis ein glatter, dickflüssiger Teig ohne sichtbare Haferstückchen entsteht. Ränder mit dem Teigschaber nach unten streichen und noch einmal 10 Sekunden mixen. Der Teig sollte zäh vom Löffel laufen, etwa wie dicker Pfannkuchenteig."
+    timer_min: null
+  - titel: Einfüllen und Swirl
+    text: "Teig in die vorbereitete Form gießen und mit dem Teigschaber glatt streichen. Das glatt gerührte {erdnussmus:n} in 6–8 kleinen Klecksen auf dem Teig verteilen und mit einem Holzstäbchen oder Messer in Achterbewegungen durchziehen, sodass ein Marmormuster entsteht (nicht unterrühren). Die gehackte {schoko:n} gleichmäßig darüberstreuen und leicht andrücken."
+    timer_min: null
+  - titel: Backen
+    text: "Im vorgeheizten Backofen bei 180 °C Ober-/Unterhitze (160 °C Umluft) auf der mittleren Schiene 20–22 Minuten backen. Fertig ist er, wenn der Rand fest ist und sich leicht vom Backpapier löst, die Mitte beim Rütteln der Form aber noch ganz leicht wackelt. Holzstäbchen-Probe in der Mitte: Es kommen feuchte Krümel mit, aber kein flüssiger Teig. Genau dann wird er brownie-artig und nicht kuchig."
+    timer_min: 20
+  - titel: Ruhen lassen
+    text: "Form auf ein Gitter stellen und den Brownie 10 Minuten ruhen lassen. Er zieht in dieser Zeit nach, die Mitte wird fester und lässt sich sauber schneiden. Warm ist er weich wie ein Lava-Brownie, aus dem Kühlschrank wird er dicht und fudgy."
+    timer_min: 10
+zeitablauf:
+  - "Während der Ofen vorheizt (ca. 10 Minuten): Schokolade hacken, Teig mixen und in die Form füllen – die Form kommt dann direkt in den heißen Ofen."
+  - "Während der Brownie backt: Mixer sofort ausspülen (angetrockneter Haferteig wird hart) und Topping für die Meal-Prep-Box vorbereiten."
+fehler:
+  - "**Trocken und kuchig:** zu lange gebacken. Schon nach 20 Minuten prüfen – die Mitte darf noch leicht wackeln, sie gart beim Ruhen nach."
+  - "**Zu wenig süß oder leicht bitter:** Banane war nicht reif genug. Nur Bananen mit braunen Punkten nehmen; bei hellgelben Bananen 5 Tropfen flüssigen Süßstoff in den Teig geben (0 kcal)."
+  - "**Gummiartig:** Whey-Teig zu heiß gebacken oder nach dem Backen zu lange warm gehalten. Nicht über 180 °C Ober-/Unterhitze (160 °C Umluft) backen und nach dem Ruhen aus der Form nehmen."
+  - "**Erdnussmus versinkt:** Kleckse zu groß oder zu stark verrührt. Kleine Kleckse setzen und nur oberflächlich durchziehen."
+anrichten: "Den Brownie im Backpapier aus der Form heben, halbieren und jede Hälfte noch einmal teilen. 2 Stücke (zusammen ca. {portion_g} g) sind deine Portion. Am besten lauwarm, nach Wunsch mit einem Klecks kaltem Skyr (siehe Varianten). Für die Meal-Prep-Box die zweite Hälfte vollständig abkühlen lassen und in eine luftdichte Dose legen."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: true
+  einfrieren_monate: 1
+  aufwaermen: "Mikrowelle 600 W, 40–60 Sekunden abgedeckt – oder direkt kalt aus dem Kühlschrank essen (dann besonders fudgy). Gefroren: über Nacht im Kühlschrank auftauen."
+  separat: "Frische Toppings (Skyr, Beeren) erst kurz vor dem Essen dazugeben."
+varianten:
+  - "**Cheesecake-Swirl statt Erdnussmus:** Erdnussmus weglassen, stattdessen 100 g Magerquark mit 5 Tropfen Süßstoff glatt rühren und einswirlen (−28 kcal, +3,5 g Protein pro Portion)."
+  - "**Mit Himbeeren:** 80 g TK-Himbeeren gefroren auf den Teig streuen, 2 Minuten länger backen (+18 kcal, +0,5 g Protein, +1,8 g Zucker pro Portion) – fruchtig-säuerlicher Kontrast zur Schokolade."
+  - "**Mit Skyr-Topping für noch mehr Protein:** pro Portion 100 g Skyr natur dazu (+63 kcal, +11 g Protein pro Portion) – kalt auf warm schmeckt wie Brownie mit Eis."
+  - "**Airfryer statt Ofen:** Teig auf 2 ofenfeste Förmchen (ca. 12 cm) verteilen und im Airfryer bei 160 °C 14–16 Minuten backen (Makros unverändert)."
+tipps:
+  - "Eine Prise Instant-Espressopulver (ca. 0,5 g) im Teig verstärkt das Schokoaroma deutlich, ohne nach Kaffee zu schmecken – praktisch ohne Kalorien."
+  - "Die Banane ist dein Zucker: Überreife Bananen einfrieren und bei Bedarf aufgetaut verwenden – sie sind besonders süß und lassen sich perfekt mixen."
+  - "Für Dessert-Gefühl am Morgen: Stück 10 Sekunden in der Mikrowelle erwärmen, sodass die Schokostückchen wieder schmelzen."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

@@ -1,0 +1,84 @@
+id: marry-me-chicken
+name: Marry Me Chicken mit Basmatireis
+hauptkategorie: high-protein
+kategorien_manuell: [Meal Prep]
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Italienisch
+hauptprotein: Hähnchen
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Marry Me Chicken“ (Hähnchen in cremiger Tomaten-Parmesan-Sauce)"
+  link: null
+  aenderungen: "200 ml Schlagsahne (30 %) durch Frischkäse light und Milch 1,5 % ersetzt – spart ca. 200 kcal pro Portion; Hähnchenbrust statt Schenkel mit Haut, nur 1 EL Öl, dazu Basmatireis als Sättigungsbeilage."
+schwierigkeit: leicht
+zeit: {vorbereitung: 10, kochen: 20, wartezeit: 0}
+ausstattung: ["Große beschichtete Pfanne (28 cm)", "Kleiner Topf mit Deckel (16 cm)", Sieb, "Fleischthermometer (empfohlen)"]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Reis
+  - {id: reis, zutat: Basmatireis ungekocht, g: 140, name: Basmatireis, hinweis: "ungekocht"}
+  - {id: wasser_reis, zutat: Wasser, g: 280, name: Wasser, hinweis: "280 ml, kalt"}
+  - {id: salz_reis, zutat: Salz, g: 1, name: Salz, hinweis: "wird vom Reis aufgenommen, daher mitgerechnet"}
+  - gruppe: Hähnchen
+  - {id: haehnchen, zutat: Hähnchenbrustfilet roh, g: 400, anzeige: "2 Hähnchenbrustfilets", name: Hähnchenbrust, hinweis: "à ca. 200 g"}
+  - {id: paprika, zutat: Paprikapulver edelsüß, g: 3, anzeige: "1 TL Paprikapulver edelsüß", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 1, anzeige: "2 kräftige Prisen Salz", hinweis: ""}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: "frisch gemahlen"}
+  - {id: oel, zutat: Olivenöl, g: 10, anzeige: "1 EL Olivenöl", hinweis: ""}
+  - gruppe: Sauce
+  - {id: knoblauch, zutat: Knoblauch, g: 10, anzeige: "3 Knoblauchzehen", hinweis: "geschält"}
+  - {id: tomaten, zutat: Getrocknete Tomaten in Öl abgetropft, g: 40, name: "getrocknete Tomaten", hinweis: "gut abgetropft, ca. 6 Stück"}
+  - {id: tomatenmark, zutat: Tomatenmark 2-fach konzentriert, g: 15, anzeige: "1 EL Tomatenmark", hinweis: ""}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 150, name: "Milch (1,5 %)", hinweis: "150 ml"}
+  - {id: wasser_sauce, zutat: Wasser, g: 50, name: Wasser, hinweis: "50 ml"}
+  - {id: frischkaese, zutat: Frischkäse light, g: 100, name: "Frischkäse light", hinweis: "½ Packung"}
+  - {id: bruehe, zutat: Gemüsebrühe Pulver, g: 3, anzeige: "1 TL Gemüsebrühe-Pulver", hinweis: ""}
+  - {id: kraeuter, zutat: Italienische Kräuter getrocknet, g: 2, anzeige: "1 TL italienische Kräuter", hinweis: ""}
+  - {id: chili, zutat: Chiliflocken, g: 0.5, anzeige: "1 Prise Chiliflocken", hinweis: "für leichte Schärfe, optional mehr"}
+  - {id: parmesan, zutat: Parmesan gerieben, g: 20, name: "geriebener Parmesan", hinweis: "2 gehäufte EL"}
+  - {id: spinat, zutat: Babyspinat, g: 50, anzeige: "2 Handvoll Babyspinat", hinweis: "gewaschen"}
+mise_en_place:
+  - "{reis} in ein feines Sieb geben und unter kaltem Wasser ca. 30 Sekunden waschen, bis das Wasser fast klar abläuft."
+  - "{haehnchen} trocken tupfen und waagerecht halbieren (Schmetterlingsschnitt), sodass 4 gleich dicke Stücke von ca. 1,5 cm entstehen. Rundum mit {paprika}, {salz} und {pfeffer} würzen."
+  - "{knoblauch} fein hacken."
+  - "{tomaten} in 5 mm breite Streifen schneiden."
+  - "{spinat} waschen und trocken schleudern."
+schritte:
+  - titel: Reis aufsetzen
+    text: "Gewaschenen {reis:n} mit {wasser_reis} und {salz_reis} in den kleinen Topf (16 cm) geben und mit Deckel auf Stufe 9 von 9 aufkochen. Sobald es sprudelt, auf Stufe 2 von 9 zurückschalten und 12 Minuten mit geschlossenem Deckel quellen lassen, nicht umrühren. Dann Herd aus und weitere 5 Minuten mit Deckel nachziehen lassen. Fertig, wenn das Wasser vollständig aufgesogen ist und sich kleine Dampflöcher an der Oberfläche zeigen."
+    timer_min: 12
+  - titel: Hähnchen anbraten
+    text: "{oel} in der großen Pfanne (28 cm) auf Stufe 7 von 9 erhitzen, bis das Öl schimmert (ca. 2 Minuten). Die gewürzte {haehnchen:n} einlegen und 3 Minuten braten, ohne sie zu bewegen, bis die Unterseite goldbraun ist. Wenden und weitere 2 Minuten anbraten. Das Hähnchen ist jetzt noch nicht durch – es gart später in der Sauce fertig. Herausnehmen und auf einem Teller beiseitestellen; die Pfanne nicht spülen, der Bratensatz gibt der Sauce den Geschmack."
+    timer_min: 5
+  - titel: Sauce kochen
+    text: "Pfanne auf Stufe 5 von 9 zurückschalten. Den gehackten {knoblauch:n} und die {tomaten:n} im Bratensatz 1 Minute anschwitzen, bis der Knoblauch duftet, aber nicht braun wird. {tomatenmark} einrühren und 1 Minute mitrösten, bis es dunkler rot wird. Mit {milch} und {wasser_sauce} ablöschen und den Bratensatz mit dem Pfannenwender vom Boden lösen. {frischkaese}, {bruehe}, {kraeuter} und {chili} einrühren, bis die Sauce glatt ist. Auf Stufe 4 von 9 2 Minuten leise köcheln lassen, bis sie leicht andickt und einen Löffelrücken überzieht."
+    timer_min: 2
+  - titel: Hähnchen in der Sauce fertig garen
+    text: "{parmesan} einrühren und schmelzen lassen. {spinat} unterheben und ca. 1 Minute zusammenfallen lassen. Die {haehnchen:n} samt ausgetretenem Fleischsaft zurück in die Pfanne legen, mit Sauce übergießen und auf Stufe 3 von 9 4–5 Minuten ziehen lassen (nicht sprudelnd kochen). Fertig, wenn die Kerntemperatur an der dicksten Stelle 74 °C erreicht. Ohne Thermometer: ein Stück anschneiden – das Fleisch ist durchgehend weiß und der Saft läuft klar."
+    timer_min: 5
+zeitablauf:
+  - "Reis zuerst aufsetzen. Während er 12 Minuten quillt und 5 Minuten nachzieht: Hähnchen anbraten, Sauce kochen und Hähnchen darin fertig garen – beides ist gleichzeitig fertig."
+fehler:
+  - "**Sauce flockt aus oder wird grisselig:** nach dem Frischkäse zu stark gekocht. Ab dann nur noch auf Stufe 3–4 von 9 leise köcheln lassen, nie sprudelnd."
+  - "**Hähnchen trocken:** zu dick geschnitten oder beim Anbraten schon durchgegart. Schmetterlingsschnitt sorgt für gleichmäßige Dicke; beim Anbraten nur Farbe holen, gar zieht es in der Sauce bis 74 °C."
+  - "**Sauce zu dünn oder zu dick:** zu dünn – 1–2 Minuten offen weiterköcheln; zu dick – 1–2 EL Wasser einrühren."
+  - "**Reis matschig:** nicht gewaschen oder während des Quellens umgerührt. Stärke abspülen und den Deckel geschlossen lassen."
+anrichten: "Reis mit einer Gabel auflockern und auf 2 tiefe Teller verteilen (je ca. 195 g gekocht). Je 2 Hähnchenstücke danebenlegen und die Sauce mit dem Spinat gleichmäßig darüber verteilen – pro Portion ca. {portion_g} g. Mit etwas frisch gemahlenem Pfeffer servieren. Für Meal Prep Reis und Hähnchen mit Sauce in eine Box mit zwei Fächern füllen."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "Mikrowelle 600 W, 2½–3 Minuten abgedeckt, nach der Hälfte umrühren; vorher 1 EL Wasser über den Reis geben. Hähnchen muss beim Aufwärmen wieder durchgehend heiß sein."
+  separat: "Reis innerhalb von 1 Stunde nach dem Kochen flach ausgebreitet abkühlen und in den Kühlschrank stellen. Nach dem Einfrieren kann die Sauce leicht grisselig werden – beim Aufwärmen kräftig umrühren."
+varianten:
+  - "**Mit Hähnchenoberschenkel:** 400 g Hähnchenoberschenkel ohne Haut statt Brust – saftiger und verzeiht längeres Garen (+56 kcal, −9 g Protein pro Portion; Kerntemperatur 80 °C für zarte Fasern)."
+  - "**Mit Penne statt Reis:** 140 g Penne in reichlich Salzwasser (1 l Wasser, 10 g Salz, nicht mitgerechnet) bissfest kochen, das Salz für den Reis entfällt (+6 kcal, +3,5 g Protein pro Portion)."
+  - "**Leichter:** Reis auf 100 g reduzieren und 150 g Brokkoliröschen die letzten 5 Minuten in der Sauce mitgaren (−45 kcal, +0,7 g Protein pro Portion)."
+  - "**Mit Garnelen:** 400 g aufgetaute TK-Garnelen statt Hähnchen nur 2–3 Minuten in der Sauce garen, bis sie rosa und nicht mehr glasig sind (−60 kcal, −15 g Protein pro Portion; nur 2 Tage haltbar)."
+tipps:
+  - "Zum Anbraten 1 EL Öl aus dem Glas der getrockneten Tomaten statt Olivenöl nehmen – kalorisch gleich, aber deutlich aromatischer."
+  - "Wird der Bratensatz zu dunkel, die Pfanne 30 Sekunden vom Herd ziehen, bevor der Knoblauch hineinkommt – sonst schmeckt die Sauce bitter."
+  - "Mit 1 TL Zitronensaft am Ende abschmecken: Die Säure macht die cremige Sauce frischer (+1 kcal)."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}
