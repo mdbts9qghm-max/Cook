@@ -1,0 +1,65 @@
+id: blaubeer-protein-muffins
+name: Blaubeer-Protein-Muffins
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Amerikanisch
+hauptprotein: Quark & Whey
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Protein Blueberry Muffins“"
+  link: null
+  aenderungen: "Mehl und Zucker durch Haferflocken, Magerquark und Vanille-Whey ersetzt; Streusel nur aus Hafer, wenig Butter und Mandeln."
+schwierigkeit: leicht
+zeit: {vorbereitung: 12, kochen: 22, wartezeit: 10}
+ausstattung: [Backofen, "Muffinblech (6 Mulden)", "6 Papierförmchen", "Mixer oder Pürierstab"]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Teig
+  - {id: hafer, zutat: Haferflocken zart, g: 100, name: "zarte Haferflocken", hinweis: ""}
+  - {id: quark, zutat: Magerquark, g: 250, name: Magerquark, hinweis: "½ Becher à 500 g"}
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 120, anzeige: "2 Eier Gr. M", hinweis: ""}
+  - {id: whey, zutat: Whey Protein Vanille, g: 40, name: "Vanille-Whey", hinweis: "ca. 1⅓ Messlöffel"}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 50, name: "Milch (1,5 %)", hinweis: "50 ml"}
+  - {id: backpulver, zutat: Backpulver, g: 6, anzeige: "1 gehäufter TL Backpulver", hinweis: ""}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 1, anzeige: "10 Tropfen flüssiger Süßstoff", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 0.3, anzeige: "1 kleine Prise Salz", hinweis: ""}
+  - {id: heidelbeeren, zutat: Heidelbeeren TK, g: 150, name: Heidelbeeren, hinweis: "gefroren"}
+  - gruppe: Streusel
+  - {id: hafer_streusel, zutat: Haferflocken zart, g: 20, name: Haferflocken, hinweis: ""}
+  - {id: butter, zutat: Butter, g: 10, anzeige: "2 TL Butter", hinweis: "kalt"}
+  - {id: mandeln, zutat: Mandeln, g: 10, name: Mandeln, hinweis: "fein gehackt"}
+  - {id: zimt, zutat: Zimt gemahlen, g: 1, anzeige: "½ TL Zimt", hinweis: ""}
+mise_en_place:
+  - "Backofen auf 180 °C Ober-/Unterhitze (160 °C Umluft) vorheizen, Papierförmchen ins Muffinblech setzen."
+  - "Streusel: {hafer_streusel}, {butter}, {mandeln} und {zimt} mit den Fingerspitzen zu Krümeln verreiben."
+schritte:
+  - titel: Teig mixen
+    text: "{hafer} im Mixer fein mahlen, dann {quark}, {eier}, {whey}, {milch}, {backpulver}, {suessstoff} und {salz} dazugeben und 30 Sekunden glatt mixen. Zwei Drittel der gefrorenen {heidelbeeren:n} mit einem Löffel unterheben."
+    timer_min: null
+  - titel: Füllen und backen
+    text: "Teig auf die 6 Förmchen verteilen (bis knapp unter den Rand), die restlichen Heidelbeeren und die Streusel daraufgeben. Im vorgeheizten Backofen bei 180 °C Ober-/Unterhitze (160 °C Umluft) auf der mittleren Schiene 20–22 Minuten backen, bis die Streusel goldbraun sind und ein Stäbchen in der Mitte sauber herauskommt."
+    timer_min: 22
+  - titel: Abkühlen
+    text: "10 Minuten im Blech abkühlen lassen, dann herausheben. Die Muffins sinken etwas ein – Quark-Teig ist saftiger als klassischer Muffinteig."
+    timer_min: 10
+zeitablauf:
+  - "Während der Ofen vorheizt: Streusel kneten, Teig mixen, Förmchen füllen."
+fehler:
+  - "**Muffins klebrig innen:** zu kurz gebacken. Stäbchenprobe machen und lieber 2 Minuten länger."
+  - "**Beeren sinken nach unten:** aufgetaut verwendet. Gefroren unterheben."
+anrichten: "3 Muffins (ca. {portion_g} g) sind deine Portion – lauwarm schmecken sie am besten."
+aufbewahrung:
+  kuehlschrank_tage: 4
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "Mikrowelle 600 W 20 Sekunden pro Muffin oder kalt essen. Eingefroren: über Nacht im Kühlschrank auftauen."
+varianten:
+  - "**Himbeer-Muffins:** 150 g TK-Himbeeren statt Heidelbeeren (−9 kcal, −4,2 g Zucker pro Portion)."
+  - "**Schoko-Muffins:** Heidelbeeren durch 20 g gehackte Zartbitterschokolade und 10 g Backkakao ersetzen (+30 kcal pro Portion)."
+  - "**Ohne Streusel:** (−104 kcal, −7,3 g Fett pro Portion)."
+tipps:
+  - "Etwas abgeriebene Zitronenschale im Teig – Blaubeer und Zitrone ist die Bäckerei-Kombi."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

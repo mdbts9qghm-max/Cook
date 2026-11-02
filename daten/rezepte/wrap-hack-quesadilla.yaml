@@ -1,0 +1,64 @@
+id: wrap-hack-quesadilla
+name: Crispy Wrap-Hack-Quesadilla
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Mexikanisch
+hauptprotein: Hähnchen
+inspiration:
+  quelle: "TikTok-Trend „Tortilla Wrap Hack“ (Wrap einschneiden, in Vierteln füllen und zu einem Dreieck falten)"
+  link: null
+  aenderungen: "Magere Hähnchenbrust und Reibekäse light statt Cheddar und Hackfleisch, ohne Fett in der Pfanne knusprig gebraten; Skyr-Dip statt Sour Cream."
+schwierigkeit: leicht
+zeit: {vorbereitung: 8, kochen: 14, wartezeit: 0}
+ausstattung: ["Große beschichtete Pfanne (28 cm)", Messer]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Füllung
+  - {id: haehnchen, zutat: Hähnchenbrustfilet roh, g: 400, name: Hähnchenbrust, hinweis: ""}
+  - {id: oel, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: ""}
+  - {id: rauchpaprika, zutat: Paprikapulver geräuchert, g: 2, anzeige: "1 TL Rauchpaprika", hinweis: ""}
+  - {id: kuemmel, zutat: Kreuzkümmel gemahlen, g: 1, anzeige: "½ TL Kreuzkümmel", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 1, anzeige: "2 Prisen Salz", hinweis: ""}
+  - {id: bohnen, zutat: Kidneybohnen abgetropft, g: 120, name: Kidneybohnen, hinweis: "½ Dose, abgespült"}
+  - {id: mais, zutat: Mais (Dose) abgetropft, g: 70, name: Mais, hinweis: "¼ Dose"}
+  - {id: tomaten, zutat: Cherrytomaten, g: 100, name: Cherrytomaten, hinweis: ""}
+  - {id: kaese, zutat: Reibekäse light (Gouda 30 % F. i. Tr.), g: 60, name: "Reibekäse light", hinweis: ""}
+  - {id: wraps, zutat: Weizen-Tortilla-Wraps, g: 124, anzeige: "2 Weizen-Tortilla-Wraps", hinweis: "à ca. 62 g, groß"}
+  - gruppe: Skyr-Dip
+  - {id: skyr, zutat: Skyr natur, g: 150, name: Skyr, hinweis: ""}
+  - {id: zitrone, zutat: Zitronensaft, g: 5, anzeige: "1 TL Zitronensaft", hinweis: ""}
+mise_en_place:
+  - "{haehnchen} in 1 cm Würfel schneiden und mit {oel}, {rauchpaprika}, {kuemmel} und {salz} vermischen."
+  - "{bohnen} und {mais} abspülen und abtropfen, {tomaten} vierteln. {skyr} mit {zitrone} verrühren."
+  - "Jeden der {wraps:n} von der Mitte bis zum unteren Rand einmal gerade einschneiden (wie ein Radius)."
+schritte:
+  - titel: Hähnchen braten
+    text: "Pfanne auf Stufe 8 von 9 erhitzen und die gewürzten {haehnchen:n}würfel darin 5–6 Minuten braten, bis sie rundum gebräunt sind. Garprobe: Kerntemperatur 74 °C im größten Würfel, innen weiß. Bohnen und Mais 1 Minute mitschwenken, alles in eine Schüssel geben. Pfanne mit Küchenpapier auswischen."
+    timer_min: 7
+  - titel: Wraps füllen und falten
+    text: "Jeden Wrap gedanklich in 4 Viertel teilen und belegen: Viertel 1 Hähnchen-Bohnen-Mix, Viertel 2 Käse, Viertel 3 Tomaten, Viertel 4 nochmals Hähnchen und den restlichen {kaese:n}. Beginnend am Schnitt das erste Viertel über das zweite klappen, dann weiter über das dritte und vierte – es entsteht ein dickes Dreieck."
+    timer_min: null
+  - titel: Knusprig braten
+    text: "Die Dreiecke in die trockene Pfanne legen, auf Stufe 5 von 9 je Seite 3 Minuten braten, dabei mit dem Pfannenwender leicht andrücken. Fertig, wenn beide Seiten goldbraun und knusprig sind und der Käse innen geschmolzen ist."
+    timer_min: 6
+zeitablauf:
+  - "Während das Hähnchen brät: Wraps einschneiden, Tomaten vierteln, Skyr-Dip rühren."
+fehler:
+  - "**Wrap reißt beim Falten:** kalt und brüchig. 10 Sekunden in der Mikrowelle erwärmen, dann ist er biegsam."
+  - "**Käse schmilzt nicht:** zu heiß gebraten. Mittlere Stufe, so wird der Wrap knusprig und innen alles heiß."
+anrichten: "Jedes Dreieck diagonal halbieren und mit dem Skyr-Dip servieren – pro Portion 1 Quesadilla mit Dip (ca. {portion_g} g)."
+aufbewahrung:
+  kuehlschrank_tage: 2
+  einfrierbar: false
+  aufwaermen: "In der trockenen Pfanne auf Stufe 5 von 9 je Seite 2 Minuten oder im Airfryer bei 180 °C 4 Minuten."
+varianten:
+  - "**Mit Rinderhack:** 400 g Rinderhack (5 %) krümelig braten bis 72 °C (+58 kcal, −4 g Protein pro Portion)."
+  - "**Mit Avocado:** ½ Avocado (75 g) als Viertel-Füllung (+60 kcal, +5,6 g Fett pro Portion)."
+  - "**Mit Mozzarella:** 125 g Mozzarella light statt Reibekäse (+21 kcal, +3,2 g Protein pro Portion) – zieht lange Fäden."
+tipps:
+  - "Ein paar Spritzer Sriracha in den Skyr-Dip – dann schmeckt er wie Chipotle-Creme."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

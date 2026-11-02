@@ -1,0 +1,44 @@
+id: proteinpudding-knusper
+name: Proteinpudding mit Knusper-Topping
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Snack
+geschmack: süß
+kueche: International / Fusion
+hauptprotein: Proteinpudding
+ohne_kochen: true
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 3, kochen: 0, wartezeit: 0}
+ausstattung: ["2 Gläser oder Schalen"]
+restetauglich: false
+vortag: []
+zutaten:
+  - {id: pudding, zutat: Proteinpudding Schoko, g: 400, anzeige: "2 Becher Schoko-Proteinpudding", hinweis: "à 200 g, gekühlt"}
+  - {id: skyr, zutat: Skyr natur, g: 100, name: Skyr, hinweis: ""}
+  - {id: himbeeren, zutat: Himbeeren TK, g: 100, name: Himbeeren, hinweis: "aufgetaut"}
+  - {id: granola, zutat: Granola zuckerreduziert, g: 30, name: Granola, hinweis: ""}
+mise_en_place:
+  - "{himbeeren} 1 Minute bei 600 W antauen."
+schritte:
+  - titel: Schichten
+    text: "{pudding} auf 2 Gläser verteilen, je die Hälfte vom {skyr} als Schicht daraufstreichen, dann die {himbeeren:n} darauf und das {granola:n} erst direkt vor dem Essen obenauf."
+    timer_min: null
+zeitablauf: []
+fehler:
+  - "**Granola weich:** zu früh daraufgegeben. Immer erst unmittelbar vor dem Essen."
+  - "**Zu wenig süß:** Skyr ist säuerlich. 3 Tropfen Süßstoff in den Skyr rühren."
+anrichten: "Pro Portion 1 Glas (ca. {portion_g} g) – schmeckt wie ein Schoko-Himbeer-Trifle."
+aufbewahrung:
+  kuehlschrank_tage: 1
+  einfrierbar: false
+  aufwaermen: "Nicht aufwärmen – kalt essen."
+  separat: "Granola getrennt aufbewahren."
+varianten:
+  - "**Mit Banane:** 100 g Banane statt Himbeeren (+24 kcal, +6,3 g Zucker pro Portion)."
+  - "**Erdnuss-Crunch:** 15 g Erdnussmus über das Granola (+46 kcal, +1,9 g Protein pro Portion)."
+  - "**Ohne Granola:** (−65 kcal pro Portion)."
+tipps:
+  - "Eine Prise grobes Salz auf dem Granola – süß-salzig macht den Pudding zum echten Dessert."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

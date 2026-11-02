@@ -1,0 +1,80 @@
+id: butter-chicken
+name: Butter Chicken mit Basmatireis
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Indisch
+hauptprotein: Hähnchen
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „High Protein Butter Chicken“"
+  link: null
+  aenderungen: "Sahne durch Skyr ersetzt (Marinade und Sauce), nur 10 g Butter statt 50 g, mageres Brustfilet statt Schenkel."
+schwierigkeit: mittel
+zeit: {vorbereitung: 15, kochen: 25, wartezeit: 30}
+ausstattung: ["Große Pfanne oder Topf (28 cm)", "Kleiner Topf mit Deckel (16 cm)", Pürierstab, Sieb]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Marinade
+  - {id: haehnchen, zutat: Hähnchenbrustfilet roh, g: 400, name: Hähnchenbrust, hinweis: ""}
+  - {id: skyr_marinade, zutat: Skyr natur, g: 100, name: Skyr, hinweis: ""}
+  - {id: garam_marinade, zutat: Garam Masala, g: 4, anzeige: "1½ TL Garam Masala", hinweis: ""}
+  - {id: kurkuma_marinade, zutat: Kurkuma gemahlen, g: 1, anzeige: "½ TL Kurkuma", hinweis: ""}
+  - {id: salz_marinade, zutat: Salz, g: 1, anzeige: "2 Prisen Salz", hinweis: ""}
+  - gruppe: Sauce
+  - {id: butter, zutat: Butter, g: 10, anzeige: "2 TL Butter", hinweis: ""}
+  - {id: oel, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: ""}
+  - {id: zwiebel, zutat: Zwiebel, g: 100, anzeige: "1 Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 9, anzeige: "3 Knoblauchzehen", hinweis: ""}
+  - {id: ingwer, zutat: Ingwer, g: 10, anzeige: "1 Stück Ingwer (2–3 cm)", hinweis: ""}
+  - {id: garam, zutat: Garam Masala, g: 6, anzeige: "2 TL Garam Masala", hinweis: ""}
+  - {id: kurkuma, zutat: Kurkuma gemahlen, g: 1, anzeige: "½ TL Kurkuma", hinweis: ""}
+  - {id: paprikapulver, zutat: Paprikapulver edelsüß, g: 3, anzeige: "1 TL Paprikapulver edelsüß", hinweis: "für die Farbe"}
+  - {id: chili, zutat: Chiliflocken, g: 1, anzeige: "¼ TL Chiliflocken", hinweis: ""}
+  - {id: tomatenmark, zutat: Tomatenmark 2-fach konzentriert, g: 15, anzeige: "1 EL Tomatenmark", hinweis: ""}
+  - {id: tomaten, zutat: Tomaten passiert, g: 400, name: "passierte Tomaten", hinweis: ""}
+  - {id: honig, zutat: Honig, g: 5, anzeige: "1 TL Honig", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 1.5, anzeige: "¼ TL Salz", hinweis: ""}
+  - {id: skyr, zutat: Skyr natur, g: 150, name: Skyr, hinweis: "zum Schluss, statt Sahne"}
+  - gruppe: Reis
+  - {id: reis, zutat: Basmatireis ungekocht, g: 150, name: Basmatireis, hinweis: ""}
+  - {id: wasser_reis, zutat: Wasser, g: 300, name: Wasser, hinweis: "300 ml"}
+mise_en_place:
+  - "{haehnchen} in 3 cm Würfel schneiden und mit {skyr_marinade}, {garam_marinade}, {kurkuma_marinade} und {salz_marinade} vermischen. Mindestens 30 Minuten (oder über Nacht) im Kühlschrank marinieren."
+  - "{zwiebel} würfeln, {knoblauch} und {ingwer} fein reiben. {reis} kalt abspülen."
+schritte:
+  - titel: Sauce ansetzen
+    text: "{butter} und {oel} in der Pfanne auf Stufe 6 von 9 erhitzen. Zwiebel 5 Minuten goldgelb braten, Knoblauch und Ingwer 1 Minute mitbraten. {garam}, {kurkuma}, {paprikapulver}, {chili} und {tomatenmark} 1 Minute anrösten, bis es duftet. {tomaten}, {honig} und {salz} dazugeben und auf Stufe 3 von 9 10 Minuten köcheln lassen. Mit dem Pürierstab fein pürieren."
+    timer_min: 16
+  - titel: Reis aufsetzen
+    text: "Parallel {reis:n} mit {wasser_reis} im Topf mit Deckel auf Stufe 9 von 9 aufkochen, auf Stufe 2 von 9 12 Minuten quellen und 5 Minuten nachziehen lassen."
+    timer_min: 12
+  - titel: Hähnchen garen
+    text: "Die marinierte {haehnchen:n} samt Marinade in die pürierte Sauce geben und auf Stufe 3 von 9 8–10 Minuten leise köcheln lassen, gelegentlich umrühren. Garprobe: Kerntemperatur 74 °C im größten Stück, innen weiß."
+    timer_min: 10
+  - titel: Skyr einrühren
+    text: "Die Sauce vom Herd ziehen (Herd aus), 1 Minute abkühlen lassen und den {skyr} einrühren, bis die Sauce cremig und hellorange ist. Nicht mehr kochen, sonst flockt der Skyr."
+    timer_min: null
+zeitablauf:
+  - "Hähnchen marinieren, während Zwiebeln, Knoblauch und Ingwer geschnitten werden. Den Reis aufsetzen, sobald die Sauce köchelt."
+fehler:
+  - "**Sauce flockt:** Skyr in kochende Sauce gerührt. Vom Herd nehmen und kurz abkühlen lassen."
+  - "**Sauce schmeckt roh nach Tomate:** zu kurz gekocht. Mindestens 10 Minuten köcheln."
+  - "**Gewürze bitter:** zu heiß angeröstet. Auf Stufe 6 von 9 und nur 1 Minute."
+anrichten: "Reis auf 2 Teller (je ca. 210 g gekocht), Butter Chicken daneben – pro Portion ca. {portion_g} g. Wer mag, streut etwas Petersilie darüber."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "Topf auf Stufe 3 von 9 5 Minuten oder Mikrowelle 600 W 2½ Minuten abgedeckt, umrühren. Nicht aufkochen."
+  separat: "Reis innerhalb von 1 Stunde abkühlen und getrennt lagern."
+varianten:
+  - "**Mit Pute:** 400 g Putenbrust (+6 kcal, +1 g Protein pro Portion)."
+  - "**Mit Garnelen:** 450 g Garnelen nur 3 Minuten in der Sauce garen (−42 kcal, −11 g Protein pro Portion; nur 1 Tag haltbar)."
+  - "**Mit Pita statt Reis:** 2 Pitabrote (200 g), kurz im Toaster aufgebacken (+2 kcal, +3 g Protein pro Portion)."
+tipps:
+  - "Über Nacht marinieren macht das Hähnchen besonders zart – im Planer als Vortag-Erinnerung eintragen."
+  - "Ein Hauch Zimt in der Sauce gibt die typische Restaurant-Note."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

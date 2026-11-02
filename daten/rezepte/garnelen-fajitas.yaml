@@ -1,0 +1,61 @@
+id: garnelen-fajitas
+name: Garnelen-Fajitas
+hauptkategorie: kalorienarm
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Mexikanisch
+hauptprotein: Fisch & Garnelen
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 8, kochen: 12, wartezeit: 0}
+ausstattung: ["Große Pfanne (28 cm)", "Zweite Pfanne (24 cm)"]
+restetauglich: false
+vortag: ["TK-Garnelen über Nacht im Kühlschrank auftauen (oder 15 Minuten im Beutel in kaltem Wasser)"]
+zutaten:
+  - gruppe: Fajita-Pfanne
+  - {id: garnelen, zutat: Garnelen TK roh geschält, g: 450, name: Garnelen, hinweis: "2 Beutel à 225 g, aufgetaut"}
+  - {id: paprika, zutat: Paprika rot, g: 300, anzeige: "2 rote Paprika", name: Paprika, hinweis: ""}
+  - {id: zwiebel, zutat: Zwiebel, g: 100, anzeige: "1 Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: oel, zutat: Rapsöl, g: 10, anzeige: "1 EL Rapsöl", hinweis: ""}
+  - {id: rauchpaprika, zutat: Paprikapulver geräuchert, g: 3, anzeige: "1 TL Rauchpaprika", hinweis: ""}
+  - {id: kuemmel, zutat: Kreuzkümmel gemahlen, g: 2, anzeige: "1 TL Kreuzkümmel", hinweis: ""}
+  - {id: knoblauchpulver, zutat: Knoblauchpulver, g: 2, anzeige: "½ TL Knoblauchpulver", hinweis: ""}
+  - {id: chili, zutat: Chiliflocken, g: 0.5, anzeige: "1 Prise Chiliflocken", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 1, anzeige: "2 Prisen Salz", hinweis: ""}
+  - {id: zitrone, zutat: Zitronensaft, g: 15, anzeige: "1 EL Zitronensaft", hinweis: "statt Limette"}
+  - gruppe: Zum Servieren
+  - {id: wraps, zutat: Weizen-Tortilla-Wraps, g: 124, anzeige: "2 Weizen-Tortilla-Wraps", hinweis: "à ca. 62 g"}
+  - {id: skyr, zutat: Skyr natur, g: 150, name: Skyr, hinweis: "als Dip"}
+mise_en_place:
+  - "{garnelen} abtropfen lassen und gründlich trocken tupfen."
+  - "{paprika} in 1 cm breite Streifen, {zwiebel} in 5 mm Streifen schneiden."
+  - "{rauchpaprika}, {kuemmel}, {knoblauchpulver}, {chili} und {salz} mischen."
+schritte:
+  - titel: Gemüse braten
+    text: "Die Hälfte vom {oel} in der großen Pfanne auf Stufe 8 von 9 erhitzen. {paprika:n} und {zwiebel:n} 5 Minuten braten, bis sie weich sind und schwarze Röstflecken haben – nicht zu oft wenden. Mit der Hälfte der Gewürzmischung würzen und an den Rand schieben."
+    timer_min: 5
+  - titel: Garnelen braten
+    text: "Restliches Öl in die Pfannenmitte geben (weiter Stufe 8 von 9), die {garnelen:n} mit der restlichen Gewürzmischung hineingeben und 2–3 Minuten braten, einmal wenden. Garprobe: Sie sind durchgehend rosa, nicht mehr glasig und zu einem lockeren „C“ gebogen. Mit dem Gemüse mischen und mit {zitrone} beträufeln."
+    timer_min: 3
+  - titel: Wraps erwärmen
+    text: "Die {wraps:n} in der trockenen zweiten Pfanne auf Stufe 6 von 9 je Seite 20 Sekunden erwärmen."
+    timer_min: 1
+zeitablauf:
+  - "Während das Gemüse brät: Wraps bereitlegen; Garnelen erst in den letzten 3 Minuten."
+fehler:
+  - "**Gemüse dünstet statt röstet:** Pfanne zu voll oder zu oft gerührt. Hohe Stufe und das Gemüse liegen lassen."
+  - "**Garnelen gummiartig:** zu lange gebraten. Nach 3 Minuten vom Herd."
+anrichten: "Die Fajita-Pfanne direkt auf den Tisch stellen. Pro Person 1 Wrap mit der Hälfte der Füllung und dem {skyr:n}-Dip – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 1
+  einfrierbar: false
+  aufwaermen: "Frisch am besten; Reste (max. 1 Tag) in der Pfanne auf Stufe 6 von 9 kurz erhitzen."
+varianten:
+  - "**Mit Hähnchen:** 400 g Hähnchenbrust in Streifen, 5–6 Minuten braten bis 74 °C (+42 kcal, +11 g Protein pro Portion; 3 Tage haltbar)."
+  - "**Mit Rinderhüfte:** 400 g Hüftsteak in dünnen Streifen, 2 Minuten scharf braten (+70 kcal, +8 g Protein pro Portion)."
+  - "**Mit Avocado:** ½ Avocado (75 g) in Spalten (+60 kcal, +5,6 g Fett pro Portion; dann knapp über 550 kcal)."
+tipps:
+  - "Die Pfanne richtig heiß werden lassen – die schwarzen Röstflecken auf der Paprika sind der Fajita-Geschmack."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

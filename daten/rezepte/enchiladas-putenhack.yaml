@@ -1,0 +1,62 @@
+id: enchiladas-putenhack
+name: Enchiladas mit Putenhack und Bohnen
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Mexikanisch
+hauptprotein: Pute
+inspiration: null
+schwierigkeit: mittel
+zeit: {vorbereitung: 15, kochen: 30, wartezeit: 5}
+ausstattung: [Backofen, "Große beschichtete Pfanne (28 cm)", "Auflaufform ca. 20 × 30 cm"]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Füllung
+  - {id: hack, zutat: Putenhackfleisch roh, g: 400, name: Putenhack, hinweis: ""}
+  - {id: zwiebel, zutat: Zwiebel, g: 80, anzeige: "1 kleine Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: kuemmel, zutat: Kreuzkümmel gemahlen, g: 2, anzeige: "1 TL Kreuzkümmel", hinweis: ""}
+  - {id: rauchpaprika, zutat: Paprikapulver geräuchert, g: 3, anzeige: "1 TL Rauchpaprika", hinweis: ""}
+  - {id: oregano, zutat: Oregano getrocknet, g: 1, anzeige: "½ TL Oregano", hinweis: ""}
+  - {id: chili, zutat: Chiliflocken, g: 1, anzeige: "¼ TL Chiliflocken", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 1.5, anzeige: "¼ TL Salz", hinweis: ""}
+  - {id: bohnen, zutat: Kidneybohnen abgetropft, g: 125, name: Kidneybohnen, hinweis: "½ Dose, abgespült"}
+  - gruppe: Sauce und Hülle
+  - {id: tomaten, zutat: Tomaten passiert, g: 300, name: "passierte Tomaten", hinweis: ""}
+  - {id: knoblauchpulver, zutat: Knoblauchpulver, g: 2, anzeige: "½ TL Knoblauchpulver", hinweis: ""}
+  - {id: wraps, zutat: Weizen-Tortilla-Wraps, g: 248, anzeige: "4 Weizen-Tortilla-Wraps", hinweis: "à ca. 62 g"}
+  - {id: kaese, zutat: Reibekäse light (Gouda 30 % F. i. Tr.), g: 30, name: "Reibekäse light", hinweis: ""}
+mise_en_place:
+  - "Backofen auf 200 °C Ober-/Unterhitze (180 °C Umluft) vorheizen."
+  - "{zwiebel} fein würfeln, {bohnen} abspülen und abtropfen lassen."
+  - "{tomaten} mit {knoblauchpulver} verrühren – das ist die Enchilada-Sauce."
+schritte:
+  - titel: Füllung braten
+    text: "Die beschichtete Pfanne auf Stufe 8 von 9 erhitzen (kein Öl nötig, das Hack hat genug Fett). {hack} 2 Minuten anbraten lassen, dann krümelig zerteilen und mit der Zwiebel 5 Minuten braten. {kuemmel}, {rauchpaprika}, {oregano}, {chili} und {salz} 1 Minute mitrösten, dann die {bohnen:n} und 4 EL der Tomatensauce unterrühren. Garprobe: Das {hack:n} ist durchgehend gebräunt, ohne Rosa – Kerntemperatur 74 °C."
+    timer_min: 8
+  - titel: Rollen
+    text: "Eine dünne Schicht Tomatensauce in die Auflaufform streichen. Die Füllung auf die 4 {wraps:n} verteilen (je ein Streifen in der Mitte), fest aufrollen und mit der Naht nach unten nebeneinander in die Form legen. Mit der restlichen Sauce bedecken – auch die Enden, sonst werden sie hart – und den {kaese:n} darüberstreuen."
+    timer_min: null
+  - titel: Überbacken
+    text: "Im vorgeheizten Backofen bei 200 °C Ober-/Unterhitze (180 °C Umluft) auf der mittleren Schiene 18–20 Minuten backen, bis der Käse goldbraun ist und die Sauce an den Rändern blubbert. 5 Minuten ruhen lassen."
+    timer_min: 20
+zeitablauf:
+  - "Während der Ofen vorheizt: Füllung braten und Enchiladas rollen."
+fehler:
+  - "**Enden hart und trocken:** nicht mit Sauce bedeckt. Sauce bis an die Ränder verteilen."
+  - "**Wraps reißen beim Rollen:** kalt. 15 Sekunden in der Mikrowelle erwärmen."
+anrichten: "2 Enchiladas pro Teller (ca. {portion_g} g), ein Klecks Skyr passt hervorragend (siehe Varianten). Für Meal Prep je 2 Enchiladas in eine Box."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "Mikrowelle 600 W, 2½ Minuten abgedeckt, oder im Ofen bei 180 °C Ober-/Unterhitze 12 Minuten."
+varianten:
+  - "**Mit Hähnchen:** 400 g Hähnchenbrust in kleinen Würfeln statt Putenhack (−76 kcal, +7 g Protein pro Portion)."
+  - "**Mit Rinderhack:** 400 g Rinderhack (5 %) (−18 kcal, +3 g Protein pro Portion); Kerntemperatur 72 °C."
+  - "**Mit Skyr-Sour-Cream:** 150 g Skyr mit Zitrone verrührt (+47 kcal, +8,2 g Protein pro Portion)."
+tipps:
+  - "Ein Hauch Kakao und Zimt in der Tomatensauce gibt eine Mole-Note – typisch mexikanisch."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

@@ -1,0 +1,62 @@
+id: protein-bananenbrot
+name: Protein-Bananenbrot
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Amerikanisch
+hauptprotein: Quark & Whey
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Protein Banana Bread“"
+  link: null
+  aenderungen: "Mehl, Zucker und Butter durch gemahlene Haferflocken, Magerquark und Vanille-Whey ersetzt; die Süße kommt nur aus reifen Bananen."
+schwierigkeit: leicht
+zeit: {vorbereitung: 10, kochen: 45, wartezeit: 15}
+ausstattung: [Backofen, "Kastenform 20 cm", Backpapier, "Mixer oder Pürierstab"]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Teig
+  - {id: hafer, zutat: Haferflocken zart, g: 120, name: "zarte Haferflocken", hinweis: ""}
+  - {id: bananen, zutat: Banane, g: 150, anzeige: "1½ sehr reife Bananen", name: Bananen, hinweis: "mit vielen braunen Punkten"}
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 120, anzeige: "2 Eier Gr. M", hinweis: ""}
+  - {id: quark, zutat: Magerquark, g: 200, name: Magerquark, hinweis: ""}
+  - {id: whey, zutat: Whey Protein Vanille, g: 40, name: "Vanille-Whey", hinweis: "ca. 1⅓ Messlöffel"}
+  - {id: backpulver, zutat: Backpulver, g: 8, anzeige: "½ Päckchen Backpulver", hinweis: ""}
+  - {id: zimt, zutat: Zimt gemahlen, g: 2, anzeige: "1 TL Zimt", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: ""}
+  - gruppe: Topping
+  - {id: mandeln, zutat: Mandeln, g: 20, name: Mandeln, hinweis: "grob gehackt"}
+mise_en_place:
+  - "Backofen auf 175 °C Ober-/Unterhitze (155 °C Umluft) vorheizen, Kastenform mit Backpapier auslegen."
+  - "{mandeln} grob hacken. Von den {bananen:n} 4 dünne Längsscheiben (ca. 20 g) für die Deko abschneiden."
+schritte:
+  - titel: Teig mixen
+    text: "{hafer} im Mixer 15 Sekunden fein mahlen. Die restlichen {bananen:n}, {eier}, {quark}, {whey}, {backpulver}, {zimt} und {salz} dazugeben und 30 Sekunden zu einem glatten, dicken Teig mixen."
+    timer_min: null
+  - titel: Backen
+    text: "Teig in die Kastenform füllen, die Bananenscheiben längs darauflegen und die Mandeln darüberstreuen. Im vorgeheizten Backofen bei 175 °C Ober-/Unterhitze (155 °C Umluft) auf der mittleren Schiene 40–45 Minuten backen. Nach 25 Minuten locker mit Alufolie abdecken, falls die Oberfläche zu dunkel wird. Fertig, wenn ein Holzstäbchen in der Mitte ohne feuchten Teig herauskommt."
+    timer_min: 45
+  - titel: Abkühlen
+    text: "10 Minuten in der Form, dann auf einem Gitter mindestens 5 Minuten (besser ganz) abkühlen lassen. Warm ist es noch sehr weich – nach dem Abkühlen lässt es sich sauber in 8 Scheiben schneiden."
+    timer_min: 15
+zeitablauf:
+  - "Während der Ofen vorheizt: Teig mixen und einfüllen."
+fehler:
+  - "**Innen klitschig:** zu kurz gebacken oder zu früh angeschnitten. Stäbchenprobe machen und komplett abkühlen lassen."
+  - "**Zu wenig süß:** Bananen nicht reif genug. Nur sehr reife Bananen nehmen – sonst 10 Tropfen Süßstoff in den Teig."
+  - "**Oben dunkel, innen roh:** zu weit oben im Ofen. Mittlere Schiene und rechtzeitig abdecken."
+anrichten: "Das Brot in 8 Scheiben schneiden – 4 Scheiben (ca. {portion_g} g) sind deine Portion. Getoastet mit einem Klecks Skyr schmeckt es wie Kuchen zum Frühstück."
+aufbewahrung:
+  kuehlschrank_tage: 4
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "Scheiben im Toaster auf mittlerer Stufe 1–2 Minuten oder kalt essen. Eingefroren direkt toasten."
+varianten:
+  - "**Schoko-Bananenbrot:** 20 g gehackte Zartbitterschokolade in den Teig (+57 kcal, +2,8 g Zucker pro Portion)."
+  - "**Mit Skyr:** pro Portion 100 g Skyr dazu (+63 kcal, +11 g Protein pro Portion)."
+  - "**Ohne Mandeln:** (−60 kcal, −5 g Fett pro Portion)."
+tipps:
+  - "Gefrorene, aufgetaute Überreife-Bananen sind die beste Basis – am besten immer ein paar im Gefrierfach haben."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

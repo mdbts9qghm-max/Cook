@@ -1,0 +1,56 @@
+id: protein-griessbrei
+name: Protein-Grießbrei mit Himbeeren
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Deutsch
+hauptprotein: Milch & Whey
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 3, kochen: 10, wartezeit: 2}
+ausstattung: ["Mittlerer Topf (20 cm)", Schneebesen, "Kleiner Topf (16 cm) oder Mikrowelle"]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Grießbrei
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 500, name: "Milch (1,5 %)", hinweis: "500 ml"}
+  - {id: salz, zutat: Salz, g: 0.3, anzeige: "1 kleine Prise Salz", hinweis: ""}
+  - {id: griess, zutat: Weichweizengrieß, g: 100, name: Grieß, hinweis: ""}
+  - {id: whey, zutat: Whey Protein Vanille, g: 60, name: "Vanille-Whey", hinweis: "2 Messlöffel"}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 1, anzeige: "10 Tropfen flüssiger Süßstoff", hinweis: ""}
+  - gruppe: Topping
+  - {id: himbeeren, zutat: Himbeeren TK, g: 150, name: Himbeeren, hinweis: "gefroren"}
+  - {id: erdnussmus, zutat: Erdnussmus, g: 20, anzeige: "1 gehäufter EL Erdnussmus", hinweis: ""}
+  - {id: mandeln, zutat: Mandeln, g: 20, name: Mandeln, hinweis: "grob gehackt"}
+mise_en_place:
+  - "{mandeln} grob hacken."
+schritte:
+  - titel: Himbeeren erhitzen
+    text: "Die gefrorenen {himbeeren:n} im kleinen Topf auf Stufe 5 von 9 3 Minuten erhitzen, bis sie zerfallen und Saft ziehen (oder 2 Minuten bei 600 W in der Mikrowelle)."
+    timer_min: 3
+  - titel: Grießbrei kochen
+    text: "{milch} und {salz} im Topf auf Stufe 7 von 9 aufkochen (Vorsicht, kocht schnell über). Den {griess} unter ständigem Rühren mit dem Schneebesen einrieseln lassen, auf Stufe 2 von 9 zurückschalten und 4–5 Minuten unter Rühren quellen lassen, bis der Brei dick und glatt ist."
+    timer_min: 5
+  - titel: Whey einrühren
+    text: "Den Grießbrei vom Herd ziehen, 2 Minuten abkühlen lassen und dann {whey} und {suessstoff} zügig mit dem Schneebesen einrühren, bis er glatt und cremig ist."
+    timer_min: 2
+zeitablauf:
+  - "Während die Milch aufkocht: Himbeeren erhitzen und Mandeln hacken."
+fehler:
+  - "**Klumpen im Grieß:** zu schnell eingestreut. Langsam einrieseln lassen und dabei ununterbrochen rühren."
+  - "**Whey flockt:** in kochenden Brei gegeben. 2 Minuten abkühlen lassen."
+  - "**Zu fest:** Grießbrei dickt nach. 2–3 EL Milch einrühren."
+anrichten: "Auf 2 Schalen verteilen, die heißen Himbeeren daraufgeben, {erdnussmus:n} in Fäden darüberziehen und mit den {mandeln:n} bestreuen – pro Portion ca. {portion_g} g. Erinnert an Grießbrei mit roter Grütze aus der Kindheit."
+aufbewahrung:
+  kuehlschrank_tage: 2
+  einfrierbar: false
+  aufwaermen: "Mit 3 EL Milch 1½ Minuten bei 600 W, zwischendurch umrühren – oder kalt wie Grießpudding essen."
+varianten:
+  - "**Mit Kirschen:** 100 g Sauerkirschen statt Himbeeren (±0 kcal, +4,2 g Zucker pro Portion)."
+  - "**Schoko-Grieß:** 10 g Backkakao mit dem Whey einrühren (+16 kcal, +1,1 g Protein pro Portion)."
+  - "**Leichter:** ohne Erdnussmus (−61 kcal, −5 g Fett pro Portion)."
+tipps:
+  - "Zimt und etwas abgeriebene Zitronenschale in der Milch mitkochen – der klassische Grießbrei-Duft."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

@@ -1,0 +1,66 @@
+id: puten-tacos
+name: Puten-Tacos mit Zitronen-Skyr
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Mexikanisch
+hauptprotein: Pute
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 8, kochen: 12, wartezeit: 0}
+ausstattung: ["Große Pfanne (28 cm)", "Zweite Pfanne (24 cm) zum Erwärmen der Wraps", "Glas oder Schale (ca. 12 cm) zum Ausstechen"]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Taco-Füllung
+  - {id: oel, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: ""}
+  - {id: hack, zutat: Putenhackfleisch roh, g: 400, name: Putenhack, hinweis: ""}
+  - {id: zwiebel, zutat: Zwiebel, g: 50, anzeige: "½ Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: kuemmel, zutat: Kreuzkümmel gemahlen, g: 2, anzeige: "1 TL Kreuzkümmel", hinweis: ""}
+  - {id: rauchpaprika, zutat: Paprikapulver geräuchert, g: 3, anzeige: "1 TL Rauchpaprika", hinweis: ""}
+  - {id: knoblauchpulver, zutat: Knoblauchpulver, g: 2, anzeige: "½ TL Knoblauchpulver", hinweis: ""}
+  - {id: oregano, zutat: Oregano getrocknet, g: 1, anzeige: "½ TL Oregano", hinweis: ""}
+  - {id: chili, zutat: Chiliflocken, g: 0.5, anzeige: "1 Prise Chiliflocken", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 1.5, anzeige: "¼ TL Salz", hinweis: ""}
+  - {id: tomatenmark, zutat: Tomatenmark 2-fach konzentriert, g: 15, anzeige: "1 EL Tomatenmark", hinweis: ""}
+  - {id: wasser, zutat: Wasser, g: 50, name: Wasser, hinweis: "50 ml"}
+  - gruppe: Mais-Salsa
+  - {id: mais, zutat: Mais (Dose) abgetropft, g: 100, name: Mais, hinweis: ""}
+  - {id: tomaten, zutat: Cherrytomaten, g: 100, name: Cherrytomaten, hinweis: ""}
+  - {id: zitrone_salsa, zutat: Zitronensaft, g: 10, anzeige: "2 TL Zitronensaft", hinweis: ""}
+  - gruppe: Zum Servieren
+  - {id: wraps, zutat: Weizen-Tortilla-Wraps, g: 186, anzeige: "3 Weizen-Tortilla-Wraps", hinweis: "à ca. 62 g"}
+  - {id: skyr, zutat: Skyr natur, g: 150, name: Skyr, hinweis: ""}
+  - {id: zitrone, zutat: Zitronensaft, g: 5, anzeige: "1 TL Zitronensaft", hinweis: ""}
+mise_en_place:
+  - "Aus den {wraps:n} mit einem Glas (ca. 12 cm) je 4 runde Mini-Tortillas ausstechen bzw. ausschneiden (12 Stück); die Reste kommen als Chips mit in die Pfanne."
+  - "{zwiebel} fein würfeln. {mais} abtropfen, {tomaten} in kleine Würfel schneiden und mit {zitrone_salsa} mischen."
+  - "{skyr} mit {zitrone} glatt rühren."
+schritte:
+  - titel: Taco-Hack braten
+    text: "{oel} in der Pfanne auf Stufe 8 von 9 erhitzen. {hack} 2 Minuten anbraten lassen, dann krümelig zerteilen und mit der Zwiebel 4 Minuten braten, bis es gebräunt ist. {kuemmel}, {rauchpaprika}, {knoblauchpulver}, {oregano}, {chili}, {salz} und {tomatenmark} einrühren und 1 Minute mitrösten. Mit {wasser} ablöschen und 2 Minuten auf Stufe 5 von 9 einköcheln lassen, bis die Masse saftig, aber nicht flüssig ist. Garprobe: Das {hack:n} ist durchgehend gebräunt, Kerntemperatur 74 °C."
+    timer_min: 9
+  - titel: Tortillas erwärmen
+    text: "Die Mini-Tortillas und Reste in der trockenen zweiten Pfanne auf Stufe 6 von 9 je Seite 20–30 Sekunden erwärmen, bis sie leichte braune Flecken haben und biegsam sind. Die Reste 1 Minute länger, dann werden sie zu Chips."
+    timer_min: 3
+zeitablauf:
+  - "Während das Hack köchelt: Tortillas erwärmen."
+fehler:
+  - "**Füllung trocken:** zu lange eingekocht. Ein Schuss Wasser zum Schluss macht sie wieder saftig."
+  - "**Tortillas brechen:** zu lange erhitzt. Nur bis sie biegsam sind."
+anrichten: "Pro Person 6 Mini-Tacos mit je 1 EL Hack, Mais-Salsa und einem Klecks Zitronen-Skyr belegen, die Chips daneben – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 2
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "Hack in der Pfanne auf Stufe 6 von 9 3 Minuten oder Mikrowelle 600 W 1½ Minuten; Tortillas frisch erwärmen."
+  separat: "Hack, Salsa und Skyr getrennt lagern."
+varianten:
+  - "**Mit Rinderhack:** 400 g Rinderhack (5 %) (−18 kcal, +3 g Protein pro Portion); Kerntemperatur 72 °C."
+  - "**Low Carb im Salatblatt:** Wraps durch 150 g Römersalat-Blätter ersetzen (−268 kcal, −45,6 g KH pro Portion)."
+  - "**Mit Avocado:** ½ Avocado (75 g) in Würfeln auf die Tacos (+60 kcal, +5,6 g Fett pro Portion)."
+tipps:
+  - "Ein paar Tropfen Gurkenwasser oder Zitronensaft auf die fertigen Tacos – mexikanische Streetfood-Säure."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

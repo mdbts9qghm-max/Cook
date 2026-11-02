@@ -1,0 +1,67 @@
+id: tandoori-haehnchen
+name: Tandoori-Hähnchen aus dem Airfryer
+hauptkategorie: high-protein
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Indisch
+hauptprotein: Hähnchen
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 15, kochen: 20, wartezeit: 480}
+ausstattung: [Airfryer, "Kleiner Topf mit Deckel (16 cm)", Schüssel, Reibe, "Fleischthermometer (empfohlen)"]
+restetauglich: true
+vortag: ["Tandoori-Hähnchen in Joghurt-Gewürz-Marinade einlegen (15 Minuten, dann über Nacht kühlen)"]
+zutaten:
+  - gruppe: Tandoori-Marinade
+  - {id: haehnchen, zutat: Hähnchenoberschenkel ohne Haut roh, g: 500, name: Hähnchenoberschenkel, hinweis: "entbeint, ohne Haut"}
+  - {id: joghurt, zutat: "Joghurt 1,5 % Fett", g: 150, name: Joghurt, hinweis: ""}
+  - {id: zitrone, zutat: Zitronensaft, g: 15, anzeige: "1 EL Zitronensaft", hinweis: ""}
+  - {id: garam, zutat: Garam Masala, g: 5, anzeige: "2 TL Garam Masala", hinweis: ""}
+  - {id: paprikapulver, zutat: Paprikapulver edelsüß, g: 5, anzeige: "2 TL Paprikapulver edelsüß", hinweis: "für die rote Farbe"}
+  - {id: kurkuma, zutat: Kurkuma gemahlen, g: 2, anzeige: "1 TL Kurkuma", hinweis: ""}
+  - {id: kuemmel, zutat: Kreuzkümmel gemahlen, g: 2, anzeige: "1 TL Kreuzkümmel", hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 6, anzeige: "2 Knoblauchzehen", hinweis: ""}
+  - {id: ingwer, zutat: Ingwer, g: 8, anzeige: "1 Stück Ingwer (2 cm)", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 2, anzeige: "⅓ TL Salz", hinweis: ""}
+  - {id: oel, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: ""}
+  - gruppe: Gurken-Raita
+  - {id: joghurt_raita, zutat: "Joghurt 1,5 % Fett", g: 200, name: Joghurt, hinweis: ""}
+  - {id: gurke, zutat: Salatgurke, g: 150, anzeige: "⅓ Salatgurke", name: Gurke, hinweis: ""}
+  - {id: kuemmel_raita, zutat: Kreuzkümmel gemahlen, g: 0.5, anzeige: "1 Prise Kreuzkümmel", hinweis: ""}
+  - {id: salz_raita, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: ""}
+  - gruppe: Reis
+  - {id: reis, zutat: Basmatireis ungekocht, g: 120, name: Basmatireis, hinweis: ""}
+  - {id: wasser_reis, zutat: Wasser, g: 240, name: Wasser, hinweis: "240 ml"}
+mise_en_place:
+  - "Am Vortag: {knoblauch} und {ingwer} fein reiben und mit {joghurt}, {zitrone}, {garam}, {paprikapulver}, {kurkuma}, {kuemmel}, {salz} und {oel} verrühren. {haehnchen} in große Stücke (ca. 5 cm) schneiden, mehrmals 1 cm tief einschneiden und gründlich in der Marinade wenden. Abgedeckt über Nacht (mindestens 2 Stunden) kühlen."
+  - "{gurke} grob raspeln, kräftig ausdrücken und mit {joghurt_raita}, {kuemmel_raita} und {salz_raita} verrühren."
+  - "{reis} kalt abspülen."
+schritte:
+  - titel: Reis aufsetzen
+    text: "{reis:n} mit {wasser_reis} im Topf mit Deckel auf Stufe 9 von 9 aufkochen, auf Stufe 2 von 9 12 Minuten quellen und 5 Minuten nachziehen lassen."
+    timer_min: 12
+  - titel: Im Airfryer garen
+    text: "Airfryer 3 Minuten auf 200 °C vorheizen. Die {haehnchen:n}stücke aus der Marinade nehmen (überschüssige Marinade abstreifen) und mit Abstand in den Korb legen. Bei 200 °C 10 Minuten garen, wenden und weitere 6–8 Minuten garen, bis die Ränder schwarze Röstflecken haben – wie aus dem Tandoor. Garprobe: Kerntemperatur mindestens 74 °C, bei Oberschenkel gern 80 °C, dann ist es besonders zart."
+    timer_min: 18
+zeitablauf:
+  - "Reis aufsetzen und gleich das Hähnchen in den Airfryer – beides ist nach knapp 20 Minuten fertig. Raita kurz vorher aus dem Kühlschrank nehmen."
+fehler:
+  - "**Keine Röstflecken:** zu viel Marinade am Fleisch oder Korb zu voll. Marinade abstreifen und mit Abstand garen."
+  - "**Fleisch trocken:** Brust statt Oberschenkel verwendet und zu lange gegart. Oberschenkel nehmen, sie verzeihen mehr."
+  - "**Raita wässrig:** Gurke nicht ausgedrückt. Raspel kräftig ausdrücken."
+anrichten: "Reis auf 2 Teller (je ca. 170 g gekocht), Tandoori-Hähnchen daneben, Raita dazu – pro Portion ca. {portion_g} g. Mit einem Spritzer Zitrone servieren."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "Hähnchen im Airfryer bei 180 °C 4 Minuten oder Mikrowelle 600 W 2 Minuten; Raita kalt."
+  separat: "Raita und Reis getrennt lagern; Reis innerhalb von 1 Stunde kalt stellen."
+varianten:
+  - "**Mit Hähnchenbrust:** 500 g Brustfilet, nur 14–16 Minuten garen bis 74 °C (−70 kcal, +11,2 g Protein, −12,8 g Fett pro Portion)."
+  - "**Mit Pita statt Reis:** 2 Pitabrote (200 g) (+54 kcal, +4,2 g Protein pro Portion)."
+  - "**Tandoori-Lachs:** 250 g Lachs nur 30 Minuten marinieren, 10 Minuten bei 200 °C bis 55 °C (−72 kcal, −22,5 g Protein pro Portion – dann unter 45 g Protein; nur 2 Tage haltbar)."
+tipps:
+  - "Die tiefen Einschnitte lassen die Marinade bis ins Fleisch ziehen – nicht weglassen."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}
