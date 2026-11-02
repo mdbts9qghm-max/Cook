@@ -1,0 +1,126 @@
+# Rezeptplan für den Startbestand (SPEC 5, Phase 3). Quelle für rezeptplan.md (tools/rezeptplan.py).
+# Felder: id · name · kueche · protein (Hauptprotein) · kcal (Ziel pro Portion) · idee (Kurzbeschreibung)
+#         schnell / mp (Meal Prep) / rest (restetauglich) / ka (kalorienarm) / ohne_kochen (Snacks) / insp (Inspiration TikTok/Instagram)
+# Hauptproteine der Hauptgerichte (für max. 20 je Quelle): Hähnchen · Pute · Rind · Schwein · Fisch & Garnelen · Eier ·
+#   Milchprodukte · Tofu & Hülsenfrüchte
+
+hinweise:
+  - "Neue Zutaten, die voraussichtlich dazukommen: Kartoffeln festkochend (viele deutsche Gerichte, Wedges), Erbsen TK (Egg Fried Rice, Keema). Damit ca. 125 Zutaten – unter der Grenze von ca. 130."
+  - "Tofu-Gerichte (Erdnuss-Tofu, Tofu-Tikka, Gochujang-Tacos) brauchen für ≥ 45 g Protein pro Portion ca. 500–600 g Tofu oder Skyr/Eiklar in der Sauce. Alternative: Sojaschnetzel als neue Zutat (≈ 50 g Protein/100 g)."
+  - "Alle Frühstücke werden mit ≥ 40 g Protein geplant, damit sie auch „High Protein“ sind."
+  - "Hauptgerichte mit Fisch/Garnelen sind nie Meal Prep (max. 2 Tage Kühlschrank)."
+
+fruehstueck:
+  - {id: fruehstuecks-brownie, name: "Frühstücks-Brownie (Schoko-Baked-Oats)", kueche: Amerikanisch, protein: Quark & Whey, kcal: 620, mp: true, insp: true, idee: "Fudgy Schoko-Baked-Oats mit Erdnussmus-Swirl"}
+  - {id: blaubeer-cheesecake-baked-oats, name: Blaubeer-Cheesecake-Baked-Oats, kueche: Amerikanisch, protein: Quark & Whey, kcal: 580, mp: true, insp: true, idee: "Vanille-Oats mit Quark-Cheesecake-Kern und Heidelbeeren"}
+  - {id: apfel-zimt-baked-oats, name: Apfel-Zimt-Baked-Oats, kueche: Deutsch, protein: Quark & Whey, kcal: 570, mp: true, idee: "Wie Apfelkuchen: Apfelwürfel, Zimt, Mandelsplitter-Kruste"}
+  - {id: karottenkuchen-baked-oats, name: Karottenkuchen-Baked-Oats mit Frischkäse-Frosting, kueche: Amerikanisch, protein: Quark & Whey, kcal: 590, mp: true, insp: true, idee: "Carrot-Cake-Oats mit Zimt und Frischkäse-light-Frosting"}
+  - {id: protein-joghurt-bowl, name: Protein-Joghurt-Bowl mit Granola und Beeren, kueche: International / Fusion, protein: Skyr & Whey, kcal: 540, schnell: true, insp: true, idee: "Vanille-Whey-Skyr, Granola, TK-Beeren, Honig"}
+  - {id: protein-pancakes, name: Fluffige Protein-Pancakes mit Beeren-Skyr, kueche: Amerikanisch, protein: Eier & Whey, kcal: 600, schnell: true, insp: true, idee: "Dicke Pancakes aus Hafer, Eiern und Whey, Topping Beeren-Skyr"}
+  - {id: protein-waffeln-kirschen, name: Protein-Waffeln mit warmen Kirschen, kueche: Deutsch, protein: Quark & Eier, kcal: 610, schnell: true, idee: "Knusprige Quark-Waffeln aus dem Waffeleisen, Sauerkirschkompott"}
+  - {id: overnight-oats-cheesecake, name: Overnight Oats Erdbeer-Cheesecake, kueche: Amerikanisch, protein: Skyr & Whey, kcal: 560, schnell: true, mp: true, insp: true, idee: "Cheesecake-Schicht aus Frischkäse light, Erdbeeren, Granola-Crunch"}
+  - {id: overnight-oats-apfelstrudel, name: Overnight Oats Apfelstrudel, kueche: Deutsch, protein: Skyr & Whey, kcal: 570, schnell: true, mp: true, idee: "Apfelmus, Zimt, Vanille, Mandeln – schmeckt wie Strudel"}
+  - {id: overnight-oats-erdnuss-banane, name: Overnight Oats Erdnuss-Banane, kueche: Amerikanisch, protein: Skyr & Whey, kcal: 620, schnell: true, mp: true, insp: true, idee: "PB-&-Banana-Oats mit Schoko-Whey"}
+  - {id: tiramisu-overnight-oats, name: Tiramisu-Overnight-Oats, kueche: Italienisch, protein: Skyr & Whey, kcal: 580, schnell: true, mp: true, insp: true, idee: "Espresso-Oats, Vanille-Skyr-Schicht, Kakao obenauf"}
+  - {id: quarkauflauf-kirschen, name: Quarkauflauf mit Kirschen, kueche: Deutsch, protein: Quark & Eier, kcal: 590, mp: true, idee: "Grieß-Quark-Auflauf mit Sauerkirschen, warm oder kalt"}
+  - {id: protein-french-toast, name: Protein-French-Toast mit Beeren, kueche: Amerikanisch, protein: Eier & Milch, kcal: 590, schnell: true, insp: true, idee: "Vollkorntoast in Vanille-Eier-Whey-Milch, Zimt, Beeren-Skyr"}
+  - {id: protein-kaiserschmarrn, name: Protein-Kaiserschmarrn mit Apfelmus, kueche: Deutsch, protein: Eier & Quark, kcal: 610, schnell: true, idee: "Fluffiger Schmarrn mit Quark im Teig, karamellisiert mit wenig Zucker"}
+  - {id: protein-milchreis, name: Protein-Milchreis mit Zimt und Kirschen, kueche: Deutsch, protein: Milch & Whey, kcal: 600, mp: true, idee: "Cremiger Milchreis, Whey nach dem Kochen eingerührt"}
+  - {id: protein-griessbrei, name: Protein-Grießbrei mit Himbeeren, kueche: Deutsch, protein: Milch & Whey, kcal: 560, schnell: true, idee: "Vanille-Grießbrei in 10 Minuten, heiße Himbeeren"}
+  - {id: protein-bananenbrot, name: Protein-Bananenbrot, kueche: Amerikanisch, protein: Quark & Whey, kcal: 580, mp: true, insp: true, idee: "Saftiges Bananenbrot aus Hafermehl und Quark, 2 dicke Scheiben pro Portion"}
+  - {id: blaubeer-protein-muffins, name: Blaubeer-Protein-Muffins, kueche: Amerikanisch, protein: Quark & Whey, kcal: 570, mp: true, insp: true, idee: "6 Muffins, 3 pro Portion, mit Streusel-Topping"}
+  - {id: protein-crepes, name: Protein-Crêpes mit Schoko-Quark, kueche: International / Fusion, protein: Eier & Quark, kcal: 600, schnell: true, idee: "Dünne Crêpes mit Eiklar, Füllung Schoko-Whey-Quark und Banane"}
+  - {id: skyr-tiramisu-bowl, name: Skyr-Tiramisu-Bowl, kueche: Italienisch, protein: Skyr & Whey, kcal: 550, schnell: true, insp: true, idee: "Espresso-getränkte Haferschicht, Vanille-Skyr, Kakao – ohne Kochen"}
+  - {id: cottage-cheese-pancakes, name: Cottage-Cheese-Pancakes, kueche: Amerikanisch, protein: Hüttenkäse & Eier, kcal: 560, schnell: true, insp: true, idee: "Gemixter Hüttenkäse-Hafer-Teig, Ahorn-Ersatz aus Honig und Zimt"}
+  - {id: schoko-protein-porridge, name: Schoko-Protein-Porridge, kueche: International / Fusion, protein: Milch & Whey, kcal: 580, schnell: true, idee: "Cremiges Kakao-Porridge mit Banane und Schokostückchen"}
+  - {id: chia-skyr-pudding-mango, name: Chia-Skyr-Pudding mit Mango, kueche: International / Fusion, protein: Skyr, kcal: 540, schnell: true, mp: true, insp: true, idee: "Vanille-Chia-Pudding geschichtet mit Skyr und Mangopüree"}
+  - {id: protein-scones, name: Protein-Scones mit Beeren, kueche: International / Fusion, protein: Quark & Whey, kcal: 590, mp: true, idee: "Quark-Scones, warm mit Skyr und Beeren"}
+  - {id: schoko-erdnuss-bowl, name: Schoko-Erdnuss-Pudding-Bowl, kueche: Amerikanisch, protein: Proteinpudding & Skyr, kcal: 600, schnell: true, insp: true, idee: "Proteinpudding, Skyr, Banane, Erdnussmus-Drizzle, Granola"}
+  - {id: zimtschnecken-oats, name: Zimtschnecken-Oats, kueche: Amerikanisch, protein: Milch & Whey, kcal: 590, schnell: true, insp: true, idee: "Cinnamon-Roll-Porridge mit Frischkäse-Icing"}
+  - {id: fruehstuecks-cheesecake, name: Frühstücks-Cheesecake aus dem Ofen, kueche: Amerikanisch, protein: Quark & Skyr, kcal: 560, mp: true, insp: true, idee: "Cremiger Quark-Skyr-Cheesecake mit Haferboden, 2 Stücke pro Portion"}
+  - {id: protein-bircher-muesli, name: Protein-Bircher-Müsli, kueche: International / Fusion, protein: Skyr, kcal: 570, schnell: true, mp: true, idee: "Über Nacht eingeweicht, geriebener Apfel, Zitrone, Honig, Mandeln"}
+  - {id: mango-lassi-bowl, name: Mango-Lassi-Smoothie-Bowl, kueche: Indisch, protein: Skyr & Whey, kcal: 540, schnell: true, idee: "Dicke Mango-Skyr-Bowl mit Honig und einer Prise Zimt, Granola-Topping"}
+  - {id: airfryer-quarkbaellchen, name: Quarkbällchen aus dem Airfryer, kueche: Deutsch, protein: Quark & Whey, kcal: 580, mp: true, insp: true, idee: "Wie vom Bäcker, aber aus Quark-Whey-Teig, in Zimt gewälzt"}
+
+snack:
+  - {id: protein-mousse-au-chocolat, name: Protein-Mousse au Chocolat, kueche: International / Fusion, protein: Quark & Whey, kcal: 280, schnell: true, ohne_kochen: true, insp: true, idee: "Luftig aufgeschlagen mit Kakao und Zartbitter-Raspeln"}
+  - {id: skyr-cheesecake-glas, name: Skyr-Cheesecake im Glas, kueche: Amerikanisch, protein: Skyr, kcal: 300, schnell: true, mp: true, ohne_kochen: true, insp: true, idee: "Granola-Boden, Vanille-Skyr-Frischkäse-Creme, Beeren"}
+  - {id: nice-cream-beeren, name: Beeren-Nice-Cream mit Whey, kueche: International / Fusion, protein: Whey & Skyr, kcal: 250, schnell: true, ohne_kochen: true, insp: true, idee: "TK-Beeren, Banane, Skyr und Whey cremig gemixt"}
+  - {id: protein-balls, name: Schoko-Erdnuss-Protein-Balls, kueche: Amerikanisch, protein: Whey, kcal: 320, mp: true, ohne_kochen: true, insp: true, idee: "Hafer, Whey, Erdnussmus, Datteln – 4 Kugeln pro Portion"}
+  - {id: quarkcreme-erdbeeren, name: Vanille-Quarkcreme mit Erdbeeren, kueche: Deutsch, protein: Quark, kcal: 230, schnell: true, ohne_kochen: true, idee: "Cremig gerührter Quark mit Vanille und marinierten Erdbeeren"}
+  - {id: proteinpudding-knusper, name: Proteinpudding mit Knusper-Topping, kueche: International / Fusion, protein: Proteinpudding, kcal: 260, schnell: true, ohne_kochen: true, idee: "Schoko-Proteinpudding, Granola, Himbeeren"}
+  - {id: cookie-dough-quark, name: Cookie-Dough aus Quark, kueche: Amerikanisch, protein: Quark & Whey, kcal: 300, schnell: true, ohne_kochen: true, insp: true, idee: "Löffelbarer Keksteig aus Quark, Whey, Hafer und Schokostückchen"}
+  - {id: protein-riegel, name: Schoko-Hafer-Protein-Riegel, kueche: International / Fusion, protein: Whey, kcal: 320, mp: true, ohne_kochen: true, idee: "No-Bake-Riegel mit Schokoüberzug, 2 Riegel pro Portion"}
+  - {id: frozen-joghurt-bark, name: Frozen-Joghurt-Bark mit Beeren, kueche: Amerikanisch, protein: Skyr, kcal: 220, mp: true, ohne_kochen: true, insp: true, idee: "Gefrorene Skyr-Platte mit Beeren und Schoko, in Stücke gebrochen"}
+  - {id: protein-brownie-bites, name: Protein-Brownie-Bites, kueche: Amerikanisch, protein: Quark & Whey, kcal: 300, mp: true, insp: true, idee: "Kleine Brownie-Würfel aus dem Airfryer, 4 Stück pro Portion"}
+
+hauptgericht:
+  # Deutsch (8)
+  - {id: airfryer-schnitzel-kartoffelsalat, name: Airfryer-Schnitzel mit Joghurt-Kartoffelsalat, kueche: Deutsch, protein: Schwein, kcal: 720, rest: true, insp: true, idee: "Knuspriges Schweineschnitzel mit wenig Öl, schwäbischer Kartoffelsalat mit Joghurt-Senf-Dressing"}
+  - {id: rindergulasch-kartoffeln, name: Rindergulasch mit Salzkartoffeln, kueche: Deutsch, protein: Rind, kcal: 700, mp: true, rest: true, idee: "Klassisch geschmort mit viel Zwiebel und Paprikapulver"}
+  - {id: frikadellen-pueree, name: Frikadellen mit Kartoffelpüree, kueche: Deutsch, protein: Rind, kcal: 750, mp: true, rest: true, idee: "Saftige Frikadellen aus magerem Rinderhack mit Hüttenkäse, Püree mit Milch"}
+  - {id: haehnchen-geschnetzeltes, name: Hähnchen-Rahmgeschnetzeltes mit Champignons und Reis, kueche: Deutsch, protein: Hähnchen, kcal: 700, schnell: true, rest: true, idee: "Cremige Sauce aus Frischkäse light und Milch statt Sahne"}
+  - {id: kartoffel-hack-auflauf, name: Kartoffel-Hack-Auflauf, kueche: Deutsch, protein: Pute, kcal: 680, mp: true, rest: true, idee: "Kartoffelscheiben, Putenhack-Tomatensauce, Hüttenkäse-Reibekäse-Decke"}
+  - {id: schweinefilet-senfsauce, name: Schweinefilet in Senf-Sauce mit Kartoffeln, kueche: Deutsch, protein: Schwein, kcal: 540, schnell: true, ka: true, rest: true, idee: "Medaillons auf den Punkt (63 °C), leichte Senf-Frischkäse-Sauce"}
+  - {id: bratkartoffeln-spiegelei, name: Bratkartoffeln mit Spiegelei und Schinken, kueche: Deutsch, protein: Eier, kcal: 720, schnell: true, idee: "Knusprige Bratkartoffeln mit Zwiebeln, Kochschinken, 3 Eier pro Portion"}
+  - {id: seelachs-senfsauce, name: Seelachs mit Senfsauce und Salzkartoffeln, kueche: Deutsch, protein: Fisch & Garnelen, kcal: 520, schnell: true, ka: true, idee: "Saftig gegarter Seelachs, helle Senfsauce mit Petersilie"}
+  # Italienisch (10)
+  - {id: marry-me-chicken, name: Marry Me Chicken mit Basmatireis, kueche: Italienisch, protein: Hähnchen, kcal: 700, mp: true, rest: true, insp: true, idee: "Cremige Tomaten-Parmesan-Sauce mit Frischkäse light"}
+  - {id: high-protein-lasagne, name: High-Protein-Lasagne, kueche: Italienisch, protein: Rind, kcal: 780, mp: true, rest: true, insp: true, idee: "Bolognese aus magerem Rinderhack, Magerquark-Parmesan-Schicht statt Béchamel"}
+  - {id: spaghetti-bolognese, name: Spaghetti Bolognese, kueche: Italienisch, protein: Rind, kcal: 750, mp: true, rest: true, idee: "Lang geköchelte Sauce mit Tomatenmark-Röstung und Möhre"}
+  - {id: protein-carbonara, name: Protein-Carbonara mit Linsennudeln, kueche: Italienisch, protein: Eier, kcal: 720, schnell: true, insp: true, idee: "Rote-Linsen-Nudeln, Ei-Parmesan-Creme, Kochschinkenwürfel statt Guanciale"}
+  - {id: haehnchen-piccata, name: Hähnchen-Piccata mit Zitronensauce und Penne, kueche: Italienisch, protein: Hähnchen, kcal: 690, schnell: true, idee: "Dünne Schnitzel in Mehl gebraten, Zitronen-Butter-Sauce"}
+  - {id: gnocchi-pfanne-pute, name: One-Pan-Gnocchi mit Pute, Tomate und Spinat, kueche: Italienisch, protein: Pute, kcal: 680, schnell: true, rest: true, insp: true, idee: "Alles in einer Pfanne, Gnocchi werden knusprig"}
+  - {id: lachs-penne, name: Lachs-Penne mit Tomate und Frischkäse, kueche: Italienisch, protein: Fisch & Garnelen, kcal: 780, schnell: true, idee: "Lachswürfel in cremiger Tomatensauce"}
+  - {id: garnelen-arrabbiata, name: Penne all'Arrabbiata mit Garnelen, kueche: Italienisch, protein: Fisch & Garnelen, kcal: 540, schnell: true, ka: true, idee: "Scharfe Tomatensauce, viele Garnelen, wenig Pasta"}
+  - {id: caprese-chicken, name: Caprese-Chicken aus dem Ofen, kueche: Italienisch, protein: Hähnchen, kcal: 520, ka: true, rest: true, insp: true, idee: "Hähnchen mit Tomaten und Mozzarella light überbacken, Gnocchi-Beilage klein"}
+  - {id: protein-pizza-quarkteig, name: Protein-Pizza mit Quark-Öl-Teig, kueche: Italienisch, protein: Schwein, kcal: 750, rest: true, insp: true, idee: "Schneller Quarkteig, Kochschinken, Mozzarella light, Champignons"}
+  # Asiatisch (10)
+  - {id: teriyaki-haehnchen-bowl, name: Teriyaki-Hähnchen-Bowl, kueche: Asiatisch, protein: Hähnchen, kcal: 720, schnell: true, mp: true, rest: true, idee: "Glasiertes Hähnchen mit Soja-Honig-Ingwer, Reis, Sesam"}
+  - {id: korean-beef-bowl, name: Korean Beef Bowl mit Gochujang, kueche: Asiatisch, protein: Rind, kcal: 740, schnell: true, mp: true, rest: true, insp: true, idee: "Süß-scharfes Rinderhack, Reis, Gurke, Frühlingszwiebel"}
+  - {id: thai-curry-garnelen, name: Rotes Thai-Curry mit Garnelen, kueche: Asiatisch, protein: Fisch & Garnelen, kcal: 680, schnell: true, idee: "Kokosmilch light, rote Currypaste, Paprika, Basmatireis"}
+  - {id: egg-fried-rice-pute, name: Egg Fried Rice mit Pute, kueche: Asiatisch, protein: Pute, kcal: 700, schnell: true, rest: true, idee: "Gebratener Reis vom Vortag mit Ei, Putenstreifen, Erbsen"}
+  - {id: erdnuss-tofu-brokkoli, name: Erdnuss-Tofu mit Brokkoli und Reis, kueche: Asiatisch, protein: Tofu & Hülsenfrüchte, kcal: 680, rest: true, insp: true, idee: "Knuspriger Tofu aus dem Airfryer, Erdnuss-Soja-Sauce"}
+  - {id: sesam-lachs-bowl, name: Sesam-Lachs-Bowl, kueche: Asiatisch, protein: Fisch & Garnelen, kcal: 780, insp: true, idee: "Salmon-Rice-Bowl-Trend: Lachs aus dem Ofen, Reis, Sriracha-Skyr, Gurke, Avocado"}
+  - {id: kung-pao-haehnchen, name: Kung-Pao-Hähnchen, kueche: Asiatisch, protein: Hähnchen, kcal: 690, schnell: true, rest: true, idee: "Würzig-scharf mit Paprika, Frühlingszwiebel und Erdnuss-Note"}
+  - {id: ingwer-schweinefilet, name: Ingwer-Soja-Schweinefilet mit Brokkoli, kueche: Asiatisch, protein: Schwein, kcal: 520, schnell: true, ka: true, rest: true, idee: "Hauchdünne Filetstreifen aus dem Wok, kleine Reisportion"}
+  - {id: chicken-katsu-curry, name: Chicken Katsu Curry, kueche: Asiatisch, protein: Hähnchen, kcal: 760, insp: true, idee: "Paniertes Hähnchen aus dem Airfryer, japanische Currysauce, Reis"}
+  - {id: asia-lettuce-wraps, name: Asia-Lettuce-Wraps mit Putenhack, kueche: Asiatisch, protein: Pute, kcal: 480, schnell: true, ka: true, insp: true, idee: "Würziges Hoisin-Art-Hack im Römersalat-Blatt"}
+  # Mexikanisch (6)
+  - {id: burrito-bowl-haehnchen, name: Burrito Bowl mit Hähnchen, kueche: Mexikanisch, protein: Hähnchen, kcal: 780, mp: true, rest: true, insp: true, idee: "Zitronen-Reis, Bohnen, Mais, Paprika-Hähnchen, Skyr-Sour-Cream"}
+  - {id: chili-con-carne, name: Chili con Carne mit Reis, kueche: Mexikanisch, protein: Rind, kcal: 720, mp: true, rest: true, idee: "Mageres Rinderhack, Kidneybohnen, Kreuzkümmel, Zartbitter-Note"}
+  - {id: wrap-hack-quesadilla, name: Crispy Wrap-Hack-Quesadilla, kueche: Mexikanisch, protein: Hähnchen, kcal: 700, schnell: true, insp: true, idee: "Gefalteter Wrap aus der Pfanne mit Hähnchen, Bohnen, Käse"}
+  - {id: puten-tacos, name: Puten-Tacos mit Zitronen-Skyr, kueche: Mexikanisch, protein: Pute, kcal: 690, schnell: true, idee: "Mini-Wraps, würziges Putenhack, Mais-Salsa, Zitronen-Skyr"}
+  - {id: enchiladas-putenhack, name: Enchiladas mit Putenhack und Bohnen, kueche: Mexikanisch, protein: Pute, kcal: 760, mp: true, rest: true, idee: "Gefüllte Wraps in Tomatensauce, mit Käse überbacken"}
+  - {id: garnelen-fajitas, name: Garnelen-Fajitas, kueche: Mexikanisch, protein: Fisch & Garnelen, kcal: 530, schnell: true, ka: true, idee: "Garnelen mit Paprika und Zwiebel, ein Wrap pro Portion, Skyr-Dip"}
+  # Indisch (6)
+  - {id: butter-chicken, name: Butter Chicken mit Basmatireis, kueche: Indisch, protein: Hähnchen, kcal: 720, mp: true, rest: true, insp: true, idee: "Skyr statt Sahne, nur 10 g Butter, Garam Masala"}
+  - {id: tandoori-haehnchen, name: Tandoori-Hähnchen aus dem Airfryer, kueche: Indisch, protein: Hähnchen, kcal: 650, rest: true, idee: "Über Nacht in Joghurt-Gewürz mariniert, Gurken-Raita, Reis"}
+  - {id: linsen-dal-ei, name: Rote-Linsen-Dal mit Ei, kueche: Indisch, protein: Tofu & Hülsenfrüchte, kcal: 700, mp: true, rest: true, idee: "Cremiges Dal mit Tomate und Kurkuma, hartgekochte Eier, Skyr-Klecks"}
+  - {id: seelachs-curry, name: Fisch-Curry mit Seelachs, kueche: Indisch, protein: Fisch & Garnelen, kcal: 520, schnell: true, ka: true, idee: "Tomaten-Kokos-Curry, Fisch gart in der Sauce"}
+  - {id: keema-curry, name: Keema-Curry mit Kartoffeln, kueche: Indisch, protein: Rind, kcal: 700, mp: true, rest: true, idee: "Hackfleisch-Curry mit Erbsen und Kartoffelwürfeln"}
+  - {id: tofu-tikka-masala, name: Tofu-Tikka-Masala, kueche: Indisch, protein: Tofu & Hülsenfrüchte, kcal: 680, rest: true, idee: "Gerösteter Tofu in Tomaten-Skyr-Masala, Reis"}
+  # Griechisch & Mediterran (6)
+  - {id: gyros-pfanne-tzatziki, name: Gyros-Pfanne mit Tzatziki und Reis, kueche: Griechisch & Mediterran, protein: Schwein, kcal: 730, schnell: true, rest: true, insp: true, idee: "Gyros-Bowl: Schweineschnitzel-Streifen, Skyr-Tzatziki, Tomate, rote Zwiebel"}
+  - {id: souvlaki-airfryer, name: Hähnchen-Souvlaki mit Pita und Tzatziki, kueche: Griechisch & Mediterran, protein: Hähnchen, kcal: 700, mp: true, rest: true, idee: "Zitronen-Oregano-Spieße aus dem Airfryer"}
+  - {id: feta-pasta-haehnchen, name: Ofen-Feta-Pasta mit Hähnchen, kueche: Griechisch & Mediterran, protein: Hähnchen, kcal: 780, rest: true, insp: true, idee: "Baked-Feta-Trend: Feta und Cherrytomaten im Ofen, mit Hähnchen und Penne"}
+  - {id: zitronen-lachs-ofenkartoffeln, name: Zitronen-Lachs mit Ofenkartoffeln und Tzatziki, kueche: Griechisch & Mediterran, protein: Fisch & Garnelen, kcal: 720, idee: "Lachs auf dem Blech, Kartoffelspalten mit Oregano"}
+  - {id: biftekia-bulgur, name: Biftekia mit Feta-Füllung und Bulgur, kueche: Griechisch & Mediterran, protein: Rind, kcal: 720, mp: true, rest: true, idee: "Griechische Frikadellen, Tomaten-Bulgur, Joghurt"}
+  - {id: thunfisch-bulgur-salat, name: Mediterraner Thunfisch-Bulgur-Salat, kueche: Griechisch & Mediterran, protein: Fisch & Garnelen, kcal: 540, schnell: true, ka: true, rest: true, idee: "Kalter Salat mit Kichererbsen, Feta, Gurke, Zitronen-Dressing"}
+  # Türkisch & Orientalisch (6)
+  - {id: doener-bowl, name: Döner-Bowl mit Pute und Knoblauchsauce, kueche: Türkisch & Orientalisch, protein: Pute, kcal: 720, schnell: true, rest: true, insp: true, idee: "Gewürzte Putenstreifen, Bulgur, Gurke, Tomate, Zwiebel, Skyr-Knoblauch-Sauce"}
+  - {id: koefte-bulgur, name: Köfte mit Bulgur-Pilav und Joghurt-Dip, kueche: Türkisch & Orientalisch, protein: Rind, kcal: 750, mp: true, rest: true, idee: "Kreuzkümmel-Köfte aus dem Ofen, Tomaten-Bulgur"}
+  - {id: shakshuka-feta, name: Shakshuka mit Feta und Pita, kueche: Türkisch & Orientalisch, protein: Eier, kcal: 530, schnell: true, ka: true, idee: "Eier in würziger Paprika-Tomatensauce, Feta, Pita zum Tunken"}
+  - {id: kichererbsen-haehnchen-eintopf, name: Orientalischer Hähnchen-Kichererbsen-Eintopf, kueche: Türkisch & Orientalisch, protein: Hähnchen, kcal: 680, rest: true, idee: "Kreuzkümmel, Paprika, Tomate, Zitrone – mit Bulgur"}
+  - {id: pide-putenhack, name: Pide mit Putenhack, kueche: Türkisch & Orientalisch, protein: Pute, kcal: 740, rest: true, idee: "Schiffchen aus Quark-Öl-Teig, würziges Hack, Feta"}
+  - {id: haehnchen-tajine, name: Hähnchen-Tajine mit Bulgur, kueche: Türkisch & Orientalisch, protein: Hähnchen, kcal: 700, mp: true, rest: true, idee: "Geschmorte Oberschenkel mit Möhre, Zimt, Kreuzkümmel und Honig"}
+  # Amerikanisch (6)
+  - {id: smash-burger, name: Smash Burger mit Burgersauce, kueche: Amerikanisch, protein: Rind, kcal: 780, schnell: true, insp: true, idee: "Dünn gepresste Patties mit Kruste, Skyr-Burgersauce, Gurken"}
+  - {id: bbq-pulled-chicken-burger, name: BBQ-Pulled-Chicken-Burger, kueche: Amerikanisch, protein: Hähnchen, kcal: 720, mp: true, rest: true, insp: true, idee: "Geschmorte Hähnchenoberschenkel, gezupft, BBQ-Sauce, Gewürzgurken, Joghurt-Coleslaw-Dip"}
+  - {id: high-protein-mac-cheese, name: High-Protein-Mac-and-Cheese, kueche: Amerikanisch, protein: Milchprodukte, kcal: 760, schnell: true, rest: true, insp: true, idee: "Käsesauce aus gemixtem Hüttenkäse, Milch und Reibekäse light, mit Kochschinken"}
+  - {id: buffalo-chicken-wrap, name: Buffalo-Chicken-Wrap, kueche: Amerikanisch, protein: Hähnchen, kcal: 540, schnell: true, ka: true, idee: "Scharfes Sriracha-Butter-Hähnchen, Römersalat, Skyr-Dip"}
+  - {id: cajun-lachs-wedges, name: Cajun-Lachs mit Airfryer-Wedges, kueche: Amerikanisch, protein: Fisch & Garnelen, kcal: 720, idee: "Rauchpaprika-Gewürzkruste, knusprige Kartoffelspalten, Senf-Skyr"}
+  - {id: philly-cheesesteak-pfanne, name: Philly-Cheesesteak-Pfanne, kueche: Amerikanisch, protein: Rind, kcal: 520, schnell: true, ka: true, idee: "Rinderhüfte in Streifen, Paprika, Zwiebel, Champignons, Käse geschmolzen"}
+  # International / Fusion (2)
+  - {id: big-mac-bowl, name: Big-Mac-Bowl, kueche: International / Fusion, protein: Pute, kcal: 520, schnell: true, ka: true, insp: true, idee: "Burger-Geschmack ohne Brötchen: Putenhack, Römersalat, Gurke, Burgersauce"}
+  - {id: gochujang-tofu-tacos, name: Gochujang-Tofu-Tacos, kueche: International / Fusion, protein: Tofu & Hülsenfrüchte, kcal: 650, rest: true, insp: true, idee: "Korean-Mexican: knuspriger Gochujang-Tofu in Wraps, Gurke, Sriracha-Skyr"}
