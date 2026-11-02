@@ -1,0 +1,68 @@
+id: frikadellen-pueree
+name: Frikadellen mit Kartoffelpüree
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Deutsch
+hauptprotein: Rind
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 15, kochen: 25, wartezeit: 0}
+ausstattung: ["Große beschichtete Pfanne (28 cm) mit Deckel", "Mittlerer Topf (20 cm)", Kartoffelstampfer, "Fleischthermometer (empfohlen)"]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Frikadellen
+  - {id: hack, zutat: Rinderhackfleisch 5 % Fett roh, g: 450, name: Rinderhack, hinweis: "mager (5 % Fett)"}
+  - {id: huettenkaese, zutat: Körniger Frischkäse (Hüttenkäse), g: 100, name: Hüttenkäse, hinweis: "macht sie saftig"}
+  - {id: ei, zutat: "Ei Gr. M ohne Schale", g: 60, anzeige: "1 Ei Gr. M", hinweis: ""}
+  - {id: paniermehl, zutat: Paniermehl, g: 30, anzeige: "3 EL Paniermehl", hinweis: ""}
+  - {id: zwiebel, zutat: Zwiebel, g: 80, anzeige: "1 kleine Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: senf, zutat: Senf mittelscharf, g: 10, anzeige: "2 TL Senf", hinweis: ""}
+  - {id: paprika, zutat: Paprikapulver edelsüß, g: 2, anzeige: "1 TL Paprikapulver edelsüß", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 3, anzeige: "½ TL Salz", hinweis: ""}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: ""}
+  - {id: oel, zutat: Rapsöl, g: 10, anzeige: "1 EL Rapsöl", hinweis: ""}
+  - gruppe: Kartoffelpüree
+  - {id: kartoffeln, zutat: Kartoffeln festkochend roh, g: 500, name: Kartoffeln, hinweis: "mehligkochende werden noch luftiger"}
+  - {id: kochwasser, zutat: Wasser, g: 1500, name: Wasser, hinweis: "1,5 l zum Kochen", mitrechnen: false}
+  - {id: kochsalz, zutat: Salz, g: 10, anzeige: "2 TL Salz fürs Kochwasser", hinweis: "", mitrechnen: false}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 150, name: "Milch (1,5 %)", hinweis: "150 ml"}
+  - {id: butter, zutat: Butter, g: 10, anzeige: "1 TL Butter", hinweis: "gehäuft"}
+  - {id: salz_pueree, zutat: Salz, g: 1, anzeige: "2 Prisen Salz", hinweis: ""}
+mise_en_place:
+  - "{kartoffeln} schälen, in 4 cm Stücke schneiden und in den Topf geben."
+  - "{zwiebel} sehr fein würfeln (2 mm)."
+  - "{hack}, {huettenkaese}, {ei}, {paniermehl}, die Zwiebelwürfel, {senf}, {paprika}, {salz} und {pfeffer} in einer Schüssel mit den Händen 1 Minute kräftig verkneten, bis die Masse bindet. Mit nassen Händen 6 gleich große Frikadellen (ca. 120 g, 2 cm dick) formen und leicht flach drücken."
+schritte:
+  - titel: Kartoffeln kochen
+    text: "Die Kartoffeln mit {kochwasser} und {kochsalz} auf Stufe 9 von 9 aufkochen, dann auf Stufe 5 von 9 18 Minuten köcheln lassen, bis sie beim Einstechen zerfallen."
+    timer_min: 18
+  - titel: Frikadellen braten
+    text: "{oel} in der Pfanne auf Stufe 6 von 9 erhitzen. Die {hack:n}-Frikadellen hineinlegen und 4 Minuten braten, bis die Unterseite tief goldbraun ist, wenden und weitere 4 Minuten braten. Dann auf Stufe 3 von 9 zurückschalten, Deckel auflegen und 5–6 Minuten fertig garen. Garprobe: Kerntemperatur 72 °C in der Mitte; ohne Thermometer eine Frikadelle halbieren – innen grau-braun, kein Rosa, der Saft läuft klar."
+    timer_min: 14
+  - titel: Püree stampfen
+    text: "{milch} und {butter} in einem kleinen Topf auf Stufe 4 von 9 ca. 2 Minuten erwärmen (nicht kochen). Die Kartoffeln abgießen, 1 Minute ausdampfen lassen und zurück in den Topf geben. Die warme Milch dazugießen und mit dem Stampfer zu einem cremigen Püree stampfen, mit {salz_pueree} abschmecken. Nicht mit dem Pürierstab, sonst wird es zäh wie Kleister."
+    timer_min: null
+zeitablauf:
+  - "Kartoffeln zuerst aufsetzen; nach 5 Minuten die Frikadellen in die Pfanne geben – beides ist nach ca. 18 Minuten fertig."
+fehler:
+  - "**Frikadellen fallen auseinander:** Masse zu kurz geknetet oder zu nass. 1 Minute kräftig kneten; ist sie sehr weich, 1 EL Paniermehl mehr."
+  - "**Außen dunkel, innen roh:** zu hohe Hitze. Nur auf Stufe 6 von 9 anbraten und dann mit Deckel bei niedriger Stufe garziehen lassen."
+  - "**Püree klebrig:** mit dem Pürierstab bearbeitet. Immer stampfen oder durch eine Kartoffelpresse drücken."
+anrichten: "Pro Teller 3 Frikadellen und die Hälfte des Pürees (ca. 320 g) – zusammen ca. {portion_g} g. Mit einem Klecks Senf servieren. Für Meal Prep Püree und Frikadellen in eine Box mit zwei Fächern."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: true
+  einfrieren_monate: 3
+  aufwaermen: "Mikrowelle 600 W, 2½–3 Minuten abgedeckt; ins Püree vorher 1 EL Milch rühren. Frikadellen schmecken auch kalt."
+varianten:
+  - "**Mit Putenhack:** 450 g Putenhack statt Rind (+20 kcal, −3,4 g Protein pro Portion); Kerntemperatur 74 °C."
+  - "**Kartoffel-Möhren-Püree:** 150 g Kartoffeln durch 150 g Möhren ersetzen und mitkochen (−23 kcal, −5,6 g KH pro Portion) – leicht süßlich, schöne Farbe."
+  - "**Leichteres Püree:** Butter weglassen (−37 kcal, −4,1 g Fett pro Portion)."
+tipps:
+  - "Hüttenkäse in der Hackmasse ist der Trick für saftige Frikadellen trotz magerem Rinderhack – man schmeckt ihn nicht heraus."
+  - "Die Hackmasse 15 Minuten im Kühlschrank ruhen lassen, dann lassen sich die Frikadellen leichter formen."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

@@ -1,0 +1,73 @@
+id: blaubeer-cheesecake-baked-oats
+name: Blaubeer-Cheesecake-Baked-Oats
+hauptkategorie: fruehstueck-snacks
+kategorien_manuell: [Meal Prep]
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Amerikanisch
+hauptprotein: Quark & Whey
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Cheesecake Baked Oats“"
+  link: null
+  aenderungen: "Cheesecake-Kern aus Magerquark und wenig Frischkäse light statt Doppelrahmfrischkäse und Zucker; gesüßt mit Vanille-Whey und Süßstoff statt Ahornsirup."
+schwierigkeit: leicht
+zeit: {vorbereitung: 10, kochen: 25, wartezeit: 5}
+ausstattung: [Backofen, "Mixer oder Pürierstab mit hohem Rührbecher", "Auflaufform 20 × 20 cm oder 2 ofenfeste Förmchen (ca. 15 cm)", Backpapier]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Hafer-Teig
+  - {id: hafer, zutat: Haferflocken zart, g: 110, name: "zarte Haferflocken", hinweis: ""}
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 120, anzeige: "2 Eier Gr. M", hinweis: ""}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 120, name: "Milch (1,5 %)", hinweis: "120 ml"}
+  - {id: whey, zutat: Whey Protein Vanille, g: 30, name: "Vanille-Whey", hinweis: "1 Messlöffel"}
+  - {id: backpulver, zutat: Backpulver, g: 4, anzeige: "1 knapper TL Backpulver", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: ""}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 1, anzeige: "10 Tropfen flüssiger Süßstoff", hinweis: "ca. 1 g, nach Geschmack 5 Tropfen mehr"}
+  - gruppe: Cheesecake-Kern
+  - {id: quark, zutat: Magerquark, g: 250, name: Magerquark, hinweis: "½ Becher à 500 g"}
+  - {id: frischkaese, zutat: Frischkäse light, g: 50, name: "Frischkäse light", hinweis: "¼ Packung"}
+  - {id: whey_kern, zutat: Whey Protein Vanille, g: 10, name: "Vanille-Whey", hinweis: "⅓ Messlöffel"}
+  - {id: zitrone, zutat: Zitronensaft, g: 5, anzeige: "1 TL Zitronensaft", hinweis: ""}
+  - gruppe: Topping
+  - {id: heidelbeeren, zutat: Heidelbeeren TK, g: 150, name: Heidelbeeren, hinweis: "gefroren verwenden"}
+  - {id: mandeln, zutat: Mandeln, g: 15, name: Mandeln, hinweis: "grob gehackt"}
+mise_en_place:
+  - "Backofen auf 180 °C Ober-/Unterhitze (160 °C Umluft) vorheizen, Rost in die mittlere Schiene."
+  - "Auflaufform (20 × 20 cm) mit Backpapier auslegen oder 2 Förmchen bereitstellen."
+  - "{mandeln} grob hacken (ca. 3 mm Stücke)."
+  - "{heidelbeeren} im Gefrierfach lassen, bis sie gebraucht werden – gefroren bluten sie weniger aus."
+schritte:
+  - titel: Hafer-Teig mixen
+    text: "{hafer}, {eier}, {milch}, {whey}, {backpulver}, {salz} und {suessstoff} in den Mixer geben und ca. 30 Sekunden auf höchster Stufe mixen, bis ein glatter, flüssiger Teig entsteht. 2 Minuten stehen lassen, damit der Hafer etwas quillt – der Teig wird dann dicker."
+    timer_min: 2
+  - titel: Cheesecake-Kern rühren
+    text: "{quark}, {frischkaese}, {whey_kern} und {zitrone} in einer Schüssel mit dem Schneebesen ca. 1 Minute glatt rühren, bis keine Klümpchen mehr zu sehen sind. Die Creme soll dick und cremig sein wie Cheesecake-Masse."
+    timer_min: null
+  - titel: Schichten
+    text: "Den Hafer-Teig in die Form gießen. Die Quarkcreme mit einem Esslöffel in der Mitte daraufsetzen und leicht in den Teig drücken – sie darf etwas einsinken, ein 1–2 cm breiter Teigrand bleibt frei. Die gefrorenen {heidelbeeren:n} gleichmäßig darüber verteilen und die gehackten {mandeln:n} auf den Teigrand streuen."
+    timer_min: null
+  - titel: Backen
+    text: "Im vorgeheizten Backofen bei 180 °C Ober-/Unterhitze (160 °C Umluft) auf der mittleren Schiene 25 Minuten backen. Fertig, wenn der Teigrand goldbraun und fest ist und der Cheesecake-Kern beim Rütteln nur noch ganz leicht wackelt (wie ein Pudding). Danach 5 Minuten in der Form ruhen lassen – der Kern zieht dabei fest."
+    timer_min: 25
+zeitablauf:
+  - "Während der Ofen vorheizt: Teig mixen, Kern rühren, schichten – nach 10 Minuten ist alles bereit für den Ofen."
+fehler:
+  - "**Kern läuft beim Anschneiden aus:** nicht genug geruht oder zu früh aus dem Ofen. Die volle Backzeit einhalten und 5 Minuten ruhen lassen; kalt am nächsten Tag ist er schnittfest."
+  - "**Teig lila verfärbt:** aufgetaute Heidelbeeren verwendet. Beeren gefroren und erst zum Schluss auflegen."
+  - "**Rand trocken, Mitte roh:** Form zu groß und Teig zu flach, oder zu dick in kleinen Förmchen. In der 20 × 20 cm Form ca. 2,5 cm hoch einfüllen; bei kleinen Förmchen 3–5 Minuten länger backen."
+anrichten: "Die Baked Oats im Backpapier aus der Form heben und halbieren – eine Hälfte (ca. {portion_g} g) ist deine Portion. Lauwarm schmeckt der Kern cremig, gekühlt wie echter Cheesecake. Für Meal Prep die zweite Hälfte abgekühlt in eine luftdichte Dose legen."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: true
+  einfrieren_monate: 1
+  aufwaermen: "Kalt essen oder Mikrowelle 600 W, 45–60 Sekunden abgedeckt. Gefroren: über Nacht im Kühlschrank auftauen."
+varianten:
+  - "**Himbeer-Cheesecake:** 150 g TK-Himbeeren statt Heidelbeeren (−9 kcal, +0,4 g Protein, −4,2 g Zucker pro Portion) – fruchtiger und weniger süß."
+  - "**Mehr Protein, weniger Fett:** Mandeln weglassen und 150 g Skyr natur zusätzlich in den Cheesecake-Kern rühren (+3 kcal, +6,7 g Protein, −3,6 g Fett pro Portion; Kern wird größer, 3 Minuten länger backen)."
+  - "**Airfryer:** in 2 Förmchen (ca. 12 cm) bei 160 °C 15–18 Minuten im Airfryer garen (Makros unverändert)."
+tipps:
+  - "Ein paar Tropfen Vanillearoma oder das Mark einer halben Vanilleschote im Kern machen ihn noch mehr „Cheesecake“ – geschmacklich der größte Hebel ohne Kalorien."
+  - "Die Prise Salz im Teig nicht weglassen: Sie hebt die Süße und lässt die Oats weniger „gesund“ schmecken."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

@@ -2,7 +2,7 @@
 
 # Rezeptplan – Startbestand mit 100 Rezepten
 
-Stand: 2 von 100 Rezepten geschrieben. Ziel-kcal sind Planwerte pro Portion; die echten Werte rechnet `tools/naehrwerte.py`.
+Stand: 11 von 100 Rezepten geschrieben. Ziel-kcal sind Planwerte pro Portion; die echten Werte rechnet `tools/naehrwerte.py`.
 
 Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = restetauglich · **KA** = kalorienarm · **OK** = ohne Kochen/Backen · **I** = TikTok/Instagram-Inspiration · **Rd.** = Schreib-Runde in Phase 4 · ✅ = schon geschrieben
 
@@ -11,8 +11,8 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | # | Gericht | Küche | Hauptprotein | Ziel-kcal | S | MP | I | Rd. | Idee |
 |---:|---|---|---|---:|---|---|---|---:|---|
 | 1 | Frühstücks-Brownie (Schoko-Baked-Oats) ✅ | Amerikanisch | Quark & Whey | 620 |  | ✓ | ✓ | 1 | Fudgy Schoko-Baked-Oats mit Erdnussmus-Swirl |
-| 2 | Blaubeer-Cheesecake-Baked-Oats | Amerikanisch | Quark & Whey | 580 |  | ✓ | ✓ | 1 | Vanille-Oats mit Quark-Cheesecake-Kern und Heidelbeeren |
-| 3 | Apfel-Zimt-Baked-Oats | Deutsch | Quark & Whey | 570 |  | ✓ |  | 1 | Wie Apfelkuchen: Apfelwürfel, Zimt, Mandelsplitter-Kruste |
+| 2 | Blaubeer-Cheesecake-Baked-Oats ✅ | Amerikanisch | Quark & Whey | 580 |  | ✓ | ✓ | 1 | Vanille-Oats mit Quark-Cheesecake-Kern und Heidelbeeren |
+| 3 | Apfel-Zimt-Baked-Oats ✅ | Deutsch | Quark & Whey | 570 |  | ✓ |  | 1 | Wie Apfelkuchen: Apfelwürfel, Zimt, Mandelsplitter-Kruste |
 | 4 | Karottenkuchen-Baked-Oats mit Frischkäse-Frosting | Amerikanisch | Quark & Whey | 590 |  | ✓ | ✓ | 2 | Carrot-Cake-Oats mit Zimt und Frischkäse-light-Frosting |
 | 5 | Protein-Joghurt-Bowl mit Granola und Beeren | International / Fusion | Skyr & Whey | 540 | ✓ |  | ✓ | 2 | Vanille-Whey-Skyr, Granola, TK-Beeren, Honig |
 | 6 | Fluffige Protein-Pancakes mit Beeren-Skyr | Amerikanisch | Eier & Whey | 600 | ✓ |  | ✓ | 2 | Dicke Pancakes aus Hafer, Eiern und Whey, Topping Beeren-Skyr |
@@ -45,7 +45,7 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 
 | # | Gericht | Küche | Hauptprotein | Ziel-kcal | S | MP | OK | I | Rd. | Idee |
 |---:|---|---|---|---:|---|---|---|---|---:|---|
-| 31 | Protein-Mousse au Chocolat | International / Fusion | Quark & Whey | 280 | ✓ |  | ✓ | ✓ | 1 | Luftig aufgeschlagen mit Kakao und Zartbitter-Raspeln |
+| 31 | Protein-Mousse au Chocolat ✅ | International / Fusion | Quark & Whey | 280 | ✓ |  | ✓ | ✓ | 1 | Luftig aufgeschlagen mit Kakao und Zartbitter-Raspeln |
 | 32 | Skyr-Cheesecake im Glas | Amerikanisch | Skyr | 300 | ✓ | ✓ | ✓ | ✓ | 2 | Granola-Boden, Vanille-Skyr-Frischkäse-Creme, Beeren |
 | 33 | Beeren-Nice-Cream mit Whey | International / Fusion | Whey & Skyr | 250 | ✓ |  | ✓ | ✓ | 3 | TK-Beeren, Banane, Skyr und Whey cremig gemixt |
 | 34 | Schoko-Erdnuss-Protein-Balls | Amerikanisch | Whey | 320 |  | ✓ | ✓ | ✓ | 4 | Hafer, Whey, Erdnussmus, Datteln – 4 Kugeln pro Portion |
@@ -60,12 +60,12 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 
 | # | Gericht | Küche | Hauptprotein | Ziel-kcal | S | MP | R | KA | I | Rd. | Idee |
 |---:|---|---|---|---:|---|---|---|---|---|---:|---|
-| 41 | Airfryer-Schnitzel mit Joghurt-Kartoffelsalat | Deutsch | Schwein | 720 |  |  | ✓ |  | ✓ | 1 | Knuspriges Schweineschnitzel mit wenig Öl, schwäbischer Kartoffelsalat mit Joghurt-Senf-Dressing |
-| 42 | Rindergulasch mit Salzkartoffeln | Deutsch | Rind | 700 |  | ✓ | ✓ |  |  | 1 | Klassisch geschmort mit viel Zwiebel und Paprikapulver |
-| 43 | Frikadellen mit Kartoffelpüree | Deutsch | Rind | 750 |  | ✓ | ✓ |  |  | 1 | Saftige Frikadellen aus magerem Rinderhack mit Hüttenkäse, Püree mit Milch |
-| 44 | Hähnchen-Rahmgeschnetzeltes mit Champignons und Reis | Deutsch | Hähnchen | 700 | ✓ |  | ✓ |  |  | 1 | Cremige Sauce aus Frischkäse light und Milch statt Sahne |
-| 45 | Kartoffel-Hack-Auflauf | Deutsch | Pute | 680 |  | ✓ | ✓ |  |  | 1 | Kartoffelscheiben, Putenhack-Tomatensauce, Hüttenkäse-Reibekäse-Decke |
-| 46 | Schweinefilet in Senf-Sauce mit Kartoffeln | Deutsch | Schwein | 540 | ✓ |  | ✓ | ✓ |  | 1 | Medaillons auf den Punkt (63 °C), leichte Senf-Frischkäse-Sauce |
+| 41 | Airfryer-Schnitzel mit Joghurt-Kartoffelsalat ✅ | Deutsch | Schwein | 720 |  |  | ✓ |  | ✓ | 1 | Knuspriges Schweineschnitzel mit wenig Öl, schwäbischer Kartoffelsalat mit Joghurt-Senf-Dressing |
+| 42 | Rindergulasch mit Salzkartoffeln ✅ | Deutsch | Rind | 700 |  | ✓ | ✓ |  |  | 1 | Klassisch geschmort mit viel Zwiebel und Paprikapulver |
+| 43 | Frikadellen mit Kartoffelpüree ✅ | Deutsch | Rind | 750 |  | ✓ | ✓ |  |  | 1 | Saftige Frikadellen aus magerem Rinderhack mit Hüttenkäse, Püree mit Milch |
+| 44 | Hähnchen-Rahmgeschnetzeltes mit Champignons und Reis ✅ | Deutsch | Hähnchen | 700 | ✓ |  | ✓ |  |  | 1 | Cremige Sauce aus Frischkäse light und Milch statt Sahne |
+| 45 | Kartoffel-Hack-Auflauf ✅ | Deutsch | Pute | 680 |  | ✓ | ✓ |  |  | 1 | Kartoffelscheiben, Putenhack-Tomatensauce, Hüttenkäse-Reibekäse-Decke |
+| 46 | Schweinefilet in Senf-Sauce mit Kartoffeln ✅ | Deutsch | Schwein | 540 | ✓ |  | ✓ | ✓ |  | 1 | Medaillons auf den Punkt (63 °C), leichte Senf-Frischkäse-Sauce |
 | 47 | Bratkartoffeln mit Spiegelei und Schinken | Deutsch | Eier | 720 | ✓ |  |  |  |  | 2 | Knusprige Bratkartoffeln mit Zwiebeln, Kochschinken, 3 Eier pro Portion |
 | 48 | Seelachs mit Senfsauce und Salzkartoffeln | Deutsch | Fisch & Garnelen | 520 | ✓ |  |  | ✓ |  | 2 | Saftig gegarter Seelachs, helle Senfsauce mit Petersilie |
 | 49 | Marry Me Chicken mit Basmatireis ✅ | Italienisch | Hähnchen | 700 |  | ✓ | ✓ |  | ✓ | 2 | Cremige Tomaten-Parmesan-Sauce mit Frischkäse light |

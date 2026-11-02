@@ -1,0 +1,72 @@
+id: haehnchen-geschnetzeltes
+name: Hähnchen-Rahmgeschnetzeltes mit Champignons und Reis
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Deutsch
+hauptprotein: Hähnchen
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 8, kochen: 17, wartezeit: 0}
+ausstattung: ["Große beschichtete Pfanne (28 cm)", "Kleiner Topf mit Deckel (16 cm)", Sieb]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Reis
+  - {id: reis, zutat: Basmatireis ungekocht, g: 140, name: Basmatireis, hinweis: "ungekocht"}
+  - {id: wasser_reis, zutat: Wasser, g: 280, name: Wasser, hinweis: "280 ml"}
+  - {id: salz_reis, zutat: Salz, g: 1, anzeige: "1 Prise Salz", hinweis: "für den Reis"}
+  - gruppe: Geschnetzeltes
+  - {id: haehnchen, zutat: Hähnchenbrustfilet roh, g: 400, name: Hähnchenbrust, hinweis: ""}
+  - {id: mehl, zutat: Weizenmehl Type 405, g: 8, anzeige: "1 EL Mehl", hinweis: "zum Bestäuben"}
+  - {id: oel, zutat: Rapsöl, g: 10, anzeige: "1 EL Rapsöl", hinweis: ""}
+  - {id: champignons, zutat: Champignons braun, g: 250, name: Champignons, hinweis: "1 Schale"}
+  - {id: zwiebel, zutat: Zwiebel, g: 80, anzeige: "1 kleine Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 200, name: "Milch (1,5 %)", hinweis: "200 ml"}
+  - {id: wasser, zutat: Wasser, g: 100, name: Wasser, hinweis: "100 ml"}
+  - {id: bruehe, zutat: Gemüsebrühe Pulver, g: 4, anzeige: "1 TL Gemüsebrühe-Pulver", hinweis: ""}
+  - {id: frischkaese, zutat: Frischkäse light, g: 100, name: "Frischkäse light", hinweis: "½ Packung"}
+  - {id: senf, zutat: Senf mittelscharf, g: 5, anzeige: "1 TL Senf", hinweis: ""}
+  - {id: paprika, zutat: Paprikapulver edelsüß, g: 1, anzeige: "½ TL Paprikapulver edelsüß", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 1, anzeige: "2 Prisen Salz", hinweis: ""}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: ""}
+  - {id: petersilie, zutat: Petersilie glatt, g: 5, anzeige: "2 EL gehackte Petersilie", hinweis: ""}
+mise_en_place:
+  - "{reis} im Sieb ca. 30 Sekunden kalt abspülen."
+  - "Während der Reis kocht: {haehnchen} in 1 cm dicke, 4 cm lange Streifen schneiden und mit {mehl} bestäuben."
+  - "{champignons} putzen (trocken abreiben) und in 5 mm Scheiben schneiden, {zwiebel} fein würfeln, {petersilie} hacken."
+schritte:
+  - titel: Reis aufsetzen
+    text: "{reis:n} mit {wasser_reis} und {salz_reis} im kleinen Topf mit Deckel auf Stufe 9 von 9 aufkochen, dann auf Stufe 2 von 9 12 Minuten quellen lassen. Herd aus, 5 Minuten mit Deckel nachziehen lassen, bis das Wasser vollständig aufgesogen ist."
+    timer_min: 12
+  - titel: Hähnchen anbraten
+    text: "Die Hälfte vom {oel} in der Pfanne auf Stufe 8 von 9 erhitzen. Die {haehnchen:n}streifen hineingeben und 3–4 Minuten braten, bis sie rundum hellbraun sind (innen dürfen sie noch leicht glasig sein). Herausnehmen."
+    timer_min: 4
+  - titel: Pilze und Zwiebel braten
+    text: "Restliches Öl in die Pfanne, auf Stufe 7 von 9. {champignons:n} und {zwiebel:n} 4–5 Minuten braten, bis die Pilze ihr Wasser verloren haben und goldbraun sind. Mit {paprika} bestäuben."
+    timer_min: 5
+  - titel: Sauce und fertig garen
+    text: "Mit {milch} und {wasser} ablöschen, {bruehe}, {frischkaese} und {senf} einrühren, bis die Sauce glatt ist. Auf Stufe 4 von 9 2 Minuten leise köcheln lassen, bis sie leicht bindet. Das Hähnchen samt Saft zurückgeben und 3 Minuten auf Stufe 3 von 9 ziehen lassen. Fertig, wenn die Kerntemperatur 74 °C erreicht – ohne Thermometer: ein dickes Stück anschneiden, innen weiß und saftig. Mit {salz} und {pfeffer} abschmecken, {petersilie:n} unterrühren."
+    timer_min: 5
+zeitablauf:
+  - "Reis zuerst aufsetzen. Während er 12 Minuten quillt: Hähnchen schneiden, Pilze und Zwiebel vorbereiten, alles braten – Sauce und Reis sind gleichzeitig fertig."
+fehler:
+  - "**Sauce flockt aus:** nach dem Frischkäse zu stark gekocht. Nur noch leise auf Stufe 3–4 von 9 köcheln."
+  - "**Pilze wässrig und grau:** Pfanne zu voll oder zu kalt. Hohe Stufe und Pilze erst salzen, wenn sie braun sind."
+  - "**Hähnchen trocken:** beim Anbraten schon durchgegart. Nur Farbe holen, fertig gart es in der Sauce."
+anrichten: "Reis auflockern und auf 2 Teller verteilen (je ca. 195 g gekocht), Geschnetzeltes daneben – pro Portion ca. {portion_g} g. Für Meal Prep Reis und Geschnetzeltes in zwei Fächer."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: false
+  aufwaermen: "Mikrowelle 600 W, 2½–3 Minuten abgedeckt, nach der Hälfte umrühren; 1 EL Wasser über den Reis geben."
+  separat: "Reis innerhalb von 1 Stunde abkühlen und kalt stellen."
+varianten:
+  - "**Mit Pute:** 400 g Putenbrustfilet statt Hähnchen (+6 kcal, +1 g Protein pro Portion)."
+  - "**Mit Penne statt Reis:** 140 g Penne in Salzwasser (1 l Wasser, 10 g Salz, nicht mitgerechnet) bissfest kochen (+6 kcal, +3,5 g Protein pro Portion)."
+  - "**Mehr Pilze:** eine zweite Schale Champignons (250 g) mitbraten (+26 kcal, +3,9 g Protein pro Portion)."
+tipps:
+  - "Ein Spritzer Zitronensaft zum Schluss macht die helle Sauce frischer und lebendiger."
+  - "Die Pilze nicht waschen, sondern trocken abreiben – sonst saugen sie sich mit Wasser voll und bräunen nicht."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

@@ -1,0 +1,62 @@
+id: protein-mousse-au-chocolat
+name: Protein-Mousse au Chocolat
+hauptkategorie: fruehstueck-snacks
+kategorien_manuell: []
+mahlzeit: Snack
+geschmack: süß
+kueche: International / Fusion
+hauptprotein: Quark & Whey
+ohne_kochen: true
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Protein Chocolate Mousse“ aus Quark und Whey"
+  link: null
+  aenderungen: "Ohne Sahne, Eigelb und Zucker: Basis aus Magerquark und Skyr, Schoko-Whey und Kakao; nur 10 g Zartbitterschokolade als Raspel-Topping."
+schwierigkeit: leicht
+zeit: {vorbereitung: 8, kochen: 0, wartezeit: 30}
+ausstattung: ["Schüssel", "Schneebesen oder Handrührgerät", "2 Dessertgläser"]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Mousse
+  - {id: quark, zutat: Magerquark, g: 250, name: Magerquark, hinweis: "gut gekühlt"}
+  - {id: skyr, zutat: Skyr natur, g: 150, name: Skyr, hinweis: "gut gekühlt"}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 30, name: "Milch (1,5 %)", hinweis: "30 ml"}
+  - {id: whey, zutat: Whey Protein Schoko, g: 40, name: "Schoko-Whey", hinweis: "ca. 1⅓ Messlöffel"}
+  - {id: kakao, zutat: Backkakao stark entölt, g: 10, anzeige: "1 gehäufter EL Backkakao", hinweis: "ungesüßt"}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 1, anzeige: "10 Tropfen flüssiger Süßstoff", hinweis: "ca. 1 g"}
+  - {id: salz, zutat: Salz, g: 0.3, anzeige: "1 kleine Prise Salz", hinweis: ""}
+  - gruppe: Topping
+  - {id: schoko, zutat: "Zartbitterschokolade 70 %", g: 10, anzeige: "2 Stückchen Zartbitterschokolade 70 %", name: Zartbitterschokolade, hinweis: "fein geraspelt"}
+mise_en_place:
+  - "Alle Milchprodukte direkt aus dem Kühlschrank verwenden – kalt wird die Mousse fester und luftiger."
+  - "{schoko} mit einer feinen Reibe oder einem Sparschäler raspeln."
+schritte:
+  - titel: Basis glatt rühren
+    text: "{quark}, {skyr} und {milch} in einer Schüssel mit dem Schneebesen (oder Handrührgerät auf mittlerer Stufe) 30 Sekunden glatt rühren."
+    timer_min: null
+  - titel: Schoko einarbeiten und aufschlagen
+    text: "{whey}, {kakao}, {suessstoff} und {salz} dazugeben und zunächst langsam unterrühren, damit nichts staubt. Dann 2 Minuten kräftig aufschlagen (Handrührgerät höchste Stufe), bis die Masse heller, luftig und glänzend ist und in weichen Spitzen vom Schneebesen fällt."
+    timer_min: 2
+  - titel: Kühlen
+    text: "Mousse auf 2 Dessertgläser verteilen, glatt streichen und mindestens 30 Minuten im Kühlschrank fest werden lassen. Erst kurz vor dem Servieren die geraspelte {schoko:n} darüberstreuen, damit sie knackig bleibt."
+    timer_min: 30
+zeitablauf: []
+fehler:
+  - "**Klümpchen von Whey oder Kakao:** zu schnell auf hoher Stufe gerührt. Pulver erst langsam unterrühren, dann aufschlagen; notfalls 10 Sekunden mit dem Pürierstab glätten."
+  - "**Zu flüssig:** Milch zu großzügig oder warme Zutaten. Ohne Milch beginnen und nur esslöffelweise ergänzen, alles gut gekühlt verwenden."
+  - "**Schmeckt bitter:** Kakao ohne genug Süße. 5 Tropfen Süßstoff mehr und die Prise Salz nicht vergessen."
+anrichten: "Pro Portion 1 Glas (ca. {portion_g} g Mousse) mit der Schokoraspel servieren. Schmeckt wie Dessert nach dem Abendessen oder als Nachmittags-Snack."
+aufbewahrung:
+  kuehlschrank_tage: 2
+  einfrierbar: false
+  aufwaermen: "Nicht aufwärmen – kalt servieren."
+  separat: "Schokoraspel erst kurz vor dem Essen darüberstreuen."
+varianten:
+  - "**Himbeer-Schoko:** 100 g TK-Himbeeren aufgetaut unten ins Glas geben (+22 kcal, +0,6 g Protein pro Portion) – säuerliche Frische zur dunklen Schokolade."
+  - "**Noch leichter:** Schokoraspel weglassen (−28 kcal, −2,1 g Fett pro Portion)."
+  - "**Mokka-Mousse:** 1 g Instant-Espressopulver in der Milch auflösen und mitrühren (+1 kcal pro Portion) – schmeckt wie Mousse au Café."
+tipps:
+  - "Die kleine Prise Salz ist der Trick, der Kakao „schokoladiger“ schmecken lässt – wie bei guter Zartbitterschokolade."
+  - "Über Nacht gekühlt wird die Mousse noch dichter und erinnert an Schokopudding – dann am besten mit dem Löffel direkt aus dem Glas."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

@@ -1,0 +1,65 @@
+id: apfel-zimt-baked-oats
+name: Apfel-Zimt-Baked-Oats
+hauptkategorie: fruehstueck-snacks
+kategorien_manuell: [Meal Prep]
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Deutsch
+hauptprotein: Quark & Whey
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 12, kochen: 25, wartezeit: 5}
+ausstattung: [Backofen, "Mixer oder Pürierstab mit hohem Rührbecher", "Auflaufform 20 × 20 cm", Backpapier, Reibe]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Teig
+  - {id: hafer, zutat: Haferflocken zart, g: 110, name: "zarte Haferflocken", hinweis: ""}
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 120, anzeige: "2 Eier Gr. M", hinweis: ""}
+  - {id: quark, zutat: Magerquark, g: 250, name: Magerquark, hinweis: "½ Becher à 500 g"}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 80, name: "Milch (1,5 %)", hinweis: "80 ml"}
+  - {id: whey, zutat: Whey Protein Vanille, g: 35, name: "Vanille-Whey", hinweis: "gut 1 Messlöffel"}
+  - {id: zimt, zutat: Zimt gemahlen, g: 3, anzeige: "1 gehäufter TL Zimt", hinweis: ""}
+  - {id: backpulver, zutat: Backpulver, g: 4, anzeige: "1 knapper TL Backpulver", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: ""}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 1, anzeige: "10 Tropfen flüssiger Süßstoff", hinweis: "ca. 1 g"}
+  - {id: apfel_teig, zutat: Apfel, g: 75, anzeige: "½ Apfel", name: Apfel, hinweis: "säuerlich, z. B. Boskoop oder Elstar, ohne Kerngehäuse"}
+  - gruppe: Topping
+  - {id: apfel_top, zutat: Apfel, g: 75, anzeige: "½ Apfel", name: Apfel, hinweis: "zweite Hälfte"}
+  - {id: mandeln, zutat: Mandeln, g: 15, name: Mandeln, hinweis: "grob gehackt"}
+mise_en_place:
+  - "Backofen auf 180 °C Ober-/Unterhitze (160 °C Umluft) vorheizen, Rost in die mittlere Schiene."
+  - "Auflaufform (20 × 20 cm) mit Backpapier auslegen."
+  - "Apfel vierteln und entkernen. {apfel_teig} grob raspeln, {apfel_top} in 3 mm dünne Spalten schneiden."
+  - "{mandeln} grob hacken (ca. 3 mm Stücke)."
+schritte:
+  - titel: Teig mixen
+    text: "{hafer}, {eier}, {quark}, {milch}, {whey}, {zimt}, {backpulver}, {salz} und {suessstoff} im Mixer ca. 40 Sekunden auf höchster Stufe zu einem glatten, dickflüssigen Teig mixen. Den geraspelten {apfel_teig:n} mit einem Löffel unterheben (nicht mitmixen, sonst wird der Teig wässrig)."
+    timer_min: null
+  - titel: Einfüllen und belegen
+    text: "Teig in die Form füllen und glatt streichen. Die {apfel_top:n}spalten dachziegelartig in 2 Reihen auflegen und leicht andrücken, die gehackten {mandeln:n} darüberstreuen."
+    timer_min: null
+  - titel: Backen
+    text: "Im vorgeheizten Backofen bei 180 °C Ober-/Unterhitze (160 °C Umluft) auf der mittleren Schiene 25 Minuten backen. Fertig, wenn die Oberfläche goldbraun ist, die Apfelspalten an den Rändern leicht Farbe haben und ein Holzstäbchen in der Mitte nur noch feuchte Krümel zeigt. 5 Minuten ruhen lassen – die Konsistenz wird dann saftig wie Apfelkuchen."
+    timer_min: 25
+zeitablauf:
+  - "Während der Ofen vorheizt: Äpfel schneiden, Teig mixen, einfüllen – nach ca. 12 Minuten ist die Form bereit."
+fehler:
+  - "**Teig matschig:** Apfel mitgemixt oder sehr saftige Sorte. Apfel nur unterheben und bei sehr saftigen Äpfeln die Raspel kurz ausdrücken."
+  - "**Zu wenig süß:** Apfel zu sauer. 5 Tropfen Süßstoff mehr in den Teig oder zum Servieren ½ TL Honig pro Portion (siehe Varianten)."
+  - "**Mandeln verbrannt:** Ofen zu heiß oder Form zu weit oben. Mittlere Schiene, und nach 20 Minuten bei Bedarf locker mit Alufolie abdecken."
+anrichten: "Im Backpapier aus der Form heben und halbieren – eine Hälfte (ca. {portion_g} g) ist deine Portion. Warm mit einer Prise Zimt bestäuben, so riecht es wie frischer Apfelkuchen. Für Meal Prep die zweite Hälfte abkühlen lassen und luftdicht verpacken."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: true
+  einfrieren_monate: 1
+  aufwaermen: "Mikrowelle 600 W, 45–60 Sekunden abgedeckt, oder kalt essen."
+varianten:
+  - "**Mit Vanille-Skyr-Topping:** pro Portion 100 g Skyr natur dazu (+63 kcal, +11 g Protein, +4 g Zucker pro Portion) – „Apfelkuchen mit Sahne“."
+  - "**Noch mehr Protein:** 100 g Magerquark zusätzlich in den Teig (+34 kcal, +6 g Protein pro Portion; 3 Minuten länger backen)."
+  - "**Mit Honig-Glanz:** 10 g Honig nach dem Backen über die warmen Apfelspalten träufeln (+15 kcal, +3,8 g Zucker pro Portion)."
+tipps:
+  - "Säuerliche Äpfel (Boskoop, Elstar) geben das beste Apfelkuchen-Aroma – süße Sorten wie Gala schmecken im Ofen schnell flach."
+  - "Zimt kurz vor dem Mixen frisch aus einer neuen Dose verwenden: alter Zimt verliert schnell sein Aroma."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

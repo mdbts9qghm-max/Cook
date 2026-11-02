@@ -1,0 +1,78 @@
+id: rindergulasch-kartoffeln
+name: Rindergulasch mit Salzkartoffeln
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Deutsch
+hauptprotein: Rind
+inspiration: null
+schwierigkeit: mittel
+zeit: {vorbereitung: 20, kochen: 110, wartezeit: 0}
+ausstattung: ["Bräter oder schwerer Topf mit Deckel (24 cm)", "Mittlerer Topf (20 cm)"]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Gulasch
+  - {id: rind, zutat: Rindergulasch roh, g: 500, name: Rindergulasch, hinweis: "aus der Schulter, in 3 cm Würfeln"}
+  - {id: oel, zutat: Rapsöl, g: 15, anzeige: "1½ EL Rapsöl", hinweis: ""}
+  - {id: zwiebeln, zutat: Zwiebel, g: 300, anzeige: "3 Zwiebeln", name: Zwiebeln, hinweis: "ca. 100 g pro Stück"}
+  - {id: knoblauch, zutat: Knoblauch, g: 6, anzeige: "2 Knoblauchzehen", hinweis: ""}
+  - {id: tomatenmark, zutat: Tomatenmark 2-fach konzentriert, g: 30, anzeige: "2 EL Tomatenmark", hinweis: ""}
+  - {id: paprikapulver, zutat: Paprikapulver edelsüß, g: 10, anzeige: "1 EL Paprikapulver edelsüß", hinweis: "großzügig – das ist der Gulasch-Geschmack"}
+  - {id: rauchpaprika, zutat: Paprikapulver geräuchert, g: 3, anzeige: "1 TL Rauchpaprika", hinweis: ""}
+  - {id: kuemmel, zutat: Kreuzkümmel gemahlen, g: 1, anzeige: "½ TL Kreuzkümmel", hinweis: ""}
+  - {id: bruehe, zutat: Gemüsebrühe Pulver, g: 6, anzeige: "2 TL Gemüsebrühe-Pulver", hinweis: ""}
+  - {id: wasser, zutat: Wasser, g: 500, name: Wasser, hinweis: "500 ml, heiß"}
+  - {id: paprika, zutat: Paprika rot, g: 150, anzeige: "1 kleine rote Paprika", name: Paprika, hinweis: ""}
+  - {id: staerke, zutat: Speisestärke, g: 10, anzeige: "1 EL Speisestärke", hinweis: "nur bei Bedarf"}
+  - {id: salz, zutat: Salz, g: 2, anzeige: "⅓ TL Salz", hinweis: ""}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: ""}
+  - gruppe: Salzkartoffeln
+  - {id: kartoffeln, zutat: Kartoffeln festkochend roh, g: 500, name: Kartoffeln, hinweis: "festkochend"}
+  - {id: kochwasser, zutat: Wasser, g: 1500, name: Wasser, hinweis: "1,5 l zum Kochen", mitrechnen: false}
+  - {id: kochsalz, zutat: Salz, g: 10, anzeige: "2 TL Salz fürs Kochwasser", hinweis: "", mitrechnen: false}
+mise_en_place:
+  - "{rind} trocken tupfen, größere Stücke auf 3 cm Würfel nachschneiden, Sehnen entfernen."
+  - "{zwiebeln} halbieren und in 5 mm Streifen schneiden, {knoblauch} fein hacken."
+  - "{paprika} entkernen und in 2 cm Stücke schneiden."
+  - "{bruehe} in {wasser} auflösen."
+  - "{kartoffeln} schälen und halbieren (ca. 4 cm Stücke), in kaltes Wasser legen."
+schritte:
+  - titel: Fleisch scharf anbraten
+    text: "{oel} im Bräter auf Stufe 8 von 9 stark erhitzen. Das {rind:n} in 2 Portionen (nicht zu eng, sonst kocht es statt zu braten) je 4–5 Minuten rundum kräftig anbraten, bis alle Seiten dunkelbraun sind. Herausnehmen und beiseitestellen."
+    timer_min: 5
+  - titel: Zwiebeln rösten
+    text: "Auf Stufe 6 von 9 zurückschalten. Die {zwiebeln:n} in den Bratensatz geben und 8–10 Minuten unter gelegentlichem Rühren braten, bis sie weich und goldbraun sind. {knoblauch:n} und {tomatenmark} dazu und 1 Minute mitrösten, bis das Tomatenmark dunkelrot wird. Herd kurz auf Stufe 3 von 9, {paprikapulver}, {rauchpaprika} und {kuemmel} einrühren und nur 20 Sekunden mitrösten – Paprikapulver verbrennt sehr schnell und wird dann bitter."
+    timer_min: 10
+  - titel: Schmoren
+    text: "Sofort mit der heißen Brühe ablöschen und den Bratensatz vom Boden lösen. Das Fleisch samt Saft zurück in den Bräter geben, auf Stufe 9 von 9 aufkochen, dann auf Stufe 2 von 9 zurückschalten und mit geschlossenem Deckel 75 Minuten leise schmoren lassen (es soll nur gelegentlich blubbern). Alle 20 Minuten umrühren; ist zu viel Flüssigkeit verkocht, 50 ml Wasser nachgießen."
+    timer_min: 75
+  - titel: Paprika und Garprobe
+    text: "Die {paprika:n} dazugeben und weitere 15 Minuten mit Deckel schmoren. Garprobe: Ein Würfel {rind:n} lässt sich mit der Gabel ohne Druck zerteilen (gabelzart). Ist er noch zäh, weitere 15 Minuten schmoren. Für eine sämigere Sauce {staerke} in 2 EL kaltem Wasser glatt rühren, einrühren und 1 Minute auf Stufe 4 von 9 köcheln lassen. Mit {salz} und {pfeffer} abschmecken."
+    timer_min: 15
+  - titel: Salzkartoffeln
+    text: "20 Minuten vor Ende der Schmorzeit die {kartoffeln:n} mit {kochwasser} und {kochsalz} im mittleren Topf auf Stufe 9 von 9 aufkochen, dann auf Stufe 5 von 9 18–20 Minuten garen, bis ein Messer leicht hineingleitet. Abgießen und 1 Minute im offenen Topf ausdampfen lassen."
+    timer_min: 20
+zeitablauf:
+  - "Während das Gulasch schmort (gut 1½ Stunden): Kartoffeln schälen, aufräumen – nach 70 Minuten Schmorzeit die Kartoffeln aufsetzen."
+fehler:
+  - "**Fleisch zäh:** zu heiß geschmort oder zu kurz. Nur leise blubbern lassen (Stufe 2 von 9) und auf die Gabelprobe vertrauen, nicht auf die Uhr."
+  - "**Sauce bitter:** Paprikapulver auf zu hoher Stufe angeröstet. Vorher herunterschalten und nur 20 Sekunden rösten, dann sofort ablöschen."
+  - "**Grau statt braun:** Fleisch zu nass oder zu viel auf einmal. Gut trocken tupfen und in 2 Portionen anbraten."
+anrichten: "Pro Teller die Hälfte der Kartoffeln (ca. 240 g) und die Hälfte des Gulaschs anrichten – zusammen ca. {portion_g} g. Für Meal Prep Gulasch und Kartoffeln getrennt in Boxen füllen."
+aufbewahrung:
+  kuehlschrank_tage: 4
+  einfrierbar: true
+  einfrieren_monate: 3
+  aufwaermen: "Gulasch im Topf auf Stufe 4 von 9 ca. 5 Minuten oder Mikrowelle 600 W 3–4 Minuten abgedeckt, zwischendurch umrühren; Kartoffeln 1–2 Minuten in der Mikrowelle."
+  separat: "Kartoffeln getrennt lagern – im Gulasch werden sie mehlig. Gulasch schmeckt am 2. Tag noch besser."
+varianten:
+  - "**Mit Penne statt Kartoffeln:** 140 g Penne in Salzwasser bissfest kochen (+71 kcal, +4,1 g Protein pro Portion)."
+  - "**Mehr Paprika:** eine zweite rote Paprika (150 g) mitschmoren (+26 kcal, +0,8 g Protein pro Portion)."
+  - "**Mit Skyr-Klecks:** pro Portion 100 g Skyr natur obenauf (+63 kcal, +11 g Protein pro Portion) – ersetzt Schmand."
+tipps:
+  - "Gulasch lohnt sich doppelt: im Planer „doppelt kochen“ wählen – die zweite Ladung lässt sich 3 Monate einfrieren."
+  - "Ein Stückchen Zartbitterschokolade (5 g) am Ende eingerührt rundet die Sauce ab (+14 kcal pro Portion)."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

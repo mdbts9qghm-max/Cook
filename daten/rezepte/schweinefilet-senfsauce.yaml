@@ -1,0 +1,67 @@
+id: schweinefilet-senfsauce
+name: Schweinefilet in Senf-Sauce mit Kartoffeln
+hauptkategorie: kalorienarm
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Deutsch
+hauptprotein: Schwein
+inspiration: null
+schwierigkeit: mittel
+zeit: {vorbereitung: 5, kochen: 20, wartezeit: 0}
+ausstattung: ["Große Pfanne (28 cm) mit Deckel", "Mittlerer Topf (20 cm)", "Fleischthermometer (empfohlen)"]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Kartoffeln
+  - {id: kartoffeln, zutat: Kartoffeln festkochend roh, g: 400, name: Kartoffeln, hinweis: "kleine, festkochend"}
+  - {id: kochwasser, zutat: Wasser, g: 1500, name: Wasser, hinweis: "1,5 l zum Kochen", mitrechnen: false}
+  - {id: kochsalz, zutat: Salz, g: 10, anzeige: "2 TL Salz fürs Kochwasser", hinweis: "", mitrechnen: false}
+  - gruppe: Filet
+  - {id: filet, zutat: Schweinefilet roh, g: 450, name: Schweinefilet, hinweis: "1 Filet, von Silberhaut befreit"}
+  - {id: salz, zutat: Salz, g: 1.5, anzeige: "¼ TL Salz", hinweis: ""}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: ""}
+  - {id: oel, zutat: Rapsöl, g: 8, anzeige: "2 TL Rapsöl", hinweis: ""}
+  - gruppe: Senf-Sauce
+  - {id: zwiebel, zutat: Zwiebel, g: 50, anzeige: "½ Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: wasser, zutat: Wasser, g: 80, name: Wasser, hinweis: "80 ml"}
+  - {id: bruehe, zutat: Gemüsebrühe Pulver, g: 3, anzeige: "1 TL Gemüsebrühe-Pulver", hinweis: ""}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 150, name: "Milch (1,5 %)", hinweis: "150 ml"}
+  - {id: frischkaese, zutat: Frischkäse light, g: 60, name: "Frischkäse light", hinweis: ""}
+  - {id: senf, zutat: Senf mittelscharf, g: 25, anzeige: "1½ EL Senf", hinweis: "mittelscharf"}
+  - {id: staerke, zutat: Speisestärke, g: 5, anzeige: "1 TL Speisestärke", hinweis: ""}
+  - {id: petersilie, zutat: Petersilie glatt, g: 5, anzeige: "2 EL gehackte Petersilie", hinweis: ""}
+mise_en_place:
+  - "{kartoffeln} schälen und halbieren (ca. 3–4 cm Stücke)."
+  - "{filet} trocken tupfen und in 6 Medaillons à 3 cm schneiden, leicht flach drücken, mit {salz} und {pfeffer} würzen."
+  - "{zwiebel} fein würfeln, {petersilie} hacken, {staerke} in 2 EL kaltem Wasser glatt rühren."
+schritte:
+  - titel: Kartoffeln kochen
+    text: "Die {kartoffeln:n} mit {kochwasser} und {kochsalz} auf Stufe 9 von 9 aufkochen, dann auf Stufe 5 von 9 15–18 Minuten garen, bis ein Messer leicht hineingleitet. Abgießen und ausdampfen lassen."
+    timer_min: 18
+  - titel: Medaillons braten
+    text: "{oel} in der Pfanne auf Stufe 7 von 9 erhitzen, bis es schimmert. Die {filet:n}-Medaillons einlegen und 3 Minuten braten, bis sie unten eine goldbraune Kruste haben, wenden und 2 Minuten weiterbraten. Auf Stufe 2 von 9 zurückschalten, Deckel auflegen und 3–4 Minuten ziehen lassen, bis die Kerntemperatur 63 °C erreicht – dann sind sie innen zartrosa und saftig. Herausnehmen, auf einem Teller mit Alufolie abdecken."
+    timer_min: 9
+  - titel: Senf-Sauce
+    text: "Die {zwiebel:n} im Bratensatz auf Stufe 5 von 9 2 Minuten glasig dünsten. Mit {wasser} ablöschen und den Bratensatz lösen, {bruehe}, {milch}, {frischkaese} und {senf} einrühren und aufkochen lassen (Stufe 6 von 9). Die angerührte Stärke einrühren und 1 Minute köcheln lassen, bis die Sauce sämig ist. Auf Stufe 2 von 9 zurückschalten, den ausgetretenen Fleischsaft und die {petersilie:n} unterrühren."
+    timer_min: 4
+zeitablauf:
+  - "Kartoffeln zuerst aufsetzen; während sie kochen, Medaillons braten und die Sauce machen – nach 20 Minuten ist alles fertig."
+fehler:
+  - "**Filet trocken:** über 63 °C gegart. Mit Thermometer messen und unbedingt 2 Minuten ruhen lassen."
+  - "**Sauce zu scharf:** Senf zu kräftig. Erst 1 EL einrühren, probieren, dann den Rest."
+  - "**Sauce klumpt:** Stärke nicht vorher angerührt. Immer in kaltem Wasser glatt rühren und in die kochende Sauce geben."
+anrichten: "Pro Teller 3 Medaillons und die Hälfte der Kartoffeln (ca. 190 g), Sauce darübergeben – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: false
+  aufwaermen: "Medaillons in der Sauce im Topf auf Stufe 3 von 9 3–4 Minuten erwärmen (nicht kochen, sonst werden sie zäh); Kartoffeln 1 Minute Mikrowelle 600 W."
+varianten:
+  - "**Mit Reis statt Kartoffeln:** 100 g Basmatireis (+31 kcal pro Portion)."
+  - "**Mit Brokkoli:** 300 g Brokkoliröschen die letzten 5 Minuten bei den Kartoffeln mitkochen (+50 kcal, +4,5 g Protein pro Portion; dann knapp über 550 kcal, also nicht mehr kalorienarm)."
+  - "**Mit Putenbrust:** 450 g Putenbrustfilet in Medaillons, Kerntemperatur 74 °C (−2 kcal, +4,5 g Protein pro Portion)."
+tipps:
+  - "Einen TL körnigen Senf zusätzlich einrühren: Die Senfkörner geben Biss und sehen schön aus."
+  - "Die Medaillons 20 Minuten vor dem Braten aus dem Kühlschrank nehmen, dann garen sie gleichmäßiger."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

@@ -15,3 +15,21 @@ def test_geschriebene_rezepte_stehen_im_plan(rezepte):
         e = plan[r["id"]]
         assert bereich[r["mahlzeit"]] == e["bereich"]
         assert r["kueche"] == e["kueche"]
+
+
+def test_planmarkierungen_stimmen_mit_berechnung(rezepte, zutaten):
+    """Was der Plan als schnell / Meal Prep / kalorienarm / restetauglich zusagt, muss das Rezept auch erfüllen."""
+    import naehrwerte as N
+    plan = {e["id"]: e for e in RP.eintraege(RP.lade_plan())}
+    for r in rezepte:
+        e = plan[r["id"]]
+        kat = N.kategorien(r, N.berechne_rezept(r, zutaten)["portion_gerundet"])
+        for flag, key in (("schnell", "schnell"), ("mp", "meal-prep"), ("ka", "kalorienarm")):
+            if e.get(flag):
+                assert key in kat, f"{r['id']}: laut Plan {key}, berechnet {kat}"
+        if e.get("rest"):
+            assert r["restetauglich"], r["id"]
+        if e.get("insp"):
+            assert r.get("inspiration"), r["id"]
+        if e.get("ohne_kochen"):
+            assert r.get("ohne_kochen"), r["id"]

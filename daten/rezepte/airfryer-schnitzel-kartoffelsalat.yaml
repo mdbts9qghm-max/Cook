@@ -1,0 +1,84 @@
+id: airfryer-schnitzel-kartoffelsalat
+name: Airfryer-Schnitzel mit Joghurt-Kartoffelsalat
+hauptkategorie: high-protein
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Deutsch
+hauptprotein: Schwein
+inspiration:
+  quelle: "Airfryer-Schnitzel-Trend auf TikTok/Instagram"
+  link: null
+  aenderungen: "Schnitzel mit 1 EL Öl im Airfryer statt in reichlich Butterschmalz ausgebacken; Kartoffelsalat mit Brühe und Joghurt-Senf-Dressing statt Mayonnaise."
+schwierigkeit: mittel
+zeit: {vorbereitung: 20, kochen: 25, wartezeit: 0}
+ausstattung: [Airfryer, "Mittlerer Topf (20 cm)", "3 tiefe Teller zum Panieren", Fleischklopfer oder Topfboden, "Fleischthermometer (empfohlen)"]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Kartoffelsalat
+  - {id: kartoffeln, zutat: Kartoffeln festkochend roh, g: 600, name: Kartoffeln, hinweis: "festkochend, ca. 6 mittelgroße"}
+  - {id: kochwasser, zutat: Wasser, g: 1500, name: Wasser, hinweis: "1,5 l zum Kochen", mitrechnen: false}
+  - {id: kochsalz, zutat: Salz, g: 10, anzeige: "2 TL Salz fürs Kochwasser", hinweis: "", mitrechnen: false}
+  - {id: zwiebel, zutat: Zwiebel, g: 50, anzeige: "½ Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: bruehe, zutat: Gemüsebrühe Pulver, g: 4, anzeige: "1 TL Gemüsebrühe-Pulver", hinweis: ""}
+  - {id: wasser_bruehe, zutat: Wasser, g: 100, name: "heißes Wasser", hinweis: "100 ml"}
+  - {id: joghurt, zutat: Griechischer Joghurt 0 % Fett, g: 100, name: "griechischer Joghurt", hinweis: "0 % Fett"}
+  - {id: senf, zutat: Senf mittelscharf, g: 15, anzeige: "1 EL Senf", hinweis: "mittelscharf"}
+  - {id: oel_salat, zutat: Rapsöl, g: 10, anzeige: "1 EL Rapsöl", hinweis: ""}
+  - {id: zitrone, zutat: Zitronensaft, g: 10, anzeige: "2 TL Zitronensaft", hinweis: ""}
+  - {id: gurke, zutat: Salatgurke, g: 100, anzeige: "¼ Salatgurke", name: Gurke, hinweis: ""}
+  - {id: petersilie, zutat: Petersilie glatt, g: 5, anzeige: "2 EL gehackte Petersilie", hinweis: ""}
+  - {id: salz_salat, zutat: Salz, g: 1, anzeige: "2 Prisen Salz", hinweis: ""}
+  - gruppe: Schnitzel
+  - {id: schnitzel, zutat: Schweineschnitzel roh, g: 400, anzeige: "4 Schweineschnitzel", name: Schnitzel, hinweis: "à ca. 100 g, aus der Oberschale"}
+  - {id: salz_fleisch, zutat: Salz, g: 2, anzeige: "⅓ TL Salz", hinweis: ""}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: ""}
+  - {id: mehl, zutat: Weizenmehl Type 405, g: 20, anzeige: "2 EL Mehl", hinweis: ""}
+  - {id: ei, zutat: "Ei Gr. M ohne Schale", g: 60, anzeige: "1 Ei Gr. M", hinweis: ""}
+  - {id: paprika, zutat: Paprikapulver edelsüß, g: 1, anzeige: "½ TL Paprikapulver edelsüß", hinweis: ""}
+  - {id: paniermehl, zutat: Paniermehl, g: 50, name: Paniermehl, hinweis: "ca. 5 EL"}
+  - {id: oel_schnitzel, zutat: Rapsöl, g: 10, anzeige: "1 EL Rapsöl", hinweis: "zum Einpinseln oder Einsprühen"}
+mise_en_place:
+  - "{kartoffeln} waschen (nicht schälen) und in einen mittleren Topf geben."
+  - "{zwiebel} fein würfeln (3 mm), {gurke} längs halbieren und in 2 mm dünne Scheiben hobeln, {petersilie} fein hacken."
+  - "{schnitzel} zwischen 2 Lagen Frischhaltefolie mit dem Fleischklopfer (oder einem Topfboden) auf ca. 6 mm Dicke klopfen. Beidseitig mit {salz_fleisch} und {pfeffer} würzen."
+  - "Panierstraße aufbauen: Teller 1 {mehl}; Teller 2 {ei} mit {paprika} verquirlt; Teller 3 {paniermehl}."
+schritte:
+  - titel: Kartoffeln kochen
+    text: "Die Kartoffeln mit {kochwasser} und {kochsalz} im Topf auf Stufe 9 von 9 aufkochen, dann auf Stufe 5 von 9 mit halb aufgelegtem Deckel 18–20 Minuten köcheln lassen. Fertig, wenn ein Messer ohne Widerstand bis zur Mitte gleitet, die Kartoffel aber nicht zerfällt. Abgießen, kurz ausdampfen lassen und noch warm pellen."
+    timer_min: 20
+  - titel: Brühe-Marinade
+    text: "{bruehe} in {wasser_bruehe} auflösen, die {zwiebel:n} darin 2 Minuten ziehen lassen. Die warmen Kartoffeln in 4 mm dünne Scheiben schneiden, in eine Schüssel geben und mit der heißen Zwiebelbrühe übergießen. Vorsichtig mischen und 10 Minuten ziehen lassen – warme Kartoffeln saugen die Brühe auf und werden schlonzig wie beim schwäbischen Kartoffelsalat."
+    timer_min: 10
+  - titel: Schnitzel panieren
+    text: "Die {schnitzel:n} nacheinander im Mehl wenden und leicht abklopfen, durch das Ei ziehen und abtropfen lassen, dann im Paniermehl wenden und die Brösel nur locker andrücken (nicht pressen, sonst wellt sich die Panade nicht). Beide Seiten der panierten Schnitzel dünn mit {oel_schnitzel} einpinseln oder einsprühen."
+    timer_min: null
+  - titel: Im Airfryer garen
+    text: "Airfryer auf 200 °C 3 Minuten vorheizen. 2 {schnitzel:n} nebeneinander (nicht überlappend) in den Korb legen und bei 200 °C 5 Minuten garen, wenden und weitere 4–5 Minuten garen, bis die Panade rundum goldbraun und knusprig ist. Garprobe: Kerntemperatur mindestens 63 °C, ohne Thermometer anschneiden – das Fleisch ist hell und der Saft klar. Mit den zweiten 2 Schnitzeln genauso verfahren; die ersten solange bei 80 °C im Airfryer warm halten."
+    timer_min: 10
+  - titel: Salat fertig machen
+    text: "{joghurt}, {senf}, {oel_salat}, {zitrone} und {salz_salat} glatt rühren. Mit den Gurkenscheiben und der {petersilie:n} unter die Kartoffeln heben und abschmecken."
+    timer_min: null
+zeitablauf:
+  - "Während die Kartoffeln kochen (20 Minuten): Zwiebel und Gurke schneiden, Schnitzel klopfen und panieren."
+  - "Während die Kartoffeln in der Brühe ziehen: Schnitzel im Airfryer garen."
+fehler:
+  - "**Panade nicht knusprig:** zu wenig Öl oder Korb überfüllt. Beide Seiten dünn einpinseln und höchstens 2 Schnitzel pro Durchgang garen."
+  - "**Kartoffelsalat trocken:** Kartoffeln kalt geschnitten oder Brühe zu spät dazugegeben. Kartoffeln warm schneiden und sofort mit heißer Brühe übergießen."
+  - "**Schnitzel zäh:** zu dick oder zu lange gegart. Gleichmäßig auf 6 mm klopfen und nach 9–10 Minuten prüfen."
+anrichten: "Pro Teller 2 Schnitzel und die Hälfte des Kartoffelsalats (ca. 400 g) anrichten – zusammen ca. {portion_g} g. Ein Zitronenschnitz zum Beträufeln passt gut."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: false
+  aufwaermen: "Schnitzel im Airfryer bei 180 °C 4 Minuten aufknuspern (Mikrowelle macht die Panade weich); Kartoffelsalat kalt oder zimmerwarm essen."
+  separat: "Schnitzel und Kartoffelsalat getrennt lagern, damit die Panade nicht durchweicht."
+varianten:
+  - "**Hähnchenschnitzel:** 400 g Hähnchenbrustfilet statt Schwein, auf 1 cm klopfen, 11–12 Minuten garen bis 74 °C Kerntemperatur (−8 kcal, +2 g Protein pro Portion)."
+  - "**Putenschnitzel:** 400 g Putenbrustfilet, 74 °C Kerntemperatur (−2 kcal, +3 g Protein pro Portion)."
+  - "**Mehr Sättigung:** 200 g Kartoffeln mehr (+72 kcal, +2 g Protein, +15 g KH pro Portion)."
+tipps:
+  - "Ein Esslöffel Gurkenwasser aus dem Glas im Dressing gibt dem Salat die typische Säure (praktisch 0 kcal)."
+  - "Den Kartoffelsalat am besten 1–2 Stunden vorher machen: Er schmeckt durchgezogen deutlich besser."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

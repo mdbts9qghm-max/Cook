@@ -1,0 +1,71 @@
+id: kartoffel-hack-auflauf
+name: Kartoffel-Hack-Auflauf
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Deutsch
+hauptprotein: Pute
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 20, kochen: 45, wartezeit: 5}
+ausstattung: [Backofen, "Große Pfanne (28 cm)", "Auflaufform ca. 20 × 30 cm", Alufolie, Gemüsehobel oder scharfes Messer]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Hack-Tomatensauce
+  - {id: oel, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: ""}
+  - {id: hack, zutat: Putenhackfleisch roh, g: 400, name: Putenhack, hinweis: ""}
+  - {id: zwiebel, zutat: Zwiebel, g: 80, anzeige: "1 kleine Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 6, anzeige: "2 Knoblauchzehen", hinweis: ""}
+  - {id: tomatenmark, zutat: Tomatenmark 2-fach konzentriert, g: 15, anzeige: "1 EL Tomatenmark", hinweis: ""}
+  - {id: tomaten, zutat: Tomaten passiert, g: 500, name: "passierte Tomaten", hinweis: "1 Packung"}
+  - {id: kraeuter, zutat: Italienische Kräuter getrocknet, g: 2, anzeige: "1 TL italienische Kräuter", hinweis: ""}
+  - {id: paprika, zutat: Paprikapulver edelsüß, g: 3, anzeige: "1 TL Paprikapulver edelsüß", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 3, anzeige: "½ TL Salz", hinweis: ""}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: ""}
+  - gruppe: Kartoffeln und Decke
+  - {id: kartoffeln, zutat: Kartoffeln festkochend roh, g: 500, name: Kartoffeln, hinweis: "festkochend"}
+  - {id: huettenkaese, zutat: Körniger Frischkäse (Hüttenkäse), g: 200, name: Hüttenkäse, hinweis: "1 Becher"}
+  - {id: kaese, zutat: Reibekäse light (Gouda 30 % F. i. Tr.), g: 40, name: "Reibekäse light", hinweis: ""}
+mise_en_place:
+  - "Backofen auf 200 °C Ober-/Unterhitze (180 °C Umluft) vorheizen."
+  - "{kartoffeln} schälen und mit dem Gemüsehobel in 3 mm dünne Scheiben hobeln – dünne Scheiben garen in der Sauce zuverlässig durch."
+  - "{zwiebel} fein würfeln, {knoblauch} fein hacken."
+schritte:
+  - titel: Hack braten
+    text: "{oel} in der großen Pfanne auf Stufe 8 von 9 erhitzen. {hack} hineingeben, 1 Minute anbraten lassen, dann mit dem Pfannenwender krümelig zerteilen und 5 Minuten braten, bis es rundum gebräunt ist und kein rosa Fleisch mehr zu sehen ist. Zwiebel und Knoblauch dazu und 2 Minuten mitbraten, {tomatenmark} 1 Minute mitrösten."
+    timer_min: 8
+  - titel: Sauce würzen
+    text: "{tomaten}, {kraeuter}, {paprika}, {salz} und {pfeffer} einrühren, auf Stufe 4 von 9 2 Minuten köcheln lassen. Die Sauce soll eher flüssig sein – die Kartoffeln brauchen die Flüssigkeit zum Garen."
+    timer_min: 2
+  - titel: Schichten
+    text: "Ein Drittel der {hack:n}-Sauce in die Auflaufform streichen, die Hälfte der Kartoffelscheiben dachziegelartig darauflegen, dann wieder ein Drittel Sauce, die restlichen Kartoffeln und zuletzt die restliche Sauce. Die Kartoffeln sollen komplett bedeckt sein."
+    timer_min: null
+  - titel: Zugedeckt backen
+    text: "Form mit Alufolie fest abdecken und im vorgeheizten Backofen bei 200 °C Ober-/Unterhitze (180 °C Umluft) auf der mittleren Schiene 30 Minuten backen."
+    timer_min: 30
+  - titel: Überbacken und Garprobe
+    text: "{huettenkaese} und {kaese} mischen. Folie abnehmen, die Käsemischung gleichmäßig auf dem Auflauf verteilen und offen bei 200 °C Ober-/Unterhitze (180 °C Umluft) weitere 15 Minuten backen, bis die Oberfläche goldbraun gefleckt ist. Garprobe: Ein Messer gleitet ohne Widerstand durch die Kartoffelschichten, und die {hack:n}-Sauce hat in der Mitte mindestens 72 °C Kerntemperatur. 5 Minuten ruhen lassen, dann lässt er sich sauber schneiden."
+    timer_min: 15
+zeitablauf:
+  - "Während der Ofen vorheizt: Kartoffeln hobeln, dann Hacksauce kochen – die Form kommt nach 20 Minuten in den Ofen."
+fehler:
+  - "**Kartoffeln noch hart:** Scheiben zu dick oder nicht von Sauce bedeckt. 3 mm hobeln und vollständig mit Sauce bedecken; sonst 10 Minuten länger zugedeckt backen."
+  - "**Auflauf wässrig:** Hüttenkäse-Molke. Hüttenkäse vorher kurz in einem Sieb abtropfen lassen."
+  - "**Käse zu dunkel:** Form zu weit oben. Mittlere Schiene, und nach 10 Minuten nachsehen."
+anrichten: "Den Auflauf halbieren, eine Hälfte (ca. {portion_g} g) ist deine Portion. Für Meal Prep die zweite Hälfte in der Form abkühlen lassen und in eine Box umfüllen."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "Mikrowelle 600 W, 3 Minuten abgedeckt, oder im Ofen bei 180 °C Ober-/Unterhitze 15 Minuten."
+varianten:
+  - "**Mit Rinderhack:** 400 g Rinderhack (5 % Fett) statt Pute (−18 kcal, +3 g Protein pro Portion)."
+  - "**Mit Spinat:** 125 g Babyspinat zwischen die Kartoffelschichten (+14 kcal, +1,8 g Protein pro Portion)."
+  - "**Mozzarella-Decke:** 125 g Mozzarella light in Scheiben statt Reibekäse (+48 kcal, +6,2 g Protein pro Portion) – zieht schöne Fäden."
+tipps:
+  - "Gemüsehobel lohnt sich: Gleich dicke Kartoffelscheiben garen gleichmäßig, und es geht in 2 Minuten."
+  - "Am nächsten Tag schmeckt der Auflauf noch besser – ideal für die Meal-Prep-Box."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}
