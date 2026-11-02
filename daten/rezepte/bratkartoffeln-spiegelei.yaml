@@ -1,0 +1,63 @@
+id: bratkartoffeln-spiegelei
+name: Bratkartoffeln mit Spiegelei und Schinken
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Deutsch
+hauptprotein: Eier
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 5, kochen: 20, wartezeit: 0}
+ausstattung: ["Große beschichtete Pfanne (28 cm) mit Deckel", "Zweite Pfanne (24 cm)", Gemüsehobel oder scharfes Messer]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Bratkartoffeln
+  - {id: kartoffeln, zutat: Kartoffeln festkochend roh, g: 600, name: Kartoffeln, hinweis: "festkochend, geschält"}
+  - {id: oel, zutat: Rapsöl, g: 15, anzeige: "1½ EL Rapsöl", hinweis: ""}
+  - {id: zwiebel, zutat: Zwiebel, g: 80, anzeige: "1 kleine Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: schinken, zutat: Kochschinkenwürfel 3 % Fett, g: 150, name: Kochschinkenwürfel, hinweis: "2 Packungen à 75 g"}
+  - {id: paprika, zutat: Paprikapulver edelsüß, g: 1, anzeige: "½ TL Paprikapulver edelsüß", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 1, anzeige: "2 Prisen Salz", hinweis: "Schinken ist schon salzig"}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: ""}
+  - gruppe: Spiegeleier
+  - {id: oel_ei, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: ""}
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 360, anzeige: "6 Eier Gr. M", hinweis: ""}
+  - {id: salz_ei, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: ""}
+  - gruppe: Dazu
+  - {id: huettenkaese, zutat: Körniger Frischkäse (Hüttenkäse), g: 100, name: Hüttenkäse, hinweis: "½ Becher"}
+  - {id: petersilie, zutat: Petersilie glatt, g: 5, anzeige: "2 EL gehackte Petersilie", hinweis: ""}
+mise_en_place:
+  - "{kartoffeln} mit dem Gemüsehobel in 3 mm dünne Scheiben hobeln und mit Küchenpapier trocken tupfen – trockene Scheiben werden knuspriger."
+  - "{zwiebel} halbieren und in 3 mm Streifen schneiden, {petersilie} hacken."
+schritte:
+  - titel: Kartoffeln garen
+    text: "{oel} in der großen Pfanne auf Stufe 7 von 9 erhitzen. Die Kartoffelscheiben locker verteilt hineingeben, Deckel auflegen, auf Stufe 6 von 9 zurückschalten und 8 Minuten garen. Dabei nach 4 Minuten einmal wenden. Die Scheiben sind dann weich, aber noch blass."
+    timer_min: 8
+  - titel: Knusprig braten
+    text: "Deckel abnehmen, auf Stufe 7 von 9 hochschalten und die {kartoffeln:n} weitere 7 Minuten braten, nur alle 2 Minuten wenden, damit sich Kruste bildet. Die {zwiebel:n} und den {schinken:n} dazugeben und 3 Minuten mitbraten, bis die Zwiebeln glasig-goldbraun sind. Mit {paprika}, {salz} und {pfeffer} würzen."
+    timer_min: 10
+  - titel: Spiegeleier
+    text: "Parallel {oel_ei} in der zweiten Pfanne auf Stufe 4 von 9 erhitzen. Die {eier:n} vorsichtig hineinschlagen und mit {salz_ei} würzen. Mit Deckel 3–4 Minuten braten, bis das Eiweiß vollständig fest und weiß ist und das Eigelb noch glänzt (für festes Eigelb 2 Minuten länger)."
+    timer_min: 4
+zeitablauf:
+  - "Während die Kartoffeln mit Deckel garen: Zwiebel schneiden. Wenn die Kartoffeln knusprig braten: Spiegeleier in der zweiten Pfanne starten – alles ist gleichzeitig fertig."
+fehler:
+  - "**Kartoffeln matschig statt knusprig:** zu oft gewendet oder Pfanne überfüllt. Nur alle 2 Minuten wenden und die Scheiben möglichst in einer Lage braten."
+  - "**Außen braun, innen roh:** ohne Deckel vorgegart. Erst 8 Minuten mit Deckel dämpfen, dann offen bräunen."
+  - "**Eigelb hart, Eiweiß glibbrig:** zu heiß. Niedrige Stufe und Deckel – so stockt das Eiweiß von oben mit."
+anrichten: "Pro Teller die Hälfte der Bratkartoffeln, 3 Spiegeleier obenauf und 50 g Hüttenkäse ({huettenkaese:n} mit der {petersilie:n} verrührt) daneben – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 2
+  einfrierbar: false
+  aufwaermen: "Bratkartoffeln in der Pfanne auf Stufe 6 von 9 3–4 Minuten aufbraten; Eier immer frisch braten."
+varianten:
+  - "**Mit Champignons:** 250 g Champignonscheiben mit den Zwiebeln mitbraten (+26 kcal, +3,9 g Protein pro Portion)."
+  - "**Mehr Protein:** 2 Eier zusätzlich (+84 kcal, +7,6 g Protein pro Portion)."
+  - "**Vegetarisch:** Schinken weglassen und 100 g Hüttenkäse mehr dazu (−33 kcal, −8,2 g Protein pro Portion; dann knapp unter 45 g Protein)."
+tipps:
+  - "Bratkartoffeln aus Pellkartoffeln vom Vortag werden noch knuspriger und gehen in 10 Minuten – ideal als Restegericht."
+  - "Ein paar Spritzer Gurkenwasser oder ein Klecks Senf zum Schluss bringen Säure ins deftige Gericht."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

@@ -1,0 +1,55 @@
+id: protein-joghurt-bowl
+name: Protein-Joghurt-Bowl mit Granola und Beeren
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Frühstück
+geschmack: süß
+kueche: International / Fusion
+hauptprotein: Skyr & Whey
+inspiration:
+  quelle: "Instagram-Trend „Protein Yogurt Bowl“"
+  link: null
+  aenderungen: "Skyr statt griechischem Vollfett-Joghurt, Vanille-Whey statt Honig zum Süßen, zuckerreduziertes Granola in abgewogener Menge."
+schwierigkeit: leicht
+zeit: {vorbereitung: 5, kochen: 0, wartezeit: 0}
+ausstattung: ["2 Schüsseln", Schneebesen]
+restetauglich: false
+vortag: ["Beeren über Nacht im Kühlschrank auftauen lassen (oder morgens 1 Minute bei 600 W in der Mikrowelle)"]
+zutaten:
+  - gruppe: Basis
+  - {id: skyr, zutat: Skyr natur, g: 450, name: Skyr, hinweis: "1 Becher"}
+  - {id: whey, zutat: Whey Protein Vanille, g: 40, name: "Vanille-Whey", hinweis: "ca. 1⅓ Messlöffel"}
+  - {id: chia, zutat: Chiasamen, g: 10, anzeige: "1 EL Chiasamen", hinweis: ""}
+  - gruppe: Topping
+  - {id: beeren, zutat: Beerenmischung TK, g: 125, name: Beeren, hinweis: "aufgetaut, mit Saft"}
+  - {id: granola, zutat: Granola zuckerreduziert, g: 80, name: Granola, hinweis: ""}
+  - {id: erdnussmus, zutat: Erdnussmus, g: 30, anzeige: "2 EL Erdnussmus", hinweis: "cremig"}
+mise_en_place:
+  - "{beeren} auftauen lassen (über Nacht im Kühlschrank oder 1 Minute bei 600 W in der Mikrowelle). Der Saft bleibt dabei – er färbt den Skyr schön."
+schritte:
+  - titel: Skyr-Basis rühren
+    text: "{skyr}, {whey} und {chia} in einer Schüssel mit dem Schneebesen ca. 30 Sekunden glatt rühren, bis kein Pulver mehr zu sehen ist. 2 Minuten stehen lassen – die Chiasamen binden etwas und die Creme wird dicker."
+    timer_min: 2
+  - titel: Bowls füllen
+    text: "Die Creme auf 2 Schüsseln verteilen. Je die Hälfte der {beeren:n} samt Saft, des {granola:n} und des {erdnussmus:n} daraufgeben. Das Erdnussmus mit einem Löffel in feinen Fäden darüberziehen (vorher kurz umrühren, damit es flüssig ist)."
+    timer_min: null
+zeitablauf: []
+fehler:
+  - "**Whey klumpt:** Pulver direkt auf kalten Skyr gegeben und nur kurz gerührt. Mit dem Schneebesen 30 Sekunden kräftig rühren."
+  - "**Granola weich:** zu früh dazugegeben. Granola immer erst direkt vor dem Essen darüberstreuen."
+  - "**Zu wenig süß:** die Süße kommt nur aus Whey und Beeren. 5 Tropfen flüssigen Süßstoff in den Skyr rühren (0 kcal)."
+anrichten: "Pro Schüssel ca. {portion_g} g. Für ein Dessert-Gefühl die Beeren leicht anwärmen – warm auf kaltem Skyr schmeckt wie Grütze mit Vanillesauce."
+aufbewahrung:
+  kuehlschrank_tage: 1
+  einfrierbar: false
+  aufwaermen: "Nicht aufwärmen – kalt essen. Skyr-Basis lässt sich am Vorabend anrühren und abgedeckt kühlen."
+  separat: "Granola und Erdnussmus erst kurz vor dem Essen dazugeben."
+varianten:
+  - "**Tropisch:** 125 g TK-Mango statt Beeren (+11 kcal, +4,4 g Zucker pro Portion)."
+  - "**Schoko-Bowl:** Schoko-Whey statt Vanille und 5 g Backkakao in den Skyr (+8 kcal pro Portion)."
+  - "**Noch mehr Protein:** 150 g Skyr zusätzlich (+47 kcal, +8,2 g Protein pro Portion)."
+tipps:
+  - "Eine Prise Zimt in der Skyr-Basis lässt die Bowl süßer schmecken, ohne Zucker."
+  - "Das Granola kurz in einer trockenen Pfanne rösten (Stufe 5 von 9, 2 Minuten) – noch knuspriger und aromatischer."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

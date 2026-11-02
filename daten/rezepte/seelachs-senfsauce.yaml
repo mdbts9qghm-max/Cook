@@ -1,0 +1,68 @@
+id: seelachs-senfsauce
+name: Seelachs mit Senfsauce und Salzkartoffeln
+hauptkategorie: kalorienarm
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Deutsch
+hauptprotein: Fisch & Garnelen
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 5, kochen: 20, wartezeit: 0}
+ausstattung: ["Große beschichtete Pfanne (28 cm)", "Mittlerer Topf (20 cm)", "Kleiner Topf (16 cm)", Schneebesen]
+restetauglich: false
+vortag: ["Seelachsfilet (TK) in der Packung über Nacht im Kühlschrank auftauen"]
+zutaten:
+  - gruppe: Kartoffeln
+  - {id: kartoffeln, zutat: Kartoffeln festkochend roh, g: 500, name: Kartoffeln, hinweis: "festkochend"}
+  - {id: kochwasser, zutat: Wasser, g: 1500, name: Wasser, hinweis: "1,5 l zum Kochen", mitrechnen: false}
+  - {id: kochsalz, zutat: Salz, g: 10, anzeige: "2 TL Salz fürs Kochwasser", hinweis: "", mitrechnen: false}
+  - gruppe: Fisch
+  - {id: fisch, zutat: Seelachsfilet TK roh, g: 400, anzeige: "4 Seelachsfilets", name: Seelachs, hinweis: "à ca. 100 g, aufgetaut"}
+  - {id: zitrone, zutat: Zitronensaft, g: 10, anzeige: "2 TL Zitronensaft", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 1.5, anzeige: "¼ TL Salz", hinweis: ""}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: ""}
+  - {id: mehl, zutat: Weizenmehl Type 405, g: 10, anzeige: "1 EL Mehl", hinweis: "zum Bestäuben"}
+  - {id: oel, zutat: Rapsöl, g: 8, anzeige: "2 TL Rapsöl", hinweis: ""}
+  - gruppe: Senfsauce
+  - {id: zwiebel, zutat: Zwiebel, g: 40, anzeige: "¼ Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 200, name: "Milch (1,5 %)", hinweis: "200 ml"}
+  - {id: bruehe, zutat: Gemüsebrühe Pulver, g: 3, anzeige: "1 TL Gemüsebrühe-Pulver", hinweis: ""}
+  - {id: senf, zutat: Senf mittelscharf, g: 20, anzeige: "1 gehäufter EL Senf", hinweis: ""}
+  - {id: staerke, zutat: Speisestärke, g: 8, anzeige: "1 EL Speisestärke", hinweis: ""}
+  - {id: butter, zutat: Butter, g: 5, anzeige: "1 TL Butter", hinweis: ""}
+  - {id: petersilie, zutat: Petersilie glatt, g: 10, anzeige: "3 EL gehackte Petersilie", hinweis: ""}
+mise_en_place:
+  - "{kartoffeln} schälen und halbieren (ca. 4 cm Stücke)."
+  - "{fisch} mit Küchenpapier gründlich trocken tupfen, mit {zitrone} beträufeln, mit {salz} und {pfeffer} würzen und dünn mit {mehl} bestäuben."
+  - "{zwiebel} sehr fein würfeln, {petersilie} hacken, {staerke} in 3 EL von der kalten {milch:n} glatt rühren."
+schritte:
+  - titel: Kartoffeln kochen
+    text: "Die {kartoffeln:n} mit {kochwasser} und {kochsalz} auf Stufe 9 von 9 aufkochen, dann auf Stufe 5 von 9 18 Minuten garen, bis ein Messer leicht hineingleitet. Abgießen und ausdampfen lassen."
+    timer_min: 18
+  - titel: Senfsauce
+    text: "{butter} im kleinen Topf auf Stufe 4 von 9 schmelzen, die {zwiebel:n} darin 2 Minuten glasig dünsten. Die restliche Milch und {bruehe} dazugeben und auf Stufe 6 von 9 aufkochen lassen. Die angerührte Stärke mit dem Schneebesen einrühren und 1 Minute köcheln lassen, bis die Sauce sämig ist. Vom Herd nehmen, {senf} und die Hälfte der Petersilie einrühren."
+    timer_min: 4
+  - titel: Fisch braten
+    text: "{oel} in der Pfanne auf Stufe 6 von 9 erhitzen. Die {fisch:n}filets einlegen und 3 Minuten braten, bis die Unterseite goldbraun ist. Vorsichtig wenden und weitere 2–3 Minuten braten. Garprobe: Der Fisch ist in der Mitte nicht mehr glasig und blättert bei leichtem Druck mit der Gabel in Lamellen auf (Kerntemperatur ca. 60 °C)."
+    timer_min: 6
+zeitablauf:
+  - "Kartoffeln zuerst aufsetzen. Nach 8 Minuten die Sauce kochen, nach 12 Minuten den Fisch braten – alles ist nach 18 Minuten fertig."
+fehler:
+  - "**Fisch zerfällt beim Wenden:** nicht trocken genug oder zu früh gewendet. Gründlich trocken tupfen, bemehlen und erst wenden, wenn er sich von selbst vom Pfannenboden löst."
+  - "**Sauce schmeckt mehlig:** Stärke nicht lange genug gekocht. Nach dem Einrühren 1 Minute köcheln lassen."
+  - "**Senf wird bitter:** in kochender Sauce mitgekocht. Senf erst nach dem Kochen vom Herd einrühren."
+anrichten: "Pro Teller 2 Filets, die Hälfte der Kartoffeln (ca. 240 g) und die Hälfte der Sauce, mit der restlichen Petersilie bestreuen – pro Portion ca. {portion_g} g."
+aufbewahrung:
+  kuehlschrank_tage: 1
+  einfrierbar: false
+  aufwaermen: "Fisch am besten frisch zubereiten. Reste am nächsten Tag kalt essen oder vorsichtig in der Sauce auf Stufe 3 von 9 erwärmen."
+varianten:
+  - "**Mit Lachs:** 400 g Lachsfilet statt Seelachs (+244 kcal, +25,4 g Fett pro Portion – dann kein Kalorienarm mehr, aber ideal an Tagen mit Fett-Lücke)."
+  - "**Mit Reis:** 120 g Basmatireis statt Kartoffeln (+30 kcal pro Portion)."
+  - "**Mit Spinat:** 125 g Babyspinat in der Fischpfanne kurz zusammenfallen lassen (+14 kcal, +1,8 g Protein pro Portion)."
+tipps:
+  - "Ein TL körniger Senf zusätzlich in der Sauce sieht schön aus und gibt Biss."
+  - "Den Fisch nicht zu früh salzen: erst direkt vor dem Bemehlen, sonst zieht er Wasser."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

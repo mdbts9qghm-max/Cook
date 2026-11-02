@@ -2,7 +2,7 @@
 
 # Rezeptplan – Startbestand mit 100 Rezepten
 
-Stand: 11 von 100 Rezepten geschrieben. Ziel-kcal sind Planwerte pro Portion; die echten Werte rechnet `tools/naehrwerte.py`.
+Stand: 20 von 100 Rezepten geschrieben. Ziel-kcal sind Planwerte pro Portion; die echten Werte rechnet `tools/naehrwerte.py`.
 
 Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = restetauglich · **KA** = kalorienarm · **OK** = ohne Kochen/Backen · **I** = TikTok/Instagram-Inspiration · **Rd.** = Schreib-Runde in Phase 4 · ✅ = schon geschrieben
 
@@ -13,9 +13,9 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 1 | Frühstücks-Brownie (Schoko-Baked-Oats) ✅ | Amerikanisch | Quark & Whey | 620 |  | ✓ | ✓ | 1 | Fudgy Schoko-Baked-Oats mit Erdnussmus-Swirl |
 | 2 | Blaubeer-Cheesecake-Baked-Oats ✅ | Amerikanisch | Quark & Whey | 580 |  | ✓ | ✓ | 1 | Vanille-Oats mit Quark-Cheesecake-Kern und Heidelbeeren |
 | 3 | Apfel-Zimt-Baked-Oats ✅ | Deutsch | Quark & Whey | 570 |  | ✓ |  | 1 | Wie Apfelkuchen: Apfelwürfel, Zimt, Mandelsplitter-Kruste |
-| 4 | Karottenkuchen-Baked-Oats mit Frischkäse-Frosting | Amerikanisch | Quark & Whey | 590 |  | ✓ | ✓ | 2 | Carrot-Cake-Oats mit Zimt und Frischkäse-light-Frosting |
-| 5 | Protein-Joghurt-Bowl mit Granola und Beeren | International / Fusion | Skyr & Whey | 540 | ✓ |  | ✓ | 2 | Vanille-Whey-Skyr, Granola, TK-Beeren, Honig |
-| 6 | Fluffige Protein-Pancakes mit Beeren-Skyr | Amerikanisch | Eier & Whey | 600 | ✓ |  | ✓ | 2 | Dicke Pancakes aus Hafer, Eiern und Whey, Topping Beeren-Skyr |
+| 4 | Karottenkuchen-Baked-Oats mit Frischkäse-Frosting ✅ | Amerikanisch | Quark & Whey | 590 |  | ✓ | ✓ | 2 | Carrot-Cake-Oats mit Zimt und Frischkäse-light-Frosting |
+| 5 | Protein-Joghurt-Bowl mit Granola und Beeren ✅ | International / Fusion | Skyr & Whey | 540 | ✓ |  | ✓ | 2 | Vanille-Whey-Skyr, Granola, TK-Beeren, Honig |
+| 6 | Fluffige Protein-Pancakes mit Beeren-Skyr ✅ | Amerikanisch | Eier & Whey | 600 | ✓ |  | ✓ | 2 | Dicke Pancakes aus Hafer, Eiern und Whey, Topping Beeren-Skyr |
 | 7 | Protein-Waffeln mit warmen Kirschen | Deutsch | Quark & Eier | 610 | ✓ |  |  | 3 | Knusprige Quark-Waffeln aus dem Waffeleisen, Sauerkirschkompott |
 | 8 | Overnight Oats Erdbeer-Cheesecake | Amerikanisch | Skyr & Whey | 560 | ✓ | ✓ | ✓ | 3 | Cheesecake-Schicht aus Frischkäse light, Erdbeeren, Granola-Crunch |
 | 9 | Overnight Oats Apfelstrudel | Deutsch | Skyr & Whey | 570 | ✓ | ✓ |  | 3 | Apfelmus, Zimt, Vanille, Mandeln – schmeckt wie Strudel |
@@ -46,7 +46,7 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | # | Gericht | Küche | Hauptprotein | Ziel-kcal | S | MP | OK | I | Rd. | Idee |
 |---:|---|---|---|---:|---|---|---|---|---:|---|
 | 31 | Protein-Mousse au Chocolat ✅ | International / Fusion | Quark & Whey | 280 | ✓ |  | ✓ | ✓ | 1 | Luftig aufgeschlagen mit Kakao und Zartbitter-Raspeln |
-| 32 | Skyr-Cheesecake im Glas | Amerikanisch | Skyr | 300 | ✓ | ✓ | ✓ | ✓ | 2 | Granola-Boden, Vanille-Skyr-Frischkäse-Creme, Beeren |
+| 32 | Skyr-Cheesecake im Glas ✅ | Amerikanisch | Skyr | 300 | ✓ | ✓ | ✓ | ✓ | 2 | Granola-Boden, Vanille-Skyr-Frischkäse-Creme, Beeren |
 | 33 | Beeren-Nice-Cream mit Whey | International / Fusion | Whey & Skyr | 250 | ✓ |  | ✓ | ✓ | 3 | TK-Beeren, Banane, Skyr und Whey cremig gemixt |
 | 34 | Schoko-Erdnuss-Protein-Balls | Amerikanisch | Whey | 320 |  | ✓ | ✓ | ✓ | 4 | Hafer, Whey, Erdnussmus, Datteln – 4 Kugeln pro Portion |
 | 35 | Vanille-Quarkcreme mit Erdbeeren | Deutsch | Quark | 230 | ✓ |  | ✓ |  | 5 | Cremig gerührter Quark mit Vanille und marinierten Erdbeeren |
@@ -66,12 +66,12 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 44 | Hähnchen-Rahmgeschnetzeltes mit Champignons und Reis ✅ | Deutsch | Hähnchen | 700 | ✓ |  | ✓ |  |  | 1 | Cremige Sauce aus Frischkäse light und Milch statt Sahne |
 | 45 | Kartoffel-Hack-Auflauf ✅ | Deutsch | Pute | 680 |  | ✓ | ✓ |  |  | 1 | Kartoffelscheiben, Putenhack-Tomatensauce, Hüttenkäse-Reibekäse-Decke |
 | 46 | Schweinefilet in Senf-Sauce mit Kartoffeln ✅ | Deutsch | Schwein | 540 | ✓ |  | ✓ | ✓ |  | 1 | Medaillons auf den Punkt (63 °C), leichte Senf-Frischkäse-Sauce |
-| 47 | Bratkartoffeln mit Spiegelei und Schinken | Deutsch | Eier | 720 | ✓ |  |  |  |  | 2 | Knusprige Bratkartoffeln mit Zwiebeln, Kochschinken, 3 Eier pro Portion |
-| 48 | Seelachs mit Senfsauce und Salzkartoffeln | Deutsch | Fisch & Garnelen | 520 | ✓ |  |  | ✓ |  | 2 | Saftig gegarter Seelachs, helle Senfsauce mit Petersilie |
+| 47 | Bratkartoffeln mit Spiegelei und Schinken ✅ | Deutsch | Eier | 720 | ✓ |  |  |  |  | 2 | Knusprige Bratkartoffeln mit Zwiebeln, Kochschinken, 3 Eier pro Portion |
+| 48 | Seelachs mit Senfsauce und Salzkartoffeln ✅ | Deutsch | Fisch & Garnelen | 520 | ✓ |  |  | ✓ |  | 2 | Saftig gegarter Seelachs, helle Senfsauce mit Petersilie |
 | 49 | Marry Me Chicken mit Basmatireis ✅ | Italienisch | Hähnchen | 700 |  | ✓ | ✓ |  | ✓ | 2 | Cremige Tomaten-Parmesan-Sauce mit Frischkäse light |
-| 50 | High-Protein-Lasagne | Italienisch | Rind | 780 |  | ✓ | ✓ |  | ✓ | 2 | Bolognese aus magerem Rinderhack, Magerquark-Parmesan-Schicht statt Béchamel |
-| 51 | Spaghetti Bolognese | Italienisch | Rind | 750 |  | ✓ | ✓ |  |  | 2 | Lang geköchelte Sauce mit Tomatenmark-Röstung und Möhre |
-| 52 | Protein-Carbonara mit Linsennudeln | Italienisch | Eier | 720 | ✓ |  |  |  | ✓ | 2 | Rote-Linsen-Nudeln, Ei-Parmesan-Creme, Kochschinkenwürfel statt Guanciale |
+| 50 | High-Protein-Lasagne ✅ | Italienisch | Rind | 780 |  | ✓ | ✓ |  | ✓ | 2 | Bolognese aus magerem Rinderhack, Magerquark-Parmesan-Schicht statt Béchamel |
+| 51 | Spaghetti Bolognese ✅ | Italienisch | Rind | 750 |  | ✓ | ✓ |  |  | 2 | Lang geköchelte Sauce mit Tomatenmark-Röstung und Möhre |
+| 52 | Protein-Carbonara mit Linsennudeln ✅ | Italienisch | Eier | 720 | ✓ |  |  |  | ✓ | 2 | Rote-Linsen-Nudeln, Ei-Parmesan-Creme, Kochschinkenwürfel statt Guanciale |
 | 53 | Hähnchen-Piccata mit Zitronensauce und Penne | Italienisch | Hähnchen | 690 | ✓ |  |  |  |  | 3 | Dünne Schnitzel in Mehl gebraten, Zitronen-Butter-Sauce |
 | 54 | One-Pan-Gnocchi mit Pute | Italienisch | Pute | 680 | ✓ |  | ✓ |  | ✓ | 3 | Alles in einer Pfanne, Gnocchi werden knusprig |
 | 55 | Lachs-Penne mit Tomate und Frischkäse | Italienisch | Fisch & Garnelen | 780 | ✓ |  |  |  |  | 3 | Lachswürfel in cremiger Tomatensauce |

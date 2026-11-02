@@ -1,0 +1,57 @@
+id: skyr-cheesecake-glas
+name: Skyr-Cheesecake im Glas
+hauptkategorie: fruehstueck-snacks
+kategorien_manuell: [Meal Prep]
+mahlzeit: Snack
+geschmack: süß
+kueche: Amerikanisch
+hauptprotein: Skyr
+ohne_kochen: true
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „No-Bake Cheesecake Jars“"
+  link: null
+  aenderungen: "Boden aus zuckerreduziertem Granola statt Butterkeksen mit Butter; Creme aus Skyr, wenig Frischkäse light und Vanille-Whey statt Doppelrahmfrischkäse, Sahne und Zucker."
+schwierigkeit: leicht
+zeit: {vorbereitung: 10, kochen: 0, wartezeit: 30}
+ausstattung: ["2 Gläser (ca. 300 ml)", Schüssel, Schneebesen]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Boden
+  - {id: granola, zutat: Granola zuckerreduziert, g: 40, name: Granola, hinweis: "leicht zerbröselt"}
+  - gruppe: Creme
+  - {id: skyr, zutat: Skyr natur, g: 300, name: Skyr, hinweis: "gut gekühlt"}
+  - {id: frischkaese, zutat: Frischkäse light, g: 60, name: "Frischkäse light", hinweis: ""}
+  - {id: whey, zutat: Whey Protein Vanille, g: 15, name: "Vanille-Whey", hinweis: "½ Messlöffel"}
+  - {id: zitrone, zutat: Zitronensaft, g: 5, anzeige: "1 TL Zitronensaft", hinweis: ""}
+  - {id: suessstoff, zutat: Süßstoff flüssig, g: 1, anzeige: "10 Tropfen flüssiger Süßstoff", hinweis: "ca. 1 g"}
+  - gruppe: Topping
+  - {id: himbeeren, zutat: Himbeeren TK, g: 100, name: Himbeeren, hinweis: "aufgetaut"}
+mise_en_place:
+  - "{himbeeren} in einer Schale auftauen lassen (30 Minuten bei Zimmertemperatur oder 1 Minute bei 600 W in der Mikrowelle), mit einer Gabel leicht zerdrücken."
+  - "{granola} in einem Gefrierbeutel mit dem Nudelholz grob zerbröseln."
+schritte:
+  - titel: Creme rühren
+    text: "{skyr}, {frischkaese}, {whey}, {zitrone} und {suessstoff} in einer Schüssel mit dem Schneebesen ca. 1 Minute glatt und cremig rühren, bis keine Frischkäse-Stückchen mehr zu sehen sind."
+    timer_min: null
+  - titel: Schichten und kühlen
+    text: "Das zerbröselte {granola:n} auf 2 Gläser verteilen und leicht andrücken. Die Creme daraufgeben und glatt streichen, die zerdrückten {himbeeren:n} obenauf verteilen. Mindestens 30 Minuten kühlen, damit die Creme fest wird."
+    timer_min: 30
+zeitablauf: []
+fehler:
+  - "**Creme zu flüssig:** Skyr nicht kalt genug oder zu lange gerührt. Direkt aus dem Kühlschrank verwenden und nur bis glatt rühren."
+  - "**Boden matschig:** Gläser länger als einen Tag vorbereitet. Für Meal Prep das Granola in einem kleinen Döschen separat lagern und erst vor dem Essen unterheben."
+anrichten: "Pro Portion 1 Glas (ca. {portion_g} g). Wer mag, gibt noch einen Spritzer Zitronensaft auf die Himbeeren – dann schmeckt es noch frischer."
+aufbewahrung:
+  kuehlschrank_tage: 3
+  einfrierbar: false
+  aufwaermen: "Nicht aufwärmen – kalt servieren."
+  separat: "Für 3 Tage Meal Prep das Granola getrennt aufbewahren, sonst wird es weich."
+varianten:
+  - "**Erdbeer-Cheesecake:** 150 g frische Erdbeeren in Würfeln statt Himbeeren (+2 kcal pro Portion)."
+  - "**Kirsch-Cheesecake:** 100 g abgetropfte Sauerkirschen aus dem Glas statt Himbeeren (+12 kcal, +5,3 g Zucker pro Portion)."
+  - "**Ohne Boden:** Granola weglassen (−86 kcal, −11,8 g KH pro Portion) – reine Cheesecake-Creme."
+tipps:
+  - "Ein paar Tropfen Vanillearoma und etwas abgeriebene Zitronenschale machen den Geschmack nach „echtem“ Cheesecake perfekt."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

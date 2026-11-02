@@ -1,0 +1,78 @@
+id: high-protein-lasagne
+name: High-Protein-Lasagne
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Italienisch
+hauptprotein: Rind
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „High Protein Lasagna“ mit Quark statt Béchamel"
+  link: null
+  aenderungen: "Béchamel (Butter, Mehl, Vollmilch) durch eine Magerquark-Ei-Parmesan-Schicht ersetzt, mageres Rinderhack (5 %) und Mozzarella light."
+schwierigkeit: mittel
+zeit: {vorbereitung: 15, kochen: 60, wartezeit: 10}
+ausstattung: [Backofen, "Große Pfanne (28 cm)", "Auflaufform ca. 20 × 25 cm", Alufolie]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Bolognese
+  - {id: oel, zutat: Olivenöl, g: 5, anzeige: "1 TL Olivenöl", hinweis: ""}
+  - {id: hack, zutat: Rinderhackfleisch 5 % Fett roh, g: 350, name: Rinderhack, hinweis: "mager (5 % Fett)"}
+  - {id: zwiebel, zutat: Zwiebel, g: 80, anzeige: "1 kleine Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: moehre, zutat: Möhre, g: 80, anzeige: "1 Möhre", name: Möhre, hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 6, anzeige: "2 Knoblauchzehen", hinweis: ""}
+  - {id: tomatenmark, zutat: Tomatenmark 2-fach konzentriert, g: 30, anzeige: "2 EL Tomatenmark", hinweis: ""}
+  - {id: tomaten, zutat: Tomaten passiert, g: 500, name: "passierte Tomaten", hinweis: "1 Packung"}
+  - {id: wasser, zutat: Wasser, g: 100, name: Wasser, hinweis: "100 ml – die ungekochten Platten brauchen Flüssigkeit"}
+  - {id: kraeuter, zutat: Italienische Kräuter getrocknet, g: 2, anzeige: "1 TL italienische Kräuter", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 3, anzeige: "½ TL Salz", hinweis: ""}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: ""}
+  - gruppe: Quarkschicht
+  - {id: quark, zutat: Magerquark, g: 300, name: Magerquark, hinweis: ""}
+  - {id: ei, zutat: "Ei Gr. M ohne Schale", g: 60, anzeige: "1 Ei Gr. M", hinweis: ""}
+  - {id: parmesan, zutat: Parmesan gerieben, g: 20, name: "geriebener Parmesan", hinweis: "2 gehäufte EL"}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 50, name: "Milch (1,5 %)", hinweis: "50 ml"}
+  - {id: salz_quark, zutat: Salz, g: 1, anzeige: "2 Prisen Salz", hinweis: ""}
+  - gruppe: Schichten
+  - {id: platten, zutat: Lasagneplatten ungekocht, g: 100, name: Lasagneplatten, hinweis: "ohne Vorkochen, ca. 6 Platten"}
+  - {id: mozzarella, zutat: Mozzarella light, g: 80, name: "Mozzarella light", hinweis: "⅔ Kugel, in dünnen Scheiben"}
+mise_en_place:
+  - "Backofen auf 180 °C Ober-/Unterhitze (160 °C Umluft) vorheizen."
+  - "{zwiebel} und {moehre} in 3 mm Würfel schneiden, {knoblauch} fein hacken."
+  - "{quark}, {ei}, {parmesan}, {milch} und {salz_quark} glatt rühren – das ist die „Béchamel“."
+  - "{mozzarella} in 3 mm Scheiben schneiden."
+schritte:
+  - titel: Bolognese kochen
+    text: "{oel} in der Pfanne auf Stufe 8 von 9 erhitzen. {hack} hineingeben, 1 Minute anbraten lassen, dann krümelig zerteilen und 5 Minuten braten, bis es rundum braun ist. Zwiebel, Möhre und Knoblauch 3 Minuten mitbraten, {tomatenmark} 1 Minute mitrösten. {tomaten}, {wasser}, {kraeuter}, {salz} und {pfeffer} einrühren und auf Stufe 3 von 9 10 Minuten köcheln lassen. Die Sauce soll noch recht flüssig sein."
+    timer_min: 10
+  - titel: Schichten
+    text: "Eine dünne Schicht Bolognese in die Form streichen. Darauf eine Lage {platten:n} legen (bei Bedarf passend brechen), dann ein Drittel der restlichen Bolognese und ein Drittel der Quarkschicht. Zweimal wiederholen: Platten – Bolognese – Quark. Zum Schluss die Mozzarellascheiben auflegen. Die Platten müssen überall mit Sauce bedeckt sein."
+    timer_min: null
+  - titel: Backen
+    text: "Mit Alufolie abdecken und im vorgeheizten Backofen bei 180 °C Ober-/Unterhitze (160 °C Umluft) auf der mittleren Schiene 25 Minuten backen. Folie abnehmen und weitere 15 Minuten backen, bis der Käse goldbraun gefleckt ist. Garprobe: Ein Messer gleitet ohne Widerstand durch alle Nudelschichten, und die {hack:n}-Schicht hat in der Mitte mindestens 72 °C Kerntemperatur."
+    timer_min: 40
+  - titel: Ruhen
+    text: "Die Lasagne 10 Minuten ruhen lassen – sonst läuft sie beim Anschneiden auseinander. Danach lässt sie sich in saubere Stücke schneiden."
+    timer_min: 10
+zeitablauf:
+  - "Während die Bolognese köchelt: Quarkschicht anrühren, Mozzarella schneiden, Form bereitstellen."
+fehler:
+  - "**Platten bleiben hart:** zu wenig Flüssigkeit oder nicht bedeckt. Die Sauce lieber etwas flüssiger lassen und alle Platten bedecken."
+  - "**Quarkschicht flockig:** zu heiß gebacken. Bei 180 °C Ober-/Unterhitze bleiben und das Ei in der Quarkschicht nicht weglassen – es bindet."
+  - "**Lasagne zerfällt:** sofort angeschnitten. 10 Minuten ruhen lassen."
+anrichten: "In der Form halbieren – eine Hälfte (ca. {portion_g} g) ist deine Portion. Für Meal Prep die abgekühlte zweite Hälfte in Stücken in eine Box legen."
+aufbewahrung:
+  kuehlschrank_tage: 4
+  einfrierbar: true
+  einfrieren_monate: 3
+  aufwaermen: "Mikrowelle 600 W, 3–4 Minuten abgedeckt, oder im Ofen bei 180 °C Ober-/Unterhitze 15–20 Minuten abgedeckt. Muss durchgehend heiß sein."
+varianten:
+  - "**Mit Putenhack:** 350 g Putenhack statt Rind (+16 kcal, −2,6 g Protein pro Portion); Kerntemperatur 74 °C."
+  - "**Mit Spinat:** 125 g Babyspinat auf die Quarkschichten legen (+14 kcal, +1,8 g Protein pro Portion)."
+  - "**Low Carb:** Lasagneplatten weglassen und die Schichten direkt übereinander geben, 15 Minuten kürzer backen (−178 kcal, −36 g KH pro Portion; dann eher ein Auflauf)."
+tipps:
+  - "Die Lasagne am Vortag backen und kalt in Stücke schneiden: Aufgewärmt ist sie saftiger und hält die Form perfekt."
+  - "Ein Hauch Muskatnuss in der Quarkschicht bringt das typische Béchamel-Aroma."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

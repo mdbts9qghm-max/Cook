@@ -1,0 +1,71 @@
+id: spaghetti-bolognese
+name: Spaghetti Bolognese
+hauptkategorie: meal-prep
+kategorien_manuell: [Meal Prep]
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Italienisch
+hauptprotein: Rind
+inspiration: null
+schwierigkeit: leicht
+zeit: {vorbereitung: 10, kochen: 40, wartezeit: 0}
+ausstattung: ["Großer Topf (24 cm)", "Große Pfanne oder Bräter (28 cm)", Sieb]
+restetauglich: true
+vortag: []
+zutaten:
+  - gruppe: Sauce
+  - {id: oel, zutat: Olivenöl, g: 5, anzeige: "1 TL Olivenöl", hinweis: ""}
+  - {id: hack, zutat: Rinderhackfleisch 5 % Fett roh, g: 400, name: Rinderhack, hinweis: "mager (5 % Fett)"}
+  - {id: zwiebel, zutat: Zwiebel, g: 80, anzeige: "1 kleine Zwiebel", name: Zwiebel, hinweis: ""}
+  - {id: moehre, zutat: Möhre, g: 80, anzeige: "1 Möhre", name: Möhre, hinweis: ""}
+  - {id: knoblauch, zutat: Knoblauch, g: 6, anzeige: "2 Knoblauchzehen", hinweis: ""}
+  - {id: tomatenmark, zutat: Tomatenmark 2-fach konzentriert, g: 30, anzeige: "2 EL Tomatenmark", hinweis: ""}
+  - {id: tomaten, zutat: Tomaten gehackt (Dose), g: 400, name: "gehackte Tomaten", hinweis: "1 Dose"}
+  - {id: wasser, zutat: Wasser, g: 100, name: Wasser, hinweis: "100 ml"}
+  - {id: bruehe, zutat: Gemüsebrühe Pulver, g: 3, anzeige: "1 TL Gemüsebrühe-Pulver", hinweis: ""}
+  - {id: kraeuter, zutat: Italienische Kräuter getrocknet, g: 2, anzeige: "1 TL italienische Kräuter", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 2, anzeige: "⅓ TL Salz", hinweis: ""}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 0.5, anzeige: "2 Prisen Pfeffer", hinweis: ""}
+  - gruppe: Pasta
+  - {id: spaghetti, zutat: Spaghetti ungekocht, g: 180, name: Spaghetti, hinweis: ""}
+  - {id: kochwasser, zutat: Wasser, g: 2000, name: Wasser, hinweis: "2 l zum Kochen", mitrechnen: false}
+  - {id: kochsalz, zutat: Salz, g: 20, anzeige: "1 EL Salz fürs Nudelwasser", hinweis: "", mitrechnen: false}
+  - {id: parmesan, zutat: Parmesan gerieben, g: 20, name: "geriebener Parmesan", hinweis: "zum Bestreuen"}
+mise_en_place:
+  - "{zwiebel} und {moehre} in 3 mm Würfel schneiden, {knoblauch} fein hacken."
+  - "{bruehe} in {wasser} auflösen."
+schritte:
+  - titel: Hack anrösten
+    text: "{oel} in der Pfanne auf Stufe 8 von 9 erhitzen. {hack} hineingeben und 2 Minuten nicht bewegen, damit es eine Kruste bekommt. Dann krümelig zerteilen und weitere 4 Minuten braten, bis es rundum gut gebräunt ist. Zwiebel, Möhre und Knoblauch dazugeben und 3 Minuten mitbraten. {tomatenmark} einrühren und 2 Minuten mitrösten, bis es am Pfannenboden leicht ansetzt – das gibt die Tiefe."
+    timer_min: 9
+  - titel: Sauce köcheln
+    text: "Mit der Brühe ablöschen und den Bodensatz lösen. {tomaten}, {kraeuter}, {salz} und {pfeffer} einrühren, aufkochen lassen und auf Stufe 2 von 9 halb zugedeckt 25 Minuten leise köcheln lassen, gelegentlich umrühren. Fertig, wenn die Sauce dick und dunkelrot ist und der Löffel eine Spur am Boden hinterlässt. Das {hack:n} ist nach dieser Zeit sicher durchgegart (Kerntemperatur weit über 72 °C)."
+    timer_min: 25
+  - titel: Spaghetti kochen
+    text: "15 Minuten vor Ende {kochwasser} mit {kochsalz} im großen Topf auf Stufe 9 von 9 aufkochen. {spaghetti} hineingeben, umrühren und nach Packungsangabe (meist 9–10 Minuten) bissfest kochen, Stufe 7 von 9. 1 Tasse Nudelwasser abnehmen, dann abgießen."
+    timer_min: 10
+  - titel: Mischen
+    text: "Die Spaghetti direkt in die Sauce geben, 3–4 EL Nudelwasser dazu und 1 Minute auf Stufe 4 von 9 durchschwenken, bis die Sauce an den Nudeln haftet."
+    timer_min: null
+zeitablauf:
+  - "Während die Sauce 25 Minuten köchelt: Nudelwasser aufsetzen, Spaghetti kochen, aufräumen."
+fehler:
+  - "**Sauce schmeckt flach:** Hack und Tomatenmark nicht genug geröstet. Hack braun braten (nicht grau) und Tomatenmark 2 Minuten rösten."
+  - "**Sauce zu sauer:** Tomaten nicht lange genug gekocht. Mindestens 25 Minuten köcheln, notfalls eine Prise Süßstoff."
+  - "**Nudeln kleben:** Wasser nicht gesalzen oder zu wenig. 2 Liter Wasser und gleich nach dem Hineingeben umrühren."
+anrichten: "Auf 2 tiefe Teller verteilen (je ca. {portion_g} g) und je 10 g {parmesan:n} darüberstreuen. Für Meal Prep Sauce und Nudeln gemischt in Boxen füllen – so bleiben die Nudeln saftig."
+aufbewahrung:
+  kuehlschrank_tage: 4
+  einfrierbar: true
+  einfrieren_monate: 3
+  aufwaermen: "Mikrowelle 600 W, 2½–3 Minuten abgedeckt mit 1 EL Wasser, nach der Hälfte umrühren."
+  separat: "Zum Einfrieren am besten nur die Sauce einfrieren und Nudeln frisch kochen; Parmesan erst beim Essen."
+varianten:
+  - "**Mit Rote-Linsen-Nudeln:** 180 g Linsennudeln statt Spaghetti (−22 kcal, +10,8 g Protein, −19,7 g KH pro Portion)."
+  - "**Mit Putenhack:** 400 g Putenhack statt Rind (+18 kcal, −3 g Protein pro Portion)."
+  - "**Pilz-Bolognese:** 250 g fein gehackte Champignons mit der Zwiebel mitbraten (+26 kcal, +3,9 g Protein pro Portion) – noch herzhafter."
+tipps:
+  - "Gleich die doppelte Menge Sauce kochen: Im Planer „doppelt kochen“ wählen und die zweite Hälfte einfrieren – sie ist die Basis für Lasagne."
+  - "Ein Stück Parmesanrinde in der Sauce mitköcheln lassen und vor dem Servieren entfernen – mehr Umami ohne messbare Kalorien."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

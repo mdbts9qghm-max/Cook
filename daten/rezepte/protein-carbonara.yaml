@@ -1,0 +1,61 @@
+id: protein-carbonara
+name: Protein-Carbonara mit Linsennudeln
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Mittag/Abend
+geschmack: herzhaft
+kueche: Italienisch
+hauptprotein: Eier
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „High Protein Carbonara“ mit Linsennudeln"
+  link: null
+  aenderungen: "Rote-Linsen-Nudeln statt Spaghetti (fast doppelt so viel Protein), magere Kochschinkenwürfel statt Guanciale, cremig nur durch Ei, Parmesan und Nudelwasser – ohne Sahne."
+schwierigkeit: mittel
+zeit: {vorbereitung: 5, kochen: 12, wartezeit: 0}
+ausstattung: ["Großer Topf (24 cm)", "Große Pfanne (28 cm)", Schüssel, Schneebesen]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Pasta
+  - {id: nudeln, zutat: Rote-Linsen-Nudeln ungekocht, g: 180, name: Linsennudeln, hinweis: "z. B. Penne oder Spaghetti aus roten Linsen"}
+  - {id: kochwasser, zutat: Wasser, g: 2000, name: Wasser, hinweis: "2 l zum Kochen", mitrechnen: false}
+  - {id: kochsalz, zutat: Salz, g: 15, anzeige: "1 knapper EL Salz fürs Nudelwasser", hinweis: "", mitrechnen: false}
+  - gruppe: Sauce
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 180, anzeige: "3 Eier Gr. M", hinweis: "Zimmertemperatur"}
+  - {id: parmesan, zutat: Parmesan gerieben, g: 40, name: "geriebener Parmesan", hinweis: "4 gehäufte EL"}
+  - {id: pfeffer, zutat: Pfeffer schwarz gemahlen, g: 1, anzeige: "½ TL frisch gemahlener Pfeffer", hinweis: "großzügig – gehört zur Carbonara"}
+  - {id: oel, zutat: Olivenöl, g: 5, anzeige: "1 TL Olivenöl", hinweis: ""}
+  - {id: schinken, zutat: Kochschinkenwürfel 3 % Fett, g: 150, name: Kochschinkenwürfel, hinweis: "2 Packungen à 75 g"}
+mise_en_place:
+  - "{eier}, {parmesan} und {pfeffer} in einer Schüssel mit dem Schneebesen glatt verquirlen."
+  - "{kochwasser} mit {kochsalz} im großen Topf aufsetzen."
+schritte:
+  - titel: Nudeln kochen
+    text: "Wasser auf Stufe 9 von 9 sprudelnd aufkochen, {nudeln} hineingeben, umrühren und auf Stufe 7 von 9 nach Packungsangabe kochen (meist 6–8 Minuten) – Linsennudeln werden schnell weich, nach 6 Minuten probieren. Vor dem Abgießen 1 Tasse (ca. 150 ml) Nudelwasser abschöpfen."
+    timer_min: 7
+  - titel: Schinken anbraten
+    text: "Während die Nudeln kochen: {oel} in der Pfanne auf Stufe 7 von 9 erhitzen und den {schinken:n} 3–4 Minuten braten, bis die Würfel an den Kanten goldbraun und leicht knusprig sind. Pfanne vom Herd ziehen und 1 Minute abkühlen lassen."
+    timer_min: 4
+  - titel: Carbonara mischen
+    text: "Die abgegossenen Nudeln in die Pfanne zum Schinken geben (Herd aus). 4 EL heißes Nudelwasser in die Ei-Parmesan-Mischung rühren, dann die Mischung über die Nudeln gießen und 1–2 Minuten zügig mit der Zange umrühren. Bei Bedarf esslöffelweise Nudelwasser zugeben, bis eine glänzende, cremige Sauce entsteht. Ist sie zu flüssig, die Pfanne kurz auf Stufe 2 von 9 stellen und weiterrühren, bis sie bindet (ca. 70 °C) – nicht länger, sonst wird Rührei daraus."
+    timer_min: 2
+zeitablauf:
+  - "Während das Wasser aufkocht: Ei-Parmesan-Mischung rühren. Während die Nudeln kochen: Schinken anbraten."
+fehler:
+  - "**Rührei statt Sauce:** Pfanne zu heiß. Herd aus, 1 Minute abkühlen lassen und die Eier nur mit der Restwärme der Nudeln binden."
+  - "**Sauce zu dick und klebrig:** zu wenig Nudelwasser. Linsennudeln binden stark – großzügig Nudelwasser einrühren."
+  - "**Nudeln matschig:** Linsennudeln zu lange gekocht. Schon nach 6 Minuten probieren."
+anrichten: "Sofort auf 2 vorgewärmte tiefe Teller verteilen (je ca. {portion_g} g) und mit frisch gemahlenem Pfeffer bestreuen – Carbonara wartet nicht."
+aufbewahrung:
+  kuehlschrank_tage: 1
+  einfrierbar: false
+  aufwaermen: "Carbonara schmeckt frisch am besten. Reste mit 2 EL Wasser in der Pfanne auf Stufe 3 von 9 unter Rühren erwärmen."
+varianten:
+  - "**Mit klassischen Spaghetti:** 180 g Spaghetti statt Linsennudeln (+22 kcal, −10,8 g Protein, +19,7 g KH pro Portion)."
+  - "**Mit Hähnchen:** 150 g Hähnchenbrust in 1 cm Würfeln statt Schinken, 5–6 Minuten braten bis 74 °C Kerntemperatur (−5 kcal, +3,4 g Protein pro Portion)."
+  - "**Mit Spinat:** 100 g Babyspinat in der Pfanne zusammenfallen lassen, bevor die Nudeln dazukommen (+12 kcal, +1,4 g Protein pro Portion)."
+tipps:
+  - "Pecorino statt Parmesan (gleiche Menge) schmeckt noch näher am römischen Original – kalorisch fast gleich."
+  - "Teller im Ofen bei 50 °C Ober-/Unterhitze vorwärmen: Die Sauce bleibt länger cremig."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

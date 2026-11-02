@@ -1,0 +1,62 @@
+id: protein-pancakes
+name: Fluffige Protein-Pancakes mit Beeren-Skyr
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Amerikanisch
+hauptprotein: Eier & Whey
+inspiration:
+  quelle: "TikTok-/Instagram-Trend „Fluffy Protein Pancakes“"
+  link: null
+  aenderungen: "Mehl durch gemixte Haferflocken, Butter im Teig durch Eiklar ersetzt; Topping Beeren-Skyr statt Ahornsirup und Butter."
+schwierigkeit: leicht
+zeit: {vorbereitung: 5, kochen: 15, wartezeit: 0}
+ausstattung: ["Mixer oder Pürierstab mit hohem Rührbecher", "Große beschichtete Pfanne (28 cm)", Pfannenwender]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Teig
+  - {id: hafer, zutat: Haferflocken zart, g: 100, name: "zarte Haferflocken", hinweis: ""}
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 180, anzeige: "3 Eier Gr. M", hinweis: ""}
+  - {id: eiklar, zutat: Eiklar, g: 100, name: Eiklar, hinweis: "100 ml aus der Flasche"}
+  - {id: whey, zutat: Whey Protein Vanille, g: 40, name: "Vanille-Whey", hinweis: "ca. 1⅓ Messlöffel"}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 100, name: "Milch (1,5 %)", hinweis: "100 ml"}
+  - {id: backpulver, zutat: Backpulver, g: 6, anzeige: "1 gehäufter TL Backpulver", hinweis: ""}
+  - {id: salz, zutat: Salz, g: 0.5, anzeige: "1 Prise Salz", hinweis: ""}
+  - {id: oel, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: "für die Pfanne"}
+  - gruppe: Beeren-Skyr
+  - {id: skyr, zutat: Skyr natur, g: 200, name: Skyr, hinweis: ""}
+  - {id: beeren, zutat: Beerenmischung TK, g: 150, name: Beeren, hinweis: "aufgetaut"}
+  - {id: honig, zutat: Honig, g: 10, anzeige: "2 TL Honig", hinweis: "zum Beträufeln"}
+mise_en_place:
+  - "{beeren} in der Mikrowelle 1½ Minuten bei 600 W antauen; die Hälfte mit einer Gabel zerdrücken und mit {skyr} verrühren, die andere Hälfte ganz lassen."
+schritte:
+  - titel: Teig mixen
+    text: "{hafer} im Mixer 15 Sekunden zu feinem Mehl mahlen. {eier}, {eiklar}, {whey}, {milch}, {backpulver} und {salz} dazugeben und 20 Sekunden zu einem glatten Teig mixen. 3 Minuten ruhen lassen – das Backpulver arbeitet, der Teig wird dicker und luftiger."
+    timer_min: 3
+  - titel: Pancakes backen
+    text: "Pfanne auf Stufe 5 von 9 erhitzen, mit einem Küchenpapier dünn mit etwas vom {oel} auswischen. Pro Pancake 1 kleine Kelle Teig (ca. 60 ml, 10 cm Durchmesser) hineingeben, 3 passen gleichzeitig hinein. 2 Minuten backen, bis sich an der Oberfläche Bläschen bilden und der Rand matt wird. Wenden und 1 Minute weiterbacken, bis beide Seiten goldbraun sind und der Pancake beim Antippen zurückfedert. Pfanne vor jeder Runde neu einfetten; ergibt ca. 10 Pancakes."
+    timer_min: 3
+zeitablauf:
+  - "Während der Teig ruht: Beeren-Skyr anrühren. Fertige Pancakes im Ofen bei 50 °C Ober-/Unterhitze warm halten."
+fehler:
+  - "**Pancakes zäh und gummiartig:** Whey-Teig zu heiß gebacken. Mittlere Hitze (Stufe 5 von 9) – lieber 30 Sekunden länger."
+  - "**Fallen zusammen:** Teig zu lange gestanden oder zu früh gewendet. Nach 3 Minuten Ruhezeit backen und erst wenden, wenn Bläschen platzen."
+  - "**Kleben an:** Pfanne nicht heiß genug oder nicht gefettet. Vor jeder Runde dünn auswischen."
+anrichten: "Pro Teller 5 Pancakes stapeln (zusammen mit Topping ca. {portion_g} g), Beeren-Skyr dazwischen und obenauf, die ganzen Beeren darüber und mit {honig:n} beträufeln."
+aufbewahrung:
+  kuehlschrank_tage: 2
+  einfrierbar: true
+  einfrieren_monate: 2
+  aufwaermen: "Toaster auf mittlerer Stufe oder Pfanne auf Stufe 4 von 9, je Seite 1 Minute. Eingefroren direkt aus dem Gefrierfach toasten."
+  separat: "Beeren-Skyr getrennt im Kühlschrank lagern."
+varianten:
+  - "**Bananen-Pancakes:** 1 Banane (120 g) in Scheiben auf die Pancakes legen, bevor sie gewendet werden (+56 kcal, +10,2 g Zucker pro Portion)."
+  - "**Schoko-Pancakes:** 10 g Backkakao in den Teig und 20 g gehackte Zartbitterschokolade obenauf (+72 kcal, +2 g Protein pro Portion)."
+  - "**Peanut-Butter-Topping:** 20 g Erdnussmus statt Honig (+46 kcal, +2,5 g Protein, −3,3 g Zucker pro Portion)."
+tipps:
+  - "Der Teig darf ruhig etwas dicker sein als normaler Pfannkuchenteig – nur so werden die Pancakes hoch und fluffig."
+  - "Eine Prise Zimt und ein paar Tropfen Vanillearoma im Teig machen ihn noch mehr „Diner-Pancake“."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}
