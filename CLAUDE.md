@@ -31,6 +31,8 @@ Vollständige Vorgabe: **`SPEC.md`** (bei Unklarheit dort nachlesen, bei Widersp
 - Hauptgerichte zwischen 551 und 599 kcal erfüllen keinen Korridor → Mengen anpassen.
 - Plausibilität: ±5 % oder max. 3 kcal/100 g absolut (für energiearme Zutaten), siehe `tools/config.py`.
 
+**Web-App-Aufbau:** Quellcode in `app/` (index.html, css/, js/ – `planer.js`/`rezept.js`/`format.js` sind reine Funktionen, `app.js` Oberfläche, `kochmodus.js`, `sw.js`-Vorlage). `tools/web.py` (aufgerufen von `generieren.py`) erzeugt daraus `web/` inkl. `daten/*.json`, statischer Rezeptseiten `rezepte/<id>.html` mit JSON-LD, Icons und Service Worker (Version = Inhalts-Hash). `web/` nie von Hand ändern. UI-Tests: `tests/ui/ui_test.cjs` (Node-Playwright, 390 × 844), gestartet von `tests/test_web.py`; Screenshots landen in `tests/screenshots/` (nicht im Git).
+
 **Web-App:** statisch, Vanilla HTML/CSS/JS, keine Frameworks/Build-Tools, PWA, mobile-first (iPhone Safari), hell/dunkel, Deutsch (TT.MM.JJJJ, Komma). Logik in reinen Funktionen (`web/js/planer.js`). Persönliche Daten nur im Browser (try/catch), Export/Import JSON, Format versioniert + migriert, unbekannte Rezept-IDs dürfen nichts crashen. JSON-LD schema.org/Recipe pro statischer Rezeptseite (MacroFactor).
 
 **Vorgehen:** Phasen aus SPEC 13. Jede Phase im Plan-Modus beginnen, auf OK warten, am Ende Prüfungen + Tests, Fortschrittsliste unten aktualisieren, Git-Commit vorschlagen.
@@ -52,7 +54,7 @@ Im Chat (SPEC 14): **Import** · **Import: [Link/Text]** · **Kühlschrank: [Zut
 - [x] **Phase 2 – Grundlagen:** zutaten.csv (123 Zutaten), packungen.csv, extras.yaml (12), config.py, naehrwerte.py, texte.py, pruefen.py, generieren.py (Markdown), Tests, 2 Beispielrezepte – vom Nutzer abgenommen (02.11.2026)
 - [x] **Phase 3 – Rezeptliste:** `daten/rezeptplan.yaml` → `rezeptplan.md` (100 Gerichte, `python3 tools/rezeptplan.py`), vom Nutzer freigegeben (02.11.2026)
 - [x] **Phase 4 – Rezepte schreiben:** 100/100 Rezepte, alle Prüfungen + Startbestandstest grün (02.11.2026). Varianten-Makros mit `python3 tools/variante.py "Zutat:+g"` rechnen. Nicht High Protein: protein-balls, protein-riegel.
-- [ ] **Phase 5 – Web-App Teil 1:** Heute, Rezeptbuch, Rezeptseite, Kochmodus, JSON-LD, MacroFactor-Button, PWA
+- [x] **Phase 5 – Web-App Teil 1:** Heute, Rezeptbuch (Suche/Filter/Sortierung/Favoriten), Rezeptseite (12 Abschnitte, Portionsrechner 1–6), Kochmodus (Timer, Wake Lock, Wischen), JSON-LD, MacroFactor-Kopieren, „Einplanen“ (schreibt Plan-Format 6.6), PWA offline + Update-Hinweis; 69 Tests grün (03.11.2026)
 - [ ] **Phase 6 – Web-App Teil 2:** Planer, Einkaufsliste, Vorrat, Speicherung, planer.js-Tests, Testwoche
 - [ ] **Phase 7 – Import & Komfort:** Import, Kühlschrank-Modus, Bewertungen, plan_pruefen.py
 - [ ] **Phase 8 – Livegang:** GitHub Pages, MacroFactor-Test, Home-Bildschirm, README

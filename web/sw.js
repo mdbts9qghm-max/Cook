@@ -1,0 +1,147 @@
+// Service Worker – Offline-Betrieb. VERSION und DATEIEN setzt tools/generieren.py ein.
+const VERSION = 'ced256a1cf87';
+const CACHE = 'rezeptbuch-' + VERSION;
+const DATEIEN = [
+ "./",
+ "css/app.css",
+ "daten/extras.json",
+ "daten/packungen.json",
+ "daten/profil.json",
+ "daten/rezepte.json",
+ "daten/zutaten.json",
+ "icons/apple-touch-icon.png",
+ "icons/icon-192.png",
+ "icons/icon-512-maskable.png",
+ "icons/icon-512.png",
+ "index.html",
+ "js/app.js",
+ "js/format.js",
+ "js/kochmodus.js",
+ "js/planer.js",
+ "js/rezept.js",
+ "js/speicher.js",
+ "manifest.webmanifest",
+ "rezepte/airfryer-quarkbaellchen.html",
+ "rezepte/airfryer-schnitzel-kartoffelsalat.html",
+ "rezepte/apfel-zimt-baked-oats.html",
+ "rezepte/asia-lettuce-wraps.html",
+ "rezepte/bbq-pulled-chicken-burger.html",
+ "rezepte/beef-brokkoli.html",
+ "rezepte/biftekia-bulgur.html",
+ "rezepte/big-mac-bowl.html",
+ "rezepte/blaubeer-cheesecake-baked-oats.html",
+ "rezepte/blaubeer-protein-muffins.html",
+ "rezepte/bratkartoffeln-spiegelei.html",
+ "rezepte/buffalo-chicken-wrap.html",
+ "rezepte/burrito-bowl-haehnchen.html",
+ "rezepte/butter-chicken.html",
+ "rezepte/cajun-lachs-wedges.html",
+ "rezepte/caprese-chicken.html",
+ "rezepte/chia-skyr-pudding-mango.html",
+ "rezepte/chicken-katsu-curry.html",
+ "rezepte/chili-con-carne.html",
+ "rezepte/cookie-dough-quark.html",
+ "rezepte/cottage-cheese-pancakes.html",
+ "rezepte/doener-bowl.html",
+ "rezepte/egg-fried-rice-pute.html",
+ "rezepte/enchiladas-putenhack.html",
+ "rezepte/feta-pasta-haehnchen.html",
+ "rezepte/frikadellen-pueree.html",
+ "rezepte/frozen-joghurt-bark.html",
+ "rezepte/fruehstuecks-brownie.html",
+ "rezepte/fruehstuecks-cheesecake.html",
+ "rezepte/garnelen-arrabbiata.html",
+ "rezepte/garnelen-fajitas.html",
+ "rezepte/gnocchi-pfanne-pute.html",
+ "rezepte/gochujang-schwein-tacos.html",
+ "rezepte/gyros-pfanne-tzatziki.html",
+ "rezepte/haehnchen-geschnetzeltes.html",
+ "rezepte/haehnchen-piccata.html",
+ "rezepte/haehnchen-tajine.html",
+ "rezepte/high-protein-lasagne.html",
+ "rezepte/high-protein-mac-cheese.html",
+ "rezepte/ingwer-schweinefilet.html",
+ "rezepte/karottenkuchen-baked-oats.html",
+ "rezepte/kartoffel-hack-auflauf.html",
+ "rezepte/keema-curry.html",
+ "rezepte/kichererbsen-haehnchen-eintopf.html",
+ "rezepte/koefte-bulgur.html",
+ "rezepte/korean-beef-bowl.html",
+ "rezepte/kung-pao-haehnchen.html",
+ "rezepte/lachs-penne.html",
+ "rezepte/linsen-dal-ei.html",
+ "rezepte/mango-lassi-bowl.html",
+ "rezepte/marry-me-chicken.html",
+ "rezepte/nice-cream-beeren.html",
+ "rezepte/overnight-oats-apfelstrudel.html",
+ "rezepte/overnight-oats-cheesecake.html",
+ "rezepte/overnight-oats-erdnuss-banane.html",
+ "rezepte/philly-cheesesteak-pfanne.html",
+ "rezepte/pide-putenhack.html",
+ "rezepte/protein-balls.html",
+ "rezepte/protein-bananenbrot.html",
+ "rezepte/protein-bircher-muesli.html",
+ "rezepte/protein-brownie-bites.html",
+ "rezepte/protein-carbonara.html",
+ "rezepte/protein-crepes.html",
+ "rezepte/protein-french-toast.html",
+ "rezepte/protein-griessbrei.html",
+ "rezepte/protein-joghurt-bowl.html",
+ "rezepte/protein-kaiserschmarrn.html",
+ "rezepte/protein-milchreis.html",
+ "rezepte/protein-mousse-au-chocolat.html",
+ "rezepte/protein-pancakes.html",
+ "rezepte/protein-pizza-quarkteig.html",
+ "rezepte/protein-riegel.html",
+ "rezepte/protein-scones.html",
+ "rezepte/protein-waffeln-kirschen.html",
+ "rezepte/proteinpudding-knusper.html",
+ "rezepte/puten-tacos.html",
+ "rezepte/puten-tikka-masala.html",
+ "rezepte/quarkauflauf-kirschen.html",
+ "rezepte/quarkcreme-erdbeeren.html",
+ "rezepte/rindergulasch-kartoffeln.html",
+ "rezepte/schoko-erdnuss-bowl.html",
+ "rezepte/schoko-protein-porridge.html",
+ "rezepte/schweinefilet-senfsauce.html",
+ "rezepte/seelachs-curry.html",
+ "rezepte/seelachs-senfsauce.html",
+ "rezepte/sesam-lachs-bowl.html",
+ "rezepte/shakshuka-feta.html",
+ "rezepte/skyr-cheesecake-glas.html",
+ "rezepte/skyr-tiramisu-bowl.html",
+ "rezepte/smash-burger.html",
+ "rezepte/souvlaki-airfryer.html",
+ "rezepte/spaghetti-bolognese.html",
+ "rezepte/tandoori-haehnchen.html",
+ "rezepte/teriyaki-haehnchen-bowl.html",
+ "rezepte/thai-curry-garnelen.html",
+ "rezepte/thunfisch-bulgur-salat.html",
+ "rezepte/tiramisu-overnight-oats.html",
+ "rezepte/wrap-hack-quesadilla.html",
+ "rezepte/zimtschnecken-oats.html",
+ "rezepte/zitronen-lachs-ofenkartoffeln.html"
+];
+
+self.addEventListener('install', (e) => {
+  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(DATEIEN)));
+  // Kein skipWaiting: die App zeigt „Neue Rezepte verfügbar – neu laden“ und der Nutzer entscheidet.
+});
+
+self.addEventListener('message', (e) => { if (e.data === 'SKIP_WAITING') self.skipWaiting(); });
+
+self.addEventListener('activate', (e) => {
+  e.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((k) => k.startsWith('rezeptbuch-') && k !== CACHE).map((k) => caches.delete(k))))
+    .then(() => self.clients.claim()));
+});
+
+self.addEventListener('fetch', (e) => {
+  const req = e.request;
+  if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
+  e.respondWith(
+    caches.match(req, { ignoreSearch: true }).then((treffer) => treffer || fetch(req).then((antwort) => {
+      if (antwort.ok) { const kopie = antwort.clone(); caches.open(CACHE).then((c) => c.put(req, kopie)); }
+      return antwort;
+    }).catch(() => (req.mode === 'navigate' ? caches.match('index.html') : Response.error())))
+  );
+});

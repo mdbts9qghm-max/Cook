@@ -12,7 +12,7 @@ import naehrwerte as N
 @pytest.fixture(scope="module")
 def ausgabe(tmp_path_factory):
     d = tmp_path_factory.mktemp("md")
-    assert G.generiere(md_dir=d / "rezepte", rezeptbuch=d / "rezeptbuch.md") == 0
+    assert G.generiere(md_dir=d / "rezepte", rezeptbuch=d / "rezeptbuch.md", web_dir=None) == 0
     return d
 
 

@@ -225,7 +225,7 @@ def md_rezeptbuch(rezepte: list[dict], berechnet: dict[str, dict]) -> str:
     return "\n".join(o)
 
 
-def generiere(md_dir: Path = C.MD_DIR, rezeptbuch: Path = C.REZEPTBUCH_MD) -> int:
+def generiere(md_dir: Path = C.MD_DIR, rezeptbuch: Path = C.REZEPTBUCH_MD, web_dir: Path | None = C.WEB_DIR) -> int:
     erg = pruefen.pruefe_alles()
     if not erg.ok:
         for f in erg.fehler:
@@ -245,6 +245,10 @@ def generiere(md_dir: Path = C.MD_DIR, rezeptbuch: Path = C.REZEPTBUCH_MD) -> in
         ziel.write_text(md_rezept(r, berechnet[r["id"]], profil), encoding="utf-8")
     rezeptbuch.write_text(md_rezeptbuch(rezepte, berechnet), encoding="utf-8")
     print(f"✅ {len(rezepte)} Rezepte als Markdown erzeugt, rezeptbuch.md aktualisiert.")
+    if web_dir is not None:
+        import web
+        web.generiere_web(web_dir, rezepte, berechnet, zutaten, N.lade_packungen(), profil, N.lade_extras())
+        print(f"✅ Web-App erzeugt: {web_dir.relative_to(C.ROOT) if web_dir.is_relative_to(C.ROOT) else web_dir}/")
     return 0
 
 

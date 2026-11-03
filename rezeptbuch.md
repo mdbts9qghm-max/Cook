@@ -2,7 +2,7 @@
 
 # Rezeptbuch
 
-100 Rezepte · je 2 Portionen · Nährwerte pro Portion · Stand 02.11.2026
+100 Rezepte · je 2 Portionen · Nährwerte pro Portion · Stand 03.11.2026
 
 ## High Protein (14)
 
