@@ -155,3 +155,16 @@ def test_komfort_playwright(web):
     fehler = [e for e in out.get("ergebnisse", []) if not e["ok"]]
     assert not fehler and not out.get("absturz"), json.dumps(out, ensure_ascii=False, indent=1)
     assert len(out["ergebnisse"]) >= 6
+
+
+def test_web_ordner_ist_aktuell(web):
+    """Das veröffentlichte web/ im Repo muss zu den YAML-Daten passen (sonst: python3 tools/generieren.py vergessen)."""
+    repo = C.ROOT / "web"
+    if not repo.exists():
+        pytest.skip("web/ noch nicht erzeugt")
+    veraltet = []
+    for f in list((web / "daten").glob("*.json")) + list((web / "rezepte").glob("*.html")) + list((web / "js").glob("*.js")) + [web / "css/app.css", web / "index.html"]:
+        r = repo / f.relative_to(web)
+        if not r.exists() or r.read_bytes() != f.read_bytes():
+            veraltet.append(str(f.relative_to(web)))
+    assert not veraltet, f"web/ veraltet – python3 tools/generieren.py ausführen: {veraltet[:10]}"

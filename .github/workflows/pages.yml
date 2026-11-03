@@ -1,0 +1,47 @@
+# Web-App auf GitHub Pages veröffentlichen (SPEC 10.4).
+# Läuft bei jedem Push auf den Standard-Branch: erst Prüfungen + Tests, nur wenn alles grün ist, wird web/ veröffentlicht.
+# Einmalig nötig: Repository → Settings → Pages → Source: „GitHub Actions“.
+name: Web-App veröffentlichen
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  pruefen:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Abhängigkeiten
+        run: pip install -r requirements.txt
+      - name: Rezepte prüfen (SPEC 12.1)
+        run: python3 tools/pruefen.py
+      - name: Tests (Browser-Tests laufen lokal mit Playwright, hier werden sie übersprungen)
+        run: python3 -m pytest -q tests/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+  veroeffentlichen:
+    needs: pruefen
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

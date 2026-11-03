@@ -1,6 +1,6 @@
 """Erzeugt den neutralen Test-Screenshot für den Import (SPEC 13, Phase 7) – ohne echte Marke oder echten Account.
 
-Aufruf: python3 tests/daten/test_screenshot_erzeugen.py <ziel.png>
+Aufruf: python3 tests/daten/screenshot_erzeugen.py <ziel.png>
 """
 import sys
 
