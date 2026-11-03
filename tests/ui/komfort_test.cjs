@@ -163,6 +163,7 @@ const [webRoot, shotDir] = process.argv.slice(2);
     await gehe('#/mehr');
     await page.click('a[href="#/befehle"]');
     await page.waitForSelector('.befehl');
+    const window_profil_link = await page.evaluate(() => window.__app.D.profil.claude_chat);
     const t = await page.textContent('#inhalt');
     for (const b of ['Import', 'Import: [Link oder Text]', 'Kühlschrank: [Zutaten]', 'bewerten [Rezept] [Sterne] [Kommentar]', 'neue Rezepte', 'Küche: [Name]',
       'trending', 'anpassen [Rezept]', 'Extra: [Name, Zutaten]', 'Ziele: [kcal, P, F, KH]', 'Plan prüfen', 'App-Wunsch: [Beschreibung]', 'Web-App aktualisieren']) {
@@ -174,6 +175,18 @@ const [webRoot, shotDir] = process.argv.slice(2);
     await page.click('[data-kopieren="Kühlschrank: Hähnchen, Reis, Skyr"]');
     await page.waitForSelector('.banner');
     await shot('13-befehle');
+    // Link zum Chat (Profil, in den Einstellungen änderbar)
+    const href = await page.getAttribute('.chat-knopf', 'href');
+    erwarte(/^https:\/\/claude\.ai\//.test(href) && href === window_profil_link, 'Chat-Link: ' + href);
+    await gehe('#/einstellungen');
+    await page.fill('#chat-link-feld', 'https://claude.ai/chat/test-123');
+    await page.press('#chat-link-feld', 'Tab');
+    await gehe('#/mehr');
+    erwarte((await page.getAttribute('#chat-link', 'href')) === 'https://claude.ai/chat/test-123', 'eigener Link');
+    await gehe('#/einstellungen');
+    await page.fill('#chat-link-feld', 'kein link');
+    await page.press('#chat-link-feld', 'Tab');
+    erwarte((await page.evaluate(() => JSON.parse(localStorage.getItem('cook.einstellungen')).chat_link)) === 'https://claude.ai/chat/test-123', 'ungültiger Link darf nicht gespeichert werden');
     erwarte(jsFehler.length === 0, 'JS-Fehler: ' + jsFehler.join(' | '));
   });
 

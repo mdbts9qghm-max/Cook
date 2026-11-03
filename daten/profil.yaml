@@ -7,6 +7,10 @@ person:
   tracking: MacroFactor (iPhone)
   haushalt_personen: 2          # jedes Rezept = 2 gleich große Portionen, Nährwerte pro Portion
 
+# Link zum Chat mit Claude (App: Mehr → Chat mit Claude). Nur mit deinem Login erreichbar.
+# Anderer Chat? In der App unter Mehr → Einstellungen ändern oder hier eintragen.
+claude_chat: https://claude.ai/code/session_01N8yZJH3zsyX8YdwS9J6FZi
+
 tagesziele:                     # aus MacroFactor, Stand 20.10.2026
   stand: 2026-10-20
   kcal: 2275

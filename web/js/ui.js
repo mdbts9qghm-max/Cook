@@ -116,9 +116,10 @@ export function einstellungen() {
   const std = {
     abteilungen: D.profil.einkauf.abteilungen,
     essenszeiten: Object.fromEntries(D.profil.mahlzeiten.filter((m) => m.uhrzeit).map((m) => [m.slot, m.uhrzeit])),
+    chat_link: D.profil.claude_chat || 'https://claude.ai/code',
   };
   const e = S.lesen('einstellungen', {});
-  return { ...std, ...e, essenszeiten: { ...std.essenszeiten, ...(e.essenszeiten || {}) } };
+  return { ...std, ...e, chat_link: e.chat_link || std.chat_link, essenszeiten: { ...std.essenszeiten, ...(e.essenszeiten || {}) } };
 }
 export function ctx(extra = {}) {
   const e = einstellungen();

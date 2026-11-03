@@ -15,6 +15,7 @@ export function ansichtMehr() {
       <a href="#/vorrat"><b>Vorrat</b><span class="muted klein">${vorrat().length} Einträge – wird von der Einkaufsliste abgezogen</span></a>
       <a href="#/vorlagen"><b>Vorlagen</b><span class="muted klein">${S.lesen('vorlagen', []).length} gespeicherte Wochen</span></a>
       <a href="#/einstellungen"><b>Einstellungen</b><span class="muted klein">Abteilungsreihenfolge, Essenszeiten</span></a>
+      <a href="${escapeHtml(einstellungen().chat_link)}" target="_blank" rel="noopener" id="chat-link"><b>💬 Chat mit Claude öffnen</b><span class="muted klein">Für Import, neue Rezepte, Bewertungen …</span></a>
       <a href="#/befehle"><b>Chat-Befehle</b><span class="muted klein">Was du Claude schreiben kannst – zum Kopieren</span></a>
       <a href="#/sicherung"><b>Sicherung</b><span class="muted klein">${letzte ? `Letzte Sicherung ${datumDe(new Date(letzte))}` : 'Noch keine Sicherung'}</span></a>
     </nav>
@@ -86,6 +87,8 @@ export function ansichtEinstellungen() {
       <ol class="sortier">${e.abteilungen.map((a, i) => `<li><span>${escapeHtml(a)}</span><span><button type="button" class="knopf mini" data-hoch="${i}" aria-label="nach oben"${i === 0 ? ' disabled' : ''}>↑</button><button type="button" class="knopf mini" data-runter="${i}" aria-label="nach unten"${i === e.abteilungen.length - 1 ? ' disabled' : ''}>↓</button></span></li>`).join('')}</ol></div>
       <div class="karte"><h2 style="margin-top:0">Essenszeiten</h2><p class="klein muted">Für den Rückwärts-Zeitplan an Kochtagen (einzelne Tage änderst du in der Tagesansicht).</p>
       <div class="filter-raster">${P.SLOTS.filter((s) => s !== 'snack').map((s) => `<label>${P.SLOT_NAMEN[s]}<input type="time" data-zeit="${s}" value="${e.essenszeiten[s] || ''}"></label>`).join('')}</div></div>
+      <div class="karte"><h2 style="margin-top:0">Chat mit Claude</h2><p class="klein muted">Link zu dem Chat, in dem du Befehle schreibst (claude.ai → Chat öffnen → Link kopieren).</p>
+      <label>Link<input type="url" id="chat-link-feld" inputmode="url" value="${escapeHtml(e.chat_link)}" placeholder="https://claude.ai/…"></label></div>
       <button class="knopf" type="button" id="zuruecksetzen">Auf Standard zurücksetzen</button>` + fuss();
     const speichern = (aenderung) => { S.schreiben('einstellungen', { ...S.lesen('einstellungen', {}), ...aenderung }); zeichnen(); };
     $('#inhalt').onclick = (ev) => {
@@ -96,7 +99,13 @@ export function ansichtEinstellungen() {
       }
       if (ev.target.id === 'zuruecksetzen') { S.schreiben('einstellungen', {}); zeichnen(); }
     };
-    $('#inhalt').onchange = (ev) => { const s = ev.target.dataset.zeit; if (s) speichern({ essenszeiten: { ...einstellungen().essenszeiten, [s]: ev.target.value } }); };
+    $('#inhalt').onchange = (ev) => {
+      const s = ev.target.dataset.zeit; if (s) speichern({ essenszeiten: { ...einstellungen().essenszeiten, [s]: ev.target.value } });
+      if (ev.target.id === 'chat-link-feld') {
+        const v = ev.target.value.trim();
+        if (!v || /^https:\/\//.test(v)) { speichern({ chat_link: v || null }); meldung('Chat-Link gespeichert'); } else meldung('Bitte einen Link mit https:// eingeben');
+      }
+    };
   };
   zeichnen();
 }
@@ -181,7 +190,8 @@ export const BEFEHLE = [
 
 export function ansichtBefehle() {
   kopf('Chat-Befehle', 'Mehr', '#/mehr');
-  let html = '<p class="muted">Diese Befehle schreibst du im Chat mit Claude. Tippe auf „Kopieren“, dann im Chat einfügen und ergänzen.</p>';
+  let html = `<p class="muted">Diese Befehle schreibst du im Chat mit Claude. Tippe auf „Kopieren“, öffne den Chat und füge den Befehl dort ein.</p>
+    <a class="knopf primaer chat-knopf" href="${escapeHtml(einstellungen().chat_link)}" target="_blank" rel="noopener">💬 Chat mit Claude öffnen</a>`;
   for (const g of BEFEHLE) {
     html += `<h2>${escapeHtml(g.gruppe)}</h2><div class="liste">`;
     for (const b of g.liste) {
