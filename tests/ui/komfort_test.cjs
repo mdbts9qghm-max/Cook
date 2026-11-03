@@ -159,6 +159,24 @@ const [webRoot, shotDir] = process.argv.slice(2);
     erwarte(jsFehler.length === 0, 'JS-Fehler: ' + jsFehler.join(' | '));
   });
 
+  await pruefe('Chat-Befehle unter Mehr: alle Befehle aus SPEC 14 sichtbar, Kopieren', async () => {
+    await gehe('#/mehr');
+    await page.click('a[href="#/befehle"]');
+    await page.waitForSelector('.befehl');
+    const t = await page.textContent('#inhalt');
+    for (const b of ['Import', 'Import: [Link oder Text]', 'Kühlschrank: [Zutaten]', 'bewerten [Rezept] [Sterne] [Kommentar]', 'neue Rezepte', 'Küche: [Name]',
+      'trending', 'anpassen [Rezept]', 'Extra: [Name, Zutaten]', 'Ziele: [kcal, P, F, KH]', 'Plan prüfen', 'App-Wunsch: [Beschreibung]', 'Web-App aktualisieren']) {
+      erwarte(t.includes(b), 'fehlt: ' + b);
+    }
+    const breite = await page.evaluate(() => document.documentElement.scrollWidth);
+    erwarte(breite <= 390, 'horizontal scrollbar: ' + breite);
+    await ctx.grantPermissions(['clipboard-read', 'clipboard-write']);
+    await page.click('[data-kopieren="Kühlschrank: Hähnchen, Reis, Skyr"]');
+    await page.waitForSelector('.banner');
+    await shot('13-befehle');
+    erwarte(jsFehler.length === 0, 'JS-Fehler: ' + jsFehler.join(' | '));
+  });
+
   await browser.close();
   srv.close();
   console.log(JSON.stringify({ ergebnisse }));

@@ -15,6 +15,7 @@ export function ansichtMehr() {
       <a href="#/vorrat"><b>Vorrat</b><span class="muted klein">${vorrat().length} Einträge – wird von der Einkaufsliste abgezogen</span></a>
       <a href="#/vorlagen"><b>Vorlagen</b><span class="muted klein">${S.lesen('vorlagen', []).length} gespeicherte Wochen</span></a>
       <a href="#/einstellungen"><b>Einstellungen</b><span class="muted klein">Abteilungsreihenfolge, Essenszeiten</span></a>
+      <a href="#/befehle"><b>Chat-Befehle</b><span class="muted klein">Was du Claude schreiben kannst – zum Kopieren</span></a>
       <a href="#/sicherung"><b>Sicherung</b><span class="muted klein">${letzte ? `Letzte Sicherung ${datumDe(new Date(letzte))}` : 'Noch keine Sicherung'}</span></a>
     </nav>
     <div class="karte"><h2 style="margin-top:0">Tagesziele</h2><p class="zahl">${zahl(z.kcal)} kcal · ${zahl(z.protein)} g Protein · ${zahl(z.fett)} g Fett · ${zahl(z.kh)} g KH</p>
@@ -150,4 +151,50 @@ export function ansichtSicherung() {
     };
   };
   zeichnen();
+}
+
+// ---------- Chat-Befehle (SPEC 14) ----------
+// Was ich im Chat mit Claude schreiben kann – zum Nachschlagen und Kopieren.
+export const BEFEHLE = [
+  { gruppe: 'Rezepte holen', liste: [
+    { befehl: 'Import', text: 'Übernimmt alles Neue aus dem Ordner import/ (Screenshots, Texte, Links) als Rezepte – angepasst an deine Makros, in eigenen Worten.', beispiel: 'Import' },
+    { befehl: 'Import: [Link oder Text]', text: 'Ein einzelnes Rezept direkt aus dem Chat übernehmen. Klappt ein Instagram-Link nicht, lieber Screenshot oder kopierten Text schicken.', beispiel: 'Import: ' },
+    { befehl: 'neue Rezepte', text: 'Claude fragt Kategorien und Küchen ab und schlägt 3–5 neue Rezepte vor.', beispiel: 'neue Rezepte' },
+    { befehl: 'Küche: [Name]', text: '3–5 neue Rezepte einer Küche.', beispiel: 'Küche: Italienisch' },
+    { befehl: 'trending', text: 'Aktuelle High-Protein-Trends von TikTok/Instagram suchen und 5 passende Ideen vorschlagen.', beispiel: 'trending' },
+  ] },
+  { gruppe: 'Kochen & Bewerten', liste: [
+    { befehl: 'Kühlschrank: [Zutaten]', text: '2–3 Gerichte aus dem, was da ist – erst aus dem Rezeptbuch, sonst neue; Portion passend zu deinen Restmakros. (In der App: Mehr → Kühlschrank-Modus.)', beispiel: 'Kühlschrank: Hähnchen, Reis, Skyr' },
+    { befehl: 'bewerten [Rezept] [Sterne] [Kommentar]', text: 'Bewertung ins Rezept schreiben. Kommentare wie „zu trocken“ setzt Claude im Rezept um. Oder einfach die Sicherungsdatei schicken – dann werden alle Sterne aus der App übernommen.', beispiel: 'bewerten Marry Me Chicken 4 etwas zu trocken' },
+    { befehl: 'anpassen [Rezept]', text: 'Rezept ändern (z. B. mehr Protein, weniger Fett, ohne Ofen), Nährwerte neu rechnen, Unterschied zeigen.', beispiel: 'anpassen Butter Chicken mit mehr Protein' },
+  ] },
+  { gruppe: 'Planen & Ziele', liste: [
+    { befehl: 'Plan prüfen + Exportdatei', text: 'Wochenplan exportieren (Mehr → Sicherung → „Nur KW … exportieren“), Datei schicken – du bekommst Hinweise und Vorschläge, der Plan wird nicht verändert.', beispiel: 'Plan prüfen' },
+    { befehl: 'Extra: [Name, Zutaten]', text: 'Neues Extra für den Planer anlegen (z. B. dein Lieblings-Shake).', beispiel: 'Extra: Schoko-Shake, 30 g Whey Schoko, 300 ml Milch 1,5 %' },
+    { befehl: 'Ziele: [kcal, P, F, KH]', text: 'Neue Tagesziele aus MacroFactor übernehmen; die App wird neu erzeugt, deine Pläne bleiben.', beispiel: 'Ziele: 2300, 150, 100, 195' },
+  ] },
+  { gruppe: 'App', liste: [
+    { befehl: 'App-Wunsch: [Beschreibung]', text: 'Neue Funktion oder Änderung an der App.', beispiel: 'App-Wunsch: ' },
+    { befehl: 'Web-App aktualisieren', text: 'Alles prüfen, neu erzeugen und veröffentlichen. In der App erscheint dann „Neue Rezepte verfügbar – Neu laden“.', beispiel: 'Web-App aktualisieren' },
+  ] },
+];
+
+export function ansichtBefehle() {
+  kopf('Chat-Befehle', 'Mehr', '#/mehr');
+  let html = '<p class="muted">Diese Befehle schreibst du im Chat mit Claude. Tippe auf „Kopieren“, dann im Chat einfügen und ergänzen.</p>';
+  for (const g of BEFEHLE) {
+    html += `<h2>${escapeHtml(g.gruppe)}</h2><div class="liste">`;
+    for (const b of g.liste) {
+      html += `<div class="karte befehl"><b>${escapeHtml(b.befehl)}</b><p class="klein" style="margin:4px 0 8px">${escapeHtml(b.text)}</p>
+        <div class="befehl-zeile"><code>${escapeHtml(b.beispiel.trim() || b.befehl)}</code><button class="knopf" type="button" data-kopieren="${escapeHtml(b.beispiel)}">Kopieren</button></div></div>`;
+    }
+    html += '</div>';
+  }
+  html += '<p class="klein muted">Dateien (Screenshots, Sicherung, Wochenplan) schickst du einfach als Anhang im Chat mit.</p>';
+  $('#inhalt').innerHTML = html + fuss();
+  $('#inhalt').onclick = async (e) => {
+    const k = e.target.closest('[data-kopieren]');
+    if (!k) return;
+    try { await navigator.clipboard.writeText(k.dataset.kopieren); meldung('Kopiert – jetzt im Chat einfügen'); } catch (_) { meldung(k.dataset.kopieren); }
+  };
 }

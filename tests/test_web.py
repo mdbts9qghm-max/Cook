@@ -154,7 +154,7 @@ def test_komfort_playwright(web):
         pytest.skip(out["skip"])
     fehler = [e for e in out.get("ergebnisse", []) if not e["ok"]]
     assert not fehler and not out.get("absturz"), json.dumps(out, ensure_ascii=False, indent=1)
-    assert len(out["ergebnisse"]) >= 6
+    assert len(out["ergebnisse"]) >= 7
 
 
 def test_web_ordner_ist_aktuell(web):

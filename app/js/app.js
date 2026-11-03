@@ -7,10 +7,10 @@ import { ansichtRezept, ansichtRezepte } from './ansicht-rezepte.js';
 import { ansichtAuswahl, ansichtHeute, ansichtPlaner, ansichtTag } from './ansicht-planer.js';
 import { ansichtEinkauf } from './ansicht-einkauf.js';
 import { ansichtKuehlschrank } from './ansicht-kuehlschrank.js';
-import { ansichtEinstellungen, ansichtMehr, ansichtSicherung, ansichtVorlagen, ansichtVorrat } from './ansicht-mehr.js';
+import { ansichtBefehle, ansichtEinstellungen, ansichtMehr, ansichtSicherung, ansichtVorlagen, ansichtVorrat } from './ansicht-mehr.js';
 
 const TABS = { heute: 'heute', rezepte: 'rezepte', rezept: 'rezepte', kochen: 'rezepte', planer: 'planer', tag: 'planer', auswahl: 'planer',
-  einkauf: 'einkauf', mehr: 'mehr', vorrat: 'mehr', vorlagen: 'mehr', einstellungen: 'mehr', sicherung: 'mehr', kuehlschrank: 'mehr' };
+  einkauf: 'einkauf', mehr: 'mehr', vorrat: 'mehr', vorlagen: 'mehr', einstellungen: 'mehr', sicherung: 'mehr', kuehlschrank: 'mehr', befehle: 'mehr' };
 
 function route() {
   const h = location.hash.replace(/^#\/?/, '') || 'heute';
@@ -35,6 +35,7 @@ function route() {
     case 'einstellungen': return ansichtEinstellungen();
     case 'sicherung': return ansichtSicherung();
     case 'kuehlschrank': return ansichtKuehlschrank();
+    case 'befehle': return ansichtBefehle();
     default: return ansichtHeute();
   }
 }

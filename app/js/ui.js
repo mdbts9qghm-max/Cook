@@ -84,6 +84,7 @@ export function dialog(html, beimSchliessen = null) {
   return hg;
 }
 export function meldung(text) {
+  for (const alt of document.querySelectorAll('.banner[role="status"]')) alt.remove();   // nie übereinander
   const m = document.createElement('div');
   m.className = 'banner'; m.setAttribute('role', 'status');
   m.innerHTML = `<span>${escapeHtml(text)}</span>`;
