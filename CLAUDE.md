@@ -57,7 +57,7 @@ python3 tools/plan_pruefen.py datei.json --ablegen    # Plan prüfen (gleiche Lo
 ```
 Neue Rezepte (Import, 11.3) stehen nicht in `rezeptplan.yaml`; die Startbestand-Regeln (SPEC 5) gelten nur für die 100 Planrezepte.
 
-Im Chat (SPEC 14): **Import** · **Import: [Link/Text]** · **Kühlschrank: [Zutaten]** · **bewerten [Rezept] [Sterne] [Kommentar]** · **neue Rezepte** / **Küche: [Name]** / **trending** · **anpassen [Rezept]** · **Extra: [Name, Zutaten]** · **Ziele: [kcal, P, F, KH]** · **Plan prüfen** + Datei · **App-Wunsch: [Beschreibung]** · **Web-App aktualisieren**
+Im Chat (SPEC 14): **Import** · **Import: [Link/Text]** · **Kühlschrank: [Zutaten]** · **bewerten [Rezept] [Sterne] [Kommentar]** · **neue Rezepte** / **Küche: [Name]** / **trending** · **anpassen [Rezept]** · **Extra: [Name, Zutaten]** · **Ziele: [kcal, P, F, KH]** · **Plan prüfen** + Datei · **App-Wunsch: [Beschreibung]** · **Web-App aktualisieren** (= prüfen, generieren, Tests, committen, pushen → Workflow veröffentlicht)
 
 ## Fortschritt
 
@@ -68,4 +68,4 @@ Im Chat (SPEC 14): **Import** · **Import: [Link/Text]** · **Kühlschrank: [Zut
 - [x] **Phase 5 – Web-App Teil 1:** Heute, Rezeptbuch (Suche/Filter/Sortierung/Favoriten), Rezeptseite (12 Abschnitte, Portionsrechner 1–6), Kochmodus (Timer, Wake Lock, Wischen), JSON-LD, MacroFactor-Kopieren, „Einplanen“ (schreibt Plan-Format 6.6), PWA offline + Update-Hinweis; 69 Tests grün (03.11.2026)
 - [x] **Phase 6 – Web-App Teil 2:** Planer (Woche/Tag/Auswahl nach Restmakros, Reste, Verschieben, Auswärts, Extras, Hinweise/Ampel), Einkaufsliste (Packungen, Vorrat, 2 Termine, Kosten, Teilen), Vorrat, Vorlagen/Kopieren, Einstellungen, Sicherung (Export/Import, migriert); 70 Tests grün (03.11.2026) – vom Nutzer abgenommen (03.11.2026)
 - [x] **Phase 7 – Import & Komfort:** `importieren.py` (Überblick, Umrechnen, Ähnlichkeit, erledigt) + Test-Import per Screenshot → `zitronen-blaubeer-tassenkuchen` (101 Rezepte), Kühlschrank-Modus (App: `#/kuehlschrank`, Faktor-Vorschlag), Bewertungen (App: Rezeptseite + „Wie war’s?“ nach dem Kochmodus, Export; `bewerten.py`), `plan_pruefen.py`; 100 Tests grün (03.11.2026) – vom Nutzer abgenommen, Tassenkuchen bleibt (03.11.2026)
-- [ ] **Phase 8 – Livegang:** GitHub Pages, MacroFactor-Test, Home-Bildschirm, README
+- [~] **Phase 8 – Livegang:** GitHub Pages live unter https://mdbts9qghm-max.github.io/Cook/ (Workflow `.github/workflows/pages.yml`: Prüfungen + Tests, dann `web/` veröffentlichen, bei jedem Push auf den Standard-Branch; Test `test_web_ordner_ist_aktuell`); README auf Wunsch des Nutzers weggelassen (03.11.2026) – **offen: MacroFactor-Test, Home-Bildschirm**
