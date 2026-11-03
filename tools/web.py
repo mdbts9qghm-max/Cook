@@ -29,7 +29,7 @@ def rezept_daten(r: dict, b: dict) -> dict:
     for e in N.zutat_eintraege(r):
         w = zeilen[e["id"]]["werte"]
         zutaten.append({
-            "id": e["id"], "zutat": e["zutat"], "g": float(e["g"]), "anzeige": e.get("anzeige"),
+            "id": e["id"], "zutat": e["zutat"], "mf": mf_name(e["zutat"]), "g": float(e["g"]), "anzeige": e.get("anzeige"),
             "name": e.get("name"), "hinweis": e.get("hinweis") or "", "gruppe": e["_gruppe"],
             "mitrechnen": e.get("mitrechnen", True),
             "werte": {k: N.runden(w[k], N.STELLEN[k]) for k in ("kcal", "protein", "fett", "kh")},
@@ -80,11 +80,19 @@ def text_ohne_md(t: str) -> str:
     return re.sub(r"\*\*(.+?)\*\*", r"\1", t)
 
 
+def mf_name(zutat: str) -> str:
+    """Zutatenname für MacroFactor (eindeutiger als der Einkaufsname, siehe config.MACROFACTOR_NAMEN)."""
+    n = C.MACROFACTOR_NAMEN.get(zutat, zutat)
+    for alt, neu in C.MACROFACTOR_ERSETZEN:
+        n = n.replace(alt, neu)
+    return n
+
+
 def json_ld(r: dict, b: dict) -> dict:
     p = b["portion_gerundet"]
     eintraege = {e["id"]: e for e in N.zutat_eintraege(r)}
     extra = {"portion_g": zahl(b["gargewicht_portion"]), "gesamt_g": zahl(b["gargewicht_gesamt"])}
-    zutaten = [f"{gramm(float(e['g']))} g {e['zutat']}" for e in N.zutat_eintraege(r)
+    zutaten = [f"{gramm(float(e['g']))} g {mf_name(e['zutat'])}" for e in N.zutat_eintraege(r)
                if e.get("mitrechnen", True) and e["zutat"] != "Wasser"]
     schritte = [{"@type": "HowToStep", "name": s["titel"], "text": text_ohne_md(T.ersetze(s["text"], eintraege, extra=extra))}
                 for s in r["schritte"]]

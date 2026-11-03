@@ -71,6 +71,6 @@ export function rezeptText(rezept, text, faktor = 1) {
 export function macroFactorText(rezept, faktor = 1) {
   return rezept.zutaten
     .filter((e) => e.mitrechnen !== false && e.zutat !== 'Wasser')
-    .map((e) => `${gramm(e.g * faktor)} g ${e.zutat}`)
+    .map((e) => `${gramm(e.g * faktor)} g ${e.mf || e.zutat}`)
     .join('\n');
 }

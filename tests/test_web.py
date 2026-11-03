@@ -168,3 +168,16 @@ def test_web_ordner_ist_aktuell(web):
         if not r.exists() or r.read_bytes() != f.read_bytes():
             veraltet.append(str(f.relative_to(web)))
     assert not veraltet, f"web/ veraltet – python3 tools/generieren.py ausführen: {veraltet[:10]}"
+
+
+def test_macrofactor_namen_eindeutig(web):
+    """MacroFactor-Test 03.11.2026: „ungekocht“ wurde als „gekocht“ erkannt → in JSON-LD nie „gekocht“, Milch/Frischkäse mit Fettstufe."""
+    import web as W
+    assert W.mf_name("Basmatireis ungekocht") == "Basmatireis trocken, roh"
+    for f in (web / "rezepte").glob("*.html"):
+        ld = json.loads(JSONLD.search(f.read_text()).group(1))
+        for z in ld["recipeIngredient"]:
+            assert "gekocht" not in z, (f.name, z)
+            assert not z.endswith(" Milch 1,5 % Fett") or "fettarme" in z
+    daten = json.loads((web / "daten/rezepte.json").read_text())
+    assert all("mf" in z for r in daten["rezepte"] for z in r["zutaten"])

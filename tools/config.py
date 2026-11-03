@@ -148,3 +148,14 @@ IMPORT_EINHEIT_ALIAS = {
 }
 # Ab dieser Ähnlichkeit (0–1) wird beim Import gefragt: Variante oder eigenes Rezept? (SPEC 9.2.6)
 IMPORT_AEHNLICH_AB = 0.45
+
+# --- MacroFactor (SPEC 10.3): Zutatennamen nur für JSON-LD / „Für MacroFactor“ ----------------
+# MacroFactor ordnet Zutaten seiner eigenen Datenbank zu. Test vom 03.11.2026: „Basmatireis ungekocht“ wurde
+# als „Basmati Rice, Cooked“ erkannt (steckt „gekocht“ drin), Milch 1,5 % als Vollmilch, Frischkäse light als
+# fettreichere Sorte. Deshalb eindeutigere Namen; „ungekocht“ wird generell zu „trocken, roh“.
+MACROFACTOR_NAMEN = {
+    "Milch 1,5 % Fett": "fettarme Milch 1,5 % Fett",
+    "Frischkäse light": "Frischkäse Leichtstufe (7 % Fett)",
+    "Joghurt 1,5 % Fett": "fettarmer Joghurt 1,5 % Fett",
+}
+MACROFACTOR_ERSETZEN = [(" ungekocht", " trocken, roh")]
