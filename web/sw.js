@@ -1,5 +1,5 @@
 // Service Worker – Offline-Betrieb. VERSION und DATEIEN setzt tools/generieren.py ein.
-const VERSION = 'ced256a1cf87';
+const VERSION = '8d0b572eb7ca';
 const CACHE = 'rezeptbuch-' + VERSION;
 const DATEIEN = [
  "./",
@@ -14,12 +14,17 @@ const DATEIEN = [
  "icons/icon-512-maskable.png",
  "icons/icon-512.png",
  "index.html",
+ "js/ansicht-einkauf.js",
+ "js/ansicht-mehr.js",
+ "js/ansicht-planer.js",
+ "js/ansicht-rezepte.js",
  "js/app.js",
  "js/format.js",
  "js/kochmodus.js",
  "js/planer.js",
  "js/rezept.js",
  "js/speicher.js",
+ "js/ui.js",
  "manifest.webmanifest",
  "rezepte/airfryer-quarkbaellchen.html",
  "rezepte/airfryer-schnitzel-kartoffelsalat.html",
