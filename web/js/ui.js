@@ -39,6 +39,39 @@ export function tabsMarkieren(tab) {
 export const fuss = () => `<p class="fuss">${HINWEIS}</p>`;
 export const sterne = (b) => (b && b.sterne ? '★'.repeat(b.sterne) + '☆'.repeat(5 - b.sterne) : '');
 export function bewertung(id) { const lokal = S.lesen('bewertungen', {})[id]; return lokal || (D.map[id] && D.map[id].bewertung) || null; }
+/** Lokale Bewertung speichern (sterne 1–5) oder löschen (sterne null) – SPEC 11.2 */
+export function bewertungSetzen(id, sterneZahl, kommentar = '') {
+  const alle = S.lesen('bewertungen', {});
+  if (!sterneZahl) delete alle[id];
+  else alle[id] = { sterne: sterneZahl, kommentar: String(kommentar || '').trim() || null, datum: heuteIso() };
+  S.schreiben('bewertungen', alle);
+}
+const STERNE_TEXT = ['', 'nicht nochmal – wird aussortiert', 'eher nicht – wird aussortiert', 'okay – max. 1× pro Woche', 'gut', 'super!'];
+export function bewertungDialog(r, nachher = () => {}, titel = 'Bewerten') {
+  const lokal = S.lesen('bewertungen', {})[r.id];
+  const b = bewertung(r.id) || {};
+  let wahl = b.sterne || 0;
+  const hg = dialog(`<h2 style="margin-top:0">${escapeHtml(titel)}</h2><p class="muted">${escapeHtml(r.name)}</p>
+    <div class="sterne-wahl" role="radiogroup" aria-label="Sterne">${[1, 2, 3, 4, 5].map((n) => `<button type="button" role="radio" data-stern="${n}" aria-label="${n} Stern${n > 1 ? 'e' : ''}">★</button>`).join('')}</div>
+    <p class="klein muted" id="bw-text"></p>
+    <label>Kommentar (optional)<textarea id="bw-kommentar" rows="3" placeholder="z. B. zu trocken, mehr Sauce">${escapeHtml(b.kommentar || '')}</textarea></label>
+    <p class="klein muted">Wird in diesem Browser gespeichert und ist in der Sicherung enthalten. Schick mir die Sicherung, dann übernehme ich Sterne und Kommentar ins Rezept.</p>
+    <div class="knopf-reihe">${lokal ? '<button class="knopf" type="button" id="bw-loeschen">Löschen</button>' : '<button class="knopf" type="button" data-schliessen>Später</button>'}
+    <button class="knopf primaer" type="button" id="bw-ok" disabled>Speichern</button></div>`);
+  const zeigen = () => {
+    for (const s of $$('[data-stern]', hg)) { const n = +s.dataset.stern; s.classList.toggle('an', n <= wahl); s.setAttribute('aria-checked', String(n === wahl)); }
+    $('#bw-text', hg).textContent = wahl ? `${wahl} ★ – ${STERNE_TEXT[wahl]}` : 'Tippe auf die Sterne.';
+    $('#bw-ok', hg).disabled = !wahl;
+  };
+  hg.addEventListener('click', (e) => {
+    const s = e.target.closest('[data-stern]');
+    if (s) { wahl = +s.dataset.stern; zeigen(); }
+    if (e.target.id === 'bw-ok') { bewertungSetzen(r.id, wahl, $('#bw-kommentar', hg).value); hg.schliessen(); meldung(`${r.name}: ${wahl} ★ gespeichert`); nachher(); }
+    if (e.target.id === 'bw-loeschen') { bewertungSetzen(r.id, null); hg.schliessen(); meldung('Bewertung gelöscht'); nachher(); }
+  });
+  zeigen();
+  return hg;
+}
 
 export function dialog(html, beimSchliessen = null) {
   const hg = document.createElement('div');

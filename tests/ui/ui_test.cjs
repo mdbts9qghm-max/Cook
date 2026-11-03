@@ -133,6 +133,9 @@ function erwarte(bed, meldung) { if (!bed) throw new Error(meldung); }
     erwarte((await page.textContent('[data-aktion="weiter"]')).includes('Fertig'), 'Letzter Schritt');
     await page.click('[data-aktion="weiter"]');
     erwarte((await page.$('.koch')) === null, 'Kochmodus schließt nicht');
+    // Phase 7: nach dem Kochen fragt die App nach einer Bewertung – hier „Später“
+    await page.waitForSelector('.sterne-wahl');
+    await page.click('.modal [data-schliessen]');
   });
 
   await pruefe('In Planer eintragen → Heute zeigt Mahlzeit und Tagesbalken', async () => {

@@ -107,14 +107,15 @@ export function oeffnen(rezept, faktor = 1, beimSchliessen = () => {}) {
     timerZeichnen();
   }
 
-  function schliessen() {
+  function schliessen(fertig = false) {
     el.remove();
     document.body.style.overflow = '';
     document.removeEventListener('visibilitychange', beimSichtbarWerden);
     wachLoslassen();
     beimSchliessen();
+    if (fertig === true) window.dispatchEvent(new CustomEvent('kochen-fertig', { detail: { id: rezept.id } }));
   }
-  function vor() { if (i < seiten.length - 1) { i++; zeichnen(); } else schliessen(); }
+  function vor() { if (i < seiten.length - 1) { i++; zeichnen(); } else schliessen(true); }
   function zurueck() { if (i > 0) { i--; zeichnen(); } }
 
   el.addEventListener('click', (ev) => {
@@ -123,7 +124,7 @@ export function oeffnen(rezept, faktor = 1, beimSchliessen = () => {}) {
     const b = ev.target.closest('[data-aktion]');
     if (!b) return;
     const a = b.dataset.aktion;
-    if (a === 'schliessen') schliessen();
+    if (a === 'schliessen') schliessen(false);
     else if (a === 'weiter') vor();
     else if (a === 'zurueck') zurueck();
     else if (a === 'timer') timerStarten(seiten[i].titel, seiten[i].timer_min);
@@ -142,7 +143,7 @@ export function oeffnen(rezept, faktor = 1, beimSchliessen = () => {}) {
   el.addEventListener('keydown', (e) => {
     if (e.key === 'ArrowRight') vor();
     if (e.key === 'ArrowLeft') zurueck();
-    if (e.key === 'Escape') schliessen();
+    if (e.key === 'Escape') schliessen(false);
   });
 
   if (!tick) tick = setInterval(timerZeichnen, 1000);

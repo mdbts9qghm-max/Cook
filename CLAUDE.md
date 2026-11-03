@@ -31,7 +31,7 @@ Vollständige Vorgabe: **`SPEC.md`** (bei Unklarheit dort nachlesen, bei Widersp
 - Hauptgerichte zwischen 551 und 599 kcal erfüllen keinen Korridor → Mengen anpassen.
 - Plausibilität: ±5 % oder max. 3 kcal/100 g absolut (für energiearme Zutaten), siehe `tools/config.py`.
 
-**Web-App-Aufbau:** Quellcode in `app/` (index.html, css/, js/ – `planer.js`/`rezept.js`/`format.js` sind reine Funktionen, `app.js` Router + Service Worker, `ui.js` gemeinsame Oberflächen-Helfer, `speicher.js` localStorage-Hülle, `ansicht-rezepte.js`/`ansicht-planer.js`/`ansicht-einkauf.js`/`ansicht-mehr.js` Ansichten, `kochmodus.js`, `sw.js`-Vorlage). `tools/web.py` (aufgerufen von `generieren.py`) erzeugt daraus `web/` inkl. `daten/*.json`, statischer Rezeptseiten `rezepte/<id>.html` mit JSON-LD, Icons und Service Worker (Version = Inhalts-Hash). `web/` nie von Hand ändern. UI-Tests: `tests/ui/ui_test.cjs` + `tests/ui/planer_test.cjs` (Node-Playwright, 390 × 844), gestartet von `tests/test_web.py`; Screenshots landen in `tests/screenshots/` (nicht im Git).
+**Web-App-Aufbau:** Quellcode in `app/` (index.html, css/, js/ – `planer.js`/`rezept.js`/`format.js` sind reine Funktionen, `app.js` Router + Service Worker, `ui.js` gemeinsame Oberflächen-Helfer, `speicher.js` localStorage-Hülle, `ansicht-rezepte.js`/`ansicht-planer.js`/`ansicht-einkauf.js`/`ansicht-mehr.js`/`ansicht-kuehlschrank.js` Ansichten, `kochmodus.js`, `sw.js`-Vorlage). `tools/web.py` (aufgerufen von `generieren.py`) erzeugt daraus `web/` inkl. `daten/*.json`, statischer Rezeptseiten `rezepte/<id>.html` mit JSON-LD, Icons und Service Worker (Version = Inhalts-Hash). `web/` nie von Hand ändern. UI-Tests: `tests/ui/ui_test.cjs` + `planer_test.cjs` + `komfort_test.cjs` (Node-Playwright, 390 × 844), gestartet von `tests/test_web.py`; Screenshots landen in `tests/screenshots/` (nicht im Git).
 
 **Web-App:** statisch, Vanilla HTML/CSS/JS, keine Frameworks/Build-Tools, PWA, mobile-first (iPhone Safari), hell/dunkel, Deutsch (TT.MM.JJJJ, Komma). Logik in reinen Funktionen (`web/js/planer.js`). Persönliche Daten nur im Browser (try/catch), Export/Import JSON, Format versioniert + migriert, unbekannte Rezept-IDs dürfen nichts crashen. JSON-LD schema.org/Recipe pro statischer Rezeptseite (MacroFactor).
 
@@ -46,6 +46,17 @@ python3 tools/generieren.py     # Markdown, rezeptbuch.md, web/
 python3 -m pytest tests/        # pytest + Playwright
 ```
 
+Helfer für die Chat-Befehle:
+```bash
+python3 tools/importieren.py                      # Import: neue Dateien in import/ + offene Links
+python3 tools/importieren.py umrechnen "1 scoop whey" "1/2 cup oats"   # ungenaue Mengen → g (Tabelle in config.py)
+python3 tools/importieren.py aehnlich "Name" --zutaten "A,B" --mahlzeit Frühstück   # ab 0,45: Variante oder eigenes Rezept? fragen
+python3 tools/importieren.py erledigt <gruppe|link> --rezept <id>   # nach import/erledigt/, Link markieren
+python3 tools/bewerten.py "marry me" 4 "zu trocken"   # bzw. --aus sicherung.json (Sterne aus der App)
+python3 tools/plan_pruefen.py datei.json --ablegen    # Plan prüfen (gleiche Logik wie App, via Node), ändert nichts
+```
+Neue Rezepte (Import, 11.3) stehen nicht in `rezeptplan.yaml`; die Startbestand-Regeln (SPEC 5) gelten nur für die 100 Planrezepte.
+
 Im Chat (SPEC 14): **Import** · **Import: [Link/Text]** · **Kühlschrank: [Zutaten]** · **bewerten [Rezept] [Sterne] [Kommentar]** · **neue Rezepte** / **Küche: [Name]** / **trending** · **anpassen [Rezept]** · **Extra: [Name, Zutaten]** · **Ziele: [kcal, P, F, KH]** · **Plan prüfen** + Datei · **App-Wunsch: [Beschreibung]** · **Web-App aktualisieren**
 
 ## Fortschritt
@@ -56,5 +67,5 @@ Im Chat (SPEC 14): **Import** · **Import: [Link/Text]** · **Kühlschrank: [Zut
 - [x] **Phase 4 – Rezepte schreiben:** 100/100 Rezepte, alle Prüfungen + Startbestandstest grün (02.11.2026). Varianten-Makros mit `python3 tools/variante.py "Zutat:+g"` rechnen. Nicht High Protein: protein-balls, protein-riegel.
 - [x] **Phase 5 – Web-App Teil 1:** Heute, Rezeptbuch (Suche/Filter/Sortierung/Favoriten), Rezeptseite (12 Abschnitte, Portionsrechner 1–6), Kochmodus (Timer, Wake Lock, Wischen), JSON-LD, MacroFactor-Kopieren, „Einplanen“ (schreibt Plan-Format 6.6), PWA offline + Update-Hinweis; 69 Tests grün (03.11.2026)
 - [x] **Phase 6 – Web-App Teil 2:** Planer (Woche/Tag/Auswahl nach Restmakros, Reste, Verschieben, Auswärts, Extras, Hinweise/Ampel), Einkaufsliste (Packungen, Vorrat, 2 Termine, Kosten, Teilen), Vorrat, Vorlagen/Kopieren, Einstellungen, Sicherung (Export/Import, migriert); 70 Tests grün (03.11.2026) – vom Nutzer abgenommen (03.11.2026)
-- [ ] **Phase 7 – Import & Komfort:** Import, Kühlschrank-Modus, Bewertungen, plan_pruefen.py
+- [~] **Phase 7 – Import & Komfort:** `importieren.py` (Überblick, Umrechnen, Ähnlichkeit, erledigt) + Test-Import per Screenshot → `zitronen-blaubeer-tassenkuchen` (101 Rezepte), Kühlschrank-Modus (App: `#/kuehlschrank`, Faktor-Vorschlag), Bewertungen (App: Rezeptseite + „Wie war’s?“ nach dem Kochmodus, Export; `bewerten.py`), `plan_pruefen.py`; 100 Tests grün (03.11.2026) – **offen: Abnahme durch Nutzer**
 - [ ] **Phase 8 – Livegang:** GitHub Pages, MacroFactor-Test, Home-Bildschirm, README

@@ -487,7 +487,8 @@ export function ansichtHeute() {
   if (!P.tagBelegt(tag)) {
     html += `<div class="karte"><h2 style="margin-top:0">Für heute ist noch nichts geplant</h2>
       <p class="muted">Plane die Woche im Planer – oder trage direkt ein Gericht für heute ein.</p>
-      <div class="knopf-reihe"><a class="knopf primaer" href="#/planer">Woche planen</a><a class="knopf" href="#/tag/${datum}">Heute planen</a></div></div>`;
+      <div class="knopf-reihe"><a class="knopf primaer" href="#/planer">Woche planen</a><a class="knopf" href="#/tag/${datum}">Heute planen</a></div>
+      <p style="margin-bottom:0"><a href="#/kuehlschrank">🧊 Kühlschrank-Modus: Was kann ich mit dem kochen, was da ist?</a></p></div>`;
   } else {
     const sm = P.tagesSumme(tag, D.map, D.extrasMap);
     const h = P.hinweiseWoche(plan, c)[datum];
@@ -511,6 +512,7 @@ export function ansichtHeute() {
     setTimeout(() => { const b = $('#jetzt-kochen'); if (b) b.onclick = () => kochmodusOeffnen(kochen.r, kochen.f); });
   }
   html += erinnerungenHtml(plan, P.morgen(datum), 'Für morgen vorbereiten');
+  if (P.tagBelegt(tag)) html += '<p class="klein"><a href="#/kuehlschrank">🧊 Kühlschrank-Modus</a></p>';
   const z = D.profil.tagesziele;
   html += `<div class="karte"><h2 style="margin-top:0">Deine Tagesziele</h2><p class="zahl">${zahl(z.kcal)} kcal · ${zahl(z.protein)} g Protein · ${zahl(z.fett)} g Fett · ${zahl(z.kh)} g KH</p><p class="klein muted">Stand MacroFactor ${datumDe(isoZuDatum(String(z.stand)))}</p></div>`;
   $('#inhalt').innerHTML = html + fuss();

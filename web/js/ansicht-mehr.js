@@ -11,6 +11,7 @@ export function ansichtMehr() {
   const letzte = S.lesen('letzte_sicherung', null);
   $('#inhalt').innerHTML = `
     <nav class="menue">
+      <a href="#/kuehlschrank"><b>Kühlschrank-Modus</b><span class="muted klein">Was kann ich mit dem kochen, was da ist?</span></a>
       <a href="#/vorrat"><b>Vorrat</b><span class="muted klein">${vorrat().length} Einträge – wird von der Einkaufsliste abgezogen</span></a>
       <a href="#/vorlagen"><b>Vorlagen</b><span class="muted klein">${S.lesen('vorlagen', []).length} gespeicherte Wochen</span></a>
       <a href="#/einstellungen"><b>Einstellungen</b><span class="muted klein">Abteilungsreihenfolge, Essenszeiten</span></a>
@@ -130,7 +131,7 @@ export function ansichtSicherung() {
     $('#exp-alles').onclick = async () => {
       if (await dateiAnbieten(`rezeptbuch-sicherung-${heuteIso()}.json`, P.sicherungErstellen(alleDaten()))) { S.schreiben('letzte_sicherung', new Date().toISOString()); zeichnen(); }
     };
-    $('#exp-plan').onclick = () => dateiAnbieten(`KW-${String(w.kw).padStart(2, '0')}-${w.jahr}.json`, P.planExport(planLaden(w.jahr, w.kw), vorrat()));
+    $('#exp-plan').onclick = () => dateiAnbieten(`KW-${String(w.kw).padStart(2, '0')}-${w.jahr}.json`, P.planExport(planLaden(w.jahr, w.kw), vorrat(), S.lesen('bewertungen', {})));
     $('#imp-datei').onchange = async (ev) => {
       const f = ev.target.files[0]; if (!f) return;
       try {

@@ -113,3 +113,38 @@ PFLICHTFELDER = ["id", "name", "hauptkategorie", "mahlzeit", "geschmack", "kuech
 HINWEIS_SCHAETZWERTE = ("Nährwerte sind berechnete Schätzwerte auf Basis von Durchschnittswerten "
                         "und können je nach Produkt abweichen. Die Hinweise im Planer sind "
                         "Orientierung und ersetzen keine Ernährungs- oder ärztliche Beratung.")
+
+# --- Import (SPEC 9): ungenaue Mengen → Gramm ------------------------------------------
+# Einheit → {Stichwort in der Zutat: g pro Einheit, "_": Standard}. Stichwörter deutsch und englisch,
+# Vergleich ohne Groß-/Kleinschreibung; das erste passende Stichwort gewinnt. None = nicht eindeutig → nachfragen.
+IMPORT_EINHEITEN = {
+    "scoop": {"_": 30},                          # Messlöffel Proteinpulver
+    "cup": {"hafer": 90, "oat": 90, "mehl": 125, "flour": 125, "reis": 185, "rice": 185, "zucker": 200,
+            "sugar": 200, "milch": 245, "milk": 245, "joghurt": 245, "yogurt": 245, "yoghurt": 245,
+            "skyr": 245, "quark": 250, "beer": 140, "berr": 140, "käse": 100, "cheese": 100, "_": None},
+    "el": {"öl": 10, "oil": 10, "honig": 21, "honey": 21, "erdnussmus": 16, "peanut": 16, "mehl": 8,
+           "flour": 8, "kakao": 6, "cocoa": 6, "joghurt": 15, "yogurt": 15, "skyr": 15, "milch": 15,
+           "milk": 15, "chia": 12, "_": 15},
+    "tl": {"öl": 4, "oil": 4, "salz": 6, "salt": 6, "backpulver": 4, "baking": 4, "zimt": 3,
+           "cinnamon": 3, "vanille": 4, "vanilla": 4, "honig": 7, "honey": 7, "_": 5},
+    "dose": {"kichererbsen": 240, "chickpea": 240, "kidney": 250, "bohnen": 250, "bean": 250, "mais": 140,
+             "corn": 140, "thunfisch": 120, "tuna": 120, "tomaten": 400, "tomato": 400, "kokos": 400,
+             "coconut": 400, "_": None},
+    "prise": {"_": 0.5},
+    "zehe": {"_": 4},                            # Knoblauchzehe
+    "stück": {"ei": 60, "egg": 60, "banane": 120, "banana": 120, "zwiebel": 80, "onion": 80, "apfel": 150,
+              "apple": 150, "paprika": 160, "pepper": 160, "möhre": 80, "carrot": 80, "zitrone": 100,
+              "lemon": 100, "wrap": 62, "tortilla": 62, "_": None},
+    "handvoll": {"spinat": 30, "spinach": 30, "beer": 50, "berr": 50, "nüss": 30, "nut": 30, "_": None},
+    "oz": {"_": 28.35}, "lb": {"_": 453.6}, "ml": {"_": 1.0}, "g": {"_": 1.0}, "kg": {"_": 1000.0},
+}
+# Schreibweisen → Einheit
+IMPORT_EINHEIT_ALIAS = {
+    "scoops": "scoop", "messlöffel": "scoop", "ml.": "ml", "cups": "cup", "tasse": "cup", "tassen": "cup",
+    "tbsp": "el", "tbs": "el", "tablespoon": "el", "tablespoons": "el", "esslöffel": "el",
+    "tsp": "tl", "teaspoon": "tl", "teaspoons": "tl", "teelöffel": "tl", "dosen": "dose", "can": "dose", "cans": "dose",
+    "prisen": "prise", "pinch": "prise", "zehen": "zehe", "clove": "zehe", "cloves": "zehe",
+    "stk": "stück", "stk.": "stück", "x": "stück", "handful": "handvoll", "gramm": "g", "grams": "g",
+}
+# Ab dieser Ähnlichkeit (0–1) wird beim Import gefragt: Variante oder eigenes Rezept? (SPEC 9.2.6)
+IMPORT_AEHNLICH_AB = 0.45

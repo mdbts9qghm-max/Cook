@@ -154,6 +154,58 @@ export function passtZuRest(rezept, rest, offeneMahlzeiten = 1) {
   return d('kcal', 1) + d('protein', 1.5) + d('fett', 0.5) + d('kh', 0.5);
 }
 
+// ---------------------------------------------------------------------------------- Kühlschrank-Modus (11.1)
+export const FAKTOREN = [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2];
+/** Basics, die als vorhanden gelten (Gewürze, Öle, Wasser) – fehlen nie in der Liste */
+export function istBasic(zutat, packungen = {}) {
+  const pk = packungen[zutat];
+  return zutat === 'Wasser' || KLEINMENGEN.has(zutat) || (!!pk && (pk.abteilung === 'Gewürze & Öle' || pk.packung_g === 0));
+}
+/** Portionsfaktor, mit dem ein Rezept am besten zu den offenen Makros passt (Schritte von 0,25) */
+export function faktorVorschlag(rezept, rest, offeneMahlzeiten = 1) {
+  let best = { faktor: 1, wert: Infinity };
+  for (const f of FAKTOREN) {
+    const skal = { naehrwerte: Object.fromEntries(MAKROS.map((k) => [k, rezept.naehrwerte[k] * f])) };
+    const w = passtZuRest(skal, rest, offeneMahlzeiten) + (f === 1 ? -0.02 : 0);   // bei Gleichstand Originalportion
+    if (w < best.wert) best = { faktor: f, wert: w };
+  }
+  return best.faktor;
+}
+/**
+ * Rezepte zu vorhandenen Zutaten: [{ rezept, hat, fehlt, basics, faktor, werte }]
+ * Sortierung (SPEC 11.1): nutzt möglichst viele der gewählten Zutaten, dann fehlt möglichst wenig, dann Passung zu den Restmakros.
+ * Basics (Gewürze, Öle, Kleinmengen) und Zutaten aus dem Vorrat gelten als vorhanden.
+ * ctx = { packungen, rest (offene Makros heute, optional), offeneMahlzeiten, bewertungen, vorrat, aussortierteZeigen }
+ */
+export function kuehlschrank(auswahl, rezepte, ctx = {}) {
+  const { packungen = {}, rest = null, offeneMahlzeiten = 1, bewertungen = {}, vorrat = [] } = ctx;
+  const gewaehlt = new Set(auswahl);
+  if (!gewaehlt.size) return [];
+  const imVorrat = new Set(vorrat.filter((v) => (+v.g || 0) > 0).map((v) => v.zutat));
+  const vorhanden = (n) => istBasic(n, packungen) || imVorrat.has(n);
+  const out = [];
+  for (const r of rezepte) {
+    const b = bewertungen[r.id] || r.bewertung;
+    if (!ctx.aussortierteZeigen && b && b.sterne && b.sterne <= 2) continue;
+    const namen = [...new Set(r.zutaten.map((z) => z.zutat))];
+    const hat = namen.filter((n) => gewaehlt.has(n));
+    if (!hat.length) continue;
+    const fehlt = namen.filter((n) => !gewaehlt.has(n) && !vorhanden(n));
+    const basics = namen.filter((n) => !gewaehlt.has(n) && vorhanden(n));
+    const faktor = rest ? faktorVorschlag(r, rest, offeneMahlzeiten) : 1;
+    const werte = Object.fromEntries(MAKROS.map((k) => [k, r.naehrwerte[k] * faktor]));
+    const passt = rest ? passtZuRest({ naehrwerte: werte }, rest, offeneMahlzeiten) : 0;
+    out.push({ rezept: r.id, hat, fehlt, basics, faktor, werte, passt });
+  }
+  return out.sort((a, b) => b.hat.length - a.hat.length || a.fehlt.length - b.fehlt.length || a.passt - b.passt || a.rezept.localeCompare(b.rezept));
+}
+/** Zutaten zur Auswahl: alle Nicht-Basics aus den Rezepten, nach Häufigkeit */
+export function kuehlschrankZutaten(rezepte, packungen = {}) {
+  const n = {};
+  for (const r of rezepte) for (const z of new Set(r.zutaten.map((x) => x.zutat))) if (!istBasic(z, packungen)) n[z] = (n[z] || 0) + 1;
+  return Object.entries(n).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'de')).map(([zutat, anzahl]) => ({ zutat, anzahl }));
+}
+
 // ---------------------------------------------------------------------------------- Reste
 const personen = (e) => e.personen ?? 2;
 export function restEintrag(vonRef, quelle, anzahlPersonen = 2) {
@@ -623,7 +675,7 @@ export const SICHERUNG_FORMAT = 'rezeptbuch-sicherung';
 export function sicherungErstellen(daten, jetzt = new Date()) {
   return { format: SICHERUNG_FORMAT, version: 1, exportiert: jetzt.toISOString(), daten: kopie(daten) };
 }
-export function planExport(plan, vorrat = []) { return { ...kopie(plan), vorrat: kopie(vorrat) }; }
+export function planExport(plan, vorrat = [], bewertungen = {}) { return { ...kopie(plan), vorrat: kopie(vorrat), bewertungen: kopie(bewertungen || {}) }; }
 
 /** Erkennt Sicherung oder einzelnen Wochenplan. Gibt { typ: 'alles'|'plan', ... } zurück oder wirft einen verständlichen Fehler. */
 export function sicherungEinlesen(obj) {
@@ -637,7 +689,9 @@ export function sicherungEinlesen(obj) {
   }
   if (Array.isArray(obj.tage) && obj.kw && obj.jahr) {
     const plan = migrierePlan(obj);
-    return { typ: 'plan', schluessel: wochenSchluessel(plan.jahr, plan.kw), plan, vorrat: plan.vorrat || [] };
+    const bewertungen = plan.bewertungen || {};
+    delete plan.bewertungen;
+    return { typ: 'plan', schluessel: wochenSchluessel(plan.jahr, plan.kw), plan, vorrat: plan.vorrat || [], bewertungen };
   }
   throw new Error('Unbekanntes Dateiformat – erwartet wird eine Sicherung oder ein exportierter Wochenplan');
 }

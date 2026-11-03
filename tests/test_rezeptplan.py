@@ -8,10 +8,14 @@ def test_plan_erfuellt_alle_vorgaben():
 
 
 def test_geschriebene_rezepte_stehen_im_plan(rezepte):
+    """Alle 100 geplanten Rezepte existieren und passen zum Plan; spätere Rezepte (Import, 11.3) stehen nicht im Plan."""
     plan = {e["id"]: e for e in RP.eintraege(RP.lade_plan())}
+    ids = {r["id"] for r in rezepte}
+    assert set(plan) <= ids, f"fehlen: {sorted(set(plan) - ids)}"
     bereich = {"Frühstück": "fruehstueck", "Snack": "snack", "Mittag/Abend": "hauptgericht"}
     for r in rezepte:
-        assert r["id"] in plan, f"{r['id']} fehlt im Rezeptplan"
+        if r["id"] not in plan:
+            continue
         e = plan[r["id"]]
         assert bereich[r["mahlzeit"]] == e["bereich"]
         assert r["kueche"] == e["kueche"]
@@ -22,6 +26,8 @@ def test_planmarkierungen_stimmen_mit_berechnung(rezepte, zutaten):
     import naehrwerte as N
     plan = {e["id"]: e for e in RP.eintraege(RP.lade_plan())}
     for r in rezepte:
+        if r["id"] not in plan:
+            continue
         e = plan[r["id"]]
         kat = N.kategorien(r, N.berechne_rezept(r, zutaten)["portion_gerundet"])
         for flag, key in (("schnell", "schnell"), ("mp", "meal-prep"), ("ka", "kalorienarm")):

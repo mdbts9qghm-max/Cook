@@ -265,3 +265,16 @@ ol.sortier li { display: flex; justify-content: space-between; align-items: cent
 ol.sortier li span:last-child { display: flex; gap: 6px; }
 .banner.verschieben { background: var(--accent); color: var(--accent-ink); }
 .banner.verschieben button { background: var(--accent-ink); color: var(--accent); }
+
+/* ---------- Phase 7: Bewertung, Kühlschrank ---------- */
+.link-knopf { text-align: left; background: none; border: 0; padding: 0; color: var(--accent); font: inherit; text-decoration: underline; min-height: 32px; cursor: pointer; }
+.sterne-wahl { display: flex; gap: 6px; margin: 8px 0 2px; }
+.sterne-wahl button { width: 52px; height: 52px; border-radius: 12px; border: 1px solid var(--border); background: var(--surface); font-size: 1.7rem; color: var(--border); line-height: 1; }
+.sterne-wahl button.an { color: #e0a100; border-color: #e0a100; }
+.chips.umbruch { flex-wrap: wrap; overflow: visible; }
+.chip .x { margin-left: 6px; opacity: .7; }
+.treffer-zeile { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: .88rem; margin-top: 4px; }
+.fehlt { color: var(--warn, #b25e00); }
+.hat { color: var(--ok, #2e7d32); }
+.suche .knopf { flex: none; min-width: 52px; padding: 0 12px; }
+.ks-treffer .knopf { width: 100%; }

@@ -198,10 +198,18 @@ def pruefe_rezept(r: dict, zutaten: dict, packungen: dict, erg: Ergebnis) -> dic
 
     # Ausschlüsse (z. B. kein Tofu)
     import yaml as _yaml
-    volltext = _yaml.safe_dump({k: v for k, v in r.items() if k != "_datei"}, allow_unicode=True).lower()
+    volltext = _yaml.safe_dump({k: v for k, v in r.items() if k not in ("_datei", "bewertung")}, allow_unicode=True).lower()
     for begriff in C.VERBOTENE_BEGRIFFE:
         if begriff.lower() in volltext:
             erg.f(wo, f"enthält ausgeschlossenen Begriff „{begriff}“ (Vorlieben)")
+
+    # Bewertung (SPEC 11.2): Sterne 1–5 oder leer
+    bew = r.get("bewertung") or {}
+    st = bew.get("sterne")
+    if st is not None and not (isinstance(st, int) and 1 <= st <= 5):
+        erg.f(wo, f"bewertung.sterne muss 1–5 oder null sein ({st!r})")
+    if st and not bew.get("datum"):
+        erg.w(wo, "Bewertung ohne Datum")
 
     # Umfang der Abschnitte (SPEC 7)
     if not 2 <= len(r["fehler"]) <= 4:

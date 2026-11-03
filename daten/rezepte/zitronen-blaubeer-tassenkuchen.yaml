@@ -1,0 +1,67 @@
+id: zitronen-blaubeer-tassenkuchen
+name: Zitronen-Blaubeer-Tassenkuchen mit Skyr-Haube
+hauptkategorie: schnell
+kategorien_manuell: []
+mahlzeit: Frühstück
+geschmack: süß
+kueche: Amerikanisch
+hauptprotein: Skyr & Whey
+inspiration:
+  quelle: "Instagram-/TikTok-Post „Lemon Blueberry Protein Mug Cake“ (Import per Screenshot)"
+  link: null
+  aenderungen: "Griechischer Joghurt durch Skyr ersetzt, Haferanteil und Topping erhöht, damit es ein sattmachendes Frühstück im Zielkorridor wird; Mandeln für Biss, Mengen in Gramm statt Cups und Löffeln."
+schwierigkeit: leicht
+zeit: {vorbereitung: 6, kochen: 4, wartezeit: 2}
+ausstattung: ["Mikrowelle (800 W)", "2 große mikrowellengeeignete Tassen (je mind. 400 ml)", "Mixer oder Pürierstab", Gabel]
+restetauglich: false
+vortag: []
+zutaten:
+  - gruppe: Teig (für 2 Tassen)
+  - {id: hafer, zutat: Haferflocken zart, g: 70, name: "zarte Haferflocken", hinweis: "zu Mehl gemahlen"}
+  - {id: whey, zutat: Whey Protein Vanille, g: 60, name: "Vanille-Whey", hinweis: "2 Messlöffel"}
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 120, anzeige: "2 Eier Gr. M", hinweis: ""}
+  - {id: backpulver, zutat: Backpulver, g: 4, anzeige: "1 TL Backpulver", hinweis: ""}
+  - {id: skyr_teig, zutat: Skyr natur, g: 90, name: Skyr, hinweis: ""}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 40, name: "Milch (1,5 %)", hinweis: "40 ml"}
+  - {id: zitrone, zutat: Zitronensaft, g: 20, anzeige: "4 TL Zitronensaft", hinweis: "frisch gepresst oder aus der Flasche"}
+  - {id: blaubeeren, zutat: Heidelbeeren TK, g: 100, name: "Heidelbeeren", hinweis: "gefroren verwenden"}
+  - {id: oel, zutat: Rapsöl, g: 2, anzeige: "½ TL Rapsöl", hinweis: "zum Auspinseln der Tassen"}
+  - gruppe: Skyr-Haube
+  - {id: skyr_top, zutat: Skyr natur, g: 200, name: Skyr, hinweis: ""}
+  - {id: honig, zutat: Honig, g: 10, anzeige: "2 TL Honig", hinweis: ""}
+  - {id: mandeln, zutat: Mandeln, g: 30, name: Mandeln, hinweis: "grob gehackt"}
+mise_en_place:
+  - "{hafer} im Mixer 15 Sekunden zu feinem Mehl mahlen."
+  - "Die beiden Tassen innen mit {oel} auspinseln – so löst sich der Kuchen später sauber."
+  - "{mandeln} grob hacken. {skyr_top} mit {honig} glatt rühren und kalt stellen."
+schritte:
+  - titel: Teig rühren
+    text: "Hafermehl, {whey} und {backpulver} in einer Schüssel mischen. {eier}, {skyr_teig}, {milch} und {zitrone} dazugeben und mit der Gabel 1 Minute zu einem dicken, glatten Teig verrühren – es dürfen keine trockenen Whey-Nester mehr zu sehen sein. {blaubeeren} unterheben und den Teig gleichmäßig auf die beiden Tassen verteilen (jede Tasse höchstens halb voll, der Teig geht stark auf)."
+  - titel: In der Mikrowelle garen
+    text: "Eine Tasse in die Mikrowelle stellen und 90 Sekunden bei 800 W garen. Der Kuchen ist fertig, wenn er deutlich aufgegangen ist, sich die Oberfläche trocken und federnd anfühlt und ein Holzstäbchen in der Mitte ohne flüssigen Teig herauskommt (feuchte Blaubeerstellen sind normal). Ist die Mitte noch nass: in 15-Sekunden-Schritten nachgaren. Dann die zweite Tasse genauso garen."
+    timer_min: 2
+  - titel: Kurz ruhen lassen
+    text: "Die Kuchen 2 Minuten in der Tasse ruhen lassen – sie fallen dabei leicht zusammen und ziehen nach, die Mitte wird saftig statt teigig."
+    timer_min: 2
+zeitablauf:
+  - "Während die erste Tasse in der Mikrowelle ist: Skyr-Haube anrühren und Mandeln hacken."
+fehler:
+  - "**Kuchen gummiartig und zäh:** zu lange gegart. Whey-Teig wird in der Mikrowelle schnell trocken – lieber bei 90 Sekunden aufhören und in kleinen Schritten nachgaren."
+  - "**Teig läuft über:** Tasse zu klein oder zu voll. Mindestens 400 ml Tasse, höchstens halb füllen."
+  - "**Schmeckt kaum nach Zitrone:** Zitronensaft vergessen oder zu wenig gerührt. Den Saft unbedingt in den Teig, nicht nur obendrauf."
+anrichten: "Die Kuchen in der Tasse lassen oder auf einen Teller stürzen (je ca. {portion_g} g mit Haube), die Honig-Skyr-Haube darauf verteilen und mit den gehackten Mandeln bestreuen. Lauwarm essen – warmer Kuchen und kalter Skyr sind der Trick."
+aufbewahrung:
+  kuehlschrank_tage: 1
+  einfrierbar: false
+  einfrieren_monate: null
+  aufwaermen: "Am besten frisch. Gegarten Kuchen abgedeckt im Kühlschrank lagern und 20 Sekunden bei 800 W anwärmen."
+  separat: "Skyr-Haube und Mandeln erst kurz vor dem Essen daraufgeben."
+varianten:
+  - "**Noch zitroniger:** den Abrieb einer halben Bio-Zitrone in den Teig geben (praktisch keine zusätzlichen kcal)."
+  - "**Himbeer-Version:** {blaubeeren:n} 1:1 durch Himbeeren TK ersetzen (−6 kcal, −2,8 g Zucker pro Portion)."
+  - "**Aus dem Airfryer:** Teig auf 2 ofenfeste Förmchen verteilen und bei 160 °C 10–12 Minuten garen, bis ein Holzstäbchen sauber herauskommt."
+tipps:
+  - "Gefrorene Heidelbeeren sinken weniger ab als frische und färben den Teig nur wenig."
+  - "Der Kuchen schmeckt mit einer Prise Zimt im Teig wie ein Blaubeer-Muffin."
+gargewicht_g: null
+bewertung: {sterne: null, kommentar: null, datum: null}

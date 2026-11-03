@@ -139,3 +139,19 @@ def test_planer_einkauf_playwright(web):
     fehler = [e for e in out.get("ergebnisse", []) if not e["ok"]]
     assert not fehler and not out.get("absturz"), json.dumps(out, ensure_ascii=False, indent=1)
     assert len(out["ergebnisse"]) >= 13
+
+
+@pytest.mark.skipif(shutil.which("node") is None, reason="node nicht installiert")
+def test_komfort_playwright(web):
+    """Phase 7: Kühlschrank-Modus und Bewertungen"""
+    shots = C.ROOT / "tests" / "screenshots"
+    p = subprocess.run(["node", str(C.ROOT / "tests/ui/komfort_test.cjs"), str(web), str(shots)],
+                       capture_output=True, text=True, timeout=240, cwd=C.ROOT)
+    zeilen = [z for z in p.stdout.strip().splitlines() if z.startswith("{")]
+    assert zeilen, p.stdout + p.stderr
+    out = json.loads(zeilen[-1])
+    if out.get("skip"):
+        pytest.skip(out["skip"])
+    fehler = [e for e in out.get("ergebnisse", []) if not e["ok"]]
+    assert not fehler and not out.get("absturz"), json.dumps(out, ensure_ascii=False, indent=1)
+    assert len(out["ergebnisse"]) >= 6

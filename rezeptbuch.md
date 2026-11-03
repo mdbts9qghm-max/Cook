@@ -2,7 +2,7 @@
 
 # Rezeptbuch
 
-100 Rezepte · je 2 Portionen · Nährwerte pro Portion · Stand 03.11.2026
+101 Rezepte · je 2 Portionen · Nährwerte pro Portion · Stand 03.11.2026
 
 ## High Protein (14)
 
@@ -23,7 +23,7 @@
 | [Tandoori-Hähnchen aus dem Airfryer](rezepte/high-protein/tandoori-haehnchen.md) | Mittag/Abend | Indisch | 684 | 61,1 g | 515 min | – |
 | [Zitronen-Lachs mit Ofenkartoffeln und Tzatziki](rezepte/high-protein/zitronen-lachs-ofenkartoffeln.md) | Mittag/Abend | Griechisch & Mediterran | 635 | 47,2 g | 47 min | – |
 
-## Schnelle Rezepte (33)
+## Schnelle Rezepte (34)
 
 | Rezept | Mahlzeit | Küche | kcal | Protein | Zeit | Bewertung |
 |---|---|---|---:|---:|---:|---|
@@ -60,6 +60,7 @@
 | [Smash Burger mit Burgersauce](rezepte/schnell/smash-burger.md) | Mittag/Abend | Amerikanisch | 610 | 61,7 g | 20 min | – |
 | [Vanille-Quarkcreme mit Erdbeeren](rezepte/schnell/quarkcreme-erdbeeren.md) | Snack | Deutsch | 220 | 28,3 g | 7 min | – |
 | [Zimtschnecken-Oats mit Frischkäse-Icing](rezepte/schnell/zimtschnecken-oats.md) | Frühstück | Amerikanisch | 505 | 40,7 g | 13 min | – |
+| [Zitronen-Blaubeer-Tassenkuchen mit Skyr-Haube](rezepte/schnell/zitronen-blaubeer-tassenkuchen.md) | Frühstück | Amerikanisch | 574 | 55,0 g | 12 min | – |
 
 ## Meal Prep (33)
 

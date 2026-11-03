@@ -64,6 +64,10 @@ def test_aussortiert_markierung():
 
 # --- Startbestand (greift, sobald alle 100 Rezepte geschrieben sind) ------------------------------
 def test_startbestand(rezepte, zutaten):
+    """SPEC 5: Verteilung gilt nur für den Startbestand (Rezepte aus dem Rezeptplan); spätere Rezepte (11.3, Import) zählen nicht mit."""
+    import rezeptplan as RP
+    plan_ids = {e["id"] for e in RP.eintraege(RP.lade_plan())}
+    rezepte = [r for r in rezepte if r["id"] in plan_ids]
     B = C.BESTAND
     if len(rezepte) < B["gesamt"]:
         pytest.skip(f"Startbestand noch im Aufbau ({len(rezepte)}/{B['gesamt']})")

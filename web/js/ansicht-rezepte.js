@@ -4,7 +4,7 @@ import { escapeHtml, inlineMd, macroFactorText, menge, rezeptText } from './reze
 import * as P from './planer.js';
 import * as S from './speicher.js';
 import { oeffnen as kochmodusOeffnen } from './kochmodus.js';
-import { $, D, KAT, bewertung, dialog, favoriten, favoritUmschalten, fuss, heuteIso, kopf, planFuerDatum, planSpeichern, sterne, svg } from './ui.js';
+import { $, D, KAT, bewertung, bewertungDialog, dialog, favoriten, favoritUmschalten, fuss, heuteIso, kopf, planFuerDatum, planSpeichern, sterne, svg } from './ui.js';
 
 // ---------- Ansicht: Rezeptbuch ----------
 export const FILTER_STANDARD = { q: '', mahlzeit: '', kategorie: '', kueche: '', protein: '', zeit: '', bewertung: '', fav: false, sort: 'name' };
@@ -106,7 +106,7 @@ function rezeptHtml(r, portionen) {
   return `
   <p>${r.kategorien.map((k) => `<span class="tag">${KAT[k]}</span>`).join('')}</p>
   <dl class="kopf-info">
-    <dt>Bewertung</dt><dd>${sterne(bewertung(r.id)) || 'noch nicht bewertet'}</dd>
+    <dt>Bewertung</dt><dd>${bewertungZeile(r)}</dd>
     <dt>Küche</dt><dd>${escapeHtml(r.kueche)}</dd>${insp}
     <dt>Mahlzeit</dt><dd>${escapeHtml(r.mahlzeit)} (${escapeHtml(r.geschmack)})</dd>
     <dt>Hauptprotein</dt><dd>${escapeHtml(r.hauptprotein)}</dd>
@@ -158,6 +158,14 @@ function rezeptHtml(r, portionen) {
   <p class="klein muted"><a href="${r.url}">Statische Rezeptseite (für den Link-Import in MacroFactor)</a></p>`;
 }
 
+function bewertungZeile(r) {
+  const b = bewertung(r.id);
+  if (!b || !b.sterne) return '<button class="link-knopf" type="button" data-aktion="bewerten">noch nicht bewertet – jetzt bewerten</button>';
+  const aus = b.sterne <= 2 ? ' · aussortiert' : '';
+  const k = b.kommentar ? ` <span class="muted">„${escapeHtml(b.kommentar)}“</span>` : '';
+  return `${sterne(b)}${aus}${k} <button class="link-knopf" type="button" data-aktion="bewerten">ändern</button>`;
+}
+
 export function ansichtRezept(id) {
   const r = D.map[id];
   if (!r) { kopf('Rezept', 'Rezepte'); $('#inhalt').innerHTML = '<p>Dieses Rezept gibt es nicht (mehr).</p><a class="knopf" href="#/rezepte">Zum Rezeptbuch</a>'; return; }
@@ -177,6 +185,7 @@ export function ansichtRezept(id) {
     if (!b) return;
     if (b.dataset.aktion === 'kochen') kochmodusOeffnen(r, portionen / 2);
     if (b.dataset.aktion === 'planen') planenDialog(r);
+    if (b.dataset.aktion === 'bewerten') bewertungDialog(r, () => { const y = window.scrollY; zeichnen(); window.scrollTo(0, y); });
     if (b.dataset.aktion === 'macrofactor') {
       const text = `${r.name} (${portionen} Portionen)\n${macroFactorText(r, portionen / 2)}`;
       let ok = false;
@@ -190,12 +199,13 @@ export function ansichtRezept(id) {
   };
 }
 
-function planenDialog(r) {
-  const vorschlag = r.mahlzeit === 'Frühstück' ? 'fruehstueck' : r.mahlzeit === 'Snack' ? 'snack' : 'abend';
+export function planenDialog(r, vorgabe = {}) {
+  const vorschlag = vorgabe.slot || (r.mahlzeit === 'Frühstück' ? 'fruehstueck' : r.mahlzeit === 'Snack' ? 'snack' : 'abend');
+  const faktor = P.FAKTOREN.includes(vorgabe.faktor) ? vorgabe.faktor : 1;
   const hg = dialog(`<h2 style="margin-top:0">In Planer eintragen</h2><p class="muted">${escapeHtml(r.name)}</p>
-    <label>Tag<input type="date" id="pl-datum" value="${heuteIso()}"></label>
+    <label>Tag<input type="date" id="pl-datum" value="${vorgabe.datum || heuteIso()}"></label>
     <label>Mahlzeit<select id="pl-slot">${P.SLOTS.map((s) => `<option value="${s}"${s === vorschlag ? ' selected' : ''}>${P.SLOT_NAMEN[s]}</option>`).join('')}</select></label>
-    <label>Portionsfaktor<select id="pl-faktor">${[0.5, 0.75, 1, 1.25, 1.5, 1.75, 2].map((x) => `<option value="${x}"${x === 1 ? ' selected' : ''}>× ${zahl(x, 2)} (${zahl(r.naehrwerte.kcal * x)} kcal)</option>`).join('')}</select></label>
+    <label>Portionsfaktor<select id="pl-faktor">${P.FAKTOREN.map((x) => `<option value="${x}"${x === faktor ? ' selected' : ''}>× ${zahl(x, 2)} (${zahl(r.naehrwerte.kcal * x)} kcal)</option>`).join('')}</select></label>
     <div class="knopf-reihe"><button class="knopf" type="button" data-schliessen>Abbrechen</button><button class="knopf primaer" type="button" id="pl-ok">Eintragen</button></div>`);
   $('#pl-ok', hg).addEventListener('click', () => {
     const datum = $('#pl-datum', hg).value;

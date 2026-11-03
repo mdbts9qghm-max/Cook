@@ -2,14 +2,15 @@
 import * as P from './planer.js';
 import * as S from './speicher.js';
 import { oeffnen as kochmodusOeffnen } from './kochmodus.js';
-import { $, D, laden, svg, tabsMarkieren } from './ui.js';
+import { $, D, bewertungDialog, laden, svg, tabsMarkieren } from './ui.js';
 import { ansichtRezept, ansichtRezepte } from './ansicht-rezepte.js';
 import { ansichtAuswahl, ansichtHeute, ansichtPlaner, ansichtTag } from './ansicht-planer.js';
 import { ansichtEinkauf } from './ansicht-einkauf.js';
+import { ansichtKuehlschrank } from './ansicht-kuehlschrank.js';
 import { ansichtEinstellungen, ansichtMehr, ansichtSicherung, ansichtVorlagen, ansichtVorrat } from './ansicht-mehr.js';
 
 const TABS = { heute: 'heute', rezepte: 'rezepte', rezept: 'rezepte', kochen: 'rezepte', planer: 'planer', tag: 'planer', auswahl: 'planer',
-  einkauf: 'einkauf', mehr: 'mehr', vorrat: 'mehr', vorlagen: 'mehr', einstellungen: 'mehr', sicherung: 'mehr' };
+  einkauf: 'einkauf', mehr: 'mehr', vorrat: 'mehr', vorlagen: 'mehr', einstellungen: 'mehr', sicherung: 'mehr', kuehlschrank: 'mehr' };
 
 function route() {
   const h = location.hash.replace(/^#\/?/, '') || 'heute';
@@ -33,6 +34,7 @@ function route() {
     case 'vorlagen': return ansichtVorlagen();
     case 'einstellungen': return ansichtEinstellungen();
     case 'sicherung': return ansichtSicherung();
+    case 'kuehlschrank': return ansichtKuehlschrank();
     default: return ansichtHeute();
   }
 }
@@ -70,6 +72,7 @@ async function start() {
     return;
   }
   window.addEventListener('hashchange', route);
+  window.addEventListener('kochen-fertig', (e) => { const r = D.map[e.detail.id]; if (r) bewertungDialog(r, route, 'Wie war’s?'); });
   route();
   serviceWorker();
 }
