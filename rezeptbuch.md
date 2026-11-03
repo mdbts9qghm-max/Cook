@@ -34,7 +34,7 @@
 | [Crispy Wrap-Hack-Quesadilla](rezepte/schnell/wrap-hack-quesadilla.md) | Mittag/Abend | Mexikanisch | 647 | 75,4 g | 22 min | – |
 | [Döner-Bowl mit Pute und Knoblauchsauce](rezepte/schnell/doener-bowl.md) | Mittag/Abend | Türkisch & Orientalisch | 636 | 70,4 g | 25 min | – |
 | [Egg Fried Rice mit Pute](rezepte/schnell/egg-fried-rice-pute.md) | Mittag/Abend | Asiatisch | 718 | 59,4 g | 20 min | – |
-| [Fluffige Protein-Pancakes mit Beeren-Skyr](rezepte/schnell/protein-pancakes.md) | Frühstück | Amerikanisch | 571 | 52,0 g | 20 min | – |
+| [Fluffige Protein-Pancakes mit Beeren-Skyr](rezepte/schnell/protein-pancakes.md) | Frühstück | Amerikanisch | 580 | 52,6 g | 20 min | – |
 | [Gyros-Pfanne mit Tzatziki und Reis](rezepte/schnell/gyros-pfanne-tzatziki.md) | Mittag/Abend | Griechisch & Mediterran | 653 | 66,0 g | 25 min | – |
 | [High-Protein-Mac-and-Cheese](rezepte/schnell/high-protein-mac-cheese.md) | Mittag/Abend | Amerikanisch | 685 | 52,2 g | 20 min | – |
 | [Hähnchen-Piccata mit Zitronensauce und Penne](rezepte/schnell/haehnchen-piccata.md) | Mittag/Abend | Italienisch | 680 | 65,3 g | 23 min | – |
@@ -45,8 +45,8 @@
 | [Mango-Lassi-Smoothie-Bowl](rezepte/schnell/mango-lassi-bowl.md) | Frühstück | Indisch | 539 | 42,8 g | 6 min | – |
 | [One-Pan-Gnocchi mit Pute, Tomate und Spinat](rezepte/schnell/gnocchi-pfanne-pute.md) | Mittag/Abend | Italienisch | 679 | 58,7 g | 25 min | – |
 | [Protein-Carbonara mit Linsennudeln](rezepte/schnell/protein-carbonara.md) | Mittag/Abend | Italienisch | 611 | 54,7 g | 17 min | – |
-| [Protein-Crêpes mit Schoko-Quark](rezepte/schnell/protein-crepes.md) | Frühstück | International / Fusion | 575 | 49,3 g | 23 min | – |
-| [Protein-French-Toast mit Beeren](rezepte/schnell/protein-french-toast.md) | Frühstück | Amerikanisch | 574 | 46,7 g | 17 min | – |
+| [Protein-Crêpes mit Schoko-Quark](rezepte/schnell/protein-crepes.md) | Frühstück | International / Fusion | 603 | 48,3 g | 23 min | – |
+| [Protein-French-Toast mit Beeren](rezepte/schnell/protein-french-toast.md) | Frühstück | Amerikanisch | 601 | 45,7 g | 17 min | – |
 | [Protein-Grießbrei mit Himbeeren](rezepte/schnell/protein-griessbrei.md) | Frühstück | Deutsch | 553 | 42,0 g | 15 min | – |
 | [Protein-Joghurt-Bowl mit Granola und Beeren](rezepte/schnell/protein-joghurt-bowl.md) | Frühstück | International / Fusion | 531 | 49,5 g | 5 min | – |
 | [Protein-Kaiserschmarrn mit Apfelmus](rezepte/schnell/protein-kaiserschmarrn.md) | Frühstück | Deutsch | 548 | 47,3 g | 22 min | – |
@@ -55,11 +55,11 @@
 | [Puten-Tacos mit Zitronen-Skyr](rezepte/schnell/puten-tacos.md) | Mittag/Abend | Mexikanisch | 717 | 59,4 g | 20 min | – |
 | [Rotes Thai-Curry mit Garnelen](rezepte/schnell/thai-curry-garnelen.md) | Mittag/Abend | Asiatisch | 658 | 47,4 g | 24 min | – |
 | [Schoko-Erdnuss-Pudding-Bowl](rezepte/schnell/schoko-erdnuss-bowl.md) | Frühstück | Amerikanisch | 523 | 44,3 g | 5 min | – |
-| [Schoko-Protein-Porridge](rezepte/schnell/schoko-protein-porridge.md) | Frühstück | International / Fusion | 584 | 44,8 g | 13 min | – |
+| [Schoko-Protein-Porridge](rezepte/schnell/schoko-protein-porridge.md) | Frühstück | International / Fusion | 632 | 44,2 g | 13 min | – |
 | [Skyr-Tiramisu-Bowl](rezepte/schnell/skyr-tiramisu-bowl.md) | Frühstück | Italienisch | 542 | 48,9 g | 8 min | – |
 | [Smash Burger mit Burgersauce](rezepte/schnell/smash-burger.md) | Mittag/Abend | Amerikanisch | 610 | 61,7 g | 20 min | – |
 | [Vanille-Quarkcreme mit Erdbeeren](rezepte/schnell/quarkcreme-erdbeeren.md) | Snack | Deutsch | 220 | 28,3 g | 7 min | – |
-| [Zimtschnecken-Oats mit Frischkäse-Icing](rezepte/schnell/zimtschnecken-oats.md) | Frühstück | Amerikanisch | 505 | 40,7 g | 13 min | – |
+| [Zimtschnecken-Oats mit Frischkäse-Icing](rezepte/schnell/zimtschnecken-oats.md) | Frühstück | Amerikanisch | 565 | 42,8 g | 13 min | – |
 | [Zitronen-Blaubeer-Tassenkuchen mit Skyr-Haube](rezepte/schnell/zitronen-blaubeer-tassenkuchen.md) | Frühstück | Amerikanisch | 574 | 55,0 g | 12 min | – |
 
 ## Meal Prep (33)

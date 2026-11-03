@@ -5,7 +5,7 @@ kategorien_manuell: []
 mahlzeit: Frühstück
 geschmack: süß
 kueche: International / Fusion
-hauptprotein: Milch, Eiklar & Whey
+hauptprotein: Milch, Eier & Whey
 inspiration: null
 schwierigkeit: leicht
 zeit: {vorbereitung: 3, kochen: 10, wartezeit: 0}
@@ -18,7 +18,7 @@ zutaten:
   - {id: milch, zutat: "Milch 1,5 % Fett", g: 350, name: "Milch (1,5 %)", hinweis: "350 ml"}
   - {id: wasser, zutat: Wasser, g: 50, name: Wasser, hinweis: "50 ml"}
   - {id: salz, zutat: Salz, g: 0.3, anzeige: "1 kleine Prise Salz", hinweis: ""}
-  - {id: eiklar, zutat: Eiklar, g: 150, name: Eiklar, hinweis: "150 ml – macht es fluffig, man schmeckt es nicht"}
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 120, anzeige: "2 Eier Gr. M", hinweis: "verquirlt – macht es fluffig, man schmeckt es nicht"}
   - {id: whey, zutat: Whey Protein Schoko, g: 50, name: "Schoko-Whey", hinweis: "ca. 1⅔ Messlöffel"}
   - {id: kakao, zutat: Backkakao stark entölt, g: 10, anzeige: "1 gehäufter EL Backkakao", hinweis: ""}
   - {id: suessstoff, zutat: Süßstoff flüssig, g: 1, anzeige: "10 Tropfen flüssiger Süßstoff", hinweis: ""}
@@ -32,15 +32,15 @@ schritte:
   - titel: Porridge kochen
     text: "{hafer}, {milch}, {wasser}, {salz} und {kakao} im Topf auf Stufe 7 von 9 unter Rühren aufkochen, dann auf Stufe 3 von 9 4 Minuten köcheln lassen, bis der Hafer weich und cremig ist."
     timer_min: 4
-  - titel: Eiklar einrühren
-    text: "Auf Stufe 2 von 9 zurückschalten und das {eiklar} in einem dünnen Strahl unter ständigem Rühren mit dem Schneebesen einrühren. 2 Minuten weiterrühren, bis das Porridge deutlich an Volumen gewinnt, fluffig wird und das Eiklar vollständig gestockt ist (keine glasigen Fäden mehr)."
+  - titel: Eier einrühren
+    text: "{eier} in einer Tasse mit einer Gabel glatt verquirlen. Auf Stufe 2 von 9 zurückschalten und die Eier in einem dünnen Strahl unter ständigem Rühren mit dem Schneebesen einrühren. 2 Minuten weiterrühren, bis der Porridge deutlich cremiger und fluffiger wird und das Ei vollständig gestockt ist (keine flüssigen, glänzenden Stellen mehr)."
     timer_min: 2
   - titel: Whey einrühren
     text: "Den Porridge vom Herd ziehen (Herd aus), 1 Minute abkühlen lassen und {whey} und {suessstoff} glatt einrühren."
     timer_min: null
 zeitablauf: []
 fehler:
-  - "**Eiklar flockt wie Rührei:** zu heiß oder zu schnell eingegossen. Auf Stufe 2 von 9 und unter ständigem Rühren langsam eingießen."
+  - "**Ei flockt wie Rührei:** zu heiß oder zu schnell eingegossen. Auf Stufe 2 von 9 und unter ständigem Rühren langsam eingießen."
   - "**Whey klumpt:** in kochenden Porridge gegeben. Erst vom Herd nehmen."
 anrichten: "Auf 2 Schalen verteilen, mit den Bananenscheiben belegen, {erdnussmus:n} darüberziehen und die gehackte {schoko:n} darauf schmelzen lassen – pro Portion ca. {portion_g} g. Schmeckt wie ein warmer Schokopudding."
 aufbewahrung:
@@ -49,7 +49,7 @@ aufbewahrung:
   aufwaermen: "Mit 3 EL Milch 1½ Minuten bei 600 W, zwischendurch umrühren."
 varianten:
   - "**Mit Himbeeren:** 100 g TK-Himbeeren statt Banane (−5 kcal, −2,9 g Zucker pro Portion)."
-  - "**Ohne Eiklar:** (−36 kcal, −8,2 g Protein pro Portion – dann unter 40 g Protein)."
+  - "**Ohne Ei:** cremiger, aber weniger fluffig (−84 kcal, −7,6 g Protein, −5,7 g Fett pro Portion – dann unter 40 g Protein)."
   - "**Mit Skyr-Klecks:** 100 g Skyr obenauf (+32 kcal, +5,5 g Protein pro Portion)."
 tipps:
   - "Die Prise Salz und die Schokostückchen auf dem heißen Porridge machen den Unterschied zwischen „gesund“ und „Dessert“."

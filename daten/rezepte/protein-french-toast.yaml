@@ -9,7 +9,7 @@ hauptprotein: Eier & Milch
 inspiration:
   quelle: "TikTok-/Instagram-Trend „Protein French Toast“"
   link: null
-  aenderungen: "Vollkorntoast statt Brioche, Eier-Milch-Mischung mit Eiklar und Vanille-Whey statt Sahne und Zucker, Beeren-Skyr statt Ahornsirup."
+  aenderungen: "Vollkorntoast statt Brioche, Eier-Milch-Mischung mit Vanille-Whey statt Sahne und Zucker, Beeren-Skyr statt Ahornsirup."
 schwierigkeit: leicht
 zeit: {vorbereitung: 5, kochen: 12, wartezeit: 0}
 ausstattung: ["Große beschichtete Pfanne (28 cm)", "Flache Form oder tiefer Teller", Schneebesen]
@@ -18,9 +18,8 @@ vortag: []
 zutaten:
   - gruppe: French Toast
   - {id: toast, zutat: Vollkorntoast, g: 175, anzeige: "7 Scheiben Vollkorntoast", hinweis: "à 25 g, gern vom Vortag"}
-  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 120, anzeige: "2 Eier Gr. M", hinweis: ""}
-  - {id: eiklar, zutat: Eiklar, g: 100, name: Eiklar, hinweis: "100 ml"}
-  - {id: milch, zutat: "Milch 1,5 % Fett", g: 100, name: "Milch (1,5 %)", hinweis: "100 ml"}
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 180, anzeige: "3 Eier Gr. M", hinweis: ""}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 140, name: "Milch (1,5 %)", hinweis: "140 ml"}
   - {id: whey, zutat: Whey Protein Vanille, g: 30, name: "Vanille-Whey", hinweis: "1 Messlöffel"}
   - {id: zimt, zutat: Zimt gemahlen, g: 2, anzeige: "1 TL Zimt", hinweis: ""}
   - {id: salz, zutat: Salz, g: 0.2, anzeige: "1 Mini-Prise Salz", hinweis: ""}
@@ -32,7 +31,7 @@ zutaten:
   - {id: mandeln, zutat: Mandeln, g: 10, name: Mandeln, hinweis: "gehackt"}
 mise_en_place:
   - "{beeren} 1½ Minuten bei 600 W in der Mikrowelle antauen. Die Hälfte davon mit einer Gabel zerdrücken und mit {skyr} zu Beeren-Skyr verrühren."
-  - "{eier}, {eiklar}, {milch}, {whey}, {zimt}, {salz} und {suessstoff} in einer flachen Form mit dem Schneebesen glatt verquirlen."
+  - "{eier}, {milch}, {whey}, {zimt}, {salz} und {suessstoff} in einer flachen Form mit dem Schneebesen glatt verquirlen."
   - "{mandeln} grob hacken."
 schritte:
   - titel: Einweichen

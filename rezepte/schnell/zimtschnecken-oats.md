@@ -8,9 +8,9 @@
 |---|---|
 | **Kategorien** | High Protein · Schnelle Rezepte · Frühstück & Snacks |
 | **Küche** | Amerikanisch |
-| **Inspiration** | TikTok-/Instagram-Trend „Cinnamon Roll Oats“ – Statt Butter-Zucker-Füllung und Puderzucker-Glasur: Zimt-Porridge mit Eiklar und Vanille-Whey, Icing aus Frischkäse light und Skyr. |
+| **Inspiration** | TikTok-/Instagram-Trend „Cinnamon Roll Oats“ – Statt Butter-Zucker-Füllung und Puderzucker-Glasur: Zimt-Porridge mit Ei und Vanille-Whey, Icing aus Frischkäse light und Skyr. |
 | **Mahlzeit** | Frühstück (süß) |
-| **Hauptprotein** | Milch, Eiklar & Whey |
+| **Hauptprotein** | Milch, Eier & Whey |
 | **Portionen** | 2 |
 | **Schwierigkeit** | leicht |
 | **Zeit** | Vorbereitung 3 min · Kochen 10 min · Wartezeit 0 min · **Gesamt 13 min** |
@@ -21,18 +21,18 @@
 
 | Nährwert | pro Portion | Anteil am Tagesziel |
 |---|---:|---:|
-| Kalorien | 505 kcal | 22 % |
-| Protein | 40,7 g | 27 % |
-| Fett | 13,5 g | 13 % |
-| davon gesättigt | 4,4 g | – |
-| Kohlenhydrate | 50,6 g | 26 % |
-| davon Zucker | 11,5 g | – |
+| Kalorien | 565 kcal | 25 % |
+| Protein | 42,8 g | 29 % |
+| Fett | 19,1 g | 19 % |
+| davon gesättigt | 6,2 g | – |
+| Kohlenhydrate | 50,7 g | 27 % |
+| davon Zucker | 11,6 g | – |
 | Ballaststoffe | 8,5 g | – |
-| Salz | 0,83 g | – |
+| Salz | 0,85 g | – |
 
-- **Protein pro 100 kcal:** 8,1 g
-- **Makroverteilung (Energie):** Protein 33 % · Fett 25 % · Kohlenhydrate 42 %
-- **Gewicht fertig:** gesamt ca. 656 g · pro Portion ca. 328 g (geschätzt aus Garfaktoren)
+- **Protein pro 100 kcal:** 7,6 g
+- **Makroverteilung (Energie):** Protein 31 % · Fett 31 % · Kohlenhydrate 37 %
+- **Gewicht fertig:** gesamt ca. 675 g · pro Portion ca. 337 g (geschätzt aus Garfaktoren)
 - **MacroFactor:** Fertiges Gericht wiegen und als Gesamtgewicht in MacroFactor eintragen, dann kannst du nach Gramm loggen.
 
 ## Zutaten (für 2 Portionen)
@@ -46,7 +46,7 @@
 | Wasser | 50 g | 50 ml |
 | Zimt gemahlen | 2 TL Zimt (4 g) | großzügig |
 | Salz | 1 kleine Prise Salz (0,3 g) |  |
-| Eiklar | 100 g | 100 ml |
+| Ei Gr. M ohne Schale | 2 Eier Gr. M (120 g) | verquirlt |
 | Whey Protein Vanille | 40 g | ca. 1⅓ Messlöffel |
 | Süßstoff flüssig | 10 Tropfen flüssiger Süßstoff (1 g) |  |
 
@@ -72,9 +72,9 @@
 
 ⏱️ Timer: 4 min
 
-### 2. Eiklar und Whey
+### 2. Ei und Whey
 
-Auf Stufe 2 von 9 zurückschalten und das 100 g Eiklar in dünnem Strahl unter ständigem Rühren einrühren, 2 Minuten weiterrühren, bis es vollständig gestockt ist und der Porridge fluffig wird. Vom Herd ziehen (Herd aus), 1 Minute abkühlen lassen, 40 g Vanille-Whey und 10 Tropfen flüssiger Süßstoff (1 g) einrühren.
+2 Eier Gr. M (120 g) mit einer Gabel glatt verquirlen. Auf Stufe 2 von 9 zurückschalten und die Eier in dünnem Strahl unter ständigem Rühren einrühren, 2 Minuten weiterrühren, bis das Ei vollständig gestockt ist (keine flüssigen Stellen mehr) und der Porridge fluffig wird. Vom Herd ziehen (Herd aus), 1 Minute abkühlen lassen, 40 g Vanille-Whey und 10 Tropfen flüssiger Süßstoff (1 g) einrühren.
 
 ⏱️ Timer: 3 min
 
@@ -84,12 +84,12 @@ Auf Stufe 2 von 9 zurückschalten und das 100 g Eiklar in dünnem Strahl unter s
 
 ## Häufige Fehler
 
-- **Eiklar flockt:** zu heiß. Auf niedriger Stufe und unter ständigem Rühren einrühren.
+- **Ei flockt:** zu heiß. Auf niedriger Stufe und unter ständigem Rühren einrühren.
 - **Icing läuft weg:** zu viel Skyr. Frischkäse gibt die Stabilität – nicht reduzieren.
 
 ## Anrichten
 
-Porridge auf 2 Schalen verteilen, das Icing in einer Spirale wie bei einer Zimtschnecke daraufziehen, mit einer Prise Zimt und den Mandeln bestreuen – pro Portion ca. 328 g.
+Porridge auf 2 Schalen verteilen, das Icing in einer Spirale wie bei einer Zimtschnecke daraufziehen, mit einer Prise Zimt und den Mandeln bestreuen – pro Portion ca. 337 g.
 
 ## Meal Prep & Aufbewahrung
 
@@ -117,16 +117,16 @@ Porridge auf 2 Schalen verteilen, das Icing in einer Spirale wie bei einer Zimts
 | Wasser | 50 g | 0 | 0,0 | 0,0 | 0,0 |
 | Zimt gemahlen | 4 g | 10 | 0,2 | 0,0 | 1,1 |
 | Salz | 0,3 g | 0 | 0,0 | 0,0 | 0,0 |
-| Eiklar | 100 g | 48 | 10,9 | 0,2 | 0,7 |
+| Ei Gr. M ohne Schale | 120 g | 168 | 15,1 | 11,4 | 0,8 |
 | Whey Protein Vanille | 40 g | 150 | 30,0 | 2,0 | 2,8 |
 | Süßstoff flüssig | 1 g | 0 | 0,0 | 0,0 | 0,0 |
 | Frischkäse light | 50 g | 58 | 4,0 | 3,5 | 2,3 |
 | Skyr natur | 50 g | 32 | 5,5 | 0,1 | 2,0 |
 | Süßstoff flüssig | 0,5 g | 0 | 0,0 | 0,0 | 0,0 |
 | Mandeln | 15 g | 89 | 3,2 | 7,5 | 1,4 |
-| **Summe** | | **1.011** | **81,5** | **26,9** | **101,2** |
-| **pro Portion** | | **505** | **40,7** | **13,5** | **50,6** |
+| **Summe** | | **1.131** | **85,7** | **38,1** | **101,4** |
+| **pro Portion** | | **565** | **42,8** | **19,1** | **50,7** |
 
-**Plausibilitätscheck:** 4 × Protein + 4 × KH + 9 × Fett + 2 × Ballaststoffe = 1.007 kcal gegenüber 1.011 kcal laut Datenbank (−0,3 %, erlaubt ±5 %) ✅ bestanden.
+**Plausibilitätscheck:** 4 × Protein + 4 × KH + 9 × Fett + 2 × Ballaststoffe = 1.126 kcal gegenüber 1.131 kcal laut Datenbank (−0,5 %, erlaubt ±5 %) ✅ bestanden.
 
 *Schätzwerte: Nährwerte sind berechnete Schätzwerte auf Basis von Durchschnittswerten und können je nach Produkt abweichen. Die Hinweise im Planer sind Orientierung und ersetzen keine Ernährungs- oder ärztliche Beratung.*

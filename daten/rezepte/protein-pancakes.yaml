@@ -9,7 +9,7 @@ hauptprotein: Eier & Whey
 inspiration:
   quelle: "TikTok-/Instagram-Trend „Fluffy Protein Pancakes“"
   link: null
-  aenderungen: "Mehl durch gemixte Haferflocken, Butter im Teig durch Eiklar ersetzt; Topping Beeren-Skyr statt Ahornsirup und Butter."
+  aenderungen: "Mehl durch gemixte Haferflocken, Butter im Teig durch Magerquark ersetzt; Topping Beeren-Skyr statt Ahornsirup und Butter."
 schwierigkeit: leicht
 zeit: {vorbereitung: 5, kochen: 15, wartezeit: 0}
 ausstattung: ["Mixer oder Pürierstab mit hohem Rührbecher", "Große beschichtete Pfanne (28 cm)", Pfannenwender]
@@ -19,7 +19,7 @@ zutaten:
   - gruppe: Teig
   - {id: hafer, zutat: Haferflocken zart, g: 100, name: "zarte Haferflocken", hinweis: ""}
   - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 180, anzeige: "3 Eier Gr. M", hinweis: ""}
-  - {id: eiklar, zutat: Eiklar, g: 100, name: Eiklar, hinweis: "100 ml aus der Flasche"}
+  - {id: quark, zutat: Magerquark, g: 100, name: Magerquark, hinweis: "macht die Pancakes saftig"}
   - {id: whey, zutat: Whey Protein Vanille, g: 40, name: "Vanille-Whey", hinweis: "ca. 1⅓ Messlöffel"}
   - {id: milch, zutat: "Milch 1,5 % Fett", g: 100, name: "Milch (1,5 %)", hinweis: "100 ml"}
   - {id: backpulver, zutat: Backpulver, g: 6, anzeige: "1 gehäufter TL Backpulver", hinweis: ""}
@@ -33,7 +33,7 @@ mise_en_place:
   - "{beeren} in der Mikrowelle 1½ Minuten bei 600 W antauen; die Hälfte mit einer Gabel zerdrücken und mit {skyr} verrühren, die andere Hälfte ganz lassen."
 schritte:
   - titel: Teig mixen
-    text: "{hafer} im Mixer 15 Sekunden zu feinem Mehl mahlen. {eier}, {eiklar}, {whey}, {milch}, {backpulver} und {salz} dazugeben und 20 Sekunden zu einem glatten Teig mixen. 3 Minuten ruhen lassen – das Backpulver arbeitet, der Teig wird dicker und luftiger."
+    text: "{hafer} im Mixer 15 Sekunden zu feinem Mehl mahlen. {eier}, {quark}, {whey}, {milch}, {backpulver} und {salz} dazugeben und 20 Sekunden zu einem glatten Teig mixen. 3 Minuten ruhen lassen – das Backpulver arbeitet, der Teig wird dicker und luftiger."
     timer_min: 3
   - titel: Pancakes backen
     text: "Pfanne auf Stufe 5 von 9 erhitzen, mit einem Küchenpapier dünn mit etwas vom {oel} auswischen. Pro Pancake 1 kleine Kelle Teig (ca. 60 ml, 10 cm Durchmesser) hineingeben, 3 passen gleichzeitig hinein. 2 Minuten backen, bis sich an der Oberfläche Bläschen bilden und der Rand matt wird. Wenden und 1 Minute weiterbacken, bis beide Seiten goldbraun sind und der Pancake beim Antippen zurückfedert. Pfanne vor jeder Runde neu einfetten; ergibt ca. 10 Pancakes."

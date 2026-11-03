@@ -73,7 +73,8 @@ BESTAND = {
 
 # --- Ausschlüsse (Vorlieben aus profil.yaml) ------------------------------------------
 # Begriffe, die in keinem Rezept vorkommen dürfen – auch nicht in Varianten oder Tipps.
-VERBOTENE_BEGRIFFE = ["Tofu", "Sojaschnetzel", "Seitan", "Tempeh", "Fleischersatz"]
+VERBOTENE_BEGRIFFE = ["Tofu", "Sojaschnetzel", "Seitan", "Tempeh", "Fleischersatz",
+                      "Eiklar"]   # Eiklar: im Laden nicht erhältlich (Nutzer, 03.11.2026) – ganze Eier, Quark oder Skyr nehmen
 
 # --- Lebensmittelsicherheit (SPEC 7.1) ------------------------------------------------
 # Zutaten, die eine Kerntemperatur oder Garprobe im Schritt brauchen (Präfix-Vergleich).

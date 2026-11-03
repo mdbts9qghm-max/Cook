@@ -8,7 +8,7 @@
 |---|---|
 | **Kategorien** | High Protein · Schnelle Rezepte · Frühstück & Snacks |
 | **Küche** | Amerikanisch |
-| **Inspiration** | TikTok-/Instagram-Trend „Fluffy Protein Pancakes“ – Mehl durch gemixte Haferflocken, Butter im Teig durch Eiklar ersetzt; Topping Beeren-Skyr statt Ahornsirup und Butter. |
+| **Inspiration** | TikTok-/Instagram-Trend „Fluffy Protein Pancakes“ – Mehl durch gemixte Haferflocken, Butter im Teig durch Magerquark ersetzt; Topping Beeren-Skyr statt Ahornsirup und Butter. |
 | **Mahlzeit** | Frühstück (süß) |
 | **Hauptprotein** | Eier & Whey |
 | **Portionen** | 2 |
@@ -21,18 +21,18 @@
 
 | Nährwert | pro Portion | Anteil am Tagesziel |
 |---|---:|---:|
-| Kalorien | 571 kcal | 25 % |
-| Protein | 52,0 g | 35 % |
-| Fett | 16,9 g | 17 % |
-| davon gesättigt | 4,8 g | – |
-| Kohlenhydrate | 48,1 g | 25 % |
-| davon Zucker | 17,1 g | – |
+| Kalorien | 580 kcal | 25 % |
+| Protein | 52,6 g | 35 % |
+| Fett | 17,0 g | 17 % |
+| davon gesättigt | 4,9 g | – |
+| Kohlenhydrate | 49,8 g | 26 % |
+| davon Zucker | 18,7 g | – |
 | Ballaststoffe | 8,0 g | – |
-| Salz | 1,82 g | – |
+| Salz | 1,67 g | – |
 
 - **Protein pro 100 kcal:** 9,1 g
-- **Makroverteilung (Energie):** Protein 38 % · Fett 28 % · Kohlenhydrate 35 %
-- **Gewicht fertig:** gesamt ca. 868 g · pro Portion ca. 434 g (geschätzt aus Garfaktoren)
+- **Makroverteilung (Energie):** Protein 37 % · Fett 27 % · Kohlenhydrate 35 %
+- **Gewicht fertig:** gesamt ca. 873 g · pro Portion ca. 436 g (geschätzt aus Garfaktoren)
 - **MacroFactor:** Fertiges Gericht wiegen und als Gesamtgewicht in MacroFactor eintragen, dann kannst du nach Gramm loggen.
 
 ## Zutaten (für 2 Portionen)
@@ -43,7 +43,7 @@
 |---|---:|---|
 | Haferflocken zart | 100 g |  |
 | Ei Gr. M ohne Schale | 3 Eier Gr. M (180 g) |  |
-| Eiklar | 100 g | 100 ml aus der Flasche |
+| Magerquark | 100 g | macht die Pancakes saftig |
 | Whey Protein Vanille | 40 g | ca. 1⅓ Messlöffel |
 | Milch 1,5 % Fett | 100 g | 100 ml |
 | Backpulver | 1 gehäufter TL Backpulver (6 g) |  |
@@ -66,7 +66,7 @@
 
 ### 1. Teig mixen
 
-100 g zarte Haferflocken im Mixer 15 Sekunden zu feinem Mehl mahlen. 3 Eier Gr. M (180 g), 100 g Eiklar, 40 g Vanille-Whey, 100 g Milch (1,5 %), 1 gehäufter TL Backpulver (6 g) und 1 Prise Salz (0,5 g) dazugeben und 20 Sekunden zu einem glatten Teig mixen. 3 Minuten ruhen lassen – das Backpulver arbeitet, der Teig wird dicker und luftiger.
+100 g zarte Haferflocken im Mixer 15 Sekunden zu feinem Mehl mahlen. 3 Eier Gr. M (180 g), 100 g Magerquark, 40 g Vanille-Whey, 100 g Milch (1,5 %), 1 gehäufter TL Backpulver (6 g) und 1 Prise Salz (0,5 g) dazugeben und 20 Sekunden zu einem glatten Teig mixen. 3 Minuten ruhen lassen – das Backpulver arbeitet, der Teig wird dicker und luftiger.
 
 ⏱️ Timer: 3 min
 
@@ -88,7 +88,7 @@ Pfanne auf Stufe 5 von 9 erhitzen, mit einem Küchenpapier dünn mit etwas vom 1
 
 ## Anrichten
 
-Pro Teller 5 Pancakes stapeln (zusammen mit Topping ca. 434 g), Beeren-Skyr dazwischen und obenauf, die ganzen Beeren darüber und mit Honig beträufeln.
+Pro Teller 5 Pancakes stapeln (zusammen mit Topping ca. 436 g), Beeren-Skyr dazwischen und obenauf, die ganzen Beeren darüber und mit Honig beträufeln.
 
 ## Meal Prep & Aufbewahrung
 
@@ -114,7 +114,7 @@ Pro Teller 5 Pancakes stapeln (zusammen mit Topping ca. 434 g), Beeren-Skyr dazw
 |---|---:|---:|---:|---:|---:|
 | Haferflocken zart | 100 g | 372 | 13,5 | 7,0 | 58,7 |
 | Ei Gr. M ohne Schale | 180 g | 252 | 22,7 | 17,1 | 1,3 |
-| Eiklar | 100 g | 48 | 10,9 | 0,2 | 0,7 |
+| Magerquark | 100 g | 67 | 12,0 | 0,3 | 4,0 |
 | Whey Protein Vanille | 40 g | 150 | 30,0 | 2,0 | 2,8 |
 | Milch 1,5 % Fett | 100 g | 47 | 3,4 | 1,5 | 4,9 |
 | Backpulver | 6 g | 6 | 0,0 | 0,0 | 1,5 |
@@ -123,9 +123,9 @@ Pro Teller 5 Pancakes stapeln (zusammen mit Topping ca. 434 g), Beeren-Skyr dazw
 | Skyr natur | 200 g | 126 | 22,0 | 0,4 | 8,0 |
 | Beerenmischung TK | 150 g | 66 | 1,5 | 0,6 | 10,8 |
 | Honig | 10 g | 31 | 0,0 | 0,0 | 7,6 |
-| **Summe** | | **1.142** | **104,0** | **33,8** | **96,3** |
-| **pro Portion** | | **571** | **52,0** | **16,9** | **48,1** |
+| **Summe** | | **1.161** | **105,1** | **33,9** | **99,6** |
+| **pro Portion** | | **580** | **52,6** | **17,0** | **49,8** |
 
-**Plausibilitätscheck:** 4 × Protein + 4 × KH + 9 × Fett + 2 × Ballaststoffe = 1.137 kcal gegenüber 1.142 kcal laut Datenbank (−0,4 %, erlaubt ±5 %) ✅ bestanden.
+**Plausibilitätscheck:** 4 × Protein + 4 × KH + 9 × Fett + 2 × Ballaststoffe = 1.156 kcal gegenüber 1.161 kcal laut Datenbank (−0,4 %, erlaubt ±5 %) ✅ bestanden.
 
 *Schätzwerte: Nährwerte sind berechnete Schätzwerte auf Basis von Durchschnittswerten und können je nach Produkt abweichen. Die Hinweise im Planer sind Orientierung und ersetzen keine Ernährungs- oder ärztliche Beratung.*

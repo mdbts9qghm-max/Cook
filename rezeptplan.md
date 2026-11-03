@@ -28,7 +28,7 @@ Legende: **S** = schnell (≤ 25 min aktiv) · **MP** = Meal Prep · **R** = res
 | 16 | Protein-Grießbrei mit Himbeeren ✅ | Deutsch | Milch & Whey | 560 | ✓ |  |  | 6 | Vanille-Grießbrei in 10 Minuten, heiße Himbeeren |
 | 17 | Protein-Bananenbrot ✅ | Amerikanisch | Quark & Whey | 580 |  | ✓ | ✓ | 6 | Saftiges Bananenbrot aus Hafermehl und Quark, 2 dicke Scheiben pro Portion |
 | 18 | Blaubeer-Protein-Muffins ✅ | Amerikanisch | Quark & Whey | 570 |  | ✓ | ✓ | 6 | 6 Muffins, 3 pro Portion, mit Streusel-Topping |
-| 19 | Protein-Crêpes mit Schoko-Quark ✅ | International / Fusion | Eier & Quark | 600 | ✓ |  |  | 7 | Dünne Crêpes mit Eiklar, Füllung Schoko-Whey-Quark und Banane |
+| 19 | Protein-Crêpes mit Schoko-Quark ✅ | International / Fusion | Eier & Quark | 600 | ✓ |  |  | 7 | Dünne Crêpes aus Ei, Milch und Mehl, Füllung Schoko-Whey-Quark und Banane |
 | 20 | Skyr-Tiramisu-Bowl ✅ | Italienisch | Skyr & Whey | 550 | ✓ |  | ✓ | 7 | Sofort-Tiramisu: espressogetränkte Reiswaffeln statt Löffelbiskuits, Vanille-Skyr-Creme, Kakao – ohne Kochen, ohne Warten |
 | 21 | Cottage-Cheese-Pancakes ✅ | Amerikanisch | Hüttenkäse & Eier | 560 | ✓ |  | ✓ | 7 | Gemixter Hüttenkäse-Hafer-Teig, Ahorn-Ersatz aus Honig und Zimt |
 | 22 | Schoko-Protein-Porridge ✅ | International / Fusion | Milch & Whey | 580 | ✓ |  |  | 8 | Cremiges Kakao-Porridge mit Banane und Schokostückchen |

@@ -9,7 +9,7 @@
 | **Kategorien** | High Protein · Schnelle Rezepte · Frühstück & Snacks |
 | **Küche** | International / Fusion |
 | **Mahlzeit** | Frühstück (süß) |
-| **Hauptprotein** | Milch, Eiklar & Whey |
+| **Hauptprotein** | Milch, Eier & Whey |
 | **Portionen** | 2 |
 | **Schwierigkeit** | leicht |
 | **Zeit** | Vorbereitung 3 min · Kochen 10 min · Wartezeit 0 min · **Gesamt 13 min** |
@@ -20,18 +20,18 @@
 
 | Nährwert | pro Portion | Anteil am Tagesziel |
 |---|---:|---:|
-| Kalorien | 584 kcal | 26 % |
-| Protein | 44,8 g | 30 % |
-| Fett | 17,3 g | 17 % |
-| davon gesättigt | 6,4 g | – |
-| Kohlenhydrate | 56,7 g | 30 % |
-| davon Zucker | 18,3 g | – |
+| Kalorien | 632 kcal | 28 % |
+| Protein | 44,2 g | 30 % |
+| Fett | 22,8 g | 23 % |
+| davon gesättigt | 8,3 g | – |
+| Kohlenhydrate | 56,6 g | 30 % |
+| davon Zucker | 18,2 g | – |
 | Ballaststoffe | 10,5 g | – |
-| Salz | 0,79 g | – |
+| Salz | 0,70 g | – |
 
-- **Protein pro 100 kcal:** 7,7 g
-- **Makroverteilung (Energie):** Protein 32 % · Fett 28 % · Kohlenhydrate 40 %
-- **Gewicht fertig:** gesamt ca. 734 g · pro Portion ca. 367 g (geschätzt aus Garfaktoren)
+- **Protein pro 100 kcal:** 7,0 g
+- **Makroverteilung (Energie):** Protein 29 % · Fett 34 % · Kohlenhydrate 37 %
+- **Gewicht fertig:** gesamt ca. 705 g · pro Portion ca. 353 g (geschätzt aus Garfaktoren)
 - **MacroFactor:** Fertiges Gericht wiegen und als Gesamtgewicht in MacroFactor eintragen, dann kannst du nach Gramm loggen.
 
 ## Zutaten (für 2 Portionen)
@@ -44,7 +44,7 @@
 | Milch 1,5 % Fett | 350 g | 350 ml |
 | Wasser | 50 g | 50 ml |
 | Salz | 1 kleine Prise Salz (0,3 g) |  |
-| Eiklar | 150 g | 150 ml – macht es fluffig, man schmeckt es nicht |
+| Ei Gr. M ohne Schale | 2 Eier Gr. M (120 g) | verquirlt – macht es fluffig, man schmeckt es nicht |
 | Whey Protein Schoko | 50 g | ca. 1⅔ Messlöffel |
 | Backkakao stark entölt | 1 gehäufter EL Backkakao (10 g) |  |
 | Süßstoff flüssig | 10 Tropfen flüssiger Süßstoff (1 g) |  |
@@ -69,9 +69,9 @@
 
 ⏱️ Timer: 4 min
 
-### 2. Eiklar einrühren
+### 2. Eier einrühren
 
-Auf Stufe 2 von 9 zurückschalten und das 150 g Eiklar in einem dünnen Strahl unter ständigem Rühren mit dem Schneebesen einrühren. 2 Minuten weiterrühren, bis das Porridge deutlich an Volumen gewinnt, fluffig wird und das Eiklar vollständig gestockt ist (keine glasigen Fäden mehr).
+2 Eier Gr. M (120 g) in einer Tasse mit einer Gabel glatt verquirlen. Auf Stufe 2 von 9 zurückschalten und die Eier in einem dünnen Strahl unter ständigem Rühren mit dem Schneebesen einrühren. 2 Minuten weiterrühren, bis der Porridge deutlich cremiger und fluffiger wird und das Ei vollständig gestockt ist (keine flüssigen, glänzenden Stellen mehr).
 
 ⏱️ Timer: 2 min
 
@@ -85,12 +85,12 @@ Den Porridge vom Herd ziehen (Herd aus), 1 Minute abkühlen lassen und 50 g Scho
 
 ## Häufige Fehler
 
-- **Eiklar flockt wie Rührei:** zu heiß oder zu schnell eingegossen. Auf Stufe 2 von 9 und unter ständigem Rühren langsam eingießen.
+- **Ei flockt wie Rührei:** zu heiß oder zu schnell eingegossen. Auf Stufe 2 von 9 und unter ständigem Rühren langsam eingießen.
 - **Whey klumpt:** in kochenden Porridge gegeben. Erst vom Herd nehmen.
 
 ## Anrichten
 
-Auf 2 Schalen verteilen, mit den Bananenscheiben belegen, Erdnussmus darüberziehen und die gehackte Zartbitterschokolade darauf schmelzen lassen – pro Portion ca. 367 g. Schmeckt wie ein warmer Schokopudding.
+Auf 2 Schalen verteilen, mit den Bananenscheiben belegen, Erdnussmus darüberziehen und die gehackte Zartbitterschokolade darauf schmelzen lassen – pro Portion ca. 353 g. Schmeckt wie ein warmer Schokopudding.
 
 ## Meal Prep & Aufbewahrung
 
@@ -101,7 +101,7 @@ Auf 2 Schalen verteilen, mit den Bananenscheiben belegen, Erdnussmus darüberzie
 ## Varianten & Austausch
 
 - **Mit Himbeeren:** 100 g TK-Himbeeren statt Banane (−5 kcal, −2,9 g Zucker pro Portion).
-- **Ohne Eiklar:** (−36 kcal, −8,2 g Protein pro Portion – dann unter 40 g Protein).
+- **Ohne Ei:** cremiger, aber weniger fluffig (−84 kcal, −7,6 g Protein, −5,7 g Fett pro Portion – dann unter 40 g Protein).
 - **Mit Skyr-Klecks:** 100 g Skyr obenauf (+32 kcal, +5,5 g Protein pro Portion).
 
 ## Tipps
@@ -116,16 +116,16 @@ Auf 2 Schalen verteilen, mit den Bananenscheiben belegen, Erdnussmus darüberzie
 | Milch 1,5 % Fett | 350 g | 165 | 11,9 | 5,3 | 17,2 |
 | Wasser | 50 g | 0 | 0,0 | 0,0 | 0,0 |
 | Salz | 0,3 g | 0 | 0,0 | 0,0 | 0,0 |
-| Eiklar | 150 g | 72 | 16,4 | 0,3 | 1,1 |
+| Ei Gr. M ohne Schale | 120 g | 168 | 15,1 | 11,4 | 0,8 |
 | Whey Protein Schoko | 50 g | 189 | 36,0 | 3,0 | 4,0 |
 | Backkakao stark entölt | 10 g | 31 | 2,2 | 1,1 | 1,3 |
 | Süßstoff flüssig | 1 g | 0 | 0,0 | 0,0 | 0,0 |
 | Banane | 60 g | 56 | 0,7 | 0,2 | 12,0 |
 | Erdnussmus | 20 g | 123 | 5,0 | 10,0 | 2,4 |
 | Zartbitterschokolade 70 % | 15 g | 86 | 1,4 | 6,3 | 5,1 |
-| **Summe** | | **1.167** | **89,7** | **34,5** | **113,4** |
-| **pro Portion** | | **584** | **44,8** | **17,3** | **56,7** |
+| **Summe** | | **1.263** | **88,4** | **45,6** | **113,2** |
+| **pro Portion** | | **632** | **44,2** | **22,8** | **56,6** |
 
-**Plausibilitätscheck:** 4 × Protein + 4 × KH + 9 × Fett + 2 × Ballaststoffe = 1.165 kcal gegenüber 1.167 kcal laut Datenbank (−0,2 %, erlaubt ±5 %) ✅ bestanden.
+**Plausibilitätscheck:** 4 × Protein + 4 × KH + 9 × Fett + 2 × Ballaststoffe = 1.259 kcal gegenüber 1.263 kcal laut Datenbank (−0,3 %, erlaubt ±5 %) ✅ bestanden.
 
 *Schätzwerte: Nährwerte sind berechnete Schätzwerte auf Basis von Durchschnittswerten und können je nach Produkt abweichen. Die Hinweise im Planer sind Orientierung und ersetzen keine Ernährungs- oder ärztliche Beratung.*

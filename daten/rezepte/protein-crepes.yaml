@@ -14,10 +14,9 @@ restetauglich: false
 vortag: []
 zutaten:
   - gruppe: Crêpe-Teig
-  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 120, anzeige: "2 Eier Gr. M", hinweis: ""}
-  - {id: eiklar, zutat: Eiklar, g: 100, name: Eiklar, hinweis: "100 ml"}
+  - {id: eier, zutat: "Ei Gr. M ohne Schale", g: 180, anzeige: "3 Eier Gr. M", hinweis: ""}
   - {id: mehl, zutat: Weizenmehl Type 405, g: 80, name: Mehl, hinweis: ""}
-  - {id: milch, zutat: "Milch 1,5 % Fett", g: 150, name: "Milch (1,5 %)", hinweis: "150 ml"}
+  - {id: milch, zutat: "Milch 1,5 % Fett", g: 190, name: "Milch (1,5 %)", hinweis: "190 ml"}
   - {id: salz, zutat: Salz, g: 0.3, anzeige: "1 kleine Prise Salz", hinweis: ""}
   - {id: oel, zutat: Rapsöl, g: 5, anzeige: "1 TL Rapsöl", hinweis: "für die Pfanne"}
   - gruppe: Schoko-Quark-Füllung
@@ -31,7 +30,7 @@ zutaten:
   - {id: erdnussmus, zutat: Erdnussmus, g: 15, anzeige: "1 EL Erdnussmus", hinweis: ""}
   - {id: schoko, zutat: "Zartbitterschokolade 70 %", g: 15, anzeige: "3 Stückchen Zartbitterschokolade 70 %", name: Zartbitterschokolade, hinweis: "gehackt"}
 mise_en_place:
-  - "{eier}, {eiklar}, {mehl}, {milch} und {salz} mit dem Schneebesen zu einem glatten, dünnflüssigen Teig verquirlen (oder 15 Sekunden mixen). 5 Minuten ruhen lassen."
+  - "{eier}, {mehl}, {milch} und {salz} mit dem Schneebesen zu einem glatten, dünnflüssigen Teig verquirlen (oder 15 Sekunden mixen). 5 Minuten ruhen lassen."
   - "{quark}, {whey}, {kakao}, {milch_fuellung} und {suessstoff} glatt rühren."
   - "{banane} in Scheiben schneiden, {schoko} hacken."
 schritte:
