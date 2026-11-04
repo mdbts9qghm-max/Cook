@@ -75,7 +75,7 @@
 
 ### 2. Waffeln backen
 
-Das heiße Waffeleisen dünn mit 1 TL Rapsöl (5 g) einpinseln. Pro Waffel ein Viertel des Teigs (ca. 140 g, 4 gehäufte EL) in die Mitte geben, schließen und 4–5 Minuten backen, bis kein Dampf mehr austritt und die Waffel goldbraun ist. Nicht zu früh öffnen, sonst reißt sie. Ergibt 4 Waffeln, 2 pro Portion: Mit einem Doppel-Waffeleisen (2 Waffeln gleichzeitig) beide Seiten mit je einem Viertel füllen – 2 Durchgänge, jeder Durchgang ist eine Portion; mit einem einfachen Eisen 4 Durchgänge. Fertige Waffeln auf einem Gitter ablegen, damit sie knusprig bleiben.
+Das heiße Waffeleisen dünn mit 1 TL Rapsöl (5 g) einpinseln. Pro Waffel ein Sechstel des Teigs (ca. 95 g, 3 gehäufte EL) in die Mitte geben, schließen und 4–5 Minuten backen, bis kein Dampf mehr austritt und die Waffel goldbraun ist. Nicht zu früh öffnen, sonst reißt sie. Ergibt 6 Waffeln, 3 pro Portion: Mit einem Doppel-Waffeleisen (2 Waffeln gleichzeitig) 3 Durchgänge. Ist dein Eisen größer oder kleiner, einfach den ganzen Teig verbacken und die Waffeln auf 2 Teller teilen. Fertige Waffeln auf einem Gitter ablegen, damit sie knusprig bleiben.
 
 ⏱️ Timer: 5 min
 
@@ -97,7 +97,7 @@ Während die Waffeln backen: Kirschen mit dem restlichen Wasser, 1 Prise Zimt (1
 
 ## Anrichten
 
-Pro Teller 2 Waffeln (= die Hälfte des Teigs) mit der Hälfte der warmen Kirschen (zusammen ca. 360 g). Mit einer Prise Zimt bestäuben – erinnert an Waffeln mit heißen Kirschen vom Weihnachtsmarkt.
+Pro Teller 3 Waffeln (= die Hälfte des Teigs) mit der Hälfte der warmen Kirschen (zusammen ca. 360 g). Mit einer Prise Zimt bestäuben – erinnert an Waffeln mit heißen Kirschen vom Weihnachtsmarkt.
 
 ## Meal Prep & Aufbewahrung
 
