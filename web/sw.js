@@ -1,5 +1,5 @@
 // Service Worker – Offline-Betrieb. VERSION und DATEIEN setzt tools/generieren.py ein.
-const VERSION = 'b4a054ef1dcc';
+const VERSION = '372b280708e3';
 const CACHE = 'rezeptbuch-' + VERSION;
 const DATEIEN = [
  "./",

@@ -39,7 +39,7 @@ schritte:
     text: "{hafer} im Mixer 15 Sekunden fein mahlen. {quark}, {eier}, {whey}, {milch}, die geschmolzene Butter, {backpulver}, {salz} und {suessstoff} dazu und 20 Sekunden zu einem dicken, glatten Teig mixen."
     timer_min: null
   - titel: Waffeln backen
-    text: "Das heiße Waffeleisen dünn mit {oel} einpinseln. 2 gehäufte EL Teig (ca. 1 Viertel) in die Mitte geben, schließen und 4–5 Minuten backen, bis kein Dampf mehr austritt und die Waffel goldbraun ist. Nicht zu früh öffnen, sonst reißt sie. Ergibt 4 Waffeln; fertige Waffeln auf einem Gitter ablegen, damit sie knusprig bleiben."
+    text: "Das heiße Waffeleisen dünn mit {oel} einpinseln. Pro Waffel ein Viertel des Teigs (ca. 140 g, 4 gehäufte EL) in die Mitte geben, schließen und 4–5 Minuten backen, bis kein Dampf mehr austritt und die Waffel goldbraun ist. Nicht zu früh öffnen, sonst reißt sie. Ergibt 4 Waffeln, 2 pro Portion: Mit einem Doppel-Waffeleisen (2 Waffeln gleichzeitig) beide Seiten mit je einem Viertel füllen – 2 Durchgänge, jeder Durchgang ist eine Portion; mit einem einfachen Eisen 4 Durchgänge. Fertige Waffeln auf einem Gitter ablegen, damit sie knusprig bleiben."
     timer_min: 5
   - titel: Kirschen erwärmen
     text: "Während die Waffeln backen: Kirschen mit dem restlichen Wasser, {zimt} und {suessstoff_kirsch} im kleinen Topf auf Stufe 6 von 9 aufkochen. Die angerührte Stärke einrühren und 1 Minute auf Stufe 4 von 9 köcheln lassen, bis das Kompott glänzt und andickt."
@@ -50,7 +50,7 @@ fehler:
   - "**Waffel bleibt kleben:** Eisen nicht heiß genug oder nicht gefettet. 5 Minuten vorheizen und vor jeder Waffel dünn einpinseln."
   - "**Waffeln weich statt knusprig:** aufeinandergestapelt. Auf ein Gitter legen, dann entweicht der Dampf."
   - "**Kompott flüssig:** Stärke nicht aufgekocht. Nach dem Einrühren 1 Minute köcheln lassen."
-anrichten: "Pro Teller 2 Waffeln mit der Hälfte der warmen Kirschen (zusammen ca. {portion_g} g). Mit einer Prise Zimt bestäuben – erinnert an Waffeln mit heißen Kirschen vom Weihnachtsmarkt."
+anrichten: "Pro Teller 2 Waffeln (= die Hälfte des Teigs) mit der Hälfte der warmen Kirschen (zusammen ca. {portion_g} g). Mit einer Prise Zimt bestäuben – erinnert an Waffeln mit heißen Kirschen vom Weihnachtsmarkt."
 aufbewahrung:
   kuehlschrank_tage: 2
   einfrierbar: true
